@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is the definition of operational risk according to CAR Chapter 3?",
+    "answer": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events, including legal risk but excluding strategic and reputational risk."
+  },
+  {
+    "id": 2,
+    "question": "What are the two methodologies for calculating operational risk capital?",
+    "answer": "The Standardized Approach (SA) and the Simplified Standardized Approach (SSA)."
+  },
+  {
+    "id": 3,
+    "question": "Which institutions must use the Standardized Approach (SA) for operational risk?",
+    "answer": "Domestic Systemically Important Banks (D-SIBs) and Category I SMSBs with Adjusted Gross Income greater than $1.5 billion."
+  }
+]
