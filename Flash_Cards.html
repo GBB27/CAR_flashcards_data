@@ -240,17 +240,17 @@ let activeTab = 'questions';
 let flippedCards = {};
 let currentIndex = 0;
 
-// Mapping chapters to JSON URLs
+// Mapping chapters to raw GitHub JSON URLs
 const chapterJSONMap = {
-  chapter1: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter3.json",
-  chapter2: "https://api.jsonbin.io/v3/b/your-chapter2-bin",
-  chapter3: "https://api.jsonbin.io/v3/b/68d5e003d0ea881f408b27be",
-  chapter4: "https://api.jsonbin.io/v3/b/your-chapter4-bin",
-  chapter5: "https://api.jsonbin.io/v3/b/your-chapter5-bin",
-  chapter6: "https://api.jsonbin.io/v3/b/your-chapter6-bin",
-  chapter7: "https://api.jsonbin.io/v3/b/your-chapter7-bin",
-  chapter8: "https://api.jsonbin.io/v3/b/your-chapter8-bin",
-  chapter9: "https://api.jsonbin.io/v3/b/your-chapter9-bin"
+  chapter1: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter1.json",
+  chapter2: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter2.json",
+  chapter3: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter3.json",
+  chapter4: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter4.json",
+  chapter5: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter5.json",
+  chapter6: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter6.json",
+  chapter7: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter7.json",
+  chapter8: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter8.json",
+  chapter9: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9.json"
 };
 
 toggleBtn.addEventListener('click', () => {
@@ -285,8 +285,7 @@ function loadChapter(chapterKey) {
   fetch(jsonURL)
     .then(res => res.json())
     .then(data => {
-      // JSON is a simple array in your repo
-      flashcards = data;
+      flashcards = data; // simple array from GitHub
       currentIndex = 0;
       flippedCards = {};
       renderFlashcards();
@@ -397,3 +396,4 @@ notesTab.addEventListener('click', () => {
 
 </body>
 </html>
+
