@@ -1,0 +1,1197 @@
+[
+  {
+    "id": 1,
+    "question": "What is the effective date for the Capital Adequacy Requirements (CAR)?",
+    "answer": "November 2023/January 2024, depending on the institution's fiscal year end."
+  },
+  {
+    "id": 2,
+    "question": "What types of institutions are subject to the Capital Adequacy Requirements (CAR)?",
+    "answer": "Banks, bank holding companies, federally regulated trust companies, and federally regulated loan companies."
+  },
+  {
+    "id": 3,
+    "question": "How many chapters are in the Capital Adequacy Requirements (CAR) document?",
+    "answer": "Nine chapters."
+  },
+  {
+    "id": 4,
+    "question": "What is included in Chapter 2 of the CAR document?",
+    "answer": "Definition of Capital."
+  },
+  {
+    "id": 5,
+    "question": "What are the three categories of regulatory capital?",
+    "answer": "Common Equity Tier 1 (CET1), Additional Tier 1, and Tier 2 capital."
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between going-concern capital and gone-concern capital?",
+    "answer": "Going-concern capital includes CET1 and Additional Tier 1, while gone-concern capital refers to Tier 2 capital."
+  },
+  {
+    "id": 7,
+    "question": "What constitutes CET1 capital?",
+    "answer": "Common shares, stock surplus, retained earnings, accumulated other comprehensive income, contractual service margins, and certain common shares issued by subsidiaries."
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of regulatory adjustments in the context of CET1 capital?",
+    "answer": "To ensure that only qualifying capital is included in the CET1 calculation."
+  },
+  {
+    "id": 9,
+    "question": "What is the significance of retained earnings in CET1 capital?",
+    "answer": "Retained earnings are included as part of CET1 capital but dividends are deducted according to accounting standards."
+  },
+  {
+    "id": 10,
+    "question": "What is the role of minority interest in CET1 capital?",
+    "answer": "Minority interest may be included in CET1 capital if it meets specific criteria."
+  },
+  {
+    "id": 11,
+    "question": "What is Additional Tier 1 capital?",
+    "answer": "A category of capital that includes instruments that can absorb losses while the bank is a going concern."
+  },
+  {
+    "id": 12,
+    "question": "What is Tier 2 capital?",
+    "answer": "A category of capital that includes instruments that can absorb losses in the event of a bank's liquidation."
+  },
+  {
+    "id": 13,
+    "question": "What does NVCC stand for in the context of capital requirements?",
+    "answer": "Non-Viability Contingent Capital."
+  },
+  {
+    "id": 14,
+    "question": "What are the principles governing Non-Viability Contingent Capital (NVCC)?",
+    "answer": "They dictate the criteria for triggering conversion or write-off of NVCC instruments."
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the regulatory adjustments to capital?",
+    "answer": "To ensure that capital reported by institutions accurately reflects their financial health and risk profile."
+  },
+  {
+    "id": 16,
+    "question": "What is the significance of the Basel Framework in the CAR guidelines?",
+    "answer": "It provides the foundational standards for capital adequacy set by the Basel Committee on Banking Supervision."
+  },
+  {
+    "id": 17,
+    "question": "What is the role of the appendix in the CAR document?",
+    "answer": "To provide illustrative examples and additional information requirements related to capital adequacy."
+  },
+  {
+    "id": 18,
+    "question": "What is the importance of transitional arrangements for Federal Credit Unions in CAR?",
+    "answer": "They outline specific provisions for how Federal Credit Unions can meet capital requirements."
+  },
+  {
+    "id": 19,
+    "question": "What does CET1 stand for?",
+    "answer": "Common Equity Tier 1 capital."
+  },
+  {
+    "id": 20,
+    "question": "What is the relationship between total regulatory capital and its components?",
+    "answer": "Total regulatory capital is the sum of CET1, Additional Tier 1, and Tier 2 capital, net of regulatory adjustments."
+  },
+  {
+    "id": 21,
+    "question": "What are the criteria for common shares to be classified as CET1 capital?",
+    "answer": "They must meet specific regulatory requirements for classification as common shares."
+  },
+  {
+    "id": 22,
+    "question": "What is included in the calculation of Tier 2 capital?",
+    "answer": "Instruments that can absorb losses in the event of a bank's liquidation."
+  },
+  {
+    "id": 23,
+    "question": "What is the significance of contractual service margins in CET1 capital?",
+    "answer": "They are reported as liabilities in the financial statements of the institution's insurance subsidiaries."
+  },
+  {
+    "id": 24,
+    "question": "What is the treatment of dividends in the context of CET1 capital?",
+    "answer": "Dividends are removed from CET1 in accordance with applicable accounting standards."
+  },
+  {
+    "id": 25,
+    "question": "What does the term 'regulatory adjustments' refer to?",
+    "answer": "Adjustments made to capital calculations to ensure compliance with regulatory standards."
+  },
+  {
+    "id": 26,
+    "question": "What is CET1 capital?",
+    "answer": "Common Equity Tier 1 (CET1) capital is the highest quality capital that banks must hold, primarily consisting of common shares and retained earnings."
+  },
+  {
+    "id": 27,
+    "question": "What criteria must an instrument meet to be included in CET1 capital?",
+    "answer": "It must represent the most subordinated claim in liquidation, have an unlimited and variable claim, be perpetual, and not create expectations of buyback or redemption, among other requirements."
+  },
+  {
+    "id": 28,
+    "question": "What is the significance of the investor's claim in CET1 capital?",
+    "answer": "The investor must have a claim on residual assets proportional to their share of issued capital after senior claims are paid."
+  },
+  {
+    "id": 29,
+    "question": "What does it mean for CET1 capital to be perpetual?",
+    "answer": "The principal amount of CET1 capital is never repaid outside of liquidation."
+  },
+  {
+    "id": 30,
+    "question": "What is required regarding distributions from CET1 capital?",
+    "answer": "Distributions must be paid from distributable items and cannot be tied to the amount paid in at issuance or subject to a contractual cap."
+  },
+  {
+    "id": 31,
+    "question": "What is the implication of non-payment of distributions in CET1 capital?",
+    "answer": "Non-payment is not considered an event of default, meaning there are no obligatory payment requirements."
+  },
+  {
+    "id": 32,
+    "question": "How should CET1 capital be classified on a balance sheet?",
+    "answer": "It must be recognized as equity capital and clearly disclosed as such in accordance with relevant accounting standards."
+  },
+  {
+    "id": 33,
+    "question": "What is the role of the Board of Directors in issuing CET1 capital?",
+    "answer": "CET1 capital must be issued with the approval of the owners or the Board of Directors, as permitted by applicable law."
+  },
+  {
+    "id": 34,
+    "question": "What are the additional specifications for CET1 instruments issued by federal credit unions?",
+    "answer": "They must meet the general CET1 criteria but may have modifications such as not needing to meet certain eligibility criteria or having a contractual cap on distributions."
+  },
+  {
+    "id": 35,
+    "question": "What is the treatment of common shares issued by a consolidated subsidiary?",
+    "answer": "They may receive limited recognition in the consolidated CET1 of the parent institution if they meet specific criteria for classification."
+  },
+  {
+    "id": 36,
+    "question": "How is the capital recognized in consolidated CET1 calculated?",
+    "answer": "It is calculated as paid-in capital meeting criteria plus retained earnings attributable to third-party investors, minus surplus CET1 capital of the subsidiary."
+  },
+  {
+    "id": 37,
+    "question": "What is the minimum CET1 capital requirement for a subsidiary?",
+    "answer": "It includes the minimum CET1 capital requirement plus a capital conservation buffer of 7.0% of risk-weighted assets."
+  },
+  {
+    "id": 38,
+    "question": "What does 'pari passu' mean in the context of CET1 capital?",
+    "answer": "Pari passu' means that different classes of capital rank equally in terms of claims on assets."
+  },
+  {
+    "id": 39,
+    "question": "What is the role of the Superintendent in CET1 capital transactions?",
+    "answer": "The Superintendent must approve certain actions, such as the issuance of common shares or the purchase/redemption of membership shares by federal credit unions."
+  },
+  {
+    "id": 40,
+    "question": "What does it mean for the paid-in amount to be neither secured nor guaranteed?",
+    "answer": "It means that the capital cannot be backed by any guarantees that would enhance the seniority of the claim."
+  },
+  {
+    "id": 41,
+    "question": "What is the importance of the disclosure of CET1 capital on balance sheets?",
+    "answer": "Clear and separate disclosure is necessary for transparency and compliance with accounting standards."
+  },
+  {
+    "id": 42,
+    "question": "What happens if a federal credit union's purchase or redemption of membership shares is not compliant?",
+    "answer": "Such actions may not constitute an event of default, but must still comply with capital adequacy and liquidity requirements."
+  },
+  {
+    "id": 43,
+    "question": "What is the relationship between CET1 capital and regulatory adjustments?",
+    "answer": "CET1 capital is subject to regulatory adjustments that can affect its calculation and recognition."
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of the capital conservation buffer?",
+    "answer": "The capital conservation buffer is designed to ensure that banks maintain a cushion of capital above the minimum requirements to absorb losses during periods of financial stress."
+  },
+  {
+    "id": 45,
+    "question": "What does 'distributable items' refer to in the context of CET1 distributions?",
+    "answer": "Distributable items' refers to the resources from which distributions can be paid, including retained earnings."
+  },
+  {
+    "id": 46,
+    "question": "What is meant by 'subordinated claim' in CET1 capital?",
+    "answer": "A subordinated claim means that the claim on assets ranks below other claims in the event of liquidation."
+  },
+  {
+    "id": 47,
+    "question": "What is the importance of the prior approval of the Superintendent for share issuance?",
+    "answer": "It ensures that the institution's actions comply with regulatory standards and do not jeopardize its financial stability."
+  },
+  {
+    "id": 48,
+    "question": "What does it mean for CET1 capital to absorb losses on a going concern basis?",
+    "answer": "It means that CET1 capital is expected to cover losses while the institution continues to operate normally, rather than only in liquidation."
+  },
+  {
+    "id": 49,
+    "question": "What is excluded from a parent bank's common equity regarding minority interests?",
+    "answer": "Minority interest in a subsidiary that is a bank is excluded if the parent bank has arrangements to fund minority investments in the subsidiary."
+  },
+  {
+    "id": 50,
+    "question": "How should Category III SMSBs calculate surplus CET1 capital?",
+    "answer": "They should use [Adjusted Total Assets + RWA Operational Risk] instead of RWA."
+  },
+  {
+    "id": 51,
+    "question": "What must be included in the calculation of surplus CET1 capital for a subsidiary?",
+    "answer": "It must exclude intercompany exposures that would inflate the subsidiary's RWA."
+  },
+  {
+    "id": 52,
+    "question": "What is the minimum capital requirement for a subsidiary's capital to be included in the consolidated capital of a banking group?",
+    "answer": "The minimum capital requirements must be calculated for the subsidiary, regardless of its standalone regulation."
+  },
+  {
+    "id": 53,
+    "question": "What is the treatment of common shares issued to third-party investors by a consolidated subsidiary that is not a bank?",
+    "answer": "They cannot be included in the consolidated CET1 of the parent but may be included in Additional Tier 1 and Tier 2 capital under certain conditions."
+  },
+  {
+    "id": 54,
+    "question": "What are the eligibility criteria for capital issued by a Special Purpose Vehicle (SPV) to be included in Additional Tier 1 capital?",
+    "answer": "It must meet all relevant eligibility criteria and the only asset of the SPV must be its investment in the institution's capital."
+  },
+  {
+    "id": 55,
+    "question": "What constitutes Additional Tier 1 capital?",
+    "answer": "It consists of instruments that meet criteria for inclusion in Additional Tier 1, stock surplus from these instruments, and regulatory adjustments."
+  },
+  {
+    "id": 56,
+    "question": "What are the minimum criteria for an instrument to be included in Additional Tier 1 capital?",
+    "answer": "It must be issued in cash, subordinated to other claims, perpetual, callable only after five years, and not create expectations of call exercise."
+  },
+  {
+    "id": 57,
+    "question": "What happens if an institution uses an SPV to issue capital and provides support to the SPV?",
+    "answer": "Such support would breach the criteria for inclusion in Additional Tier 1 capital."
+  },
+  {
+    "id": 58,
+    "question": "What is the significance of the capital conservation buffer in capital calculations?",
+    "answer": "It is included in the minimum capital requirements, typically set at 7.0% of RWA."
+  },
+  {
+    "id": 59,
+    "question": "What must be done if an institution exercises a call option on an Additional Tier 1 capital instrument?",
+    "answer": "It must replace the called instrument with capital of the same or better quality or demonstrate a strong capital position post-call."
+  },
+  {
+    "id": 60,
+    "question": "What is the role of third-party investors in calculating surplus CET1 capital?",
+    "answer": "Surplus CET1 capital attributable to third-party investors is calculated by multiplying the subsidiary's surplus CET1 by their percentage ownership."
+  },
+  {
+    "id": 61,
+    "question": "What is the treatment of capital issued through a fully consolidated subsidiary?",
+    "answer": "It may be treated as if the subsidiary issued it directly to third parties and included in Additional Tier 1 or Tier 2 capital."
+  },
+  {
+    "id": 62,
+    "question": "What is the definition of CET1 capital?",
+    "answer": "CET1 capital refers to the core equity tier 1 capital, which includes common equity and retained earnings."
+  },
+  {
+    "id": 63,
+    "question": "What is the impact of intercompany exposures on a subsidiary's RWA?",
+    "answer": "Intercompany exposures must be excluded to avoid inflating the subsidiary's RWA."
+  },
+  {
+    "id": 64,
+    "question": "What is the purpose of calculating capital on a sub-consolidated basis for subsidiaries?",
+    "answer": "It ensures that all subsidiaries are included in the wider consolidated capital requirement of the group."
+  },
+  {
+    "id": 65,
+    "question": "What is a Special Purpose Vehicle (SPV) in the context of bank capital?",
+    "answer": "An SPV is a separate legal entity created to isolate financial risk and can issue capital to third parties."
+  },
+  {
+    "id": 66,
+    "question": "What is the significance of the Basel Framework in capital calculations?",
+    "answer": "It provides guidelines and criteria for the calculation and classification of bank capital."
+  },
+  {
+    "id": 67,
+    "question": "What is the role of stock surplus in Additional Tier 1 capital?",
+    "answer": "Stock surplus from instruments included in Additional Tier 1 capital can be included if the underlying shares are eligible."
+  },
+  {
+    "id": 68,
+    "question": "What does it mean for an instrument to be perpetual in the context of Additional Tier 1 capital?",
+    "answer": "It means there is no maturity date and no incentives for redemption."
+  },
+  {
+    "id": 69,
+    "question": "What is a call option in the context of Additional Tier 1 capital instruments?",
+    "answer": "A call option allows the issuer to redeem the instrument after a specified period, subject to conditions."
+  },
+  {
+    "id": 70,
+    "question": "What are the consequences of not meeting the eligibility criteria for Additional Tier 1 capital?",
+    "answer": "Instruments that do not meet the criteria cannot be included in Additional Tier 1 capital."
+  },
+  {
+    "id": 71,
+    "question": "What is the relationship between CET1 capital and Additional Tier 1 capital?",
+    "answer": "CET1 capital is the core capital, while Additional Tier 1 capital consists of supplementary instruments that do not qualify as CET1."
+  },
+  {
+    "id": 72,
+    "question": "What must happen before tax and regulatory event calls are permitted?",
+    "answer": "They require prior approval from the Superintendent and the institution must not have anticipated the event at the time of issuance."
+  },
+  {
+    "id": 73,
+    "question": "Under what conditions can an investor accelerate repayment of principal or interest?",
+    "answer": "Only in cases of bankruptcy, insolvency, wind-up, or liquidation."
+  },
+  {
+    "id": 74,
+    "question": "What is required for repayment of principal through repurchase or redemption?",
+    "answer": "It must be subject to prior approval from the Superintendent."
+  },
+  {
+    "id": 75,
+    "question": "What discretion must institutions have regarding dividend/coupon payments?",
+    "answer": "Institutions must have full discretion to cancel distributions/payments at all times."
+  },
+  {
+    "id": 76,
+    "question": "What should cancellation of discretionary payments not be considered?",
+    "answer": "It must not be an event of default or credit event."
+  },
+  {
+    "id": 77,
+    "question": "What access must institutions have to cancelled payments?",
+    "answer": "They must have full access to cancelled payments to meet obligations as they fall due."
+  },
+  {
+    "id": 78,
+    "question": "What restrictions apply to the cancellation of distributions/payments?",
+    "answer": "It must not impose restrictions on the institution except in relation to distributions to common shareholders."
+  },
+  {
+    "id": 79,
+    "question": "From what must dividends/coupons be paid?",
+    "answer": "They must be paid out of distributable items."
+  },
+  {
+    "id": 80,
+    "question": "What does the term 'minimum' refer to in the context of OSFI's guidelines?",
+    "answer": "It refers to OSFI's target capital requirements, which may be higher than Basel III Pillar 1 minimum requirements."
+  },
+  {
+    "id": 81,
+    "question": "What must be defined when including a regulatory event call in an instrument?",
+    "answer": "The regulatory event call date must be specified in a letter from the Superintendent."
+  },
+  {
+    "id": 82,
+    "question": "What is prohibited regarding 'dividend pushers'?",
+    "answer": "Instruments with dividend pushers obligate the institution to make payments if it has made payments on another capital instrument, which is inconsistent with the requirement for full discretion."
+  },
+  {
+    "id": 83,
+    "question": "What must the instrument be classified as for accounting purposes?",
+    "answer": "It must be classified as equity."
+  },
+  {
+    "id": 84,
+    "question": "What is the restriction on purchasing the instrument by the institution or related parties?",
+    "answer": "Neither the institution nor a related party can have purchased the instrument or funded its purchase."
+  },
+  {
+    "id": 85,
+    "question": "What features must instruments not have that hinder recapitalization?",
+    "answer": "They must not have provisions that require compensation to investors if a new instrument is issued at a lower price."
+  },
+  {
+    "id": 86,
+    "question": "What must happen if the instrument is issued out of a special purpose vehicle (SPV)?",
+    "answer": "Proceeds must be immediately available to an operating entity or the holding company without limitation."
+  },
+  {
+    "id": 87,
+    "question": "What must the contractual terms of the instrument include regarding non-viability?",
+    "answer": "They must include a clause for full and permanent conversion into common shares at the point of non-viability."
+  },
+  {
+    "id": 88,
+    "question": "What is the condition for a purchase for cancellation of Additional Tier 1 capital instruments?",
+    "answer": "It is permitted at any time with prior approval from the Superintendent."
+  },
+  {
+    "id": 89,
+    "question": "What must not be impeded by dividend stopper arrangements?",
+    "answer": "The institution's full discretion to cancel distributions or dividends on the Additional Tier 1 instrument."
+  },
+  {
+    "id": 90,
+    "question": "What actions can a dividend stopper prohibit?",
+    "answer": "It can prohibit actions equivalent to the payment of a dividend, such as discretionary share buybacks."
+  },
+  {
+    "id": 91,
+    "question": "What is required for amendments to an Additional Tier 1 instrument's terms?",
+    "answer": "They require prior approval from the Superintendent if they affect its recognition as regulatory capital."
+  },
+  {
+    "id": 92,
+    "question": "What is required for institutions to re-open offerings of Additional Tier 1 capital instruments?",
+    "answer": "Institutions cannot re-open offerings where the initial issue date was on or before December 31, 2012, and federal credit unions cannot re-open offerings of instruments issued prior to their continuance as a federal credit union."
+  },
+  {
+    "id": 93,
+    "question": "What adjustment should be made to regulatory capital regarding deferred tax liabilities?",
+    "answer": "The amount recognized as regulatory capital should be adjusted to account for any actual or foreseeable deferred tax liabilities or tax payments resulting from the conversion or writedown of the instrument."
+  },
+  {
+    "id": 94,
+    "question": "When can call options be exercised on Additional Tier 1 capital instruments?",
+    "answer": "Call options can only be exercised with the prior approval of the Superintendent on or after the fifth anniversary of the closing date of the latest re-opened tranche of securities."
+  },
+  {
+    "id": 95,
+    "question": "What is the condition for Additional Tier 1 capital instruments issued by a subsidiary to be recognized in the parent institution's Tier 1 capital?",
+    "answer": "The instrument must meet or exceed all criteria for classification as Tier 1 capital if issued by the institution."
+  },
+  {
+    "id": 96,
+    "question": "How is the amount of capital recognized in Tier 1 calculated for a subsidiary's Additional Tier 1 instruments?",
+    "answer": "It is calculated as total Tier 1 capital of the subsidiary issued to third parties, gross of deductions, less the surplus Tier 1 capital attributable to third-party investors."
+  },
+  {
+    "id": 97,
+    "question": "What constitutes surplus Tier 1 capital of a subsidiary?",
+    "answer": "Surplus Tier 1 capital is calculated as the Tier 1 capital of the subsidiary, net of deductions, minus the lower of the minimum Tier 1 capital requirement plus capital conservation buffer or the portion of the parent's consolidated minimum Tier 1 capital requirements that relates to the subsidiary."
+  },
+  {
+    "id": 98,
+    "question": "What is the treatment of Additional Tier 1 instruments issued to third parties out of SPVs?",
+    "answer": "Such capital can be included in consolidated Additional Tier 1 or Tier 2 if it meets eligibility criteria and the only asset of the SPV is its investment in the capital of the institution."
+  },
+  {
+    "id": 99,
+    "question": "What documentation is required for Additional Tier 1 capital instruments issued to a parent?",
+    "answer": "The institution must provide notification to OSFI's Capital Division, including the instrument's terms, intended classification, rationale for not providing common equity, and confirmations regarding market terms and debt servicing obligations."
+  },
+  {
+    "id": 100,
+    "question": "What must an institution provide to consolidate a capital instrument issued out of a branch or subsidiary outside Canada?",
+    "answer": "The institution must provide terms and conditions of the instrument, certification from a senior executive confirming it meets Basel III criteria, and an undertaking that the instrument will not be redeemed or amended without prior approval."
+  },
+  {
+    "id": 101,
+    "question": "What are the elements of Tier 2 capital prior to regulatory adjustments?",
+    "answer": "Tier 2 capital consists of instruments issued by the institution that meet criteria for inclusion in Tier 2 capital and stock surplus resulting from the issue of those instruments."
+  },
+  {
+    "id": 102,
+    "question": "What is the minimum Tier 1 capital requirement including the capital conservation buffer?",
+    "answer": "The minimum Tier 1 capital requirement is 8.5% of Risk-Weighted Assets (RWA)."
+  },
+  {
+    "id": 103,
+    "question": "What happens if a capital instrument issued to a third party does not meet eligibility criteria?",
+    "answer": "If it does not meet eligibility criteria, it cannot be included in Common Equity Tier 1 (CET1) capital."
+  },
+  {
+    "id": 104,
+    "question": "What is the significance of the fifth anniversary in relation to Additional Tier 1 capital instruments?",
+    "answer": "Certain options, such as call options and defeasance, can only be exercised on or after the fifth anniversary of the closing date with prior approval."
+  },
+  {
+    "id": 105,
+    "question": "What is the role of the Superintendent in the context of Additional Tier 1 instruments?",
+    "answer": "The Superintendent must approve the exercise of call options and other options that could decrease regulatory capital."
+  },
+  {
+    "id": 106,
+    "question": "What is the impact of intercompany exposures on the calculation of Tier 1 capital?",
+    "answer": "Intercompany exposures should be excluded from the calculation of the subsidiary's Risk-Weighted Assets (RWA)."
+  },
+  {
+    "id": 107,
+    "question": "What is required for a capital instrument to be included in Additional Tier 1 capital?",
+    "answer": "It must meet all relevant eligibility criteria and be treated as if issued directly by the institution."
+  },
+  {
+    "id": 108,
+    "question": "What must be confirmed regarding dividend or interest payments on Additional Tier 1 instruments?",
+    "answer": "It must be confirmed that failure to make these payments would not affect the parent's ability to meet its debt obligations."
+  },
+  {
+    "id": 109,
+    "question": "What types of instruments can be included in Tier 2 capital?",
+    "answer": "Instruments issued by consolidated subsidiaries held by third parties and certain loan loss allowances."
+  },
+  {
+    "id": 110,
+    "question": "What is the minimum original maturity for Tier 2 instruments?",
+    "answer": "At least five years."
+  },
+  {
+    "id": 111,
+    "question": "What is required for an instrument to be subordinated in Tier 2 capital?",
+    "answer": "It must be subordinated to depositors and general creditors of the institution."
+  },
+  {
+    "id": 112,
+    "question": "What is the requirement regarding security for Tier 2 instruments?",
+    "answer": "They must not be secured or covered by guarantees that enhance the claim's seniority."
+  },
+  {
+    "id": 113,
+    "question": "What happens to the recognition of Tier 2 capital in the five years before maturity?",
+    "answer": "It will be amortized on a straight-line basis."
+  },
+  {
+    "id": 114,
+    "question": "Under what conditions can a Tier 2 instrument be callable?",
+    "answer": "Only after a minimum of five years and with prior approval from the Superintendent."
+  },
+  {
+    "id": 115,
+    "question": "What must an institution demonstrate before exercising a call option on a Tier 2 instrument?",
+    "answer": "It must replace the called instrument with capital of the same or better quality."
+  },
+  {
+    "id": 116,
+    "question": "What is prohibited regarding the rights of investors in Tier 2 instruments?",
+    "answer": "Investors must not have rights to accelerate repayment except in bankruptcy or insolvency."
+  },
+  {
+    "id": 117,
+    "question": "What feature must Tier 2 instruments avoid regarding dividends?",
+    "answer": "They cannot have a credit sensitive dividend feature."
+  },
+  {
+    "id": 118,
+    "question": "What is the requirement for proceeds from instruments issued by a special purpose vehicle (SPV)?",
+    "answer": "Proceeds must be immediately available to an operating entity or holding company without limitations."
+  },
+  {
+    "id": 119,
+    "question": "What clause must be included in the contractual terms of a Tier 2 instrument?",
+    "answer": "A clause requiring full and permanent conversion into common shares at the point of non-viability."
+  },
+  {
+    "id": 120,
+    "question": "What is the restriction on amendments to Tier 2 instruments?",
+    "answer": "Amendments affecting recognition as regulatory capital require prior approval from the Superintendent."
+  },
+  {
+    "id": 121,
+    "question": "What is the condition for exercising defeasance options on Tier 2 instruments?",
+    "answer": "They may only be exercised on or after the fifth anniversary of the closing date with prior approval."
+  },
+  {
+    "id": 122,
+    "question": "What does 'purchase for cancellation' of Tier 2 instruments require?",
+    "answer": "Prior approval from the Superintendent."
+  },
+  {
+    "id": 123,
+    "question": "What is the significance of a step-up in the context of Tier 2 instruments?",
+    "answer": "A step-up is a call option combined with a pre-set increase in the credit spread at a future date."
+  },
+  {
+    "id": 124,
+    "question": "What must be ensured if a Tier 2 instrument's margin is linked to a broad index?",
+    "answer": "The dividend/coupon must not be credit-sensitive."
+  },
+  {
+    "id": 125,
+    "question": "What is the definition of an operating entity in the context of Tier 2 capital?",
+    "answer": "An entity set up to conduct business with clients for profit."
+  },
+  {
+    "id": 126,
+    "question": "What is the role of the Superintendent regarding Tier 2 capital instruments?",
+    "answer": "The Superintendent must approve various actions including calls, amendments, and purchases for cancellation."
+  },
+  {
+    "id": 127,
+    "question": "What is the requirement for Tier 2 instruments regarding restrictive covenants?",
+    "answer": "They must not contain covenants that allow acceleration of repayment except in insolvency situations."
+  },
+  {
+    "id": 128,
+    "question": "What must happen if an institution plans to re-open offerings of capital instruments?",
+    "answer": "It must comply with specific conditions regarding the principal amount of the original issuance."
+  },
+  {
+    "id": 129,
+    "question": "What is the importance of the non-viability contingent capital (NVCC) requirements?",
+    "answer": "They ensure that Tier 2 instruments can be converted to common shares in case of non-viability."
+  },
+  {
+    "id": 130,
+    "question": "What is required for modifications to instruments issued to related parties?",
+    "answer": "Transactions with related parties must be at terms at least as favorable as market terms."
+  },
+  {
+    "id": 131,
+    "question": "What is the restriction on reopening offerings for institutions with initial issue dates on or before December 31, 2012?",
+    "answer": "Institutions cannot reopen offerings where the initial issue date was on or before December 31, 2012."
+  },
+  {
+    "id": 132,
+    "question": "What is the requirement for federal credit unions regarding reopening offerings?",
+    "answer": "Federal credit unions cannot reopen offerings of instruments issued prior to their continuance as a federal credit union."
+  },
+  {
+    "id": 133,
+    "question": "When can call options be exercised for reopened tranches of securities?",
+    "answer": "Call options can only be exercised with prior approval on or after the fifth anniversary of the closing date of the latest reopened tranche."
+  },
+  {
+    "id": 134,
+    "question": "What is the recognition criteria for Tier 2 capital instruments issued by a subsidiary to third parties?",
+    "answer": "Total capital instruments may receive recognition in consolidated Total Capital only if they meet Tier 1 or Tier 2 classification criteria."
+  },
+  {
+    "id": 135,
+    "question": "How is the amount of capital recognized in consolidated Total Capital calculated?",
+    "answer": "It is calculated as total capital issued to third parties, gross of deductions, minus surplus Total Capital attributable to third-party investors."
+  },
+  {
+    "id": 136,
+    "question": "What is the surplus Total Capital of a subsidiary?",
+    "answer": "It is calculated as the Total Capital of the subsidiary, net of deductions, minus the lower of the minimum Total Capital requirement plus capital conservation buffer or the portion of the parent's consolidated minimum Total Capital requirements related to the subsidiary."
+  },
+  {
+    "id": 137,
+    "question": "What conditions must be met for Tier 2 instruments issued to third parties out of SPVs to be included in regulatory capital?",
+    "answer": "They must meet eligibility criteria and the SPV's only asset must be its investment in the capital of the institution."
+  },
+  {
+    "id": 138,
+    "question": "What documentation is required for Tier 2 capital instruments issued to a parent?",
+    "answer": "Notification of intercompany issuance, instrument's terms, intended classification, rationale for not providing common equity, and confirmation regarding payment obligations."
+  },
+  {
+    "id": 139,
+    "question": "What is the requirement for debt instruments issued out of branches or subsidiaries outside Canada?",
+    "answer": "They must normally be governed by Canadian law, but the Superintendent may waive this requirement under certain conditions."
+  },
+  {
+    "id": 140,
+    "question": "What documentation is needed to consolidate a capital instrument issued by a foreign subsidiary?",
+    "answer": "A copy of the instrument's terms, certification from a senior executive confirming Basel III criteria, and an undertaking regarding redemption or amendment."
+  },
+  {
+    "id": 141,
+    "question": "What is the amortization requirement for Tier 2 capital instruments as they approach maturity?",
+    "answer": "They are subject to straight-line amortization in the final five years prior to maturity."
+  },
+  {
+    "id": 142,
+    "question": "What percentage of Tier 2 capital instruments is included in capital based on years to maturity?",
+    "answer": "100% if 5 years or more, 80% if 4 years, 60% if 3 years, 40% if 2 years, 20% if 1 year, and 0% if less than 1 year."
+  },
+  {
+    "id": 143,
+    "question": "What is the amortization requirement for instruments issued before January 1, 2013 with a redemption option?",
+    "answer": "Amortization should begin five years prior to the effective dates governing such options."
+  },
+  {
+    "id": 144,
+    "question": "When does amortization begin for a 20-year debenture redeemable after 10 years?",
+    "answer": "Amortization begins in year 5."
+  },
+  {
+    "id": 145,
+    "question": "What is the amortization schedule for instruments maturing on October 31, 2020?",
+    "answer": "20% amortization occurs on November 1, 2015, and is reflected in the January 31, 2016 capital adequacy return."
+  },
+  {
+    "id": 146,
+    "question": "What are general allowances in the context of credit risk?",
+    "answer": "Allowances held against future, presently unidentified losses that qualify for inclusion within Tier 2 capital."
+  },
+  {
+    "id": 147,
+    "question": "What are specific allowances?",
+    "answer": "Allowances held against identified losses, defined as Stage 3 allowances plus partial write-offs under IFRS 9."
+  },
+  {
+    "id": 148,
+    "question": "What is the maximum limit for general allowances eligible for inclusion in Tier 2 capital?",
+    "answer": "Limited to a maximum of 1.25% of credit RWA calculated under the Standardized Approach."
+  },
+  {
+    "id": 149,
+    "question": "What must institutions using the IRB approach for credit risk calculate?",
+    "answer": "A provisioning excess or shortfall based on general allowances and expected loss amounts."
+  },
+  {
+    "id": 150,
+    "question": "What is the limit for including provisioning excess in Tier 2 capital for IRB institutions?",
+    "answer": "The lower of 0.6% of IRB credit RWA or the amount of general allowances."
+  },
+  {
+    "id": 151,
+    "question": "What is the purpose of Non-Viability Contingent Capital (NVCC) requirements?",
+    "answer": "To ensure that investors in non-common regulatory capital instruments bear losses before taxpayers in case of a failed financial institution."
+  },
+  {
+    "id": 152,
+    "question": "What is the first principle of NVCC requirements for non-common Tier 1 and Tier 2 capital instruments?",
+    "answer": "They must include a clause for full and permanent conversion into common shares upon a trigger event."
+  },
+  {
+    "id": 153,
+    "question": "What must the contractual terms of NVCC instruments not provide for?",
+    "answer": "Any residual claims that are senior to common equity following a trigger event."
+  },
+  {
+    "id": 154,
+    "question": "What is the second principle of NVCC requirements?",
+    "answer": "All NVCC instruments must meet all other criteria for inclusion under their respective tiers as specified in Basel III."
+  },
+  {
+    "id": 155,
+    "question": "What are the trigger events required for Additional Tier 1 and Tier 2 capital instruments?",
+    "answer": "Public announcement by the Superintendent that the institution is non-viable and that viability can be restored post-conversion or write-off."
+  },
+  {
+    "id": 156,
+    "question": "What is the definition of Tier 2 capital?",
+    "answer": "Capital that includes general allowances and is subject to specific regulatory requirements."
+  },
+  {
+    "id": 157,
+    "question": "What is the relevance of the Superintendent's approval for redemption options after January 1, 2013?",
+    "answer": "Instruments requiring approval for redemption do not follow the same amortization guidelines as those issued before this date."
+  },
+  {
+    "id": 158,
+    "question": "What is the significance of the Basel III framework in capital definitions?",
+    "answer": "It sets the standards for capital adequacy, including the classification of capital instruments."
+  },
+  {
+    "id": 159,
+    "question": "How should institutions that have partially implemented an IRB approach handle general allowances?",
+    "answer": "They must split general allowances between the Standardized Approach and the IRB Approach."
+  },
+  {
+    "id": 160,
+    "question": "What is the treatment of provisioning shortfalls on the IRB portion of an institution?",
+    "answer": "They must be deducted from CET1 capital."
+  },
+  {
+    "id": 161,
+    "question": "What is the role of OSFI in the context of general allowances and Tier 2 capital?",
+    "answer": "OSFI does not require prior approval for the inclusion of general allowances in Tier 2 capital."
+  },
+  {
+    "id": 162,
+    "question": "What does the term 'credit RWA' refer to?",
+    "answer": "Risk-Weighted Assets calculated for credit risk purposes."
+  },
+  {
+    "id": 163,
+    "question": "What are the implications of a trigger event for NVCC instruments?",
+    "answer": "They must convert to common shares or be written off, affecting the institution's capital structure."
+  },
+  {
+    "id": 164,
+    "question": "What is the importance of the 'years to maturity' schedule in amortization?",
+    "answer": "It determines when amortization begins based on the maturity date of the financial instrument."
+  },
+  {
+    "id": 165,
+    "question": "What does IFRS 9 define in relation to allowances?",
+    "answer": "It defines general and specific allowances for credit losses."
+  },
+  {
+    "id": 166,
+    "question": "What triggers the acceptance of a capital injection by an institution?",
+    "answer": "A public announcement by a federal or provincial government that the institution has accepted support, without which it would be deemed non-viable."
+  },
+  {
+    "id": 167,
+    "question": "What does 'equivalent support' refer to in the context of non-viable institutions?",
+    "answer": "Support that enhances an institution's risk-based capital ratios or funding provided on non-normal terms, excluding certain types of liquidity assistance."
+  },
+  {
+    "id": 168,
+    "question": "What types of support are excluded from being considered 'equivalent support'?",
+    "answer": "Emergency Liquidity Assistance from the Bank of Canada, open bank liquidity assistance from CDIC, and conditional guarantees from CDIC."
+  },
+  {
+    "id": 169,
+    "question": "What must the conversion terms of new NVCC instruments reference?",
+    "answer": "The market value of common equity on or before the date of the trigger event."
+  },
+  {
+    "id": 170,
+    "question": "What is the expected outcome for common shareholders during the conversion of NVCC instruments?",
+    "answer": "Significant dilution of pre-existing common shareholders."
+  },
+  {
+    "id": 171,
+    "question": "What must an institution ensure regarding the conversion or write-off of NVCC instruments?",
+    "answer": "There are no impediments to conversion or write-off, ensuring it is automatic and immediate."
+  },
+  {
+    "id": 172,
+    "question": "What provisions must the terms of non-common capital instruments include regarding conversion?",
+    "answer": "Conversion or write-off must not constitute an event of default under that instrument."
+  },
+  {
+    "id": 173,
+    "question": "How should NVCC investors be accommodated if they are prohibited from acquiring common shares?",
+    "answer": "Mechanisms should allow them to comply with legal prohibitions while receiving economic results of common share ownership."
+  },
+  {
+    "id": 174,
+    "question": "What is required for NVCC issued by subsidiaries of foreign financial institutions?",
+    "answer": "They must be convertible into common shares of the institution or its parent, with specific trigger events."
+  },
+  {
+    "id": 175,
+    "question": "What must NVCC instruments issued by foreign subsidiaries include?",
+    "answer": "Triggers equivalent to those specified in the principles for domestic institutions."
+  },
+  {
+    "id": 176,
+    "question": "What is the role of OSFI in maintaining an institution as a going concern?",
+    "answer": "OSFI interacts with the Financial Institutions Supervisory Committee (FISC) before making non-viability determinations."
+  },
+  {
+    "id": 177,
+    "question": "What additional interventions may be required alongside NVCC to restore an institution to viability?",
+    "answer": "Other public sector interventions, including liquidity assistance."
+  },
+  {
+    "id": 178,
+    "question": "What is the significance of the Superintendent's authority regarding NVCC triggers?",
+    "answer": "The Superintendent can trigger conversion or write-off, but this is conditioned by legislative provisions and frameworks for other interventions."
+  },
+  {
+    "id": 179,
+    "question": "What does the Superintendent consider when assessing an institution's viability?",
+    "answer": "All relevant facts and circumstances, including criteria outlined in legislation and regulatory guidance."
+  },
+  {
+    "id": 180,
+    "question": "What is the role of FISC in the context of financial institutions?",
+    "answer": "FISC comprises various federal agencies that meet regularly to exchange information and coordinate strategies for supervising regulated financial institutions."
+  },
+  {
+    "id": 181,
+    "question": "What is one criterion for assessing an institution's viability?",
+    "answer": "Whether the assets of the institution are sufficient to provide adequate protection to depositors and creditors."
+  },
+  {
+    "id": 182,
+    "question": "How can loss of confidence in an institution be characterized?",
+    "answer": "By ongoing increased difficulty in obtaining or rolling over short-term funding."
+  },
+  {
+    "id": 183,
+    "question": "What does it indicate if an institution's regulatory capital is eroding?",
+    "answer": "It may detrimentally affect the institution's depositors and creditors."
+  },
+  {
+    "id": 184,
+    "question": "What does it mean if an institution fails to pay any liability that is due?",
+    "answer": "It indicates that the institution may not be able to pay its liabilities as they become due."
+  },
+  {
+    "id": 185,
+    "question": "What happens if an institution fails to comply with an order to increase its capital?",
+    "answer": "It may indicate that the institution is not viable."
+  },
+  {
+    "id": 186,
+    "question": "What is a potential consequence if Canadian authorities choose not to trigger NVCC?",
+    "answer": "Creditors and shareholders could be exposed to losses through other resolution tools or liquidation."
+  },
+  {
+    "id": 187,
+    "question": "What are the regulatory adjustments applied to regulatory capital primarily aimed at?",
+    "answer": "They are primarily aimed at the calculation of CET1."
+  },
+  {
+    "id": 188,
+    "question": "What is the risk-weighting for items deducted from capital?",
+    "answer": "They are risk-weighted at 0% in the risk-based capital adequacy framework."
+  },
+  {
+    "id": 189,
+    "question": "What is the minimum Total Loss Absorbing Capacity (TLAC) requirement for G-SIBs based on?",
+    "answer": "It is based on the Financial Stability Board's TLAC principles and term sheet."
+  },
+  {
+    "id": 190,
+    "question": "What must institutions do regarding unrealized gains or losses on fair value assets?",
+    "answer": "They shall not make adjustments to remove unrealized gains or losses from CET1 capital."
+  },
+  {
+    "id": 191,
+    "question": "What are Other TLAC Instruments?",
+    "answer": "They include direct, indirect, and synthetic investments in instruments of D-SIBs and G-SIBs that are eligible for TLAC recognition."
+  },
+  {
+    "id": 192,
+    "question": "What types of instruments are excluded from TLAC recognition?",
+    "answer": "Instruments listed as liabilities excluded from TLAC in the FSB TLAC Term Sheet."
+  },
+  {
+    "id": 193,
+    "question": "What is the significance of the Superintendent's discretion in capital assessment?",
+    "answer": "The Superintendent retains flexibility to deal with unforeseen events or circumstances on a case-by-case basis."
+  },
+  {
+    "id": 194,
+    "question": "What is one example of a situation that may be materially prejudicial to an institution's depositors?",
+    "answer": "Commencement of bankruptcy or insolvency proceedings in respect of the holding body corporate."
+  },
+  {
+    "id": 195,
+    "question": "What does it mean if an institution is unable to recapitalize on its own?",
+    "answer": "It indicates that there are no suitable investors willing or capable of restoring the institution's viability."
+  },
+  {
+    "id": 196,
+    "question": "What is the role of the Superintendent of Financial Institutions?",
+    "answer": "To oversee the viability and regulatory compliance of financial institutions in Canada."
+  },
+  {
+    "id": 197,
+    "question": "What is the purpose of the OSFI's Guide to Intervention?",
+    "answer": "To provide guidance for intervention in federally-regulated deposit-taking institutions."
+  },
+  {
+    "id": 198,
+    "question": "What must instruments issued by foreign subsidiaries include to be recognized as capital?",
+    "answer": "Triggers that can be activated by both OSFI and the host authority."
+  },
+  {
+    "id": 199,
+    "question": "What is the consequence of a privately-held institution being unable to provide further support?",
+    "answer": "It may indicate that the institution cannot restore its viability."
+  },
+  {
+    "id": 200,
+    "question": "What does the term 'CET1' refer to?",
+    "answer": "Common Equity Tier 1 capital, which is a measure of a bank's financial strength."
+  },
+  {
+    "id": 201,
+    "question": "What is the significance of the Basel Framework in capital regulation?",
+    "answer": "It provides guidelines for capital adequacy and risk management for banks."
+  },
+  {
+    "id": 202,
+    "question": "What is the purpose of the TLAC Guideline set by OSFI?",
+    "answer": "To establish minimum TLAC ratios for Canadian D-SIBs."
+  },
+  {
+    "id": 203,
+    "question": "What are G-SIBs allowed to recognize as external TLAC?",
+    "answer": "Instruments ranking pari passu to Excluded Liabilities, up to a limit, as per exceptions in the FSB TLAC Term Sheet."
+  },
+  {
+    "id": 204,
+    "question": "What is the proportionate deduction approach in TLAC calculations?",
+    "answer": "It considers only a proportion of holdings of instruments eligible for external TLAC recognition based on their ranking."
+  },
+  {
+    "id": 205,
+    "question": "How is the proportion for TLAC holdings calculated?",
+    "answer": "It is calculated by dividing the funding recognized as external TLAC by the total funding that would be recognized without subordination requirements."
+  },
+  {
+    "id": 206,
+    "question": "When did regulatory adjustments relating to TLAC holdings take effect?",
+    "answer": "From Q1 2019."
+  },
+  {
+    "id": 207,
+    "question": "What must be deducted from CET1 regarding goodwill?",
+    "answer": "Goodwill related to consolidated subsidiaries, deconsolidated subsidiaries for regulatory capital, and proportional goodwill in joint ventures."
+  },
+  {
+    "id": 208,
+    "question": "What is the treatment of intangible assets in CET1 calculations?",
+    "answer": "All intangible assets except mortgage servicing rights and ROU assets related to tangible assets must be deducted."
+  },
+  {
+    "id": 209,
+    "question": "How are premiums for mortgage portfolio insurance treated in CET1?",
+    "answer": "They are deducted if not amortized according to specified guidelines."
+  },
+  {
+    "id": 210,
+    "question": "What is the treatment of deferred tax assets (DTAs) in CET1?",
+    "answer": "DTAs are deducted unless they relate to temporary differences that can be realized through loss carrybacks."
+  },
+  {
+    "id": 211,
+    "question": "What must be done with current tax assets in CET1 calculations?",
+    "answer": "Current tax assets are not required to be deducted in the calculation of CET1."
+  },
+  {
+    "id": 212,
+    "question": "What is the significance of the cash flow hedge reserve in CET1?",
+    "answer": "The cash flow hedge reserve is included in CET1 calculations but specific treatments apply based on the context."
+  },
+  {
+    "id": 213,
+    "question": "What is the full deduction requirement for intangible assets?",
+    "answer": "The full amount is deducted net of any associated deferred tax liability that would be extinguished if the asset is impaired."
+  },
+  {
+    "id": 214,
+    "question": "What happens to DTAs that do not depend on future profitability?",
+    "answer": "They are not subject to deduction and receive a 100% risk weight."
+  },
+  {
+    "id": 215,
+    "question": "What is the role of the Lead Supervisor in relation to DTAs?",
+    "answer": "The Lead Supervisor must be notified of DTAs assigned a 100% risk weight, which may lead to increased supervisory monitoring."
+  },
+  {
+    "id": 216,
+    "question": "What is the threshold deduction treatment for DTAs?",
+    "answer": "DTAs subject to threshold deductions must be deducted in full or risk-weighted at 100% based on specific criteria."
+  },
+  {
+    "id": 217,
+    "question": "What is the impact of goodwill impairment on CET1?",
+    "answer": "Goodwill impairment may lead to deductions from CET1 based on associated deferred tax liabilities."
+  },
+  {
+    "id": 218,
+    "question": "What is the definition of CET1?",
+    "answer": "Common Equity Tier 1 capital, which is a measure of a bank's financial strength."
+  },
+  {
+    "id": 219,
+    "question": "What is the significance of the Basel Framework in these regulations?",
+    "answer": "The Basel Framework provides guidelines for capital adequacy, stress testing, and market liquidity risk."
+  },
+  {
+    "id": 220,
+    "question": "What is the treatment of mortgage servicing rights in CET1?",
+    "answer": "Mortgage servicing rights are deducted through specific threshold deductions outlined in regulations."
+  },
+  {
+    "id": 221,
+    "question": "What is required for the calculation of goodwill at acquisition?",
+    "answer": "Goodwill is calculated by separating the excess of acquisition cost over the investor's share of net fair value of identifiable assets."
+  },
+  {
+    "id": 222,
+    "question": "What is the treatment of deferred tax liabilities (DTLs) in relation to DTAs?",
+    "answer": "DTLs can only be netted against DTAs if they relate to the same taxation authority and offsetting is permitted."
+  },
+  {
+    "id": 223,
+    "question": "What happens to intangible assets related to joint ventures in CET1?",
+    "answer": "They must be deducted from CET1 calculations if they are subject to equity method accounting."
+  },
+  {
+    "id": 224,
+    "question": "What is the impact of the subordination requirement on TLAC recognition?",
+    "answer": "It limits the recognition of certain instruments as external TLAC, affecting the proportion calculated for TLAC holdings."
+  },
+  {
+    "id": 225,
+    "question": "What should be derecognized from CET1 related to cash flow hedge reserves?",
+    "answer": "The amount of cash flow hedge reserve related to hedging items not fair valued on the balance sheet, including projected cash flows."
+  },
+  {
+    "id": 226,
+    "question": "How should positive and negative cash flow hedge reserves be treated in CET1?",
+    "answer": "Positive amounts should be deducted from CET1, while negative amounts should be added back."
+  },
+  {
+    "id": 227,
+    "question": "What is the treatment of provisioning shortfalls under IRB Approaches?",
+    "answer": "Provisioning shortfalls should be fully deducted in the calculation of CET1 without tax effect reductions."
+  },
+  {
+    "id": 228,
+    "question": "What should institutions deduct from CET1 for non-DvP transactions?",
+    "answer": "The full amount of the value transferred plus replacement cost if the second leg of the transaction has not occurred after five business days."
+  },
+  {
+    "id": 229,
+    "question": "What are materiality thresholds on credit protection?",
+    "answer": "Payments below which the protection provider is exempt from payment in the event of loss must be deducted from CET1 by the purchasing institution."
+  },
+  {
+    "id": 230,
+    "question": "How should gains from securitization transactions be treated in CET1?",
+    "answer": "Increases in equity capital from securitization transactions should be deducted in the calculation of CET1."
+  },
+  {
+    "id": 231,
+    "question": "What is the treatment of unrealized gains and losses due to changes in own credit risk?",
+    "answer": "All after-tax unrealized gains and losses from changes in fair value of liabilities due to the institution's own credit risk should be derecognized in CET1."
+  },
+  {
+    "id": 232,
+    "question": "How should defined benefit pension fund liabilities be treated in CET1?",
+    "answer": "Defined benefit pension fund liabilities must be fully recognized in CET1, and assets reported as such should be deducted net of any associated deferred tax liability."
+  },
+  {
+    "id": 233,
+    "question": "What can be used to offset deductions related to defined benefit pension assets?",
+    "answer": "Assets in the fund with unrestricted access can offset the deduction, subject to prior OSFI approval."
+  },
+  {
+    "id": 234,
+    "question": "What is the treatment for reverse mortgages with LTV greater than 80%?",
+    "answer": "The amount exceeding 80% LTV is deducted from CET1 capital; the remaining amount is risk-weighted at 100%."
+  },
+  {
+    "id": 235,
+    "question": "What must institutions do regarding default fund contributions to non-qualifying CCPs?",
+    "answer": "They must fully deduct their default fund contributions from CET1 capital."
+  },
+  {
+    "id": 236,
+    "question": "How should investments in own common shares be treated in CET1?",
+    "answer": "All investments in own common shares and CET1 capital instruments must be deducted from CET1."
+  },
+  {
+    "id": 237,
+    "question": "What is the treatment of reciprocal cross holdings in common shares?",
+    "answer": "Reciprocal cross holdings designed to inflate capital positions will be fully deducted in CET1 calculation."
+  },
+  {
+    "id": 238,
+    "question": "What is the first decision point for capital treatment of equity investments?",
+    "answer": "Determine if the entity in which the equity investment is made is a banking, financial, or insurance entity."
+  },
+  {
+    "id": 239,
+    "question": "What should be done if the entity of an equity investment is not a financial entity?",
+    "answer": "Determine if it is a fund and refer to the appropriate sections of the CAR Guideline for capital requirements."
+  }
+]
