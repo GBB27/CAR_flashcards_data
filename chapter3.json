@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is the definition of operational risk according to CAR Chapter 3?",
+    "answer": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events, including legal risk but excluding strategic and reputational risk."
+  },
+  {
+    "id": 2,
+    "question": "What are the two methodologies for calculating operational risk capital?",
+    "answer": "The Standardized Approach (SA) and the Simplified Standardized Approach (SSA)."
+  },
+  {
+    "id": 3,
+    "question": "Which institutions must use the Standardized Approach (SA) for operational risk?",
+    "answer": "Domestic Systemically Important Banks (D-SIBs) and Category I SMSBs with Adjusted Gross Income greater than $1.5 billion."
+  },
+  {
+    "id": 4,
+    "question": "How long must a Category I SMSB use SA once it crosses the $1.5 billion Adjusted Gross Income threshold?",
+    "answer": "At least two years."
+  },
+  {
+    "id": 5,
+    "question": "What happens if a Category I SMSB with SA approval does not have 10 years of loss data?",
+    "answer": "It must set the Internal Loss Multiplier (ILM) to at least 1 until 10 years of high-quality loss data are available."
+  },
+  {
+    "id": 6,
+    "question": "What percentage of Adjusted Gross Income is used in the Simplified Standardized Approach (SSA) for operational risk capital?",
+    "answer": "15% of average annual Adjusted Gross Income over the previous 12 fiscal quarters."
+  },
+  {
+    "id": 7,
+    "question": "How are risk-weighted assets (RWA) for operational risk calculated under SSA?",
+    "answer": "RWA = 12.5 × Operational Risk Capital (ORC)."
+  },
+  {
+    "id": 8,
+    "question": "What components make up Adjusted Gross Income (AGI)?",
+    "answer": "Net interest income (capped at 2.25% of interest-earning assets), dividend income, fee and commission income, other income, net profit/loss from trading book, and net profit/loss from banking book."
+  },
+  {
+    "id": 9,
+    "question": "What are the three components of the Business Indicator (BI)?",
+    "answer": "The Interest, Leases, and Dividend Component (ILDC), the Services Component (SC), and the Financial Component (FC)."
+  },
+  {
+    "id": 10,
+    "question": "How is the Business Indicator Component (BIC) calculated?",
+    "answer": "12% of BI + 3% of BI above $1.5 billion + 3% of BI above $45 billion."
+  },
+  {
+    "id": 11,
+    "question": "What does the Internal Loss Multiplier (ILM) measure?",
+    "answer": "It scales operational risk capital based on an institution’s average historical losses relative to the Business Indicator Component."
+  },
+  {
+    "id": 12,
+    "question": "When is ILM greater than 1?",
+    "answer": "When the Loss Component (LC) is greater than the Business Indicator Component (BIC)."
+  },
+  {
+    "id": 13,
+    "question": "How is the Loss Component (LC) calculated?",
+    "answer": "LC = 15 × average annual operational risk losses (net of recoveries) over the previous 10 years."
+  },
+  {
+    "id": 14,
+    "question": "What is the minimum threshold for including a loss in operational risk data collection?",
+    "answer": "$30,000 net of recoveries."
+  },
+  {
+    "id": 15,
+    "question": "How often must operational risk capital (ORC) be calculated and reported?",
+    "answer": "Quarterly."
+  },
+  {
+    "id": 16,
+    "question": "What must institutions reconcile when using the Standardized Approach?",
+    "answer": "The Business Indicator with Net Interest Income and Non-Interest Income for the previous three years."
+  },
+  {
+    "id": 17,
+    "question": "What happens if an institution using SA does not meet loss data standards?",
+    "answer": "It must hold capital at least equal to 100% of the BIC (ILM ≥ 1)."
+  },
+  {
+    "id": 18,
+    "question": "What are the required dates institutions must collect for each loss event?",
+    "answer": "Date of occurrence, date of discovery, and date of accounting."
+  },
+  {
+    "id": 19,
+    "question": "What is the definition of gross loss in operational risk?",
+    "answer": "A loss before any recoveries of any type."
+  },
+  {
+    "id": 20,
+    "question": "What is the definition of net loss in operational risk?",
+    "answer": "A loss after accounting for recoveries (including insurance recoveries)."
+  }
+]
