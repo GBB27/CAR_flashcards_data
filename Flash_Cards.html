@@ -275,24 +275,32 @@ sidebarLinks.forEach(link => {
   });
 });
 
-fetch(jsonURL)
-  .then(res => res.json())
-  .then(data => {
-    // data itself is already the array
-    flashcards = data;
-    currentIndex = 0;
-    flippedCards = {};
-    renderFlashcards();
-  })
-  .catch(err => {
-    console.error("Error loading chapter:", err);
-    flashcards = [
-      { id: 1, question: "Sample Question?", answer: "Sample Answer" }
-    ];
-    currentIndex = 0;
-    flippedCards = {};
-    renderFlashcards();
-  });
+function loadChapter(chapterKey) {
+  const jsonURL = chapterJSONMap[chapterKey];
+  if (!jsonURL) {
+    console.error("Invalid chapter:", chapterKey);
+    return;
+  }
+
+  fetch(jsonURL)
+    .then(res => res.json())
+    .then(data => {
+      // JSON is a simple array in your repo
+      flashcards = data;
+      currentIndex = 0;
+      flippedCards = {};
+      renderFlashcards();
+    })
+    .catch(err => {
+      console.error("Error loading chapter:", err);
+      flashcards = [
+        { id: 1, question: "Sample Question?", answer: "Sample Answer" }
+      ];
+      currentIndex = 0;
+      flippedCards = {};
+      renderFlashcards();
+    });
+}
 
 function renderFlashcards() {
   container.innerHTML = '';
