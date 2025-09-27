@@ -275,28 +275,24 @@ sidebarLinks.forEach(link => {
   });
 });
 
-function loadChapter(chapterId) {
-  const jsonURL = chapterJSONMap[chapterId];
-  if (!jsonURL) return;
-
-  fetch(jsonURL)
-    .then(res => res.json())
-    .then(data => {
-      flashcards = data.record?.record || data.record || [];
-      currentIndex = 0;
-      flippedCards = {};
-      renderFlashcards();
-    })
-    .catch(err => {
-      console.error("Error loading chapter:", err);
-      flashcards = [
-        { id: 1, question: "Sample Question?", answer: "Sample Answer" }
-      ];
-      currentIndex = 0;
-      flippedCards = {};
-      renderFlashcards();
-    });
-}
+fetch(jsonURL)
+  .then(res => res.json())
+  .then(data => {
+    // data itself is already the array
+    flashcards = data;
+    currentIndex = 0;
+    flippedCards = {};
+    renderFlashcards();
+  })
+  .catch(err => {
+    console.error("Error loading chapter:", err);
+    flashcards = [
+      { id: 1, question: "Sample Question?", answer: "Sample Answer" }
+    ];
+    currentIndex = 0;
+    flippedCards = {};
+    renderFlashcards();
+  });
 
 function renderFlashcards() {
   container.innerHTML = '';
