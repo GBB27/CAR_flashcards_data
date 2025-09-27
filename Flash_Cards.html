@@ -235,7 +235,7 @@ function startAutoPlay() {
   autoIndex = currentIndex;
   showingAnswer = false;
   renderFlashcards();
-  playInterval = setTimeout(autoPlayStep, 6000);
+  playInterval = setTimeout(autoPlayStep, 7000);
 }
 
 function autoPlayStep() {
@@ -252,7 +252,7 @@ function autoPlayStep() {
       renderFlashcards();
     } else { stopAutoOnInteraction(); return; }
   }
-  playInterval = setTimeout(autoPlayStep, 6000);
+  playInterval = setTimeout(autoPlayStep, 7000);
 }
 
 function loadChapter(chapterKey) {
