@@ -115,6 +115,7 @@
     align-items: center;
     min-height: 300px;
     width: 100%;
+    flex-direction: column;
   }
 
   .card {
@@ -198,6 +199,19 @@
     background: #aaa;
     cursor: not-allowed;
   }
+
+  /* Shuffle button */
+  #shuffleBtn {
+    margin: 10px auto;
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4ca8;
+    color: white;
+    font-weight: bold;
+  }
 </style>
 </head>
 <body>
@@ -226,6 +240,9 @@
   <button id="notesTab">Notes Mode</button>
 </div>
 
+<!-- Shuffle button -->
+<button id="shuffleBtn">Shuffle Flashcards</button>
+
 <div class="container" id="flashcards-container"></div>
 
 <script>
@@ -234,6 +251,7 @@ const questionsTab = document.getElementById('questionsTab');
 const notesTab = document.getElementById('notesTab');
 const sidebar = document.getElementById('sidebar');
 const toggleBtn = document.getElementById('sidebarToggle');
+const shuffleBtn = document.getElementById('shuffleBtn');
 
 let flashcards = [];
 let activeTab = 'questions';
@@ -253,6 +271,7 @@ const chapterJSONMap = {
   chapter9: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9.json"
 };
 
+// Toggle sidebar
 toggleBtn.addEventListener('click', () => {
   sidebar.classList.toggle('open');
 });
@@ -271,8 +290,28 @@ sidebarLinks.forEach(link => {
     sidebarLinks.forEach(l => l.classList.remove('active-chapter'));
     link.classList.add('active-chapter');
 
+    // Load the selected chapter
     loadChapter(chapterId);
+
+    // Automatically close the sidebar
+    sidebar.classList.remove('open');
   });
+});
+
+// Shuffle function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// Shuffle button click
+shuffleBtn.addEventListener('click', () => {
+  shuffleArray(flashcards);
+  currentIndex = 0;
+  flippedCards = {};
+  renderFlashcards();
 });
 
 function loadChapter(chapterKey) {
@@ -285,7 +324,7 @@ function loadChapter(chapterKey) {
   fetch(jsonURL)
     .then(res => res.json())
     .then(data => {
-      flashcards = data; // simple array from GitHub
+      flashcards = data;
       currentIndex = 0;
       flippedCards = {};
       renderFlashcards();
