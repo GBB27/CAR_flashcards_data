@@ -6,99 +6,85 @@
 <title>Flashcard Quiz</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #dbeafe, #e0e7ff);
-    margin: 0;
-    padding: 20px;
-  }
-  h1 {
-    text-align: center;
-    margin: 20px;
-    font-size: 2rem;
-    color: #333;
-  }
-  p {
-    text-align: center;
-    color: #4b5563;
-    margin-top: 0;
-  }
-  .sidebar {
-    position: fixed;
-    top: 100px;
-    left: 0;
-    width: 160px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 0 8px 8px 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transform: translateX(calc(-100% - 15px));
-    transition: transform 0.3s ease;
-    z-index: 9999;
-  }
+  body { font-family: Arial, sans-serif; background: linear-gradient(to bottom right, #dbeafe, #e0e7ff); margin: 0; padding: 20px; }
+  h1 { text-align: center; margin: 20px; font-size: 2rem; color: #333; }
+  p { text-align: center; color: #4b5563; margin-top: 0; }
+
+  /* Sidebar */
+  .sidebar { position: fixed; top: 100px; left: 0; width: 160px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
   .sidebar.open { transform: translateX(0); }
   .sidebar h2 { font-size: 1.2rem; margin-top: 0; color: #4a4ca8; text-align: center; }
   .sidebar ul { list-style: none; padding: 0; margin: 0; }
   .sidebar li { margin: 8px 0; }
   .sidebar a { text-decoration: none; color: #111827; transition: color 0.2s; }
   .sidebar a:hover, .sidebar a.active-chapter { color: #6366f1; font-weight: bold; }
-  .sidebar-toggle {
-    position: fixed; top: 110px; left: 0;
-    background: #4a4ca8; color: white; border: none;
-    padding: 5px 10px; cursor: pointer; z-index: 10000;
-    border-radius: 0 5px 5px 0;
-  }
-  .tabs { margin: 20px; display: flex; justify-content: center; gap: 10px; }
-  .tabs button {
-    padding: 10px 20px; cursor: pointer; border: none; background: white;
-    border-radius: 5px; transition: background 0.3s;
-  }
+  .sidebar-toggle { position: fixed; top: 110px; left: 0; background: #4a4ca8; color: white; border: none; padding: 5px 10px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
+
+  /* Buttons */
+  #shuffleBtn, #playPauseBtn { 
+    width: 40px;
+    height: 40px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #313135; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 16px; }
+
+  /* Toggle switch */
+  .switch { position: relative; display: inline-block; width: 50px; height: 24px; }
+  .switch input { display: none; }
+  .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 6px; }
+  .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 2px; bottom: 2px; background-color: white; transition: .4s; border-radius: 4px; }
+  input:checked + .slider { background-color: #4a4ca8; }
+  input:checked + .slider:before { transform: translateX(26px); }
+
+  /* Tabs */
+  .tabs { display: flex; justify-content: center; gap: 10px; }
+  .tabs button { padding: 10px 20px; cursor: pointer; border: none; background: white; border-radius: 5px; transition: background 0.3s; }
   .tabs button.active { background: #4a4ca8; color: #fff; }
-  #shuffleBtn, #playPauseBtn {
-    margin: 10px auto; display: block; padding: 8px 12px; cursor: pointer;
-    border: none; border-radius: 5px; background-color: #313135;
-    color: white; font-weight: bold; font-size: 16px;
-  }
+
+  /* Progress bar */
   #progressBarContainer {
-    position: relative; width: 80%; height: 20px;
-    background-color: #d3d3d3; border-radius: 10px; margin: 10px auto;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
   }
   #progressBar {
-    height: 100%; width: 0%; background-color: #3ec270;
-    border-radius: 10px; transition: width 0.3s ease;
+    height: 100%;
+    width: 0%;
+    background-color: #3ec270;
+    border-radius: 10px;
+    transition: width 0.3s ease;
   }
   #progressText {
-    position: absolute; right: 10px; top: 0;
-    height: 100%; display: flex; align-items: center;
-    color: #4d4b4b; font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #4d4b4b;
+    font-weight: bold;
   }
-  .container {
-    display: flex; justify-content: center; align-items: center;
-    min-height: 300px; width: 100%; flex-direction: column;
-  }
+
+  /* Flashcards */
+  .container { display: flex; justify-content: center; align-items: center; min-height: 300px; width: 100%; flex-direction: column; }
   .card { width: 300px; height: 200px; }
-  .card-inner {
-    position: relative; width: 100%; height: 180px;
-    transition: transform 0.45s; transform-style: preserve-3d;
-    border-radius: 10px; cursor: pointer;
-  }
+  .card-inner { position: relative; width: 100%; height: 180px; transition: transform 0.45s; transform-style: preserve-3d; border-radius: 10px; cursor: pointer; }
   .card-inner.flipped { transform: rotateY(180deg); }
-  .card-front, .card-back {
-    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
-    border-radius: 10px; display: flex; justify-content: center;
-    align-items: center; padding: 15px; box-sizing: border-box;
-    font-size: 16px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
+  .card-front, .card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box; font-size: 16px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
   .card-front { background-color: #6366f1; color: white; flex-direction: column; }
   .card-back { background-color: white; color: #111827; transform: rotateY(180deg); flex-direction: column; }
   .textarea-container { display: flex; flex-direction: column; width: 300px; margin: auto; }
   textarea { margin-top: 10px; height: 100px; resize: none; }
+
+  /* Navigation buttons */
   .nav-buttons { margin-top: 20px; text-align: center; }
-  .nav-buttons button {
-    font-size: 20px; padding: 8px 12px; margin: 0 5px;
-    border: none; background: #4a4ca8; color: white; border-radius: 5px;
-    cursor: pointer; transition: background 0.3s;
-  }
+  .nav-buttons button { font-size: 20px; padding: 8px 12px; margin: 0 5px; border: none; background: #4a4ca8; color: white; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
   .nav-buttons button:hover { background: #6366f1; }
   .nav-buttons button:disabled { background: #aaa; cursor: not-allowed; }
 </style>
@@ -107,6 +93,15 @@
 
 <h1>Capital Adequacy Requirements (CAR) - Guideline (2024)</h1>
 <p>Flip cards to reveal answers or edit them in the Notes tab</p>
+
+<!-- Essentials/Details Toggle -->
+<div style="text-align:center; margin:15px 0; display:flex; justify-content:center; align-items:center; gap:10px;">
+  <label class="switch">
+    <input type="checkbox" id="modeToggle">
+    <span class="slider"></span>
+  </label>
+  <span style="font-weight:bold;">Essentials / Details</span>
+</div>
 
 <button class="sidebar-toggle" id="sidebarToggle">☰</button>
 <div class="sidebar" id="sidebar">
@@ -124,222 +119,160 @@
   </ul>
 </div>
 
-<div class="tabs">
-  <button id="questionsTab" class="active">Questions Mode</button>
-  <button id="notesTab">Notes Mode</button>
+<!-- Shuffle, Play, Progress Bar in one container -->
+<div style="display:flex; align-items:center; justify-content:center; gap:10px; margin:15px 0; width: 80%; margin-left:auto; margin-right:auto;">
+  <button id="shuffleBtn">⚀</button>
+  <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+  <div id="progressBarContainer" style="flex-grow:1; position: relative;">
+    <div id="progressBar"></div>
+    <span id="progressText">0/0</span>
+  </div>
 </div>
 
-<button id="shuffleBtn">Shuffle</button>
-<button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
-
-<div id="progressBarContainer">
-  <div id="progressBar"></div>
-  <span id="progressText">0/0</span>
+<!-- Tabs (Questions/Notes) above flashcards -->
+<div class="tabs" style="margin-bottom: 15px;">
+  <button id="questionsTab" class="active">Questions Mode</button>
+  <button id="notesTab">Notes Mode</button>
 </div>
 
 <div class="container" id="flashcards-container"></div>
 
 <script>
-const container = document.getElementById('flashcards-container');
-const questionsTab = document.getElementById('questionsTab');
-const notesTab = document.getElementById('notesTab');
-const sidebar = document.getElementById('sidebar');
-const toggleBtn = document.getElementById('sidebarToggle');
-const shuffleBtn = document.getElementById('shuffleBtn');
-const progressBar = document.getElementById('progressBar');
-const progressText = document.getElementById('progressText');
-const playPauseBtn = document.getElementById('playPauseBtn');
+// Elements
+const container=document.getElementById('flashcards-container');
+const questionsTab=document.getElementById('questionsTab');
+const notesTab=document.getElementById('notesTab');
+const sidebar=document.getElementById('sidebar');
+const toggleBtn=document.getElementById('sidebarToggle');
+const shuffleBtn=document.getElementById('shuffleBtn');
+const progressBar=document.getElementById('progressBar');
+const progressText=document.getElementById('progressText');
+const playPauseBtn=document.getElementById('playPauseBtn');
+const modeToggle=document.getElementById('modeToggle');
 
-let flashcards = [];
-let activeTab = 'questions';
-let flippedCards = {};
-let currentIndex = 0;
-let totalFlashcards = 0;
-let seenCount = 0;
-let playInterval = null;
-let isPlaying = false;
-let autoIndex = 0;
-let showingAnswer = false;
+let flashcards=[], activeTab='questions', flippedCards={}, currentIndex=0;
+let totalFlashcards=0, seenCount=0, playInterval=null, isPlaying=false;
+let autoIndex=0, showingAnswer=false, originalChapterKey='chapter1';
 
-const chapterJSONMap = {
-  chapter1: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter1.json",
-  chapter2: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter2.json",
-  chapter3: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter3.json",
-  chapter4: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter4.json",
-  chapter5: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter5.json",
-  chapter6: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter6.json",
-  chapter7: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter7.json",
-  chapter8: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter8.json",
-  chapter9: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9.json"
+// Essentials map
+const chapterJSONMap_essentials={
+  chapter1:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter1_essentials.json",
+  chapter2:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter2_essentials.json",
+  chapter3:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter3_essentials.json",
+  chapter4:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter4_essentials.json",
+  chapter5:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter5_essentials.json",
+  chapter6:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter6_essentials.json",
+  chapter7:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter7_essentials.json",
+  chapter8:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter8_essentials.json",
+  chapter9:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9_essentials.json"
 };
 
-// Stop autoplay on any interaction
-function stopAutoOnInteraction() {
-  if (isPlaying) {
-    isPlaying = false;
-    playPauseBtn.querySelector('i').classList.remove('fa-pause');
-    playPauseBtn.querySelector('i').classList.add('fa-play');
-    clearTimeout(playInterval);
-    playInterval = null;
-  }
+// Details map
+const chapterJSONMap_details={
+  chapter1:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter1_details.json",
+  chapter2:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter2_details.json",
+  chapter3:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter3_details.json",
+  chapter4:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter4_details.json",
+  chapter5:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter5_details.json",
+  chapter6:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter6_details.json",
+  chapter7:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter7_details.json",
+  chapter8:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter8_details.json",
+  chapter9:"https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9_details.json"
+};
+
+function stopAutoOnInteraction(){
+  if(isPlaying){ isPlaying=false; playPauseBtn.querySelector('i').classList.remove('fa-pause'); playPauseBtn.querySelector('i').classList.add('fa-play'); clearTimeout(playInterval); playInterval=null; }
 }
 
 // Sidebar toggle
-toggleBtn.addEventListener('click', () => { sidebar.classList.toggle('open'); });
+toggleBtn.addEventListener('click',()=>{ sidebar.classList.toggle('open'); });
 
-// Load default chapter
-loadChapter('chapter1');
+// Load initial chapter
+loadChapter(originalChapterKey);
 
-// Sidebar chapter selection stops autoplay
-document.querySelectorAll('.sidebar a').forEach(link => {
-  link.addEventListener('click', e => {
+// Sidebar chapter selection
+document.querySelectorAll('.sidebar a').forEach(link=>{
+  link.addEventListener('click', e=>{
     e.preventDefault();
     stopAutoOnInteraction();
-    const chapterId = link.getAttribute('href').substring(1);
-    document.querySelectorAll('.sidebar a').forEach(l => l.classList.remove('active-chapter'));
+    originalChapterKey=link.getAttribute('href').substring(1);
+    loadChapter(originalChapterKey);
+    document.querySelectorAll('.sidebar a').forEach(l=>l.classList.remove('active-chapter'));
     link.classList.add('active-chapter');
-    loadChapter(chapterId);
     sidebar.classList.remove('open');
   });
 });
 
-// Shuffle
-function shuffleArray(array) {
-  for (let i = array.length -1; i>0; i--) {
-    const j = Math.floor(Math.random()* (i+1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+// Shuffle logic
+function shuffleArray(array){ for(let i=array.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [array[i],array[j]]=[array[j],array[i]]; } }
+shuffleBtn.addEventListener('click', ()=>{ stopAutoOnInteraction(); shuffleArray(flashcards); currentIndex=0; flippedCards={}; seenCount=0; autoIndex=0; showingAnswer=false; renderFlashcards(); });
 
-shuffleBtn.addEventListener('click', () => {
-  stopAutoOnInteraction();
-  shuffleArray(flashcards);
-  currentIndex=0; flippedCards={}; seenCount=0; autoIndex=0; showingAnswer=false;
-  renderFlashcards();
+// Play/pause logic
+playPauseBtn.addEventListener('click', ()=>{
+  const icon=playPauseBtn.querySelector('i');
+  if(!isPlaying){ isPlaying=true; icon.classList.remove('fa-play'); icon.classList.add('fa-pause'); startAutoPlay(); }
+  else stopAutoOnInteraction();
 });
 
-// Play/Pause with icons
-playPauseBtn.addEventListener('click', () => {
-  const icon = playPauseBtn.querySelector('i');
-  if (!isPlaying) {
-    isPlaying = true;
-    icon.classList.remove('fa-play');
-    icon.classList.add('fa-pause');
-    startAutoPlay();
-  } else {
-    stopAutoOnInteraction();
-  }
-});
-
-function startAutoPlay() {
-  autoIndex = currentIndex;
-  showingAnswer = false;
-  renderFlashcards();
-  playInterval = setTimeout(autoPlayStep, 7000);
+function startAutoPlay(){ autoIndex=currentIndex; showingAnswer=false; renderFlashcards(); playInterval=setTimeout(autoPlayStep,8000); }
+function autoPlayStep(){
+  const cardInner=document.querySelector('.card-inner'); if(!cardInner) return;
+  cardInner.classList.toggle('flipped'); showingAnswer=!showingAnswer;
+  if(!showingAnswer){ if(autoIndex<flashcards.length-1){ autoIndex++; currentIndex=autoIndex; seenCount=Math.max(seenCount,currentIndex); renderFlashcards(); } else { stopAutoOnInteraction(); return; } }
+  playInterval=setTimeout(autoPlayStep,8000);
 }
 
-function autoPlayStep() {
-  const cardInner = document.querySelector('.card-inner');
-  if (!cardInner) return;
-  cardInner.classList.toggle('flipped');
-  showingAnswer = !showingAnswer;
+// Essentials/Details toggle
+modeToggle.addEventListener('change', ()=>{ stopAutoOnInteraction(); loadChapter(originalChapterKey); });
 
-  if (!showingAnswer) {
-    if (autoIndex < flashcards.length - 1) {
-      autoIndex++;
-      currentIndex = autoIndex;
-      seenCount = Math.max(seenCount, currentIndex);
-      renderFlashcards();
-    } else { stopAutoOnInteraction(); return; }
-  }
-  playInterval = setTimeout(autoPlayStep, 7000);
-}
-
-function loadChapter(chapterKey) {
-  const jsonURL = chapterJSONMap[chapterKey];
-  if (!jsonURL) { console.error("Invalid chapter:", chapterKey); return; }
+function loadChapter(chapterKey){
+  const jsonURL=(modeToggle.checked ? chapterJSONMap_details[chapterKey] : chapterJSONMap_essentials[chapterKey]);
+  if(!jsonURL){ console.error("Invalid chapter:",chapterKey); return; }
   fetch(jsonURL).then(res=>res.json()).then(data=>{
-    flashcards = data;
-    currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
+    flashcards=data; currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
     renderFlashcards();
   }).catch(err=>{
-    console.error(err);
-    flashcards=[{id:1,question:"Sample Question?",answer:"Sample Answer"}];
-    currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
+    console.error(err); flashcards=[{id:1,question:"Sample Question?",answer:"Sample Answer"}]; currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
     renderFlashcards();
   });
 }
 
-function renderFlashcards() {
+// Render flashcards
+function renderFlashcards(){
   container.innerHTML='';
-  if (flashcards.length===0) { progressBar.style.width='0%'; progressText.textContent=`0/0`; return; }
-  const progressPercent=((seenCount+1)/totalFlashcards)*100;
-  progressBar.style.width=progressPercent+'%';
+  if(flashcards.length===0){ progressBar.style.width='0%'; progressText.textContent='0/0'; return; }
+  const progressPercent=((seenCount+1)/totalFlashcards)*100; progressBar.style.width=progressPercent+'%';
   progressText.textContent=`${currentIndex+1}/${totalFlashcards}`;
-
-  const card=flashcards[currentIndex];
-  flippedCards[card.id]=flippedCards[card.id]||false;
-
-  const wrapper=document.createElement('div');
-  wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
-
+  const card=flashcards[currentIndex]; flippedCards[card.id]=flippedCards[card.id]||false;
+  const wrapper=document.createElement('div'); wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
   const cardEl=document.createElement('div'); cardEl.classList.add('card');
-
-  if (activeTab==='questions') {
-    const inner=document.createElement('div'); inner.classList.add('card-inner');
-    if (flippedCards[card.id]) inner.classList.add('flipped');
-
-    const front=document.createElement('div'); front.classList.add('card-front');
-    front.innerHTML=`<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
-
-    const back=document.createElement('div'); back.classList.add('card-back');
-    back.innerHTML=`<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
-
-    inner.appendChild(front); inner.appendChild(back);
-    cardEl.appendChild(inner);
-
-    cardEl.addEventListener('click',()=>{
-      stopAutoOnInteraction();
-      flippedCards[card.id]=!flippedCards[card.id];
-      inner.classList.toggle('flipped');
-    });
+  if(activeTab==='questions'){
+    const inner=document.createElement('div'); inner.classList.add('card-inner'); if(flippedCards[card.id]) inner.classList.add('flipped');
+    const front=document.createElement('div'); front.classList.add('card-front'); front.innerHTML=`<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
+    const back=document.createElement('div'); back.classList.add('card-back'); back.innerHTML=`<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
+    inner.appendChild(front); inner.appendChild(back); cardEl.appendChild(inner);
+    cardEl.addEventListener('click',()=>{ stopAutoOnInteraction(); flippedCards[card.id]=!flippedCards[card.id]; inner.classList.toggle('flipped'); });
   } else {
     const textareaContainer=document.createElement('div'); textareaContainer.classList.add('textarea-container');
     const qDiv=document.createElement('div'); qDiv.innerHTML=`<strong>QUESTION:</strong> ${card.question}`;
     const textarea=document.createElement('textarea'); textarea.value=card.answer;
-    textarea.addEventListener('input',e=>{
-      stopAutoOnInteraction();
-      card.answer=e.target.value; if(flippedCards[card.id]) renderFlashcards();
-    });
+    textarea.addEventListener('input', e=>{ card.answer=e.target.value; if(flippedCards[card.id]) renderFlashcards(); });
     textareaContainer.appendChild(qDiv); textareaContainer.appendChild(textarea); cardEl.appendChild(textareaContainer);
   }
-
   wrapper.appendChild(cardEl);
 
   const nav=document.createElement('div'); nav.classList.add('nav-buttons');
-  const prevBtn=document.createElement('button'); prevBtn.innerHTML="&#10094;";
-  prevBtn.disabled=currentIndex===0;
-  prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
-  const nextBtn=document.createElement('button'); nextBtn.innerHTML="&#10095;";
-  nextBtn.disabled=currentIndex===flashcards.length-1;
-  nextBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex<flashcards.length-1){ currentIndex++; seenCount=Math.max(seenCount,currentIndex); renderFlashcards(); } };
-  nav.appendChild(prevBtn); nav.appendChild(nextBtn);
-  wrapper.appendChild(nav);
+  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
+  const nextBtn=document.createElement('button'); nextBtn.innerHTML='&#10095;'; nextBtn.disabled=currentIndex===flashcards.length-1; nextBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex<flashcards.length-1){ currentIndex++; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
+  nav.appendChild(prevBtn); nav.appendChild(nextBtn); wrapper.appendChild(nav);
 
   container.appendChild(wrapper);
 }
 
 // Tabs
-questionsTab.addEventListener('click',()=>{
-  stopAutoOnInteraction();
-  activeTab='questions'; questionsTab.classList.add('active'); notesTab.classList.remove('active'); renderFlashcards();
-});
-notesTab.addEventListener('click',()=>{
-  stopAutoOnInteraction();
-  activeTab='notes'; notesTab.classList.add('active'); questionsTab.classList.remove('active'); renderFlashcards();
-});
+questionsTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='questions'; questionsTab.classList.add('active'); notesTab.classList.remove('active'); renderFlashcards(); });
+notesTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='notes'; notesTab.classList.add('active'); questionsTab.classList.remove('active'); renderFlashcards(); });
 </script>
-
 </body>
 </html>
 
