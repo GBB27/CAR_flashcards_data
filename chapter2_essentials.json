@@ -42,12 +42,12 @@
   {
     "id": 9,
     "question": "What is the Capital Conservation Buffer (CCB)?",
-    "answer": "An additional 2.5% of CET1 capital that must be held above minimum requirements."
+    "answer": "An additional 2.5% of risk-weighted assets that must be met with CET1 capital, held above minimum requirements."
   },
   {
     "id": 10,
     "question": "What is the Countercyclical Buffer?",
-    "answer": "A variable buffer of up to 2.5% CET1 that can be imposed to address systemic risks from credit growth."
+    "answer": "A variable buffer of up to 2.5% of risk-weighted assets that must be met with CET1 capital, imposed to address systemic risks from excessive credit growth."
   },
   {
     "id": 11,
