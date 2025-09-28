@@ -13,18 +13,18 @@
 
   h1 { text-align: center; 
        margin: 20px; 
-       font-size: 1.7rem; 
+       font-size: 1rem; 
        color: #e0e0e0; }
 
   /* Sidebar */
-  .sidebar { position: fixed; top: 100px; left: 0; width: 350px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
+  .sidebar { position: fixed; top: 100px; left: 0; width: 400px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
   .sidebar.open { transform: translateX(0); }
-  .sidebar h2 { font-size: 1.2rem; margin-top: 0; color: #47549c; text-align: center; }
+  .sidebar h2 { font-size: 1.7rem; margin-top: 0; color: #47549c; text-align: center; }
   .sidebar ul { list-style: none; padding: 0; margin: 0; }
-  .sidebar li { margin: 8px 0; padding-left: 35px; }
+  .sidebar li { margin: 8px 0; padding-left: 70px; font-size: 1.4rem; }
   .sidebar a { text-decoration: none; color: #111827; transition: color 0.2s; }
   .sidebar a:hover, .sidebar a.active-chapter { color: #47549c; font-weight: bold; }
-  .sidebar-toggle { position: fixed; top: 110px; left: 0; background: #47549c; color: white; border: none; padding: 8px 12px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
+  .sidebar-toggle { position: fixed; top: 110px; left: 0; background: #47549c; color: white; border: none; padding: 15px 20px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
 
   #infoPanel {
     position: fixed;
@@ -45,16 +45,16 @@
 
   /* Buttons */
   #shuffleBtn, #playPauseBtn { 
-    width: 40px;
-    height: 40px; 
-    padding: 10px 10px; 
+    width: 55px;
+    height: 55px; 
+    padding: 5px 5px; 
     cursor: pointer; 
     border: none; 
     border-radius: 4px; 
     background-color: #292929; 
     color: white; 
     font-weight: bold; 
-    font-size: 16px; }
+    font-size: 20px; }
 
   /* Toggle switch */
   .switch { position: relative; display: inline-block; width: 50px; height: 24px; }
@@ -66,7 +66,7 @@
 
   /* Tabs */
   .tabs { display: flex; justify-content: center; gap: 10px; }
-  .tabs button { padding: 10px 20px; cursor: pointer; border: none; background: white; border-radius: 5px; transition: background 0.3s; }
+  .tabs button { padding: 10px 15px; font-size: 1rem; cursor: pointer; border: none; background: white; border-radius: 5px; transition: background 0.3s; }
   .tabs button.active { background: #47549cd2; color: #fff; }
 
   /* Progress bar */
@@ -107,9 +107,9 @@
 
   /* Navigation buttons */
   .nav-buttons { margin-top: 20px; text-align: center; }
-  .nav-buttons button { font-size: 20px; padding: 15px 20px; margin: 0 5px; border: none; background: #47549cd2; color: white; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+  .nav-buttons button { font-size: 24px; padding: 30px 35px; margin: 0 5px; border: none; background: #47549cd2; color: white; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
   .nav-buttons button:hover { background: #47549cd2; }
-  .nav-buttons button:disabled { background: #afafaf; cursor: not-allowed; }
+  .nav-buttons button:disabled { background: #afafaf21; cursor: not-allowed; }
 </style>
 </head>
 <body>
@@ -140,7 +140,7 @@
   </ul>
 </div>
 
-<button class="sidebar-toggle" id="infoToggle" style="top: 150px; left: 0; background: #47549c;">
+<button class="sidebar-toggle" id="infoToggle" style="top: 170px; left: 0; background: #47549c;">
   <i class="fa-solid fa-circle-info"></i>
 </button>
 
