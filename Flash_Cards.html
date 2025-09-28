@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flashcard Quiz</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -11,21 +12,17 @@
     margin: 0;
     padding: 20px;
   }
-
   h1 {
     text-align: center;
     margin: 20px;
     font-size: 2rem;
     color: #333;
   }
-
   p {
     text-align: center;
     color: #4b5563;
     margin-top: 0;
   }
-
-  /* Collapsible sidebar */
   .sidebar {
     position: fixed;
     top: 100px;
@@ -39,165 +36,71 @@
     transition: transform 0.3s ease;
     z-index: 9999;
   }
-
-  .sidebar.open {
-    transform: translateX(0);
-  }
-
-  .sidebar h2 {
-    font-size: 1.2rem;
-    margin-top: 0;
-    color: #4a4ca8;
-    text-align: center;
-  }
-
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .sidebar li {
-    margin: 8px 0;
-  }
-
-  .sidebar a {
-    text-decoration: none;
-    color: #111827;
-    transition: color 0.2s;
-  }
-
-  .sidebar a:hover,
-  .sidebar a.active-chapter {
-    color: #6366f1;
-    font-weight: bold;
-  }
-
+  .sidebar.open { transform: translateX(0); }
+  .sidebar h2 { font-size: 1.2rem; margin-top: 0; color: #4a4ca8; text-align: center; }
+  .sidebar ul { list-style: none; padding: 0; margin: 0; }
+  .sidebar li { margin: 8px 0; }
+  .sidebar a { text-decoration: none; color: #111827; transition: color 0.2s; }
+  .sidebar a:hover, .sidebar a.active-chapter { color: #6366f1; font-weight: bold; }
   .sidebar-toggle {
-    position: fixed;
-    top: 110px;
-    left: 0;
-    background: #4a4ca8;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    z-index: 10000;
+    position: fixed; top: 110px; left: 0;
+    background: #4a4ca8; color: white; border: none;
+    padding: 5px 10px; cursor: pointer; z-index: 10000;
     border-radius: 0 5px 5px 0;
   }
-
-  /* Tabs */
-  .tabs {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-
+  .tabs { margin: 20px; display: flex; justify-content: center; gap: 10px; }
   .tabs button {
-    padding: 10px 20px;
-    cursor: pointer;
-    border: none;
-    background: white;
-    border-radius: 5px;
-    transition: background 0.3s;
+    padding: 10px 20px; cursor: pointer; border: none; background: white;
+    border-radius: 5px; transition: background 0.3s;
   }
-
-  .tabs button.active {
-    background: #4a4ca8;
-    color: #fff;
+  .tabs button.active { background: #4a4ca8; color: #fff; }
+  #shuffleBtn, #playPauseBtn {
+    margin: 10px auto; display: block; padding: 8px 12px; cursor: pointer;
+    border: none; border-radius: 5px; background-color: #313135;
+    color: white; font-weight: bold; font-size: 16px;
   }
-
-  /* Flashcards container */
+  #progressBarContainer {
+    position: relative; width: 80%; height: 20px;
+    background-color: #d3d3d3; border-radius: 10px; margin: 10px auto;
+  }
+  #progressBar {
+    height: 100%; width: 0%; background-color: #3ec270;
+    border-radius: 10px; transition: width 0.3s ease;
+  }
+  #progressText {
+    position: absolute; right: 10px; top: 0;
+    height: 100%; display: flex; align-items: center;
+    color: #4d4b4b; font-weight: bold;
+  }
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    width: 100%;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 300px; width: 100%; flex-direction: column;
   }
-
-  .card {
-    width: 300px;
-    height: 200px;
-  }
-
+  .card { width: 300px; height: 200px; }
   .card-inner {
-    position: relative;
-    width: 100%;
-    height: 180px;
-    transition: transform 0.45s;
-    transform-style: preserve-3d;
-    border-radius: 10px;
-    cursor: pointer;
+    position: relative; width: 100%; height: 180px;
+    transition: transform 0.45s; transform-style: preserve-3d;
+    border-radius: 10px; cursor: pointer;
   }
-
-  .card-inner.flipped {
-    transform: rotateY(180deg);
-  }
-
+  .card-inner.flipped { transform: rotateY(180deg); }
   .card-front, .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 16px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+    border-radius: 10px; display: flex; justify-content: center;
+    align-items: center; padding: 15px; box-sizing: border-box;
+    font-size: 16px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
-
-  .card-front {
-    background-color: #6366f1;
-    color: white;
-    flex-direction: column;
-  }
-
-  .card-back {
-    background-color: white;
-    color: #111827;
-    transform: rotateY(180deg);
-    flex-direction: column;
-  }
-
-  .textarea-container {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: auto;
-  }
-
-  textarea {
-    margin-top: 10px;
-    height: 100px;
-    resize: none;
-  }
-
-  .nav-buttons {
-    margin-top: 20px;
-    text-align: center;
-  }
-
+  .card-front { background-color: #6366f1; color: white; flex-direction: column; }
+  .card-back { background-color: white; color: #111827; transform: rotateY(180deg); flex-direction: column; }
+  .textarea-container { display: flex; flex-direction: column; width: 300px; margin: auto; }
+  textarea { margin-top: 10px; height: 100px; resize: none; }
+  .nav-buttons { margin-top: 20px; text-align: center; }
   .nav-buttons button {
-    padding: 10px 15px;
-    margin: 0 5px;
-    border: none;
-    background: #333;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
+    font-size: 20px; padding: 8px 12px; margin: 0 5px;
+    border: none; background: #4a4ca8; color: white; border-radius: 5px;
+    cursor: pointer; transition: background 0.3s;
   }
-
-  .nav-buttons button:disabled {
-    background: #aaa;
-    cursor: not-allowed;
-  }
+  .nav-buttons button:hover { background: #6366f1; }
+  .nav-buttons button:disabled { background: #aaa; cursor: not-allowed; }
 </style>
 </head>
 <body>
@@ -226,6 +129,14 @@
   <button id="notesTab">Notes Mode</button>
 </div>
 
+<button id="shuffleBtn">Shuffle</button>
+<button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+
+<div id="progressBarContainer">
+  <div id="progressBar"></div>
+  <span id="progressText">0/0</span>
+</div>
+
 <div class="container" id="flashcards-container"></div>
 
 <script>
@@ -234,13 +145,22 @@ const questionsTab = document.getElementById('questionsTab');
 const notesTab = document.getElementById('notesTab');
 const sidebar = document.getElementById('sidebar');
 const toggleBtn = document.getElementById('sidebarToggle');
+const shuffleBtn = document.getElementById('shuffleBtn');
+const progressBar = document.getElementById('progressBar');
+const progressText = document.getElementById('progressText');
+const playPauseBtn = document.getElementById('playPauseBtn');
 
 let flashcards = [];
 let activeTab = 'questions';
 let flippedCards = {};
 let currentIndex = 0;
+let totalFlashcards = 0;
+let seenCount = 0;
+let playInterval = null;
+let isPlaying = false;
+let autoIndex = 0;
+let showingAnswer = false;
 
-// Mapping chapters to raw GitHub JSON URLs
 const chapterJSONMap = {
   chapter1: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter1.json",
   chapter2: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter2.json",
@@ -253,144 +173,170 @@ const chapterJSONMap = {
   chapter9: "https://raw.githubusercontent.com/GBB27/CAR_flashcards_data/main/chapter9.json"
 };
 
-toggleBtn.addEventListener('click', () => {
-  sidebar.classList.toggle('open');
-});
+// Stop autoplay on any interaction
+function stopAutoOnInteraction() {
+  if (isPlaying) {
+    isPlaying = false;
+    playPauseBtn.querySelector('i').classList.remove('fa-pause');
+    playPauseBtn.querySelector('i').classList.add('fa-play');
+    clearTimeout(playInterval);
+    playInterval = null;
+  }
+}
+
+// Sidebar toggle
+toggleBtn.addEventListener('click', () => { sidebar.classList.toggle('open'); });
 
 // Load default chapter
 loadChapter('chapter1');
 
-// Sidebar click events
-const sidebarLinks = document.querySelectorAll('.sidebar a');
-sidebarLinks.forEach(link => {
+// Sidebar chapter selection stops autoplay
+document.querySelectorAll('.sidebar a').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
+    stopAutoOnInteraction();
     const chapterId = link.getAttribute('href').substring(1);
-
-    // Highlight active chapter
-    sidebarLinks.forEach(l => l.classList.remove('active-chapter'));
+    document.querySelectorAll('.sidebar a').forEach(l => l.classList.remove('active-chapter'));
     link.classList.add('active-chapter');
-
     loadChapter(chapterId);
+    sidebar.classList.remove('open');
   });
 });
 
+// Shuffle
+function shuffleArray(array) {
+  for (let i = array.length -1; i>0; i--) {
+    const j = Math.floor(Math.random()* (i+1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+shuffleBtn.addEventListener('click', () => {
+  stopAutoOnInteraction();
+  shuffleArray(flashcards);
+  currentIndex=0; flippedCards={}; seenCount=0; autoIndex=0; showingAnswer=false;
+  renderFlashcards();
+});
+
+// Play/Pause with icons
+playPauseBtn.addEventListener('click', () => {
+  const icon = playPauseBtn.querySelector('i');
+  if (!isPlaying) {
+    isPlaying = true;
+    icon.classList.remove('fa-play');
+    icon.classList.add('fa-pause');
+    startAutoPlay();
+  } else {
+    stopAutoOnInteraction();
+  }
+});
+
+function startAutoPlay() {
+  autoIndex = currentIndex;
+  showingAnswer = false;
+  renderFlashcards();
+  playInterval = setTimeout(autoPlayStep, 7000);
+}
+
+function autoPlayStep() {
+  const cardInner = document.querySelector('.card-inner');
+  if (!cardInner) return;
+  cardInner.classList.toggle('flipped');
+  showingAnswer = !showingAnswer;
+
+  if (!showingAnswer) {
+    if (autoIndex < flashcards.length - 1) {
+      autoIndex++;
+      currentIndex = autoIndex;
+      seenCount = Math.max(seenCount, currentIndex);
+      renderFlashcards();
+    } else { stopAutoOnInteraction(); return; }
+  }
+  playInterval = setTimeout(autoPlayStep, 7000);
+}
+
 function loadChapter(chapterKey) {
   const jsonURL = chapterJSONMap[chapterKey];
-  if (!jsonURL) {
-    console.error("Invalid chapter:", chapterKey);
-    return;
-  }
-
-  fetch(jsonURL)
-    .then(res => res.json())
-    .then(data => {
-      flashcards = data; // simple array from GitHub
-      currentIndex = 0;
-      flippedCards = {};
-      renderFlashcards();
-    })
-    .catch(err => {
-      console.error("Error loading chapter:", err);
-      flashcards = [
-        { id: 1, question: "Sample Question?", answer: "Sample Answer" }
-      ];
-      currentIndex = 0;
-      flippedCards = {};
-      renderFlashcards();
-    });
+  if (!jsonURL) { console.error("Invalid chapter:", chapterKey); return; }
+  fetch(jsonURL).then(res=>res.json()).then(data=>{
+    flashcards = data;
+    currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
+    renderFlashcards();
+  }).catch(err=>{
+    console.error(err);
+    flashcards=[{id:1,question:"Sample Question?",answer:"Sample Answer"}];
+    currentIndex=0; flippedCards={}; seenCount=0; totalFlashcards=flashcards.length; autoIndex=0; showingAnswer=false;
+    renderFlashcards();
+  });
 }
 
 function renderFlashcards() {
-  container.innerHTML = '';
+  container.innerHTML='';
+  if (flashcards.length===0) { progressBar.style.width='0%'; progressText.textContent=`0/0`; return; }
+  const progressPercent=((seenCount+1)/totalFlashcards)*100;
+  progressBar.style.width=progressPercent+'%';
+  progressText.textContent=`${currentIndex+1}/${totalFlashcards}`;
 
-  if (flashcards.length === 0) {
-    container.textContent = "No flashcards available.";
-    return;
-  }
+  const card=flashcards[currentIndex];
+  flippedCards[card.id]=flippedCards[card.id]||false;
 
-  const card = flashcards[currentIndex];
-  flippedCards[card.id] = flippedCards[card.id] || false;
+  const wrapper=document.createElement('div');
+  wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
 
-  const wrapper = document.createElement('div');
-  wrapper.style.display = 'flex';
-  wrapper.style.flexDirection = 'column';
-  wrapper.style.alignItems = 'center';
+  const cardEl=document.createElement('div'); cardEl.classList.add('card');
 
-  const cardEl = document.createElement('div');
-  cardEl.classList.add('card');
-
-  if (activeTab === 'questions') {
-    const inner = document.createElement('div');
-    inner.classList.add('card-inner');
+  if (activeTab==='questions') {
+    const inner=document.createElement('div'); inner.classList.add('card-inner');
     if (flippedCards[card.id]) inner.classList.add('flipped');
 
-    const front = document.createElement('div');
-    front.classList.add('card-front');
-    front.innerHTML = `<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
+    const front=document.createElement('div'); front.classList.add('card-front');
+    front.innerHTML=`<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
 
-    const back = document.createElement('div');
-    back.classList.add('card-back');
-    back.innerHTML = `<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
+    const back=document.createElement('div'); back.classList.add('card-back');
+    back.innerHTML=`<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
 
-    inner.appendChild(front);
-    inner.appendChild(back);
+    inner.appendChild(front); inner.appendChild(back);
     cardEl.appendChild(inner);
 
-    cardEl.addEventListener('click', () => {
-      flippedCards[card.id] = !flippedCards[card.id];
+    cardEl.addEventListener('click',()=>{
+      stopAutoOnInteraction();
+      flippedCards[card.id]=!flippedCards[card.id];
       inner.classList.toggle('flipped');
     });
   } else {
-    const textareaContainer = document.createElement('div');
-    textareaContainer.classList.add('textarea-container');
-    const qDiv = document.createElement('div');
-    qDiv.innerHTML = `<strong>QUESTION:</strong> ${card.question}`;
-    const textarea = document.createElement('textarea');
-    textarea.value = card.answer;
-    textarea.addEventListener('input', e => {
-      card.answer = e.target.value;
-      if (flippedCards[card.id]) renderFlashcards();
+    const textareaContainer=document.createElement('div'); textareaContainer.classList.add('textarea-container');
+    const qDiv=document.createElement('div'); qDiv.innerHTML=`<strong>QUESTION:</strong> ${card.question}`;
+    const textarea=document.createElement('textarea'); textarea.value=card.answer;
+    textarea.addEventListener('input',e=>{
+      stopAutoOnInteraction();
+      card.answer=e.target.value; if(flippedCards[card.id]) renderFlashcards();
     });
-    textareaContainer.appendChild(qDiv);
-    textareaContainer.appendChild(textarea);
-    cardEl.appendChild(textareaContainer);
+    textareaContainer.appendChild(qDiv); textareaContainer.appendChild(textarea); cardEl.appendChild(textareaContainer);
   }
 
   wrapper.appendChild(cardEl);
 
-  const nav = document.createElement('div');
-  nav.classList.add('nav-buttons');
-
-  const prevBtn = document.createElement('button');
-  prevBtn.textContent = "Previous";
-  prevBtn.disabled = currentIndex === 0;
-  prevBtn.onclick = () => { if (currentIndex > 0) { currentIndex--; renderFlashcards(); } };
-
-  const nextBtn = document.createElement('button');
-  nextBtn.textContent = "Next";
-  nextBtn.disabled = currentIndex === flashcards.length - 1;
-  nextBtn.onclick = () => { if (currentIndex < flashcards.length - 1) { currentIndex++; renderFlashcards(); } };
-
-  nav.appendChild(prevBtn);
-  nav.appendChild(nextBtn);
+  const nav=document.createElement('div'); nav.classList.add('nav-buttons');
+  const prevBtn=document.createElement('button'); prevBtn.innerHTML="&#10094;";
+  prevBtn.disabled=currentIndex===0;
+  prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
+  const nextBtn=document.createElement('button'); nextBtn.innerHTML="&#10095;";
+  nextBtn.disabled=currentIndex===flashcards.length-1;
+  nextBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex<flashcards.length-1){ currentIndex++; seenCount=Math.max(seenCount,currentIndex); renderFlashcards(); } };
+  nav.appendChild(prevBtn); nav.appendChild(nextBtn);
   wrapper.appendChild(nav);
 
   container.appendChild(wrapper);
 }
 
-questionsTab.addEventListener('click', () => {
-  activeTab = 'questions';
-  questionsTab.classList.add('active');
-  notesTab.classList.remove('active');
-  renderFlashcards();
+// Tabs
+questionsTab.addEventListener('click',()=>{
+  stopAutoOnInteraction();
+  activeTab='questions'; questionsTab.classList.add('active'); notesTab.classList.remove('active'); renderFlashcards();
 });
-
-notesTab.addEventListener('click', () => {
-  activeTab = 'notes';
-  notesTab.classList.add('active');
-  questionsTab.classList.remove('active');
-  renderFlashcards();
+notesTab.addEventListener('click',()=>{
+  stopAutoOnInteraction();
+  activeTab='notes'; notesTab.classList.add('active'); questionsTab.classList.remove('active'); renderFlashcards();
 });
 </script>
 
