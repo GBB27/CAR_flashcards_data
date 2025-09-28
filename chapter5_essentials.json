@@ -2,151 +2,176 @@
   {
     "id": 1,
     "question": "What is the Internal Ratings-Based (IRB) approach in the CAR framework?",
-    "answer": "IRB is a methodology allowing banks to use internal models to estimate credit risk parameters (PD, LGD, EAD) to calculate regulatory capital requirements more risk-sensitively."
+    "answer": "A credit risk assessment method allowing institutions to use internal models to estimate risk parameters (PD, LGD, EAD, M) for calculating regulatory capital."
   },
   {
     "id": 2,
-    "question": "Differentiate between the Foundation IRB (F-IRB) and Advanced IRB (A-IRB) approaches.",
-    "answer": "F-IRB requires banks to use supervisory estimates for LGD and EAD while estimating PD internally; A-IRB allows banks to estimate PD, LGD, and EAD internally."
+    "question": "Differentiate between Foundation IRB (F-IRB) and Advanced IRB (A-IRB).",
+    "answer": "Under F-IRB, banks estimate PD while OSFI provides LGD, EAD, and M. Under A-IRB, banks estimate PD, LGD, EAD, and M using their own models."
   },
   {
     "id": 3,
-    "question": "Why is the IRB approach considered more risk-sensitive than the Standardized Approach?",
-    "answer": "Because it uses internal risk estimates (PD, LGD, EAD) for each exposure, reflecting the actual risk profile rather than fixed risk weights."
+    "question": "What are the minimum requirements for using the IRB approach?",
+    "answer": "Institutions must meet OSFI’s standards for data quality, model validation, governance, and supervisory approval before applying IRB."
   },
   {
     "id": 4,
-    "question": "What are the minimum requirements for a bank to use the IRB approach?",
-    "answer": "Banks must have robust internal rating systems, historical data, risk management practices, and supervisory approval."
+    "question": "Define Probability of Default (PD).",
+    "answer": "The likelihood that a borrower will default within one year."
   },
   {
     "id": 5,
-    "question": "Explain the concept of Probability of Default (PD) and its role in IRB.",
-    "answer": "PD is the likelihood that a borrower defaults within a one-year horizon; it is a key input for capital calculation in IRB."
+    "question": "Define Loss Given Default (LGD).",
+    "answer": "The percentage of exposure that a bank expects to lose if a borrower defaults, after accounting for recoveries."
   },
   {
     "id": 6,
-    "question": "Explain Loss Given Default (LGD) and how it affects risk-weighted assets (RWA).",
-    "answer": "LGD is the proportion of exposure expected to be lost if default occurs; higher LGD increases RWA and capital requirements."
+    "question": "Define Exposure at Default (EAD).",
+    "answer": "The total value a bank is exposed to when a borrower defaults, including drawn and undrawn amounts."
   },
   {
     "id": 7,
-    "question": "What is Exposure at Default (EAD) and why is it critical for IRB calculations?",
-    "answer": "EAD is the total value the bank is exposed to at the time of default; it directly scales the capital requirement."
+    "question": "Define Maturity (M) in the IRB context.",
+    "answer": "The effective remaining maturity of the exposure, usually measured in years, used as an input in risk-weight calculations."
   },
   {
     "id": 8,
-    "question": "Define the term 'Maturity adjustment' in the IRB context.",
-    "answer": "Maturity adjustment accounts for the effect of the remaining term of an exposure on its credit risk, affecting RWA."
+    "question": "What is the difference between downturn LGD and through-the-cycle LGD?",
+    "answer": "Downturn LGD reflects stressed economic conditions and is used for capital requirements, while through-the-cycle LGD reflects average conditions."
   },
   {
     "id": 9,
-    "question": "How does the concept of downturn LGD differ from through-the-cycle LGD?",
-    "answer": "Downturn LGD reflects losses in adverse economic conditions, whereas through-the-cycle LGD averages losses across the credit cycle."
+    "question": "List the main IRB asset classes.",
+    "answer": "Corporate, Sovereign, Bank, Retail (including residential mortgages, qualifying revolving retail, and other retail), Equity, and Specialized Lending."
   },
   {
     "id": 10,
-    "question": "List the main asset classes recognized under IRB for credit risk.",
-    "answer": "Corporate, sovereign, bank, retail (mortgage, qualifying revolving, other), and equity exposures."
+    "question": "Which products fall under the Corporate asset class in IRB?",
+    "answer": "Corporate loans, corporate bonds, large commercial credit facilities, and specialized lending exposures like project finance."
   },
   {
     "id": 11,
-    "question": "How are corporate exposures treated differently from retail exposures under IRB?",
-    "answer": "Corporate exposures use a formula incorporating PD, LGD, EAD, and correlation; retail exposures are often segmented and use lower correlation factors."
+    "question": "Which products are included in the Sovereign asset class under IRB?",
+    "answer": "Exposures to central governments, central banks, and certain public sector entities treated as sovereigns."
   },
   {
     "id": 12,
-    "question": "What special rules apply to sovereign exposures under IRB?",
-    "answer": "Sovereign exposures have low correlation and may have different supervisory risk weights; many use fixed supervisory estimates for LGD."
+    "question": "Which products are part of the Bank asset class in IRB?",
+    "answer": "Exposures to regulated deposit-taking institutions and investment firms."
   },
   {
     "id": 13,
-    "question": "How are secured exposures, such as mortgages, treated under IRB?",
-    "answer": "Secured exposures may use collateral-adjusted LGD, reducing RWA if the collateral value is sufficient and recognized."
+    "question": "Which products are classified as Retail under IRB?",
+    "answer": "Residential mortgages, qualifying revolving retail exposures (e.g., credit cards), and other retail exposures (e.g., small business loans)."
   },
   {
     "id": 14,
-    "question": "Explain the treatment of equity exposures in IRB calculations.",
-    "answer": "Equity exposures are usually risk-weighted separately, often with higher capital requirements due to higher volatility and correlation."
+    "question": "Which products are part of the Equity asset class under IRB?",
+    "answer": "Direct equity investments, equity derivatives, and equity fund exposures."
   },
   {
     "id": 15,
-    "question": "How are unrated exposures handled if a bank uses IRB?",
-    "answer": "Unrated exposures require the bank to assign internal ratings consistent with its rating system and supervisory guidelines."
+    "question": "What is included in Specialized Lending under IRB?",
+    "answer": "Project finance, object finance, commodities finance, and income-producing real estate."
   },
   {
     "id": 16,
-    "question": "What is the general formula for calculating RWA under the IRB approach?",
-    "answer": "RWA = Risk-weight function(PD, LGD, EAD, Maturity) × 12.5, reflecting the capital requirement scaling."
+    "question": "How are unrated exposures treated under IRB?",
+    "answer": "They are assessed using internal estimates of PD, LGD, and other IRB parameters instead of external credit ratings."
   },
   {
     "id": 17,
-    "question": "How is capital requirement calculated for corporate exposure using F-IRB?",
-    "answer": "Capital = RWA × 8%; RWA is derived from PD, LGD (supervisory), EAD, maturity, and correlation factors."
+    "question": "What is the formula for Risk-Weighted Assets (RWA) under IRB?",
+    "answer": "RWA = 12.5 × K × EAD, where K is the capital requirement derived from PD, LGD, EAD, and M."
   },
   {
     "id": 18,
-    "question": "Explain how the risk-weight function varies with PD, LGD, EAD, and maturity.",
-    "answer": "Higher PD, LGD, EAD, or longer maturity increases the calculated RWA and thus capital requirement."
+    "question": "How is capital requirement calculated under the Foundation IRB approach for corporates?",
+    "answer": "Banks estimate PD, while OSFI provides LGD, EAD, and M; these inputs are used in the IRB risk-weight function to determine K."
   },
   {
     "id": 19,
-    "question": "How does the correlation factor differ across corporate, sovereign, and retail exposures?",
-    "answer": "Corporates have correlation based on PD, sovereigns typically low fixed correlation, and retail exposures have lower, often fixed correlations."
+    "question": "How does the correlation factor vary across asset classes in IRB?",
+    "answer": "Correlation is higher for large corporate exposures and lower for retail portfolios, reflecting different levels of systemic risk."
   },
   {
     "id": 20,
-    "question": "Describe how capital requirements change for highly rated vs. lower-rated exposures.",
-    "answer": "Highly rated exposures have lower PD, thus lower capital; low-rated exposures have higher PD and higher capital requirements."
+    "question": "What happens to capital requirements when PD increases?",
+    "answer": "Capital requirements rise because higher default risk increases expected and unexpected losses."
   },
   {
     "id": 21,
     "question": "What are the main limitations of the IRB approach?",
-    "answer": "Dependence on internal models, data quality issues, low-default portfolios, and potential underestimation of risk in downturns."
+    "answer": "Complexity, reliance on internal data, potential model risk, and high implementation costs."
   },
   {
     "id": 22,
-    "question": "How does OSFIS CAR ensure that IRB models remain conservative?",
-    "answer": "Through supervisory floors, mandatory downturn LGD, model validation, and periodic review of assumptions."
+    "question": "How does OSFI ensure conservatism in IRB models?",
+    "answer": "Through supervisory floors, conservative parameter estimates, model validation, and ongoing monitoring."
   },
   {
     "id": 23,
-    "question": "Explain the role of supervisory validation in the IRB approach.",
-    "answer": "Supervisors verify that banks’ rating systems, models, and data meet regulatory standards and produce reliable capital estimates."
+    "question": "What is the role of supervisory validation in IRB?",
+    "answer": "To ensure models meet regulatory standards, are conceptually sound, and produce reliable risk estimates."
   },
   {
     "id": 24,
-    "question": "What are the potential pitfalls of relying solely on internal models for PD/LGD?",
-    "answer": "Models may underestimate risk, especially in low-default portfolios or unusual economic conditions, leading to insufficient capital."
+    "question": "What are the pitfalls of relying solely on internal models in IRB?",
+    "answer": "Risk of underestimation of capital, data quality issues, and incentive to optimize models for lower capital requirements."
   },
   {
     "id": 25,
-    "question": "Under what circumstances might a bank be required to revert to the Standardized Approach?",
-    "answer": "If internal models are unreliable, data is insufficient, or supervisory approval is withdrawn."
+    "question": "When might a bank be required to revert to the Standardized Approach?",
+    "answer": "If its IRB models fail validation, data is insufficient, or OSFI determines models are unreliable."
   },
   {
     "id": 26,
-    "question": "How are credit risk mitigation techniques integrated into IRB calculations?",
-    "answer": "Collateral, guarantees, and netting can reduce LGD or EAD, lowering RWA if recognized under CAR rules."
+    "question": "How does IRB incorporate credit risk mitigation techniques?",
+    "answer": "By adjusting LGD or EAD for eligible collateral, guarantees, or credit derivatives."
   },
   {
     "id": 27,
-    "question": "What is the treatment of purchased receivables or off-balance-sheet items?",
-    "answer": "They are converted to credit exposure equivalents using supervisory or internal estimates before applying IRB risk weights."
+    "question": "How are purchased receivables treated in IRB?",
+    "answer": "They are assigned to the Corporate or Retail asset class and modeled using PD, LGD, and EAD estimates."
   },
   {
     "id": 28,
-    "question": "Explain how IRB handles low-default portfolios.",
-    "answer": "Banks use conservative PD estimates, floors, and expert judgment to compensate for limited historical data."
+    "question": "How are low-default portfolios handled in IRB?",
+    "answer": "By using conservative parameter estimates, external data, and supervisory benchmarks."
   },
   {
     "id": 29,
-    "question": "What are the reporting and documentation requirements for IRB models?",
-    "answer": "Banks must maintain model documentation, validation reports, data histories, and supervisory submissions regularly."
+    "question": "What documentation requirements exist for IRB models?",
+    "answer": "Institutions must maintain detailed records on model design, data, validation, governance, and changes."
   },
   {
     "id": 30,
-    "question": "How do model adjustments for downturn conditions impact capital requirements?",
-    "answer": "Downturn adjustments increase LGD and correlation factors, raising RWA and capital to cover stressed losses."
+    "question": "How does downturn LGD affect capital requirements?",
+    "answer": "It increases capital requirements by assuming higher losses under stressed conditions."
+  },
+  {
+    "id": 31,
+    "question": "What is a qualifying revolving retail exposure (QRRE)?",
+    "answer": "A homogeneous retail portfolio with low-value, unsecured, and revolving exposures such as credit cards."
+  },
+  {
+    "id": 32,
+    "question": "How are small business loans classified under IRB?",
+    "answer": "They can be treated as Corporate exposures or Retail (Other Retail) if they meet granularity and size criteria."
+  },
+  {
+    "id": 33,
+    "question": "What is the minimum PD floor under IRB?",
+    "answer": "A regulatory floor (e.g., 0.03% for corporates) is applied to ensure conservatism in risk estimates."
+  },
+  {
+    "id": 34,
+    "question": "How is maturity adjustment applied in IRB calculations?",
+    "answer": "A scaling factor is applied to capital requirements based on the exposure’s effective maturity."
+  },
+  {
+    "id": 35,
+    "question": "What distinguishes Specialized Lending from standard Corporate exposures in IRB?",
+    "answer": "Specialized Lending focuses on repayment from a specific asset or project, requiring distinct risk-weight functions."
   }
 ]
