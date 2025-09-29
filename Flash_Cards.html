@@ -6,49 +6,74 @@
 <title>Flashcard Quiz</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-  body { font-family: Arial, sans-serif; background: linear-gradient(to bottom right, #dbeafe, #e0e7ff); margin: 0; padding: 20px; }
-  h1 { text-align: center; margin: 20px; font-size: 2rem; color: #333; }
-  p { text-align: center; color: #4b5563; margin-top: 0; }
+  body { font-family: Arial, sans-serif; 
+    background: linear-gradient(to bottom right, #353752, #353752); 
+    margin: 0; 
+    padding: 20px; }
+
+  h1 { text-align: center; 
+       margin: 20px; 
+       font-size: 1rem; 
+       color: #e0e0e0; }
 
   /* Sidebar */
-  .sidebar { position: fixed; top: 100px; left: 0; width: 160px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
+  .sidebar { position: fixed; top: 30px; left: 0; width: 300px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
   .sidebar.open { transform: translateX(0); }
-  .sidebar h2 { font-size: 1.2rem; margin-top: 0; color: #4a4ca8; text-align: center; }
+  .sidebar h2 { font-size: 1.4rem; margin-top: 0; color: #47549c; text-align: center; }
   .sidebar ul { list-style: none; padding: 0; margin: 0; }
-  .sidebar li { margin: 8px 0; }
+  .sidebar li { margin: 20px 0; padding-left: 60px; font-size: 1rem; }
   .sidebar a { text-decoration: none; color: #111827; transition: color 0.2s; }
-  .sidebar a:hover, .sidebar a.active-chapter { color: #6366f1; font-weight: bold; }
-  .sidebar-toggle { position: fixed; top: 110px; left: 0; background: #4a4ca8; color: white; border: none; padding: 5px 10px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
+  .sidebar a:hover, .sidebar a.active-chapter { color: #47549c; font-weight: bold; }
+  .sidebar-toggle { position: fixed; top: 20px; left: 0; font-size: 14px; background: #47549c; color: white; border: none; padding: 12px 18px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
+
+  #infoPanel {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    padding: 15px 15px 15px 45px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 9999; }
+
+  #infoPanel.open {
+    transform: translateX(0); }
+
 
   /* Buttons */
   #shuffleBtn, #playPauseBtn { 
-    width: 40px;
-    height: 40px; 
-    padding: 10px 10px; 
+    width: 45px;
+    height: 45px; 
+    padding: 2px 2px; 
     cursor: pointer; 
     border: none; 
-    border-radius: 4px; 
-    background-color: #313135; 
+    border-radius: 6px; 
+    background-color: #292929; 
     color: white; 
     font-weight: bold; 
-    font-size: 16px; }
+    font-size: 20px; }
 
   /* Toggle switch */
   .switch { position: relative; display: inline-block; width: 50px; height: 24px; }
   .switch input { display: none; }
-  .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 6px; }
-  .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 2px; bottom: 2px; background-color: white; transition: .4s; border-radius: 4px; }
-  input:checked + .slider { background-color: #4a4ca8; }
+  .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #afafaf; transition: .4s; border-radius: 10px; }
+  .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 2px; bottom: 2px; background-color: white; transition: .4s; border-radius: 10px; }
+  input:checked + .slider { background-color: #47549cd2; }
   input:checked + .slider:before { transform: translateX(26px); }
 
   /* Tabs */
   .tabs { display: flex; justify-content: center; gap: 10px; }
-  .tabs button { padding: 10px 20px; cursor: pointer; border: none; background: white; border-radius: 5px; transition: background 0.3s; }
-  .tabs button.active { background: #4a4ca8; color: #fff; }
+  .tabs button { padding: 10px 15px; font-size: 16px; cursor: pointer; border: none; background: white; border-radius: 5px; transition: background 0.3s; }
+  .tabs button.active { background: #47549cd2; color: #fff; }
+
+  .note-question { color: white; margin-bottom: 5px; }
 
   /* Progress bar */
   #progressBarContainer {
-    background-color: #d3d3d3;
+    background-color: #afafaf;
     border-radius: 10px;
     height: 20px;
     position: relative;
@@ -67,40 +92,66 @@
     height: 100%;
     display: flex;
     align-items: center;
-    color: #4d4b4b;
+    color: #ffffff;
     font-weight: bold;
   }
 
   /* Flashcards */
   .container { display: flex; justify-content: center; align-items: center; min-height: 300px; width: 100%; flex-direction: column; }
-  .card { width: 300px; height: 200px; }
-  .card-inner { position: relative; width: 100%; height: 180px; transition: transform 0.45s; transform-style: preserve-3d; border-radius: 10px; cursor: pointer; }
+  .card { width: 90vw; max-width: 500px; aspect-ratio: 4/3; perspective: 1000px; margin: 10px auto; }
+  .card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.45s; transform-style: preserve-3d; border-radius: 10px; cursor: pointer; }
   .card-inner.flipped { transform: rotateY(180deg); }
-  .card-front, .card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box; font-size: 16px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-  .card-front { background-color: #6366f1; color: white; flex-direction: column; }
-  .card-back { background-color: white; color: #111827; transform: rotateY(180deg); flex-direction: column; }
-  .textarea-container { display: flex; flex-direction: column; width: 300px; margin: auto; }
+  .card-front, .card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box; font-size: clamp(18px, 2vw, 24px); text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+  .card-front { background-color: #47549cd2; color: white; flex-direction: column; }
+  .card-back { background-color: #47549cd2; color: white; transform: rotateY(180deg); flex-direction: column; }
+  .textarea-container { display: flex; flex-direction: column; align-items: center; width: 100%; }
+  .note-textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    resize: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
   textarea { margin-top: 10px; height: 100px; resize: none; }
 
   /* Navigation buttons */
-  .nav-buttons { margin-top: 20px; text-align: center; }
-  .nav-buttons button { font-size: 20px; padding: 8px 12px; margin: 0 5px; border: none; background: #4a4ca8; color: white; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
-  .nav-buttons button:hover { background: #6366f1; }
-  .nav-buttons button:disabled { background: #aaa; cursor: not-allowed; }
+  .nav-buttons { margin-top: 5px; text-align: center; }
+  .nav-buttons button { font-size: 24px; padding: 30px 35px; margin: 0 5px; border: none; background: #47549cd2; color: white; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+  .nav-buttons button:hover { background: #47549cd2; }
+  .nav-buttons button:disabled { background: #afafaf21; cursor: not-allowed; }
 </style>
 </head>
 <body>
 
 <h1>Capital Adequacy Requirements (CAR) - Guideline (2024)</h1>
-<p>Flip cards to reveal answers or edit them in the Notes tab</p>
+
+<!-- Top controls container -->
+<div style="display:flex; align-items:center; justify-content:center; gap:10px; margin-top:70px; margin-bottom:30px; flex-wrap: wrap;">
+  <button id="shuffleBtn">⚀</button>
+  <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+  <div class="tabs" ;">
+    <button id="questionsTab" class="active">Study Mode</button>
+    <button id="notesTab">Notes Mode</button>
+  </div>
+</div>
 
 <!-- Essentials/Details Toggle -->
-<div style="text-align:center; margin:15px 0; display:flex; justify-content:center; align-items:center; gap:10px;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 15px; width: 90%; max-width: 500px; margin: 0 auto 20px; margin-bottom: 0px;">
+  <!-- Toggle switch -->
   <label class="switch">
     <input type="checkbox" id="modeToggle">
     <span class="slider"></span>
   </label>
-  <span style="font-weight:bold;">Essentials / Details</span>
+
+  <!-- Progress bar -->
+  <div id="progressBarContainer" style="flex-grow: 1; position: relative;">
+    <div id="progressBar"></div>
+    <span id="progressText">0/0</span>
+  </div>
 </div>
 
 <button class="sidebar-toggle" id="sidebarToggle">☰</button>
@@ -119,20 +170,13 @@
   </ul>
 </div>
 
-<!-- Shuffle, Play, Progress Bar in one container -->
-<div style="display:flex; align-items:center; justify-content:center; gap:10px; margin:15px 0; width: 80%; margin-left:auto; margin-right:auto;">
-  <button id="shuffleBtn">⚀</button>
-  <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
-  <div id="progressBarContainer" style="flex-grow:1; position: relative;">
-    <div id="progressBar"></div>
-    <span id="progressText">0/0</span>
-  </div>
-</div>
+<button class="sidebar-toggle" id="infoToggle" style="top: 70px; left: 0; background: #47549c;">
+  <i class="fa-solid fa-circle-info"></i>
+</button>
 
-<!-- Tabs (Questions/Notes) above flashcards -->
-<div class="tabs" style="margin-bottom: 15px;">
-  <button id="questionsTab" class="active">Study Mode</button>
-  <button id="notesTab">Notes Mode</button>
+<div class="sidebar" id="infoPanel" >
+  <h2>Author Info</h2>
+  <p><strong>Name:</strong> Gabriel Biard</p>
 </div>
 
 <div class="container" id="flashcards-container"></div>
@@ -144,6 +188,8 @@ const questionsTab=document.getElementById('questionsTab');
 const notesTab=document.getElementById('notesTab');
 const sidebar=document.getElementById('sidebar');
 const toggleBtn=document.getElementById('sidebarToggle');
+const infoPanel = document.getElementById('infoPanel');
+const infoToggle = document.getElementById('infoToggle');
 const shuffleBtn=document.getElementById('shuffleBtn');
 const progressBar=document.getElementById('progressBar');
 const progressText=document.getElementById('progressText');
@@ -185,7 +231,24 @@ function stopAutoOnInteraction(){
 }
 
 // Sidebar toggle
-toggleBtn.addEventListener('click',()=>{ sidebar.classList.toggle('open'); });
+toggleBtn.addEventListener('click', () => {
+  // Close info panel if open
+  if (infoPanel.classList.contains('open')) {
+    infoPanel.classList.remove('open');
+  }
+  // Toggle sidebar
+  sidebar.classList.toggle('open');
+});
+
+// Info panel toggle
+infoToggle.addEventListener('click', () => {
+  // Close sidebar if open
+  if (sidebar.classList.contains('open')) {
+    sidebar.classList.remove('open');
+  }
+  // Toggle info panel
+  infoPanel.classList.toggle('open');
+});
 
 // Load initial chapter
 loadChapter(originalChapterKey);
@@ -241,7 +304,7 @@ function loadChapter(chapterKey){
 function renderFlashcards(){
   container.innerHTML='';
   if(flashcards.length===0){ progressBar.style.width='0%'; progressText.textContent='0/0'; return; }
-  const progressPercent=((seenCount+1)/totalFlashcards)*100; progressBar.style.width=progressPercent+'%';
+  const progressPercent=((currentIndex + 1)/totalFlashcards)*100; progressBar.style.width=progressPercent+'%';
   progressText.textContent=`${currentIndex+1}/${totalFlashcards}`;
   const card=flashcards[currentIndex]; flippedCards[card.id]=flippedCards[card.id]||false;
   const wrapper=document.createElement('div'); wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
@@ -254,15 +317,15 @@ function renderFlashcards(){
     cardEl.addEventListener('click',()=>{ stopAutoOnInteraction(); flippedCards[card.id]=!flippedCards[card.id]; inner.classList.toggle('flipped'); });
   } else {
     const textareaContainer=document.createElement('div'); textareaContainer.classList.add('textarea-container');
-    const qDiv=document.createElement('div'); qDiv.innerHTML=`<strong>QUESTION:</strong> ${card.question}`;
-    const textarea=document.createElement('textarea'); textarea.value=card.answer;
+    const qDiv=document.createElement('div'); qDiv.innerHTML=`<strong>QUESTION:</strong> ${card.question}`; qDiv.classList.add('note-question');
+    const textarea=document.createElement('textarea'); textarea.value=card.answer || ""; textarea.classList.add('note-textarea');
     textarea.addEventListener('input', e=>{ card.answer=e.target.value; if(flippedCards[card.id]) renderFlashcards(); });
     textareaContainer.appendChild(qDiv); textareaContainer.appendChild(textarea); cardEl.appendChild(textareaContainer);
   }
   wrapper.appendChild(cardEl);
 
   const nav=document.createElement('div'); nav.classList.add('nav-buttons');
-  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
+  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
   const nextBtn=document.createElement('button'); nextBtn.innerHTML='&#10095;'; nextBtn.disabled=currentIndex===flashcards.length-1; nextBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex<flashcards.length-1){ currentIndex++; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
   nav.appendChild(prevBtn); nav.appendChild(nextBtn); wrapper.appendChild(nav);
 
