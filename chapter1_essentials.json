@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "What are the minimum capital ratios (before buffers)?",
+    "answer": "CET1 4.5%, Tier 1 6.0%, Total Capital 8.0%."
+  },
+  {
+    "id": 2,
+    "question": "What are OSFI’s target capital ratios including buffers?",
+    "answer": "CET1 ~ 7%, Tier 1 ~ 8.5%, Total ~ 10.5%, plus D-SIB/DSB if applicable."
+  },
+  {
+    "id": 3,
+    "question": "Why are targets higher than minimums?",
+    "answer": "To provide a cushion above regulatory floors and absorb shocks."
+  },
+  {
+    "id": 4,
+    "question": "What are the three main categories of RWA?",
+    "answer": "Credit risk, market risk, and operational risk."
+  },
+  {
+    "id": 5,
+    "question": "Which federally regulated financial institutions are subject to OSFI’s CAR guideline?",
+    "answer": "Banks, bank holding companies, federally regulated trust and loan companies."
+  },
+  {
+    "id": 6,
+    "question": "What is the Capital Conservation Buffer (CCB) requirement?",
+    "answer": "2.5% of RWA in CET1 capital."
+  },
+  {
+    "id": 7,
+    "question": "What happens if a bank falls below buffer requirements?",
+    "answer": "Limits are imposed on dividend and bonus distributions."
+  },
+  {
+    "id": 8,
+    "question": "At what level are the CAR requirements applied?",
+    "answer": "On a consolidated basis to the top federally regulated entity."
+  },
+  {
+    "id": 9,
+    "question": "Who sets the Domestic Stability Buffer (DSB)?",
+    "answer": "OSFI, based on systemic vulnerabilities in Canada."
+  },
+  {
+    "id": 10,
+    "question": "What is the current range for the DSB?",
+    "answer": "Typically between 0% and 4% of RWA, applied to D-SIBs."
+  },
+  {
+    "id": 11,
+    "question": "How often does OSFI review the DSB?",
+    "answer": "Semi-annually (June and December)."
+  },
+  {
+    "id": 12,
+    "question": "What must an institution obtain from OSFI before using an internal model?",
+    "answer": "Formal approval from the Superintendent."
+  },
+  {
+    "id": 13,
+    "question": "Can OSFI revoke approval to use an internal model?",
+    "answer": "Yes, if the model no longer meets regulatory expectations."
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of a capital floor?",
+    "answer": "To prevent model-based capital requirements from falling too low compared to standardized approaches."
+  },
+  {
+    "id": 15,
+    "question": "What percentage is typically used for the capital floor under Basel standards?",
+    "answer": "67.5% of standardized RWAs (subject to OSFI’s decision)."
+  },
+  {
+    "id": 16,
+    "question": "How are risk-based capital ratios calculated?",
+    "answer": "Capital amount divided by total risk-weighted assets."
+  },
+  {
+    "id": 17,
+    "question": "Does meeting minimum ratios ensure compliance?",
+    "answer": "Not necessarily—OSFI can require higher capital levels."
+  },
+  {
+    "id": 18,
+    "question": "What is the purpose of capital buffers?",
+    "answer": "To absorb losses in stress and restrict payouts if breached."
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of the D-SIB surcharge?",
+    "answer": "To ensure systemic banks hold extra capital for stability."
+  },
+  {
+    "id": 20,
+    "question": "Which banks are designated D-SIBs in Canada?",
+    "answer": "The six largest Canadian banks (e.g. RBC, TD, Scotiabank, etc.)."
+  },
+  {
+    "id": 21,
+    "question": "How is the surcharge applied?",
+    "answer": "As an additional CET1 capital requirement above minimums and buffers."
+  },
+  {
+    "id": 22,
+    "question": "Are foreign bank branches in Canada covered by CAR?",
+    "answer": "No, foreign bank branches follow separate regulatory requirements."
+  },
+  {
+    "id": 23,
+    "question": "What are the three main tiers of regulatory capital?",
+    "answer": "Common Equity Tier 1 (CET1), Additional Tier 1 (AT1), and Tier 2."
+  },
+  {
+    "id": 24,
+    "question": "What is the highest quality component of regulatory capital?",
+    "answer": "Common Equity Tier 1 (CET1)."
+  },
+  {
+    "id": 25,
+    "question": "Where are detailed rules for capital instruments found?",
+    "answer": "In Chapter 2 of the CAR guideline."
+  },
+  {
+    "id": 26,
+    "question": "Why does OSFI require approval for internal models?",
+    "answer": "To ensure consistency, reliability, and prudence in risk measurement."
+  },
+  {
+    "id": 27,
+    "question": "Why are RWAs important in capital adequacy?",
+    "answer": "They form the denominator in risk-based capital ratios."
+  },
+  {
+    "id": 28,
+    "question": "What adjustment can be applied to RWA totals?",
+    "answer": "A capital floor adjustment based on standardized approaches."
+  },
+  {
+    "id": 29,
+    "question": "How is the capital floor applied?",
+    "answer": "By comparing internal model RWA to standardized RWA and applying the higher requirement."
+  },
+  {
+    "id": 30,
+    "question": "Can OSFI require capital above stated targets?",
+    "answer": "Yes, depending on an institution’s risk profile or conditions."
+  },
+  {
+    "id": 31,
+    "question": "What is Basel Pillar 1 about?",
+    "answer": "Minimum capital requirements for credit, market, and operational risk."
+  },
+  {
+    "id": 32,
+    "question": "What is Basel Pillar 2 about?",
+    "answer": "Supervisory review process, where regulators can impose higher capital requirements."
+  },
+  {
+    "id": 33,
+    "question": "What is Basel Pillar 3 about?",
+    "answer": "Market discipline through disclosure requirements for transparency."
+  },
+  {
+    "id": 34,
+    "question": "How do Pillars 1, 2, and 3 work together?",
+    "answer": "They ensure capital adequacy through minimum requirements, supervisory oversight, and market discipline."
+  },
+  {
+    "id": 35,
+    "question": "Which OSFI capital rules are most closely aligned with Basel Pillar 1?",
+    "answer": "Minimum risk-based capital ratios and RWA calculation standards."
+  }
+]
