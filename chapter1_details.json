@@ -1,0 +1,912 @@
+[
+  {
+    "id": 1,
+    "question": "How are earnings defined in the context of capital distributions?",
+    "answer": "Earnings are distributable profits calculated before the deduction of elements subject to distribution restrictions, after reversing any tax impacts of distributions."
+  },
+  {
+    "id": 2,
+    "question": "How are market risk RWAs calculated prior to November 2023?",
+    "answer": "Using the value at risk (VaR) and standardized approaches, excluding certain capital charges."
+  },
+  {
+    "id": 3,
+    "question": "How are RWA for market risk calculated?",
+    "answer": "Using the standardized approach or the internal models approach."
+  },
+  {
+    "id": 4,
+    "question": "How does size impact an institution's systemic importance?",
+    "answer": "An institution's distress is more likely to damage the financial system if it comprises a large share of domestic banking activity."
+  },
+  {
+    "id": 5,
+    "question": "How does the Canadian financial system's structure influence D-SIB designation?",
+    "answer": "The importance of large banks to the financial architecture and the expanded regulatory toolkit required to resolve troubled institutions."
+  },
+  {
+    "id": 6,
+    "question": "How is Exposure at Default (EAD) determined under IRB approaches?",
+    "answer": "Gross of all specific allowances, usually based on book value."
+  },
+  {
+    "id": 7,
+    "question": "How is RWA for credit risk calculated?",
+    "answer": "As the sum of credit RWA for banking book exposures and counterparty credit risk."
+  },
+  {
+    "id": 8,
+    "question": "How is the consolidated countercyclical buffer calculated?",
+    "answer": "It is a weighted average of the buffers deployed in Canada and across BCBS member jurisdictions where the institution has private sector credit exposures."
+  },
+  {
+    "id": 9,
+    "question": "How is the countercyclical buffer calculated for Category III SMSBs?",
+    "answer": "As a percentage of Adjusted Total Assets plus RWA for Operational Risk."
+  },
+  {
+    "id": 10,
+    "question": "How is the countercyclical buffer implemented for institutions with private sector credit exposures outside Canada?",
+    "answer": "It is calculated as a weighted average of the countercyclical buffers applied in jurisdictions where they have credit exposures."
+  },
+  {
+    "id": 11,
+    "question": "How many chapters are included in the Capital Adequacy Requirements (CAR) document?",
+    "answer": "Nine chapters."
+  },
+  {
+    "id": 12,
+    "question": "How often does OSFI monitor compliance with the 80% IRB threshold?",
+    "answer": "On a quarterly basis."
+  },
+  {
+    "id": 13,
+    "question": "How often does OSFI review the Domestic Stability Buffer?",
+    "answer": "OSFI reviews the buffer semi-annually, in June and December."
+  },
+  {
+    "id": 14,
+    "question": "How often is the calibration of the DSB reviewed by OSFI?",
+    "answer": "Semi-annually."
+  },
+  {
+    "id": 15,
+    "question": "How often will the D-SIB surcharge be reviewed?",
+    "answer": "Periodically, in light of national and international developments."
+  },
+  {
+    "id": 16,
+    "question": "How should institutions determine the jurisdiction of a private sector credit exposure?",
+    "answer": "Institutions should use an ultimate risk basis, referring to the jurisdiction where the final risk lies."
+  },
+  {
+    "id": 17,
+    "question": "How will the decision to adjust the countercyclical buffer be communicated?",
+    "answer": "It will be formally communicated by the Superintendent."
+  },
+  {
+    "id": 18,
+    "question": "What actions can institutions take to rebuild capital buffers?",
+    "answer": "Reduce discretionary distributions, raise new capital, or implement a capital restoration plan."
+  },
+  {
+    "id": 19,
+    "question": "What additional capital requirements do Domestic Systemically Important Banks (D-SIBs) have?",
+    "answer": "D-SIBs must maintain target capital ratios equal to or greater than minimum ratios plus the conservation buffer, D-SIB surcharge, and DSB."
+  },
+  {
+    "id": 20,
+    "question": "What adjustments are made for own-use property accounted for using the revaluation model?",
+    "answer": "Reported exposures are based on adjusted book value, reversing revaluation surplus and losses."
+  },
+  {
+    "id": 21,
+    "question": "What approaches are not permitted in the calculation of the capital floor?",
+    "answer": "IRB approach to credit risk, SEC-IRBA, IMA for market risk, VaR models for counterparty credit risk, and IMM for counterparty credit risk."
+  },
+  {
+    "id": 22,
+    "question": "What approaches can be used to calculate credit RWA for banking book exposures?",
+    "answer": "The standardized approach or the Internal Ratings-Based (IRB) approach."
+  },
+  {
+    "id": 23,
+    "question": "What are credit risk RWAs calculated using?",
+    "answer": "The standardized approach for all asset classes except securitization."
+  },
+  {
+    "id": 24,
+    "question": "What are some supervisory practices expected for D-SIBs?",
+    "answer": "Extensive use of supervisory colleges, more frequent monitoring of risk management, and regular stress tests."
+  },
+  {
+    "id": 25,
+    "question": "What are the approaches for calculating RWA for securitization exposures?",
+    "answer": "Securitization Standardized Approach (SEC-SA), SEC-ERBA, SEC-IRBA, SEC-IAA, or a risk weight of 1250%."
+  },
+  {
+    "id": 26,
+    "question": "What are the expected public information disclosure practices for Canadian D-SIBs?",
+    "answer": "They are expected to have among the best practices internationally, covering financial condition and risk management activities."
+  },
+  {
+    "id": 27,
+    "question": "What are the methods for calculating RWA for equity investments in funds?",
+    "answer": "The look-through approach, mandate-based approach, or fall-back approach."
+  },
+  {
+    "id": 28,
+    "question": "What are the minimum capital conservation ratios for CET1?",
+    "answer": "100% in the first quartile, 80% in the second quartile, 60% in the third quartile, 40% in the fourth quartile, and 0% above the top of the buffer."
+  },
+  {
+    "id": 29,
+    "question": "What are the target capital ratios for Small and Medium-sized Banks (SMSBs)?",
+    "answer": "At least 7% for CET1, 8.5% for Tier 1, and 10.5% for Total capital."
+  },
+  {
+    "id": 30,
+    "question": "What are the two approaches for calculating RWA for operational risk?",
+    "answer": "The Simplified Standardized Approach and the Standardized Approach."
+  },
+  {
+    "id": 31,
+    "question": "What are the two minimum standards established by the Superintendent for assessing capital adequacy?",
+    "answer": "The leverage ratio and the risk-based capital ratio."
+  },
+  {
+    "id": 32,
+    "question": "What capital floor may institutions achieving conditional approval be required to adhere to?",
+    "answer": "A higher initial capital floor until full compliance is achieved."
+  },
+  {
+    "id": 33,
+    "question": "What capital must institutions meet the countercyclical buffer with?",
+    "answer": "Institutions must meet the countercyclical buffer with CET1."
+  },
+  {
+    "id": 34,
+    "question": "What conditions exempt dividends from being considered distributions?",
+    "answer": "Dividends must be legally uncancellable, already removed from CET1, and declared according to the applicable capital conservation ratio."
+  },
+  {
+    "id": 35,
+    "question": "What conditions may OSFI impose for approving model-based approaches?",
+    "answer": "Approval with conditions for institutions that satisfy most requirements and provide adequate back-testing."
+  },
+  {
+    "id": 36,
+    "question": "What does OSFI do in relation to the countercyclical buffer?",
+    "answer": "OSFI monitors credit growth and other indicators to assess whether credit growth is excessive and may lead to system-wide risks."
+  },
+  {
+    "id": 37,
+    "question": "What does OSFI stand for?",
+    "answer": "Office of the Superintendent of Financial Institutions."
+  },
+  {
+    "id": 38,
+    "question": "What does RWA stand for in the context of capital requirements?",
+    "answer": "Risk-Weighted Assets."
+  },
+  {
+    "id": 39,
+    "question": "What does substitutability refer to in the context of systemic importance?",
+    "answer": "It refers to how easily an institution can be replaced as a market participant and financial service provider."
+  },
+  {
+    "id": 40,
+    "question": "What does Table 6 outline in relation to capital conservation?",
+    "answer": "Table 6 provides the minimum capital conservation ratios an institution must meet at various levels of the CET1 capital ratio."
+  },
+  {
+    "id": 41,
+    "question": "What does the acronym OSFI stand for?",
+    "answer": "Office of the Superintendent of Financial Institutions."
+  },
+  {
+    "id": 42,
+    "question": "What does the BCBS D-SIB framework allow for?",
+    "answer": "National discretion to accommodate characteristics of the domestic financial system and other local features."
+  },
+  {
+    "id": 43,
+    "question": "What does the capital conservation buffer aim to achieve?",
+    "answer": "It aims to ensure that institutions maintain a buffer of capital to absorb losses during periods of financial stress."
+  },
+  {
+    "id": 44,
+    "question": "What does the capital conservation buffer aim to ensure?",
+    "answer": "It aims to ensure that banks maintain a buffer of capital above the minimum requirements."
+  },
+  {
+    "id": 45,
+    "question": "What does the IRB use test prohibit?",
+    "answer": "It prohibits institutions from using default and loss estimates solely for calculating regulatory capital; these systems must be used in other operations."
+  },
+  {
+    "id": 46,
+    "question": "What does the risk-based capital ratio focus on?",
+    "answer": "The risk faced by the institution."
+  },
+  {
+    "id": 47,
+    "question": "What does TLAC stand for?",
+    "answer": "Total Loss-Absorbing Capacity."
+  },
+  {
+    "id": 48,
+    "question": "What does 'ultimate risk' refer to in credit exposure?",
+    "answer": "The jurisdiction where the final risk lies, not where the exposure is booked."
+  },
+  {
+    "id": 49,
+    "question": "What do the capital ratios measure?",
+    "answer": "CET1, Tier 1, and Total capital adequacy."
+  },
+  {
+    "id": 50,
+    "question": "What factors are considered in assessing domestic systemic importance?",
+    "answer": "Factors include size, inter-connectedness, and substitutability of the institution."
+  },
+  {
+    "id": 51,
+    "question": "What happens if a D-SIB breaches the Domestic Stability Buffer?",
+    "answer": "OSFI will require a remediation plan and may intervene if not executed satisfactorily."
+  },
+  {
+    "id": 52,
+    "question": "What happens if an institution breaches the extended countercyclical buffer?",
+    "answer": "It will face restrictions on distributions of earnings."
+  },
+  {
+    "id": 53,
+    "question": "What happens if an institution does not receive approval for model-based approaches?",
+    "answer": "They must employ a form of the Standardized Approach."
+  },
+  {
+    "id": 54,
+    "question": "What happens if an institution is offside the relevant target capital ratios?",
+    "answer": "Supervisory action will be taken proportional to the shortfall, which may include restrictions on distributions."
+  },
+  {
+    "id": 55,
+    "question": "What happens if the capital floor amount is larger than the adjusted capital requirement?",
+    "answer": "Institutions must add the difference to the total RWAs calculated under the guideline."
+  },
+  {
+    "id": 56,
+    "question": "What happens to the countercyclical buffer during periods of reduced system-wide risks?",
+    "answer": "The requirement will be released when OSFI assesses that system-wide risks have dissipated."
+  },
+  {
+    "id": 57,
+    "question": "What happens when capital levels fall within the capital conservation buffer range?",
+    "answer": "Capital distribution constraints are imposed, but institutions can operate normally."
+  },
+  {
+    "id": 58,
+    "question": "What happens when OSFI believes D-SIBs should hold additional capital?",
+    "answer": "Increases to the buffer may occur, subject to a phase-in period."
+  },
+  {
+    "id": 59,
+    "question": "What is included in the adjusted capital requirement calculation?",
+    "answer": "Total risk-weighted assets, provisioning shortfall deduction, excess provisions in Tier 2, and general allowances in Tier 2."
+  },
+  {
+    "id": 60,
+    "question": "What is included in Tier 1 capital?",
+    "answer": "Common Equity Tier 1 (CET1) capital and Additional Tier 1 capital."
+  },
+  {
+    "id": 61,
+    "question": "What is required for institutions to use model-based approaches for regulatory capital?",
+    "answer": "Explicit prior approval from OSFI."
+  },
+  {
+    "id": 62,
+    "question": "What is the adjustment factor for the capital floor normally set at?",
+    "answer": "72.5%, phased in from 65% in 2023 to 72.5% in 2026."
+  },
+  {
+    "id": 63,
+    "question": "What is the Basel Framework?",
+    "answer": "A set of international banking regulations developed by the Basel Committee on Banking Supervision."
+  },
+  {
+    "id": 64,
+    "question": "What is the base of the capital floor derived from?",
+    "answer": "It includes standardized approaches to credit risk and operational risk."
+  },
+  {
+    "id": 65,
+    "question": "What is the capital conservation buffer as a percentage of Risk-Weighted Assets (RWA)?",
+    "answer": "0.025"
+  },
+  {
+    "id": 66,
+    "question": "What is the capital conservation buffer for D-SIBs at a CET1 ratio of 4.5% - 5.375%?",
+    "answer": "100%."
+  },
+  {
+    "id": 67,
+    "question": "What is the capital conservation buffer's role in capital requirements?",
+    "answer": "It establishes a safeguard above minimum capital requirements."
+  },
+  {
+    "id": 68,
+    "question": "What is the capital conservation ratio for a CET1 ratio above 5.75%?",
+    "answer": "60% of earnings must be retained."
+  },
+  {
+    "id": 69,
+    "question": "What is the capital conservation ratio for a CET1 ratio above 6.375%?",
+    "answer": "40% of earnings must be retained."
+  },
+  {
+    "id": 70,
+    "question": "What is the capital conservation ratio for a CET1 ratio above 7.0%?",
+    "answer": "0% of earnings must be retained."
+  },
+  {
+    "id": 71,
+    "question": "What is the capital conservation ratio for a CET1 ratio between 4.5% and 5.125%?",
+    "answer": "100% of earnings must be retained."
+  },
+  {
+    "id": 72,
+    "question": "What is the capital conservation ratio for a CET1 ratio between 5.75% and 6.375%?",
+    "answer": "60% of earnings must be retained."
+  },
+  {
+    "id": 73,
+    "question": "What is the capital conservation ratio for a CET1 ratio between 6.375% and 7.0%?",
+    "answer": "40% of earnings must be retained."
+  },
+  {
+    "id": 74,
+    "question": "What is the capital conservation ratio for D-SIBs with a CET1 ratio greater than 8.0%?",
+    "answer": "0%."
+  },
+  {
+    "id": 75,
+    "question": "What is the capital floor adjustment factor for 2024?",
+    "answer": "67.5%."
+  },
+  {
+    "id": 76,
+    "question": "What is the capital floor adjustment factor for 2025?",
+    "answer": "70%."
+  },
+  {
+    "id": 77,
+    "question": "What is the capital floor adjustment factor for 2026?",
+    "answer": "72.5%."
+  },
+  {
+    "id": 78,
+    "question": "What is the capital surcharge for Canadian D-SIBs?",
+    "answer": "A 1% surcharge on top of the current capital targets to enhance loss absorbency."
+  },
+  {
+    "id": 79,
+    "question": "What is the consequence of a D-SIB breaching its capital requirements?",
+    "answer": "It must apply the most constraining capital conservation ratio."
+  },
+  {
+    "id": 80,
+    "question": "What is the consequence of depleting capital buffers?",
+    "answer": "Institutions cannot justify generous distributions based on future recovery predictions."
+  },
+  {
+    "id": 81,
+    "question": "What is the consolidated entity expected to do regarding capital according to OSFI?",
+    "answer": "Hold capital within the consolidated group consistent with the level and location of risk."
+  },
+  {
+    "id": 82,
+    "question": "What is the countercyclical buffer's purpose?",
+    "answer": "It ensures that banking sector capital requirements account for the macro-financial environment and protects against future potential losses."
+  },
+  {
+    "id": 83,
+    "question": "What is the definition of private sector credit exposures?",
+    "answer": "Exposures to private sector counterparties that attract a credit risk capital charge in the banking book and specific risk charges in the trading book, excluding interbank and public sector exposures."
+  },
+  {
+    "id": 84,
+    "question": "What is the definition of Total Risk-weighted Assets (RWA)?",
+    "answer": "RWA is calculated as the higher of the sum of RWA for credit risk, market risk, and operational risk, or the adjusted RWA determined as per the capital floor."
+  },
+  {
+    "id": 85,
+    "question": "What is the Domestic Stability Buffer (DSB)?",
+    "answer": "A buffer that Domestic Systemically Important Banks (D-SIBs) should consider in their internal capital planning and report in quarterly disclosures."
+  },
+  {
+    "id": 86,
+    "question": "What is the Domestic Stability Buffer (DSB) intended to cover?",
+    "answer": "Systemic vulnerabilities not adequately captured in Pillar 1 capital requirements."
+  },
+  {
+    "id": 87,
+    "question": "What is the Domestic Systemically Important Bank (D-SIB) surcharge?",
+    "answer": "A CET1 surcharge equal to 1% of RWAs for designated D-SIBs."
+  },
+  {
+    "id": 88,
+    "question": "What is the effect of capital distribution constraints as capital levels approach minimum requirements?",
+    "answer": "Constraints increase as capital levels approach the minimum requirements."
+  },
+  {
+    "id": 89,
+    "question": "What is the expected compliance timeline for institutions with foreign exposures?",
+    "answer": "They must match host jurisdictions' implementation timelines unless shorter than 6 months."
+  },
+  {
+    "id": 90,
+    "question": "What is the expected evolution of vulnerabilities covered by the DSB?",
+    "answer": "Vulnerabilities are expected to evolve based on current market conditions and forward-looking expectations."
+  },
+  {
+    "id": 91,
+    "question": "What is the expected frequency of on- and off-site monitoring for D-SIBs?",
+    "answer": "Greater frequency and intensity compared to non-D-SIBs."
+  },
+  {
+    "id": 92,
+    "question": "What is the expected impact of a D-SIB failure on the Canadian economy?",
+    "answer": "It could have large adverse impacts, making it difficult to differentiate between the effects of individual bank failures."
+  },
+  {
+    "id": 93,
+    "question": "What is the expected outcome of implementing the capital floor?",
+    "answer": "To ensure that capital requirements do not fall below a certain percentage derived from standardized approaches."
+  },
+  {
+    "id": 94,
+    "question": "What is the expected outcome of the higher loss absorbency targets for D-SIBs?",
+    "answer": "To ensure they can weather a wide range of severe but plausible shocks without becoming non-viable."
+  },
+  {
+    "id": 95,
+    "question": "What is the expected supervisory approach for Canadian D-SIBs?",
+    "answer": "D-SIBs are expected to have advanced practices in oversight functions and internal controls, with more intensive supervision due to their size and risk profiles."
+  },
+  {
+    "id": 96,
+    "question": "What is the focus of Chapter 3 in the CAR guidelines?",
+    "answer": "Operational Risk."
+  },
+  {
+    "id": 97,
+    "question": "What is the focus of Chapter 4 in the CAR guidelines?",
+    "answer": "Credit Risk - Standardized Approach."
+  },
+  {
+    "id": 98,
+    "question": "What is the focus of Chapter 5 in the CAR guidelines?",
+    "answer": "Credit Risk - Internal Ratings-Based Approach."
+  },
+  {
+    "id": 99,
+    "question": "What is the focus of Chapter 6 in the CAR guidelines?",
+    "answer": "Securitization."
+  },
+  {
+    "id": 100,
+    "question": "What is the focus of Chapter 7 in the CAR guidelines?",
+    "answer": "Settlement and Counterparty Risk."
+  },
+  {
+    "id": 101,
+    "question": "What is the focus of Chapter 8 in the CAR guidelines?",
+    "answer": "Credit Valuation Adjustment (CVA) Risk."
+  },
+  {
+    "id": 102,
+    "question": "What is the focus of Chapter 9 in the CAR guidelines?",
+    "answer": "Market Risk."
+  },
+  {
+    "id": 103,
+    "question": "What is the formula for calculating risk-based capital ratios?",
+    "answer": "Risk Based Capital Ratios = Capital / RWA."
+  },
+  {
+    "id": 104,
+    "question": "What is the impact of a decrease in the DSB?",
+    "answer": "It allows D-SIBs to continue providing loans and services or to incur losses without breaching capital targets."
+  },
+  {
+    "id": 105,
+    "question": "What is the importance of distinguishing between D-SIBs?",
+    "answer": "It is largely moot due to the similar systemic importance of the largest banks."
+  },
+  {
+    "id": 106,
+    "question": "What is the maximum countercyclical buffer for foreign private sector credit exposures?",
+    "answer": "2.5% of total Risk-Weighted Assets (RWAs)."
+  },
+  {
+    "id": 107,
+    "question": "What is the maximum percentage for the consolidated countercyclical buffer?",
+    "answer": "The maximum is 2.5% of total risk-weighted assets."
+  },
+  {
+    "id": 108,
+    "question": "What is the minimum capital conservation ratio for a CET1 ratio between 5.125% and 5.75%?",
+    "answer": "80% of earnings must be retained."
+  },
+  {
+    "id": 109,
+    "question": "What is the minimum CET1 capital ratio with the capital conservation buffer included?",
+    "answer": "0.07"
+  },
+  {
+    "id": 110,
+    "question": "What is the minimum Common Equity Tier 1 (CET1) capital ratio?",
+    "answer": "0.045"
+  },
+  {
+    "id": 111,
+    "question": "What is the minimum Tier 1 capital ratio?",
+    "answer": "0.06"
+  },
+  {
+    "id": 112,
+    "question": "What is the minimum Tier 1 capital ratio with the capital conservation buffer included?",
+    "answer": "0.085"
+  },
+  {
+    "id": 113,
+    "question": "What is the minimum total capital ratio?",
+    "answer": "0.08"
+  },
+  {
+    "id": 114,
+    "question": "What is the minimum total capital ratio with the capital conservation buffer included?",
+    "answer": "0.105"
+  },
+  {
+    "id": 115,
+    "question": "What is the primary role of the five largest banks in Canada?",
+    "answer": "They are the dominant banks in Canada and play central roles in a range of activities in the Canadian financial system."
+  },
+  {
+    "id": 116,
+    "question": "What is the purpose of capital buffers?",
+    "answer": "To increase institutions' resilience during downturns and support ongoing operations."
+  },
+  {
+    "id": 117,
+    "question": "What is the purpose of higher loss absorbency targets for D-SIBs?",
+    "answer": "To reduce the probability of failure of a D-SIB relative to non-systemic institutions, reflecting the greater impact that a D-SIB failure may have on the financial system and economy."
+  },
+  {
+    "id": 118,
+    "question": "What is the purpose of pre-announcing decisions regarding the countercyclical buffer?",
+    "answer": "To give institutions time to adjust to the buffer level."
+  },
+  {
+    "id": 119,
+    "question": "What is the purpose of stress tests for D-SIBs?",
+    "answer": "To inform capital and liquidity assessments and ensure resilience in crisis scenarios."
+  },
+  {
+    "id": 120,
+    "question": "What is the purpose of the additional capital surcharge for D-SIBs?",
+    "answer": "To provide credible additional loss absorbency in the face of extreme loss events."
+  },
+  {
+    "id": 121,
+    "question": "What is the purpose of the adjusted Risk-Weighted Assets (RWA)?",
+    "answer": "To determine capital floor requirements as described in section 1.5."
+  },
+  {
+    "id": 122,
+    "question": "What is the purpose of the capital floor in internal model-based approaches?",
+    "answer": "To reduce excessive variability of RWA and enhance comparability of risk-based capital ratios."
+  },
+  {
+    "id": 123,
+    "question": "What is the purpose of the Capital Floor in the CAR framework?",
+    "answer": "To set a minimum level of capital that institutions must maintain."
+  },
+  {
+    "id": 124,
+    "question": "What is the purpose of the conservation buffer?",
+    "answer": "It is the sum of the 2.5% capital conservation buffer plus any applicable countercyclical buffer add-ons."
+  },
+  {
+    "id": 125,
+    "question": "What is the purpose of the countercyclical buffer?",
+    "answer": "To address systemic risks and ensure banks maintain adequate capital during economic cycles."
+  },
+  {
+    "id": 126,
+    "question": "What is the purpose of the Guidance for national authorities operating the countercyclical capital buffer?",
+    "answer": "It sets out principles for national authorities to follow in making buffer decisions and helps institutions anticipate those decisions."
+  },
+  {
+    "id": 127,
+    "question": "What is the purpose of the provisioning shortfall deduction?",
+    "answer": "To adjust the capital requirement based on recognized shortfalls in provisions."
+  },
+  {
+    "id": 128,
+    "question": "What is the purpose of the Total Loss Absorbing Capacity (TLAC) Guideline?",
+    "answer": "To supplement capital and leverage requirements for domestic systemically important banks."
+  },
+  {
+    "id": 129,
+    "question": "What is the range for the DSB as a percentage of total RWAs?",
+    "answer": "Between 0 and 4.0%."
+  },
+  {
+    "id": 130,
+    "question": "What is the range of the countercyclical buffer requirement in Canada?",
+    "answer": "The countercyclical buffer requirement can range from 0% to 2.5% of total risk-weighted assets."
+  },
+  {
+    "id": 131,
+    "question": "What is the relationship between Canadian D-SIBs and G-SIBs?",
+    "answer": "For Canadian D-SIBs that are also designated as G-SIBs, the higher of the D-SIB and G-SIB surcharges will apply."
+  },
+  {
+    "id": 132,
+    "question": "What is the relationship between D-SIBs and the Canadian economy?",
+    "answer": "D-SIBs are assessed for their systemic importance based on the potential impact of their failure on the domestic economy."
+  },
+  {
+    "id": 133,
+    "question": "What is the relationship between the countercyclical buffer and capital conservation buffer?",
+    "answer": "The countercyclical buffer is an extension of the capital conservation buffer, impacting distribution restrictions."
+  },
+  {
+    "id": 134,
+    "question": "What is the relationship between the countercyclical buffer and the capital conservation buffer?",
+    "answer": "The countercyclical buffer is implemented through an extension of the capital conservation buffer."
+  },
+  {
+    "id": 135,
+    "question": "What is the requirement for D-SIBs and SMSBs with adjusted gross income greater than $1.5 billion?",
+    "answer": "They must use the standardized approach for operational risk."
+  },
+  {
+    "id": 136,
+    "question": "What is the risk associated with maintaining generous distributions when capital buffers are depleted?",
+    "answer": "Stakeholders must bear the risk of recovery not occurring."
+  },
+  {
+    "id": 137,
+    "question": "What is the role of OSFI in relation to the Basel Committee on Banking Supervision?",
+    "answer": "OSFI participates in the development of the Basel capital framework."
+  },
+  {
+    "id": 138,
+    "question": "What is the role of OSFI in the context of the IRB approach?",
+    "answer": "OSFI monitors compliance with the IRB threshold and assesses capital requirements."
+  },
+  {
+    "id": 139,
+    "question": "What is the role of supervisory colleges in the oversight of D-SIBs?",
+    "answer": "To share and coordinate supervision with relevant host country authorities of major foreign subsidiaries and affiliates."
+  },
+  {
+    "id": 140,
+    "question": "What is the role of the Bank of Canada regarding the countercyclical buffer?",
+    "answer": "It serves as the primary source of public information on macro-financial developments and vulnerabilities related to the countercyclical buffer."
+  },
+  {
+    "id": 141,
+    "question": "What is the role of the Financial Institutions Supervisory Committee (FISC) in the DSB?",
+    "answer": "To inform decisions on the calibration of the DSB based on supervisory judgment."
+  },
+  {
+    "id": 142,
+    "question": "What is the role of the Financial Stability Board (FSB) in relation to D-SIBs?",
+    "answer": "The FSB provides recommendations for enhanced disclosure practices for banks to improve market confidence."
+  },
+  {
+    "id": 143,
+    "question": "What is the role of the OSFI in setting the DSB?",
+    "answer": "OSFI communicates the DSB level-setting announcements semi-annually and may adjust the buffer in exceptional circumstances."
+  },
+  {
+    "id": 144,
+    "question": "What is the role of the SAC in relation to the countercyclical buffer?",
+    "answer": "The SAC, chaired by the Deputy Minister of Finance, provides a forum for policy discussion on financial sector issues and assists OSFI in monitoring credit growth."
+  },
+  {
+    "id": 145,
+    "question": "What is the role of the Superintendent regarding target capital ratios?",
+    "answer": "The Superintendent may set higher target capital ratios for institutions based on specific risks not captured by Pillar I requirements."
+  },
+  {
+    "id": 146,
+    "question": "What is the RWA for credit valuation adjustment (CVA) risk calculated using?",
+    "answer": "Either the standardized approach for CVA or the advanced approach for CVA."
+  },
+  {
+    "id": 147,
+    "question": "What is the RWA for exposures to central counterparties based on?",
+    "answer": "The approach set out in Chapter 7."
+  },
+  {
+    "id": 148,
+    "question": "What is the significance of guarantees and credit derivatives in determining ultimate obligor residence?",
+    "answer": "They are considered, but collateral is not, except in specific cases like Project Finance."
+  },
+  {
+    "id": 149,
+    "question": "What is the significance of inter-connectedness in assessing systemic importance?",
+    "answer": "The more inter-connected an institution is to others, the greater the potential for problems to transmit throughout the financial system."
+  },
+  {
+    "id": 150,
+    "question": "What is the significance of the 4.5% minimum CET1 requirement?",
+    "answer": "It is the baseline requirement that institutions must meet before considering additional CET1 needed for higher capital requirements."
+  },
+  {
+    "id": 151,
+    "question": "What is the significance of the 2008-2009 financial crisis for Canadian D-SIBs?",
+    "answer": "It highlighted the benefits of retail funding models over wholesale funding for resilience during financial stress."
+  },
+  {
+    "id": 152,
+    "question": "What is the significance of the capital conservation buffer?",
+    "answer": "It applies to the minimum capital ratios before their application."
+  },
+  {
+    "id": 153,
+    "question": "What is the significance of the capital conservation buffer in relation to D-SIBs?",
+    "answer": "It is part of the capital requirements that help ensure banks can absorb losses during periods of financial stress."
+  },
+  {
+    "id": 154,
+    "question": "What is the significance of the CLS Bank in relation to Canadian banks?",
+    "answer": "It settles foreign exchange transactions between banks in Canadian dollars and other major currencies."
+  },
+  {
+    "id": 155,
+    "question": "What is the significance of the Domestic Systemically Important Bank (D-SIB) Surcharge?",
+    "answer": "It is an additional capital requirement for banks deemed to be systemically important."
+  },
+  {
+    "id": 156,
+    "question": "What is the significance of the DSB in times of stress?",
+    "answer": "It supports institutions' ability to use capital effectively by improving understanding of its purpose and usage."
+  },
+  {
+    "id": 157,
+    "question": "What is the significance of the geographic location of private sector exposures?",
+    "answer": "It determines the jurisdiction's countercyclical buffer that applies to the credit exposure."
+  },
+  {
+    "id": 158,
+    "question": "What is the Simplified Risk-Based Capital Ratio (SRBCR) for Category III SMSBs?",
+    "answer": "SRBCR = Capital / (Adjusted Total Assets + RWA Operational Risk)"
+  },
+  {
+    "id": 159,
+    "question": "What is the target CET1 capital ratio for D-SIBs?",
+    "answer": "At least 8% plus the Domestic Stability Buffer."
+  },
+  {
+    "id": 160,
+    "question": "What is the target Total capital ratio for D-SIBs?",
+    "answer": "At least 11.5% plus the Domestic Stability Buffer."
+  },
+  {
+    "id": 161,
+    "question": "What is the threshold for institutions to use IRB approaches in Canada and the US?",
+    "answer": "Total regulatory capital in excess of CAD $5 billion or greater than 10% of total assets/liabilities that are international."
+  },
+  {
+    "id": 162,
+    "question": "What is the treatment for on-balance sheet exposures under the standardized approach?",
+    "answer": "Normally measured at book value, with exceptions for certain loans and properties."
+  },
+  {
+    "id": 163,
+    "question": "What is the treatment of securitization exposures under the capital floor?",
+    "answer": "Outlined in section 6.11 of Chapter 6 of the guideline."
+  },
+  {
+    "id": 164,
+    "question": "What items are considered distributions under capital requirements?",
+    "answer": "Distributions include dividends, share buybacks, discretionary payments on CET1 and Additional Tier 1 capital instruments, and discretionary bonus payments to staff."
+  },
+  {
+    "id": 165,
+    "question": "What methods are available to determine the size of counterparty exposures?",
+    "answer": "Standardized approach (SA-CCR), comprehensive approach, VaR models approach, and Internal Model Method (IMM)."
+  },
+  {
+    "id": 166,
+    "question": "What must an institution do if it breaches multiple capital requirements?",
+    "answer": "It must apply the most constraining capital conservation ratio."
+  },
+  {
+    "id": 167,
+    "question": "What must banks with OSFI approval use to calculate counterparty credit risk exposures?",
+    "answer": "EAD must be calculated according to sections 7.1.3 through 7.1.5."
+  },
+  {
+    "id": 168,
+    "question": "What must D-SIBs do if they do not meet capital conservation requirements?",
+    "answer": "They face restrictions on distributions like dividends and share buy-backs."
+  },
+  {
+    "id": 169,
+    "question": "What must institutions disclose regarding their countercyclical buffer?",
+    "answer": "The buffer calculation frequency and the geographic breakdown of private sector credit exposures."
+  },
+  {
+    "id": 170,
+    "question": "What must institutions do if they wish to exceed capital distribution constraints?",
+    "answer": "Raise sufficient capital from the private sector."
+  },
+  {
+    "id": 171,
+    "question": "What must institutions do regarding the treatment of credit risk mitigation?",
+    "answer": "Follow the standardized approach outlined in the guideline."
+  },
+  {
+    "id": 172,
+    "question": "What must institutions implement if capital buffers are drawn down?",
+    "answer": "A capital restoration plan within a reasonable timeframe."
+  },
+  {
+    "id": 173,
+    "question": "What must institutions meet to use the IRB Approaches to Credit Risk?",
+    "answer": "Institutions must meet qualitative and quantitative requirements for an IRB rating system."
+  },
+  {
+    "id": 174,
+    "question": "What percentage of consolidated credit exposures must institutions roll out the Advanced IRB or Foundation IRB approach to?",
+    "answer": "Approximately 80% as of the end of the fiscal year prior to receiving approval."
+  },
+  {
+    "id": 175,
+    "question": "What triggers a decrease in the Domestic Stability Buffer?",
+    "answer": "A decrease may occur when OSFI identifies diminished exposures to vulnerabilities or when risks have materialized."
+  },
+  {
+    "id": 176,
+    "question": "What types of exposures are excluded from the Basel Framework?",
+    "answer": "Interbank exposures and exposures to the public sector."
+  },
+  {
+    "id": 177,
+    "question": "What types of institutions fall under the category of small and medium-sized deposit-taking institutions (SMSBs)?",
+    "answer": "Banks, bank holding companies, federally regulated trust companies, and federally regulated loan companies not designated as D-SIBs."
+  },
+  {
+    "id": 178,
+    "question": "When must capital conservation ratios be recalculated?",
+    "answer": "At each distribution date."
+  },
+  {
+    "id": 179,
+    "question": "Which banks are designated as Canadian D-SIBs?",
+    "answer": "Bank of Montreal, The Bank of Nova Scotia, Canadian Imperial Bank of Commerce, Royal Bank of Canada, The Toronto-Dominion Bank, and National Bank of Canada."
+  },
+  {
+    "id": 180,
+    "question": "Which institutions are required to maintain adequate capital according to the CAR Guideline?",
+    "answer": "Banks, bank holding companies, federally regulated trust companies, and federally regulated loan companies."
+  },
+  {
+    "id": 181,
+    "question": "Who comprises the Financial Institutions Supervisory Committee under the OSFI Act?",
+    "answer": "The committee includes the Superintendent of Financial Institutions, the Commissioner of the Financial Consumer Agency of Canada, the Governor of the Bank of Canada, the CEO of the Canada Deposit Insurance Corporation, and the Deputy Minister of Finance."
+  },
+  {
+    "id": 182,
+    "question": "Who is subject to market risk requirements?",
+    "answer": "Internationally active institutions and those designated by OSFI as Domestic Systemically Important Banks (D-SIBs)."
+  }
+]
