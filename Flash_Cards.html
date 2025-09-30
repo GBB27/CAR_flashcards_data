@@ -12,19 +12,21 @@
     padding: 20px; }
 
   h1 { text-align: center; 
-       margin: 20px; 
+       margin: 20px;
+       margin-left: 50px; 
+       margin-right: 50px; 
        font-size: 1rem; 
        color: #e0e0e0; }
 
   /* Sidebar */
-  .sidebar { position: fixed; top: 30px; left: 0; width: 300px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
+  .sidebar { position: fixed; top: 25px; left: 0; width: 300px; background: #fff; padding: 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transform: translateX(calc(-100% - 15px)); transition: transform 0.3s ease; z-index: 9999; }
   .sidebar.open { transform: translateX(0); }
   .sidebar h2 { font-size: 1.4rem; margin-top: 0; color: #47549c; text-align: center; }
   .sidebar ul { list-style: none; padding: 0; margin: 0; }
   .sidebar li { margin: 20px 0; padding-left: 60px; font-size: 1rem; }
   .sidebar a { text-decoration: none; color: #111827; transition: color 0.2s; }
   .sidebar a:hover, .sidebar a.active-chapter { color: #47549c; font-weight: bold; }
-  .sidebar-toggle { position: fixed; top: 20px; left: 0; font-size: 14px; background: #47549c; color: white; border: none; padding: 12px 18px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
+  .sidebar-toggle { position: fixed; top: 20px; left: 0; font-size: 14px; background: #47549c; color: white; border: none; padding: 15px 20px; cursor: pointer; z-index: 10000; border-radius: 0 5px 5px 0; }
 
   #infoPanel {
     position: fixed;
@@ -127,7 +129,7 @@
 </head>
 <body>
 
-<h1>Capital Adequacy Requirements (CAR) - Guideline (2024)</h1>
+<h1>Capital Adequacy Requirements - Guideline (2024)</h1>
 
 <!-- Top controls container -->
 <div style="display:flex; align-items:center; justify-content:center; gap:10px; margin-top:70px; margin-bottom:30px; flex-wrap: wrap;">
@@ -170,7 +172,7 @@
   </ul>
 </div>
 
-<button class="sidebar-toggle" id="infoToggle" style="top: 70px; left: 0; background: #47549c;">
+<button class="sidebar-toggle" id="infoToggle" style="top: 75px; left: 0; background: #47549c;">
   <i class="fa-solid fa-circle-info"></i>
 </button>
 
@@ -277,12 +279,48 @@ playPauseBtn.addEventListener('click', ()=>{
   else stopAutoOnInteraction();
 });
 
-function startAutoPlay(){ autoIndex=currentIndex; showingAnswer=false; renderFlashcards(); playInterval=setTimeout(autoPlayStep,8000); }
+function calculateDelay(text) {
+  // remove spaces, count chars
+  const charCount = text.replace(/\s+/g, '').length;
+  // minimum 2s so short cards don’t skip instantly
+  return Math.max(2000, charCount * 100) + 2;  // 2 sec for thinking
+}
+
+function startAutoPlay(){
+  autoIndex = currentIndex;
+  showingAnswer = false;
+  renderFlashcards();
+  const card = flashcards[autoIndex];
+  const delay = calculateDelay(card.question);
+  playInterval = setTimeout(autoPlayStep, delay);
+}
+
 function autoPlayStep(){
-  const cardInner=document.querySelector('.card-inner'); if(!cardInner) return;
-  cardInner.classList.toggle('flipped'); showingAnswer=!showingAnswer;
-  if(!showingAnswer){ if(autoIndex<flashcards.length-1){ autoIndex++; currentIndex=autoIndex; seenCount=Math.max(seenCount,currentIndex); renderFlashcards(); } else { stopAutoOnInteraction(); return; } }
-  playInterval=setTimeout(autoPlayStep,8000);
+  const cardInner = document.querySelector('.card-inner');
+  if(!cardInner) return;
+
+  cardInner.classList.toggle('flipped');
+  showingAnswer = !showingAnswer;
+
+  const card = flashcards[autoIndex];
+  let delay;
+
+  if(showingAnswer){
+    delay = calculateDelay(card.answer); // show answer
+  } else {
+    if(autoIndex < flashcards.length - 1){
+      autoIndex++;
+      currentIndex = autoIndex;
+      seenCount = Math.max(seenCount, currentIndex);
+      renderFlashcards();
+      delay = calculateDelay(flashcards[autoIndex].question); // next question
+    } else {
+      stopAutoOnInteraction();
+      return;
+    }
+  }
+
+  playInterval = setTimeout(autoPlayStep, delay);
 }
 
 // Essentials/Details toggle
@@ -306,11 +344,11 @@ function renderFlashcards(){
   if(flashcards.length===0){ progressBar.style.width='0%'; progressText.textContent='0/0'; return; }
   const progressPercent=((currentIndex + 1)/totalFlashcards)*100; progressBar.style.width=progressPercent+'%';
   progressText.textContent=`${currentIndex+1}/${totalFlashcards}`;
-  const card=flashcards[currentIndex]; flippedCards[card.id]=flippedCards[card.id]||false;
+  const card=flashcards[currentIndex]; flippedCards[card.id]=false;
   const wrapper=document.createElement('div'); wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
   const cardEl=document.createElement('div'); cardEl.classList.add('card');
   if(activeTab==='questions'){
-    const inner=document.createElement('div'); inner.classList.add('card-inner'); if(flippedCards[card.id]) inner.classList.add('flipped');
+    const inner=document.createElement('div'); inner.classList.add('card-inner');
     const front=document.createElement('div'); front.classList.add('card-front'); front.innerHTML=`<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
     const back=document.createElement('div'); back.classList.add('card-back'); back.innerHTML=`<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
     inner.appendChild(front); inner.appendChild(back); cardEl.appendChild(inner);
@@ -338,4 +376,5 @@ notesTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='note
 </script>
 </body>
 </html>
+
 

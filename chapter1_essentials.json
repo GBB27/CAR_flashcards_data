@@ -173,5 +173,40 @@
     "id": 35,
     "question": "Which OSFI capital rules are most closely aligned with Basel Pillar 1?",
     "answer": "Minimum risk-based capital ratios and RWA calculation standards."
+  },
+  {
+    "id": 36,
+    "question": "When an institution adopts the IRB approach, what minimum share of exposures must be on IRB versus Standardized?",
+    "answer": "At least 80% of exposures must be calculated under IRB, with no more than 20% remaining on the Standardized approach."
+  },
+  {
+    "id": 37,
+    "question": "What are transitional arrangements in the CAR guideline?",
+    "answer": "Rules allowing non-qualifying capital instruments or adjustments to be phased out over time."
+  },
+  {
+    "id": 38,
+    "question": "How does the Capital Conservation Buffer affect dividend distributions?",
+    "answer": "Breaching the buffer triggers restrictions on dividends, share buybacks, and bonuses until capital is rebuilt."
+  },
+  {
+    "id": 39,
+    "question": "What role does OSFI’s supervisory review play under Pillar 2?",
+    "answer": "OSFI can impose higher capital requirements based on an institution’s risk profile or stress test results."
+  },
+  {
+    "id": 40,
+    "question": "What is a parallel run in the context of IRB approval?",
+    "answer": "A period where banks must calculate capital under both IRB and Standardized approaches before full IRB adoption."
+  },
+  {
+    "id": 41,
+    "question": "How does Chapter 1 link to Pillar 3 disclosure requirements?",
+    "answer": "It emphasizes transparency and public reporting to support market discipline."
+  },
+  {
+    "id": 42,
+    "question": "What is the Basel ‘output floor’ concept referenced in capital floors?",
+    "answer": "A minimum capital requirement ensuring IRB-based capital does not fall below a percentage of standardized capital levels."
   }
 ]
