@@ -1,0 +1,2027 @@
+[
+  {
+    "id": 1,
+    "question": "What is Settlement and Counterparty Risk?",
+    "answer": "The risk associated with the failure of a counterparty to meet its obligations in a transaction."
+  },
+  {
+    "id": 2,
+    "question": "Who is OSFI?",
+    "answer": "The Office of the Superintendent of Financial Institutions, responsible for regulating banks and other financial entities in Canada."
+  },
+  {
+    "id": 3,
+    "question": "What is EAD (Exposure at Default)?",
+    "answer": "A measure used to assess the risk of loss in the event of a default."
+  },
+  {
+    "id": 4,
+    "question": "What is CCR (Counterparty Credit Risk)?",
+    "answer": "The risk that the counterparty to a transaction may default on their obligations."
+  },
+  {
+    "id": 5,
+    "question": "What are Netting Sets?",
+    "answer": "Groups of transactions that can be netted against each other to reduce the total exposure."
+  },
+  {
+    "id": 6,
+    "question": "What are Hedging Sets?",
+    "answer": "Sets of transactions designed to offset potential losses in other transactions."
+  },
+  {
+    "id": 7,
+    "question": "What are Margin Agreements?",
+    "answer": "Contracts that require one party to post collateral to mitigate credit risk."
+  },
+  {
+    "id": 8,
+    "question": "What is Model Validation?",
+    "answer": "The process of ensuring that a financial model accurately represents the risk it is intended to measure."
+  },
+  {
+    "id": 9,
+    "question": "What are the Operational Requirements for EPE Models?",
+    "answer": "Standards that must be met for models estimating Expected Positive Exposure."
+  },
+  {
+    "id": 10,
+    "question": "What are PFE Add-ons?",
+    "answer": "Potential Future Exposure add-ons, which are additional capital requirements based on expected future exposure."
+  },
+  {
+    "id": 11,
+    "question": "What are RC and NICA?",
+    "answer": "Risk Capital and Non-Internal Credit Assessment, components of the standardized approach for counterparty credit risk."
+  },
+  {
+    "id": 12,
+    "question": "What are the Legal Criteria for netting agreements?",
+    "answer": "Requirements that must be met for netting agreements to be enforceable under law."
+  },
+  {
+    "id": 13,
+    "question": "What are the Operational Criteria for netting agreements?",
+    "answer": "Requirements related to the practical implementation and management of netting agreements."
+  },
+  {
+    "id": 14,
+    "question": "What are Exposure Measures?",
+    "answer": "Quantitative assessments of the potential loss that could occur due to counterparty default."
+  },
+  {
+    "id": 15,
+    "question": "What are Distributions in the context of risk management?",
+    "answer": "The allocation of risk or capital across different transactions or portfolios."
+  },
+  {
+    "id": 16,
+    "question": "What are Transaction Types?",
+    "answer": "Different categories of financial transactions that may have varying levels of risk."
+  },
+  {
+    "id": 17,
+    "question": "What are the Cross-Product Netting Rules?",
+    "answer": "Regulations governing the ability to net exposures across different types of financial products."
+  },
+  {
+    "id": 18,
+    "question": "What is the Internal Model Method?",
+    "answer": "A method allowing banks to use their own models to estimate capital requirements for counterparty credit risk."
+  },
+  {
+    "id": 19,
+    "question": "What are the Minimum Requirements in CAR?",
+    "answer": "The baseline standards that must be met for capital adequacy and risk management."
+  },
+  {
+    "id": 20,
+    "question": "What does Maturity mean in finance?",
+    "answer": "The time remaining until a financial obligation is due."
+  },
+  {
+    "id": 21,
+    "question": "What are General Terms in CAR?",
+    "answer": "Basic terminology used throughout the Capital Adequacy Requirements documentation."
+  },
+  {
+    "id": 22,
+    "question": "What is Counterparty Credit Risk (CCR)?",
+    "answer": "The risk that the counterparty to a transaction could default before the final settlement of the transaction's cash flows."
+  },
+  {
+    "id": 23,
+    "question": "What is Exposure at Default (EAD)?",
+    "answer": "The exposure amount for instruments with counterparty credit risk under the Basel guidelines."
+  },
+  {
+    "id": 24,
+    "question": "What is the Internal Modelling Method (IMM)?",
+    "answer": "A method that institutions may seek OSFI approval to use for estimating EAD, meeting specific requirements and specifications."
+  },
+  {
+    "id": 25,
+    "question": "What is the Standardized Approach for Counterparty Credit Risk (SA-CCR)?",
+    "answer": "An alternative method that institutions may use for estimating EAD under the Basel guidelines."
+  },
+  {
+    "id": 26,
+    "question": "What are Supervisory delta adjustments (δi)?",
+    "answer": "Adjustments made to the delta of a trade for supervisory purposes."
+  },
+  {
+    "id": 27,
+    "question": "What is the Trade-level Adjusted Notional?",
+    "answer": "The adjusted notional amount for a specific trade, denoted as 𝑑𝑑𝑑𝑑."
+  },
+  {
+    "id": 28,
+    "question": "What are Supervisory Factors (SFi)?",
+    "answer": "Factors used for supervisory purposes in the context of counterparty credit risk."
+  },
+  {
+    "id": 29,
+    "question": "What are Maturity Factors?",
+    "answer": "Factors that take into account the maturity of financial instruments in risk calculations."
+  },
+  {
+    "id": 30,
+    "question": "What is the Add-on for interest rate derivatives?",
+    "answer": "An additional amount calculated for interest rate derivatives to account for risk."
+  },
+  {
+    "id": 31,
+    "question": "What are Supervisory correlation parameters (ρ(a))?",
+    "answer": "Parameters used to assess the correlation between different risk factors for supervisory purposes."
+  },
+  {
+    "id": 32,
+    "question": "What is the Add-on for foreign exchange derivatives?",
+    "answer": "An additional amount calculated for foreign exchange derivatives to account for risk."
+  },
+  {
+    "id": 33,
+    "question": "What is the Add-on for credit derivatives?",
+    "answer": "An additional amount calculated for credit derivatives to account for risk."
+  },
+  {
+    "id": 34,
+    "question": "What is the Add-on for equity derivatives?",
+    "answer": "An additional amount calculated for equity derivatives to account for risk."
+  },
+  {
+    "id": 35,
+    "question": "What is the Add-on for commodity derivatives?",
+    "answer": "An additional amount calculated for commodity derivatives to account for risk."
+  },
+  {
+    "id": 36,
+    "question": "What is the Treatment of multiple margin agreements?",
+    "answer": "The approach taken towards managing multiple margin agreements and netting sets."
+  },
+  {
+    "id": 37,
+    "question": "What is Specific Wrong-Way Risk?",
+    "answer": "Risk that occurs when exposure to a counterparty increases as the credit quality of that counterparty deteriorates."
+  },
+  {
+    "id": 38,
+    "question": "What is Specific Right-Way Risk?",
+    "answer": "Risk that occurs when exposure to a counterparty decreases as the credit quality of that counterparty deteriorates."
+  },
+  {
+    "id": 39,
+    "question": "What are Exposures to Qualifying CCPs?",
+    "answer": "The risks associated with exposures to Central Counterparties that meet certain qualifications."
+  },
+  {
+    "id": 40,
+    "question": "What are Exposures to Non-qualifying CCPs?",
+    "answer": "The risks associated with exposures to Central Counterparties that do not meet certain qualifications."
+  },
+  {
+    "id": 41,
+    "question": "What is the Capital treatment for failed trades?",
+    "answer": "The regulatory approach to capital requirements for trades that fail to settle."
+  },
+  {
+    "id": 42,
+    "question": "What are Capital requirements?",
+    "answer": "The minimum amount of capital that financial institutions must hold to cover potential losses."
+  },
+  {
+    "id": 43,
+    "question": "What is Credit Risk Exposure?",
+    "answer": "The risk of loss faced by an institution due to a borrower's failure to repay a loan."
+  },
+  {
+    "id": 44,
+    "question": "What is Bilateral Risk of Loss?",
+    "answer": "A situation where the market value of a transaction can be positive or negative to either counterparty."
+  },
+  {
+    "id": 45,
+    "question": "What is a Central Counterparty (CCP)?",
+    "answer": "A clearing house that interposes itself between counterparties to contracts traded in financial markets, ensuring the future performance of open contracts."
+  },
+  {
+    "id": 46,
+    "question": "What is Novation in the context of CCPs?",
+    "answer": "The process by which a CCP becomes a counterparty to trades with market participants."
+  },
+  {
+    "id": 47,
+    "question": "What is a Qualifying Central Counterparty (QCCP)?",
+    "answer": "An entity licensed to operate as a CCP and permitted by a regulator to operate with respect to certain products."
+  },
+  {
+    "id": 48,
+    "question": "Who is a Regulator/Overseer in the context of CCPs?",
+    "answer": "An authority that supervises and ensures compliance with rules and regulations applicable to CCPs."
+  },
+  {
+    "id": 49,
+    "question": "What are the CPSS-IOSCO Principles?",
+    "answer": "Standards established for financial market infrastructures that a CCP must adhere to."
+  },
+  {
+    "id": 50,
+    "question": "Who is a Clearing Member?",
+    "answer": "A member of a CCP entitled to enter into transactions with the CCP."
+  },
+  {
+    "id": 51,
+    "question": "Who is a Client in a CCP transaction?",
+    "answer": "A party to a transaction with a CCP through a clearing member acting as a financial intermediary."
+  },
+  {
+    "id": 52,
+    "question": "What is Initial Margin?",
+    "answer": "Funded collateral posted to the CCP to mitigate potential future exposure arising from changes in transaction values."
+  },
+  {
+    "id": 53,
+    "question": "What is Variation Margin?",
+    "answer": "Funded collateral posted on a daily or intraday basis to a CCP based on price movements of transactions."
+  },
+  {
+    "id": 54,
+    "question": "What are Trade Exposures?",
+    "answer": "The current and potential future exposure of a clearing member or client to a CCP from various types of transactions."
+  },
+  {
+    "id": 55,
+    "question": "What are OTC Derivatives?",
+    "answer": "Financial contracts that are traded in a decentralized market, as opposed to on an exchange."
+  },
+  {
+    "id": 56,
+    "question": "What are Exchange Traded Derivatives?",
+    "answer": "Financial contracts that are standardized and traded on regulated exchanges."
+  },
+  {
+    "id": 57,
+    "question": "What are Securities Financing Transactions (SFTs)?",
+    "answer": "Transactions that involve the borrowing and lending of securities."
+  },
+  {
+    "id": 58,
+    "question": "What are Default Fund Contributions?",
+    "answer": "Funds contributed by clearing members to cover potential losses in case of default."
+  },
+  {
+    "id": 59,
+    "question": "What is Collateral in finance?",
+    "answer": "An asset pledged by a borrower to secure a loan or credit."
+  },
+  {
+    "id": 60,
+    "question": "What are Market Factors?",
+    "answer": "Elements that can influence the market value of transactions, such as economic conditions and interest rates."
+  },
+  {
+    "id": 61,
+    "question": "What is Funded Collateral?",
+    "answer": "Collateral that has been paid or deposited to secure a transaction."
+  },
+  {
+    "id": 62,
+    "question": "What is Mutualized Loss Sharing?",
+    "answer": "An arrangement where losses are shared among clearing members to mitigate risk."
+  },
+  {
+    "id": 63,
+    "question": "What is Excess Collateral?",
+    "answer": "Collateral that exceeds the required amount and may be restricted from withdrawal."
+  },
+  {
+    "id": 64,
+    "question": "What is a Capital Requirement?",
+    "answer": "The minimum amount of capital that a financial institution must hold to cover its risks."
+  },
+  {
+    "id": 65,
+    "question": "What is Jurisdiction in relation to CCPs?",
+    "answer": "The legal authority under which a CCP operates and is regulated."
+  },
+  {
+    "id": 66,
+    "question": "What is a Performance Guarantee?",
+    "answer": "A commitment by a clearing member to ensure a client's obligations to the CCP are met."
+  },
+  {
+    "id": 67,
+    "question": "What are Default Funds?",
+    "answer": "Clearing members' funded or unfunded contributions towards, or underwriting of, a CCP's mutualized loss sharing arrangements."
+  },
+  {
+    "id": 68,
+    "question": "What is an Offsetting Transaction?",
+    "answer": "The transaction leg between the clearing member and the CCP when the clearing member acts on behalf of a client."
+  },
+  {
+    "id": 69,
+    "question": "What is a Multi-level Client Structure?",
+    "answer": "A structure in which institutions can centrally clear as indirect clients, where clearing services are provided by an institution that is not a direct clearing member."
+  },
+  {
+    "id": 70,
+    "question": "What are Long Settlement Transactions?",
+    "answer": "Transactions where a counterparty delivers a security, commodity, or foreign exchange amount against cash, at a settlement date that is more than the lower of the market standard and five business days after the transaction date."
+  },
+  {
+    "id": 71,
+    "question": "What are Margin Lending Transactions?",
+    "answer": "Transactions in which an institution extends credit in connection with the purchase, sale, carrying, or trading of securities, where the loan amount is collateralized by securities whose value is greater than the amount of the loan."
+  },
+  {
+    "id": 72,
+    "question": "What is a Netting Set?",
+    "answer": "A group of transactions with a single counterparty that are subject to a legally enforceable bilateral netting arrangement recognized for regulatory capital purposes."
+  },
+  {
+    "id": 73,
+    "question": "What is a Hedging Set?",
+    "answer": "A set of transactions within a single netting set where full or partial offsetting is recognized for calculating the potential future exposure (PFE) add-on of the SA-CCR."
+  },
+  {
+    "id": 74,
+    "question": "What is a Margin Agreement?",
+    "answer": "A contractual agreement under which one counterparty must supply collateral to a second counterparty when an exposure exceeds a specified level."
+  },
+  {
+    "id": 75,
+    "question": "What is the Current Exposure of a Clearing Member?",
+    "answer": "It includes the variation margin due to the clearing member but not yet received."
+  },
+  {
+    "id": 76,
+    "question": "What is a Legal Arrangement between CCPs?",
+    "answer": "It determines whether a second CCP's collateral contribution is treated as initial margin or a default fund contribution."
+  },
+  {
+    "id": 77,
+    "question": "Who is a Higher-level Client?",
+    "answer": "The institution providing clearing services in a multi-level client structure."
+  },
+  {
+    "id": 78,
+    "question": "Who is a Lower-level Client?",
+    "answer": "The institution clearing through a higher-level client in a multi-level client structure."
+  },
+  {
+    "id": 79,
+    "question": "What is a Margin Threshold?",
+    "answer": "The largest amount of an exposure that remains outstanding until one party has the right to call for collateral."
+  },
+  {
+    "id": 80,
+    "question": "What is the Margin Period of Risk?",
+    "answer": "The time period from the last exchange of collateral covering a netting set of transactions with a defaulting counterpart until that counterpart is closed out and the resulting market risk is re-hedged."
+  },
+  {
+    "id": 81,
+    "question": "What is Effective Maturity under IMM?",
+    "answer": "The ratio of the sum of expected exposure over the life of the transactions in a netting set discounted at the risk-free rate of return divided by the sum of expected exposure over one year in a netting set discounted at the risk-free rate."
+  },
+  {
+    "id": 82,
+    "question": "What is Cross-Product Netting?",
+    "answer": "The inclusion of transactions of different product categories within the same netting set pursuant to the Cross-Product Netting Rules."
+  },
+  {
+    "id": 83,
+    "question": "What is Current Market Value (CMV)?",
+    "answer": "The net market value of the portfolio of transactions within the netting set with the counterparty. Both positive and negative values are used in computing CMV."
+  },
+  {
+    "id": 84,
+    "question": "What is the Distribution of Market Values?",
+    "answer": "The forecast of the probability distribution of net market values of transactions within a netting set for some future date."
+  },
+  {
+    "id": 85,
+    "question": "What is the Distribution of Exposures?",
+    "answer": "The forecast of the probability distribution of market values generated by setting forecast instances of negative net market values equal to zero."
+  },
+  {
+    "id": 86,
+    "question": "What is a Risk-Neutral Distribution?",
+    "answer": "A distribution of market values or exposures at a future time calculated using market-implied values such as implied volatilities."
+  },
+  {
+    "id": 87,
+    "question": "What is an Actual Distribution?",
+    "answer": "A distribution of market values or exposures at a future time calculated using historic or realized values such as past volatilities."
+  },
+  {
+    "id": 88,
+    "question": "What is Current Exposure?",
+    "answer": "The larger of zero, or the market value of a transaction or portfolio within a netting set that would be lost if the counterparty defaults."
+  },
+  {
+    "id": 89,
+    "question": "What is Peak Exposure?",
+    "answer": "A high percentile (typically 95% or 99%) of the distribution of exposures at any particular future date before the longest-maturity transaction."
+  },
+  {
+    "id": 90,
+    "question": "What is Expected Exposure?",
+    "answer": "The mean (average) of the distribution of exposures at a particular future date before maturity."
+  },
+  {
+    "id": 91,
+    "question": "What is Effective Expected Exposure?",
+    "answer": "The maximum expected exposure at a given date or any prior date, constrained to be non-decreasing over time."
+  },
+  {
+    "id": 92,
+    "question": "What is Expected Positive Exposure (EPE)?",
+    "answer": "The weighted average over time of expected exposures, weighted by the proportion of each exposure within the interval."
+  },
+  {
+    "id": 93,
+    "question": "What is the Minimum Capital Requirement under IMM?",
+    "answer": "The average taken over the first year, or if all contracts mature before one year, over the period of the longest-maturity contract."
+  },
+  {
+    "id": 94,
+    "question": "What is Effective Expected Positive Exposure (Effective EPE)?",
+    "answer": "The weighted average over time of effective expected exposure over the first year, or over the longest-maturity contract if all contracts mature before one year."
+  },
+  {
+    "id": 95,
+    "question": "What is a Credit Valuation Adjustment (CVA)?",
+    "answer": "An adjustment to the mid-market valuation of trades with a counterparty that reflects the market value of credit risk."
+  },
+  {
+    "id": 96,
+    "question": "What is a One-Sided Credit Valuation Adjustment?",
+    "answer": "A CVA that reflects the counterparty’s credit risk to the firm but not the institution’s credit risk to the counterparty."
+  },
+  {
+    "id": 97,
+    "question": "What is a Debit Valuation Adjustment?",
+    "answer": "A valuation adjustment that reflects the institution’s credit risk to the counterparty, but not the counterparty’s credit risk to the institution."
+  },
+  {
+    "id": 98,
+    "question": "What is Rollover Risk?",
+    "answer": "The understatement of expected positive exposure when future transactions are expected but not included in EPE calculations."
+  },
+  {
+    "id": 99,
+    "question": "What is General Wrong-Way Risk?",
+    "answer": "Risk that arises when the probability of default of counterparties is positively correlated with general market risk factors."
+  },
+  {
+    "id": 100,
+    "question": "What is a Counterparty Credit Risk Charge?",
+    "answer": "The charge banks must calculate for all exposures that give rise to counterparty credit risk, except those exempted by regulation."
+  },
+  {
+    "id": 101,
+    "question": "What are Exchange-Traded Derivatives (ETDs)?",
+    "answer": "A category of transactions that give rise to counterparty credit risk."
+  },
+  {
+    "id": 102,
+    "question": "What is a Random Future Market Value?",
+    "answer": "The value of transactions that depends on market variables in the future."
+  },
+  {
+    "id": 103,
+    "question": "What is an Exchange of Future Payments?",
+    "answer": "Transactions that generate an exchange of future payments or a financial instrument against payment."
+  },
+  {
+    "id": 104,
+    "question": "What is an Identified Counterparty?",
+    "answer": "A counterparty for which a unique probability of default can be determined."
+  },
+  {
+    "id": 105,
+    "question": "What is Short-Term Financing in this context?",
+    "answer": "A primary objective where transactions mostly involve exchanging one asset for another for a relatively short period."
+  },
+  {
+    "id": 106,
+    "question": "What is Counterparty Credit Risk Exposure?",
+    "answer": "The risk that the counterparty to a transaction may default on their obligations."
+  },
+  {
+    "id": 107,
+    "question": "What is Netting?",
+    "answer": "A method used to mitigate risk by offsetting positions."
+  },
+  {
+    "id": 108,
+    "question": "What is Remargining?",
+    "answer": "The process of adjusting margin requirements based on market conditions."
+  },
+  {
+    "id": 109,
+    "question": "What is the Standardized Approach for Measuring Counterparty Credit Risk Exposures (SA-CCR)?",
+    "answer": "A method used for exposures arising from OTC derivatives, exchange-traded derivatives, and long settlement transactions."
+  },
+  {
+    "id": 110,
+    "question": "What is the Simple Approach to Recognition of Collateral?",
+    "answer": "A method for recognizing collateral in securities financing transactions."
+  },
+  {
+    "id": 111,
+    "question": "What is the Comprehensive Approach to Recognition of Collateral?",
+    "answer": "An alternative method for recognizing collateral in securities financing transactions."
+  },
+  {
+    "id": 112,
+    "question": "What is the Value-at-Risk (VaR) Models Approach?",
+    "answer": "A method for calculating EAD for securities financing transactions, subject to supervisory approval."
+  },
+  {
+    "id": 113,
+    "question": "What is the Internal Model Method (IMM)?",
+    "answer": "A method that may be used to calculate counterparty credit risk exposures, subject to supervisory approval."
+  },
+  {
+    "id": 114,
+    "question": "What is Client Exposure?",
+    "answer": "The risk exposure a bank has to its clients when acting as an intermediary."
+  },
+  {
+    "id": 115,
+    "question": "What are Cash Transactions?",
+    "answer": "Transactions involving immediate payment, such as equities, fixed income, spot FX, and spot commodities."
+  },
+  {
+    "id": 116,
+    "question": "What are Exposures Cleared through a CCP?",
+    "answer": "The risk exposures of a bank to a CCP when it is a clearing member."
+  },
+  {
+    "id": 117,
+    "question": "What are Exposures to Clients via CCP?",
+    "answer": "The risk exposures of a bank to its clients when it acts as an intermediary between the client and the CCP."
+  },
+  {
+    "id": 118,
+    "question": "What are Exposures to Clearing Members?",
+    "answer": "The risk exposures of a bank to a clearing member of a CCP when the bank is a client."
+  },
+  {
+    "id": 119,
+    "question": "What is the Exception to Counterparty Credit Risk Charge?",
+    "answer": "Certain transactions, such as credit derivative protection purchased against a banking book exposure, do not require a counterparty credit risk charge."
+  },
+  {
+    "id": 120,
+    "question": "What are Market Variables?",
+    "answer": "Factors that can affect the valuation of positions, often assessed on a daily basis."
+  },
+  {
+    "id": 121,
+    "question": "What is a Hedged Exposure?",
+    "answer": "An exposure that is mitigated by a hedging strategy, reducing the risk of loss."
+  },
+  {
+    "id": 122,
+    "question": "What are Credit Derivatives?",
+    "answer": "Financial instruments used to manage exposure to credit risk."
+  },
+  {
+    "id": 123,
+    "question": "What are Sold Credit Default Swaps?",
+    "answer": "Contracts where the seller agrees to compensate the buyer in case of a default by a third party."
+  },
+  {
+    "id": 124,
+    "question": "What is a Credit Risk Charge?",
+    "answer": "A charge applied to the full notional amount of a guarantee provided by the bank."
+  },
+  {
+    "id": 125,
+    "question": "What is Exposure Amount (EAD)?",
+    "answer": "The total amount at risk for a given counterparty, calculated for each netting set."
+  },
+  {
+    "id": 126,
+    "question": "Who is an OTC Derivative Counterparty?",
+    "answer": "A party involved in over-the-counter derivatives transactions."
+  },
+  {
+    "id": 127,
+    "question": "What is Credit Valuation Adjustment (CVA)?",
+    "answer": "An adjustment to the valuation of derivatives to account for counterparty credit risk."
+  },
+  {
+    "id": 128,
+    "question": "What is CVA Loss?",
+    "answer": "The recognized loss due to a counterparty's credit risk that has been incurred."
+  },
+  {
+    "id": 129,
+    "question": "What are Risk-Weighted Assets (RWAs)?",
+    "answer": "Assets weighted according to their risk, used to determine capital requirements."
+  },
+  {
+    "id": 130,
+    "question": "What are Market Risk Rules?",
+    "answer": "Regulations governing the risk of losses in financial markets."
+  },
+  {
+    "id": 131,
+    "question": "What is the Standardized Approach?",
+    "answer": "A method for calculating capital requirements based on predefined risk weights."
+  },
+  {
+    "id": 132,
+    "question": "What are SFTs?",
+    "answer": "Securities financing transactions, which include repurchase agreements and securities lending."
+  },
+  {
+    "id": 133,
+    "question": "What is SA-CCR?",
+    "answer": "Standardized Approach for Counterparty Credit Risk, a method for calculating capital for counterparty credit risk."
+  },
+  {
+    "id": 134,
+    "question": "What is OSFI Approval?",
+    "answer": "Approval required from the Office of the Superintendent of Financial Institutions for certain regulatory methods."
+  },
+  {
+    "id": 135,
+    "question": "What are Material Exposures?",
+    "answer": "Exposures that are significant in size and risk, requiring full application of regulatory methods."
+  },
+  {
+    "id": 136,
+    "question": "What is an Incurred Write-down?",
+    "answer": "A reduction in the value of an asset due to recognized losses."
+  },
+  {
+    "id": 137,
+    "question": "What are Funding Valuation Adjustments?",
+    "answer": "Adjustments made to the valuation of derivatives to account for funding costs."
+  },
+  {
+    "id": 138,
+    "question": "What are Prepaid Default Funds?",
+    "answer": "Funds set aside to cover potential defaults in settlement-risk-only products."
+  },
+  {
+    "id": 139,
+    "question": "What is the Exception Outlined in Paragraph 13?",
+    "answer": "Specific conditions under which the standard exposure calculation may not apply."
+  },
+  {
+    "id": 140,
+    "question": "What is the Exposure Amount or EAD at the Netting Set Level?",
+    "answer": "The measure of counterparty credit risk exposure at the level of the netting set."
+  },
+  {
+    "id": 141,
+    "question": "What is CCR Exposure?",
+    "answer": "Counterparty credit risk exposure measured at the level of the netting set."
+  },
+  {
+    "id": 142,
+    "question": "What is a Forecasting Distribution?",
+    "answer": "A specification in a qualifying internal model that predicts changes in the market value of the netting set due to market variable changes."
+  },
+  {
+    "id": 143,
+    "question": "Who are Margined Counterparties?",
+    "answer": "Counterparties that may have future collateral movements captured in the internal model."
+  },
+  {
+    "id": 144,
+    "question": "What is Eligible Financial Collateral?",
+    "answer": "Collateral that meets the quantitative, qualitative, and data requirements for the internal model method."
+  },
+  {
+    "id": 145,
+    "question": "What is the Default Risk Capital Charge?",
+    "answer": "The capital charge for counterparty credit risk based on the greater of the portfolio-level capital charge using current market data or stress calibration."
+  },
+  {
+    "id": 146,
+    "question": "What is Effective EPE?",
+    "answer": "The expected positive exposure used to calculate the capital charge for counterparty credit risk."
+  },
+  {
+    "id": 147,
+    "question": "What is Stress Calibration?",
+    "answer": "A consistent stress scenario applied across the entire portfolio of counterparties."
+  },
+  {
+    "id": 148,
+    "question": "What is the Policy for Stress Period?",
+    "answer": "A policy that institutions must have in place to verify and update their choice of stress period, requiring OSFI approval."
+  },
+  {
+    "id": 149,
+    "question": "What is LGD (Loss Given Default)?",
+    "answer": "The loss amount that an institution would incur if a counterparty defaults, which must not include collateral already recognized in EAD."
+  },
+  {
+    "id": 150,
+    "question": "What are Analytical Models (under IMM)?",
+    "answer": "Models that are acceptable under the IMM as long as they meet OSFI requirements and are applied to all material exposures."
+  },
+  {
+    "id": 151,
+    "question": "What is Leptokurtosis?",
+    "answer": "A statistical phenomenon where the distribution of exposures has fat tails, indicating a higher likelihood of extreme outcomes."
+  },
+  {
+    "id": 152,
+    "question": "What are Immaterial Exposures?",
+    "answer": "Exposures that are too small to warrant a CCR-related capital charge."
+  },
+  {
+    "id": 153,
+    "question": "What is the CVA Charge?",
+    "answer": "Credit Valuation Adjustment charge, which is not included in the portfolio-level capital charge calculation."
+  },
+  {
+    "id": 154,
+    "question": "What are Regulatory Capital Rules?",
+    "answer": "Rules that govern the amount of capital financial institutions must hold to mitigate risks."
+  },
+  {
+    "id": 155,
+    "question": "What is Arbitrage of Regulatory Capital Rules?",
+    "answer": "The practice of exploiting differences in regulatory capital requirements to gain a financial advantage."
+  },
+  {
+    "id": 156,
+    "question": "What is the Permanent Basis Requirement?",
+    "answer": "A requirement that institutions must comply with certain standards continuously after adopting the internal model method."
+  },
+  {
+    "id": 157,
+    "question": "What are Exceptional Circumstances (for reverting to SA-CCR)?",
+    "answer": "Specific situations under which an institution may revert to the Standardized Approach for Counterparty Credit Risk (SA-CCR)."
+  },
+  {
+    "id": 158,
+    "question": "What is Effective EE?",
+    "answer": "Computed recursively, where Effective EEtk = max(Effective EEtk-1, EEtk)."
+  },
+  {
+    "id": 159,
+    "question": "What is Effective EEt0?",
+    "answer": "Equals current exposure."
+  },
+  {
+    "id": 160,
+    "question": "What is the EPE Calculation Rule?",
+    "answer": "If all contracts in the netting set mature before one year, EPE is the average of expected exposure until all contracts in the netting set mature."
+  },
+  {
+    "id": 161,
+    "question": "What is the Effective EPE Formula?",
+    "answer": "Effective EPE = min(1, ∑ (Effective EEtk × Δtk))."
+  },
+  {
+    "id": 162,
+    "question": "What are Weights Δtk?",
+    "answer": "Weights that allow for the case when future exposure is calculated at dates that are not equally spaced over time."
+  },
+  {
+    "id": 163,
+    "question": "What is Alpha (α)?",
+    "answer": "A parameter set equal to 1.4."
+  },
+  {
+    "id": 164,
+    "question": "What is OSFI’s Discretion on Alpha?",
+    "answer": "OSFI retains discretion to require a higher alpha based on a firm's CCR exposures."
+  },
+  {
+    "id": 165,
+    "question": "What are the Factors for Higher Alpha?",
+    "answer": "Low granularity of counterparties, particularly high exposures to general wrong-way risk, or particularly high correlation of market values across counterparties."
+  },
+  {
+    "id": 166,
+    "question": "What are Own Estimates for Alpha?",
+    "answer": "Institutions may seek OSFI approval to compute internal estimates of alpha subject to a floor of 1.2."
+  },
+  {
+    "id": 167,
+    "question": "What is the Alpha Calculation Formula?",
+    "answer": "Alpha equals the ratio of economic capital from a full simulation of counterparty exposure across counterparties (numerator) and economic capital based on EPE (denominator)."
+  },
+  {
+    "id": 168,
+    "question": "What is the Requirement for EPE in the Denominator?",
+    "answer": "EPE must be used as if it were a fixed outstanding loan amount."
+  },
+  {
+    "id": 169,
+    "question": "What is Consistency in Alpha Calculation?",
+    "answer": "Numerator and denominator of alpha must be computed in a consistent fashion with respect to the modelling methodology."
+  },
+  {
+    "id": 170,
+    "question": "What is the Internal Economic Capital Approach?",
+    "answer": "The approach used must be well-documented and subject to independent validation."
+  },
+  {
+    "id": 171,
+    "question": "What is the Quarterly Review of Estimates Requirement?",
+    "answer": "Institutions must review their estimates on at least a quarterly basis."
+  },
+  {
+    "id": 172,
+    "question": "What is Model Risk Assessment?",
+    "answer": "Institutions must assess the model risk given the significant variation in estimates of alpha."
+  },
+  {
+    "id": 173,
+    "question": "What are Volatilities and Correlations (in CCR models)?",
+    "answer": "Volatilities and correlations of market risk factors used in the joint simulation of market and credit risk should be conditioned on the credit risk factor to reflect potential increases in volatility or correlation in an economic downturn."
+  },
+  {
+    "id": 174,
+    "question": "What is the Effective Maturity Formula?",
+    "answer": "If the original maturity of the longest-dated contract contained in the set is greater than one year, the formula for effective maturity (M) is replaced with a specific formula involving risk-free discount factors."
+  },
+  {
+    "id": 175,
+    "question": "What is the Effective Maturity Cap?",
+    "answer": "M has a cap of five years."
+  },
+  {
+    "id": 176,
+    "question": "What is Netting Sets Maturity?",
+    "answer": "For netting sets where all contracts have an original maturity of less than one year, the formula for effective maturity (M) is unchanged, but a floor of one year applies."
+  },
+  {
+    "id": 177,
+    "question": "What is Remaining Maturity for Derivatives under paragraph 65 (SWWR)?",
+    "answer": "It equals the time until the next reset date."
+  },
+  {
+    "id": 178,
+    "question": "What is the Impact of Margin Agreements on EE models?",
+    "answer": "If the netting set is subject to a margin agreement and the internal model captures margining effects, the model’s EE measure may be used directly in the equation."
+  },
+  {
+    "id": 179,
+    "question": "What are the EPE Model Requirements?",
+    "answer": "They must include transaction-specific information covering current/future margin, nature of margin agreements, frequency of calls, period of risk, thresholds, and minimum transfer amounts."
+  },
+  {
+    "id": 180,
+    "question": "What is Mark-to-Market Valuation Supervisory Floor?",
+    "answer": "For daily re-margining, a floor of 5 business days applies to repo-style transactions, and 10 business days for other netting sets."
+  },
+  {
+    "id": 181,
+    "question": "What is the Supervisory Floor for High Volume Trades?",
+    "answer": "Netting sets with more than 5,000 trades in a quarter must apply a 20-business-day margin period of risk in the next quarter."
+  },
+  {
+    "id": 182,
+    "question": "What is the Supervisory Floor for Illiquid Collateral or Hard-to-Replace Derivatives?",
+    "answer": "A 20-business-day margin period of risk applies."
+  },
+  {
+    "id": 183,
+    "question": "What is the Risk-Free Discount Factor (dfk)?",
+    "answer": "It is the discount factor for a future time period tk."
+  },
+  {
+    "id": 184,
+    "question": "What is Effective Credit Duration?",
+    "answer": "Conceptually, M equals the effective credit duration of the counterparty exposure."
+  },
+  {
+    "id": 185,
+    "question": "When can One-Sided CVA Calculation be used?",
+    "answer": "With OSFI approval, banks may use their internal CVA model’s effective credit duration in place of the standard maturity formula."
+  },
+  {
+    "id": 186,
+    "question": "What is Illiquid Collateral?",
+    "answer": "Collateral without active markets, where multiple quotations would move the market."
+  },
+  {
+    "id": 187,
+    "question": "What are OTC Derivatives that Cannot be Easily Replaced?",
+    "answer": "Derivatives that lack active markets and cannot be substituted without significant market impact."
+  },
+  {
+    "id": 188,
+    "question": "What is a Supervisory Floor (general)?",
+    "answer": "The minimum margin period of risk institutions must apply."
+  },
+  {
+    "id": 189,
+    "question": "What is an EAD Reduction Clause?",
+    "answer": "A provision in collateral agreements requiring collateral posting if counterparty credit quality deteriorates."
+  },
+  {
+    "id": 190,
+    "question": "What is Backtesting?",
+    "answer": "An ex-post comparison of model risk measures against realized outcomes."
+  },
+  {
+    "id": 191,
+    "question": "What is Initial Validation of a Model?",
+    "answer": "Assessing soundness before the model is used."
+  },
+  {
+    "id": 192,
+    "question": "What is Ongoing Periodic Review?",
+    "answer": "Regular assessments of a model’s performance after initial validation."
+  },
+  {
+    "id": 193,
+    "question": "What is the Independent Risk Control Unit?",
+    "answer": "A department monitoring/managing risk independently from model developers."
+  },
+  {
+    "id": 194,
+    "question": "What is Senior Management Involvement in CCR?",
+    "answer": "Active participation in the risk process, ensuring resources for CCR management."
+  },
+  {
+    "id": 195,
+    "question": "What are Qualitative Criteria for Models?",
+    "answer": "Standards institutions must meet to use models for CCR management."
+  },
+  {
+    "id": 196,
+    "question": "What are Variation Margin Call Disputes?",
+    "answer": "Disagreements over payments during the variation margin process."
+  },
+  {
+    "id": 197,
+    "question": "What is Concentration Risk in a Counterparty?",
+    "answer": "The risk of heavy reliance on a single counterparty."
+  },
+  {
+    "id": 198,
+    "question": "What are Stressed Market Conditions?",
+    "answer": "Situations with low liquidity and unfavorable trading conditions."
+  },
+  {
+    "id": 199,
+    "question": "What are Repo-Style Transactions?",
+    "answer": "Sale of securities with an agreement to repurchase later."
+  },
+  {
+    "id": 200,
+    "question": "What is Fair Value Determined by Models?",
+    "answer": "Valuation using model inputs not directly observed in markets."
+  },
+  {
+    "id": 201,
+    "question": "What is a Margin Call?",
+    "answer": "A demand for additional funds to cover potential losses."
+  },
+  {
+    "id": 202,
+    "question": "What is Counterparty Credit Risk?",
+    "answer": "The risk that a counterparty defaults on contractual obligations."
+  },
+  {
+    "id": 203,
+    "question": "What is a Risk Measurement Exposure Model?",
+    "answer": "A model quantifying an institution’s exposure."
+  },
+  {
+    "id": 204,
+    "question": "What is the Multiplication Factor (Alpha)?",
+    "answer": "A factor set by OSFI that affects capital requirements."
+  },
+  {
+    "id": 205,
+    "question": "What is a Counterparty Credit Risk Profile?",
+    "answer": "The risk that a counterparty may not fulfill obligations."
+  },
+  {
+    "id": 206,
+    "question": "What is a Risk Measurement System?",
+    "answer": "A system to assess and quantify risks, used with internal limits."
+  },
+  {
+    "id": 207,
+    "question": "What are Exposure Limits?",
+    "answer": "Consistent limits tied to the risk measurement model."
+  },
+  {
+    "id": 208,
+    "question": "What are Internal Policies, Controls, and Procedures?",
+    "answer": "Documented guidelines for risk measurement compliance."
+  },
+  {
+    "id": 209,
+    "question": "What is a Risk Management Manual?",
+    "answer": "A document describing CCR principles and techniques."
+  },
+  {
+    "id": 210,
+    "question": "What is an Independent Review (of models)?",
+    "answer": "Regular assessments as part of internal auditing."
+  },
+  {
+    "id": 211,
+    "question": "What is Adequacy of Documentation?",
+    "answer": "Having sufficient records for the CCR system/process."
+  },
+  {
+    "id": 212,
+    "question": "What is the Risk Control Unit?",
+    "answer": "The team responsible for overseeing risk."
+  },
+  {
+    "id": 213,
+    "question": "What are Counterparty Credit Risk Models?",
+    "answer": "Models used across front and back office to calculate CCR."
+  },
+  {
+    "id": 214,
+    "question": "What is Validation of the Risk Measurement Process?",
+    "answer": "Confirming significant changes in risk measurement."
+  },
+  {
+    "id": 215,
+    "question": "What is the Scope of Counterparty Credit Risks?",
+    "answer": "The range of CCRs captured by the risk model."
+  },
+  {
+    "id": 216,
+    "question": "What is a Management Information System?",
+    "answer": "A system delivering timely, accurate risk data."
+  },
+  {
+    "id": 217,
+    "question": "What is Position Data?",
+    "answer": "Data on current holdings and exposures."
+  },
+  {
+    "id": 218,
+    "question": "What is Data Sources Verification?",
+    "answer": "Ensuring consistency and reliability of inputs."
+  },
+  {
+    "id": 219,
+    "question": "What are Volatility and Correlation Assumptions?",
+    "answer": "Estimates for variability and relationships of assets."
+  },
+  {
+    "id": 220,
+    "question": "What are Valuation and Risk Transformation Calculations?",
+    "answer": "Calculations determining asset value and risks."
+  },
+  {
+    "id": 221,
+    "question": "What is Ongoing Validation of CCR Models?",
+    "answer": "Continuous review/testing of models."
+  },
+  {
+    "id": 222,
+    "question": "What is Initial and Ongoing Validation of IMM?",
+    "answer": "Documented processes for assessing IMM over time."
+  },
+  {
+    "id": 223,
+    "question": "What are EPE Models?",
+    "answer": "Models estimating expected positive exposure."
+  },
+  {
+    "id": 224,
+    "question": "What are the Criteria for Assessing EPE Models?",
+    "answer": "Standards to evaluate EPE performance and inputs."
+  },
+  {
+    "id": 225,
+    "question": "What are Representative Counterparty Portfolios?",
+    "answer": "Portfolios used to validate EPE models."
+  },
+  {
+    "id": 226,
+    "question": "What is an EPE Model?",
+    "answer": "A model to estimate expected positive exposure."
+  },
+  {
+    "id": 227,
+    "question": "What are Market Risk Factors?",
+    "answer": "Variables like interest rates and stock prices."
+  },
+  {
+    "id": 228,
+    "question": "What are Prediction Time Horizons?",
+    "answer": "Future periods for exposure forecasts (at least 1 year)."
+  },
+  {
+    "id": 229,
+    "question": "What are Collateralized Trades?",
+    "answer": "Trades involving collateral to reduce CCR."
+  },
+  {
+    "id": 230,
+    "question": "What are Pricing Models in CCR?",
+    "answer": "Models estimating exposure under future conditions."
+  },
+  {
+    "id": 231,
+    "question": "What is Non-Linearity of Option Value?",
+    "answer": "Options’ values don’t change linearly with risk factors."
+  },
+  {
+    "id": 232,
+    "question": "What is Static, Historical Backtesting?",
+    "answer": "Testing using fixed historical data."
+  },
+  {
+    "id": 233,
+    "question": "What are the Key Assumptions of an EPE Model?",
+    "answer": "The underlying premises of EPE calculations."
+  },
+  {
+    "id": 234,
+    "question": "What are Realized Exposures?",
+    "answer": "Actual exposures compared to forecasts."
+  },
+  {
+    "id": 235,
+    "question": "What is a Forecast Distribution?",
+    "answer": "Predicted range of model outcomes."
+  },
+  {
+    "id": 236,
+    "question": "What is Good Backtesting Practice?",
+    "answer": "Standards ensuring effective model evaluation."
+  },
+  {
+    "id": 237,
+    "question": "What is Maturity of Trades?",
+    "answer": "The time until contract expiration."
+  },
+  {
+    "id": 238,
+    "question": "What are Independent Benchmarks?",
+    "answer": "External standards for pricing model validation."
+  },
+  {
+    "id": 239,
+    "question": "What is Ongoing Validation?",
+    "answer": "Continuous assessment of model relevance."
+  },
+  {
+    "id": 240,
+    "question": "What is Frequency of Parameter Updates?",
+    "answer": "How often EPE model parameters are revised."
+  },
+  {
+    "id": 241,
+    "question": "What is Regulatory EAD?",
+    "answer": "Exposure at default measure used for CCR regulation."
+  },
+  {
+    "id": 242,
+    "question": "What is Alpha times Effective EPE?",
+    "answer": "A conservative substitute for regulatory EAD (with OSFI approval)."
+  },
+  {
+    "id": 243,
+    "question": "What is the Degree of Relative Conservatism?",
+    "answer": "Assessed during OSFI approval and review of EPE models."
+  },
+  {
+    "id": 244,
+    "question": "What is Model Performance Assessment?",
+    "answer": "Must cover all counterparties where models are used."
+  },
+  {
+    "id": 245,
+    "question": "What is Validation of IMM Models?",
+    "answer": "Assessing if institution-level/netting set EPE is appropriate."
+  },
+  {
+    "id": 246,
+    "question": "What is Pricing Model Justification?",
+    "answer": "Requirement to justify different CCR vs. Market Risk models."
+  },
+  {
+    "id": 247,
+    "question": "What are the Qualifying Standards on CCR Management?",
+    "answer": "Supervisors must be satisfied that CCR management is sound."
+  },
+  {
+    "id": 248,
+    "question": "What is the Use Test?",
+    "answer": "Internal model exposures must be used in daily CCR management."
+  },
+  {
+    "id": 249,
+    "question": "What Role Must the Internal Model’s Output Play?",
+    "answer": "It must be integral to approvals, management, allocations, and governance."
+  },
+  {
+    "id": 250,
+    "question": "What is a Credible Track Record (for IMM)?",
+    "answer": "Using an internal model for at least one year before approval."
+  },
+  {
+    "id": 251,
+    "question": "What is the Independent Control Unit (CCR)?",
+    "answer": "Designs/implements CCR system, validates internal models."
+  },
+  {
+    "id": 252,
+    "question": "What is Data Integrity Control?",
+    "answer": "Unit must ensure input quality and analyze outputs."
+  },
+  {
+    "id": 253,
+    "question": "What is the Collateral Management Unit?",
+    "answer": "Handles margin calls, disputes, and reports accurately."
+  },
+  {
+    "id": 254,
+    "question": "What are Margin Calls?",
+    "answer": "Demands for collateral, reconciled regularly."
+  },
+  {
+    "id": 255,
+    "question": "What are Initial Margins?",
+    "answer": "Daily reported levels of initial margins."
+  },
+  {
+    "id": 256,
+    "question": "What are Variation Margins?",
+    "answer": "Daily reported levels of variation margins."
+  },
+  {
+    "id": 257,
+    "question": "What is Internal Reporting for Collateral?",
+    "answer": "Reports must cover type, size, aging, and disputes."
+  },
+  {
+    "id": 258,
+    "question": "What are Liquidity Risks under IMM?",
+    "answer": "Cash management must account for incoming margin calls."
+  },
+  {
+    "id": 259,
+    "question": "What is Collateral Reuse?",
+    "answer": "Reuse must align with liquidity needs and timely posting/return."
+  },
+  {
+    "id": 260,
+    "question": "What is the Counterparty Risk Management Framework?",
+    "answer": "Includes identification, measurement, management, approval, and reporting of CCR."
+  },
+  {
+    "id": 261,
+    "question": "What is Economic Capital Allocation?",
+    "answer": "Framework must measure line usage and allocate economic capital."
+  },
+  {
+    "id": 262,
+    "question": "What is Current Exposure Measurement?",
+    "answer": "Institutions must measure current exposure gross and net of collateral."
+  },
+  {
+    "id": 263,
+    "question": "What is Estimated Exposure (EE) and what are the requirements for reporting it?",
+    "answer": "An institution is not required to estimate or report EE daily, but to meet the use test it must have the systems capability to estimate EE daily, if necessary."
+  },
+  {
+    "id": 264,
+    "question": "What must institutions consider when choosing forecasting horizons?",
+    "answer": "They must choose a time profile of forecasting horizons that adequately reflects the time structure of future cash flows and maturity of the contracts."
+  },
+  {
+    "id": 265,
+    "question": "How must exposure be measured for contracts in a netting set?",
+    "answer": "Exposure must be measured out to the life of all contracts in the netting set (not just to the one-year horizon), monitored and controlled."
+  },
+  {
+    "id": 266,
+    "question": "What procedures are required when exposure rises beyond the one-year horizon?",
+    "answer": "The institution must have procedures in place to identify and control the risks for counterparties where exposure rises beyond the one-year horizon."
+  },
+  {
+    "id": 267,
+    "question": "How is the internal economic capital model linked to exposure forecasting?",
+    "answer": "The forecasted increase in exposure must be an input into the firm's internal economic capital model."
+  },
+  {
+    "id": 268,
+    "question": "What must be tracked regarding collateral asset classes?",
+    "answer": "Institutions must track concentration to individual collateral asset classes accepted by the institutions."
+  },
+  {
+    "id": 269,
+    "question": "What operational performance must be ensured by senior management?",
+    "answer": "Senior management must allocate sufficient resources so systems can perform timely and accurate outgoing calls and respond quickly to incoming calls."
+  },
+  {
+    "id": 270,
+    "question": "What staffing requirements exist for collateral management units during crises?",
+    "answer": "They must be adequately staffed to process calls and disputes in a timely manner even under severe market crisis."
+  },
+  {
+    "id": 271,
+    "question": "What should internal reporting reflect about margin call disputes?",
+    "answer": "Internal reporting should reflect trends in figures regarding the cause for margin call disputes."
+  },
+  {
+    "id": 272,
+    "question": "How must institutions account for adverse market shocks in cash management?",
+    "answer": "They must ensure cash management policies account for adverse market shocks."
+  },
+  {
+    "id": 273,
+    "question": "What is independent margin and how must it be managed?",
+    "answer": "Independent margin is another type of margin that must be accounted for in cash management policies."
+  },
+  {
+    "id": 274,
+    "question": "What stress testing requirements must institutions have in place?",
+    "answer": "Institutions must have sound stress testing processes for use in the assessment of capital adequacy."
+  },
+  {
+    "id": 275,
+    "question": "How must stress measures be compared to EPE?",
+    "answer": "Stress measures must be compared against the measure of EPE and considered as part of the internal capital adequacy assessment process."
+  },
+  {
+    "id": 276,
+    "question": "What are stress testing scenarios?",
+    "answer": "They are possible events or future changes in economic conditions that could have unfavorable effects on a firm's credit exposures."
+  },
+  {
+    "id": 277,
+    "question": "What are examples of stress testing scenarios?",
+    "answer": "Economic or industry downturns, market-place events, or decreased liquidity conditions."
+  },
+  {
+    "id": 278,
+    "question": "What program must institutions have for CCR stress testing?",
+    "answer": "A comprehensive stress testing program for counterparty credit risk."
+  },
+  {
+    "id": 279,
+    "question": "What must institutions ensure regarding trade capture and exposure aggregation?",
+    "answer": "Complete trade capture and exposure aggregation across all forms of CCR at the counterparty-specific level."
+  },
+  {
+    "id": 280,
+    "question": "How often must institutions produce exposure stress testing?",
+    "answer": "At least monthly, for all counterparties, on principal market risk factors."
+  },
+  {
+    "id": 281,
+    "question": "How often must institutions apply multi-factor stress testing?",
+    "answer": "At least quarterly, assessing material non-directional risks."
+  },
+  {
+    "id": 282,
+    "question": "What should multiple-factor stress tests aim to address?",
+    "answer": "Scenarios in which severe economic or market events have occurred."
+  },
+  {
+    "id": 283,
+    "question": "What do stressed market movements affect?",
+    "answer": "They affect both counterparty exposures and the credit quality of counterparties."
+  },
+  {
+    "id": 284,
+    "question": "What is joint stressing of exposure and creditworthiness?",
+    "answer": "Applying stressed conditions to the joint movement of exposures and counterparty creditworthiness at least quarterly."
+  },
+  {
+    "id": 285,
+    "question": "At what levels should counterparty-specific stress testing be performed?",
+    "answer": "At the counterparty-specific, counterparty group, and aggregate institution-wide CCR levels."
+  },
+  {
+    "id": 286,
+    "question": "How should stress test results be used?",
+    "answer": "They should be integrated into regular reporting to senior management."
+  },
+  {
+    "id": 287,
+    "question": "What should the severity of factor shocks reflect?",
+    "answer": "The purpose of the stress test."
+  },
+  {
+    "id": 288,
+    "question": "How should solvency be evaluated under stress?",
+    "answer": "With factor shocks severe enough to capture historical extreme market environments."
+  },
+  {
+    "id": 289,
+    "question": "What are reverse stress tests?",
+    "answer": "Tests that identify extreme but plausible scenarios that could result in significant adverse outcomes."
+  },
+  {
+    "id": 290,
+    "question": "What is senior management’s role in stress testing?",
+    "answer": "They must take a lead role in integrating stress testing into the risk management framework."
+  },
+  {
+    "id": 291,
+    "question": "What is wrong-way risk?",
+    "answer": "The risk that exposure to a counterparty is positively correlated with the counterparty's probability of default."
+  },
+  {
+    "id": 292,
+    "question": "What is specific wrong-way risk (SWWR)?",
+    "answer": "A situation where future exposure to a specific counterparty is highly correlated with that counterparty's probability of default."
+  },
+  {
+    "id": 293,
+    "question": "What is expected loss (EAD)?",
+    "answer": "The anticipated loss in the event of a counterparty default, calculated based on the market value lost and expected recoveries."
+  },
+  {
+    "id": 294,
+    "question": "What is loss given default (LGD)?",
+    "answer": "The percentage of the total exposure that is expected to be lost when a counterparty defaults."
+  },
+  {
+    "id": 295,
+    "question": "What is legal connection?",
+    "answer": "The relationship between the counterparty and the underlying issuer that affects the treatment of exposures."
+  },
+  {
+    "id": 296,
+    "question": "What is an unsecured transaction?",
+    "answer": "A transaction without collateral backing, leading to higher risk weights in credit risk calculations."
+  },
+  {
+    "id": 297,
+    "question": "What are advanced IRB institutions?",
+    "answer": "Institutions that use advanced internal ratings-based approaches for calculating capital requirements."
+  },
+  {
+    "id": 298,
+    "question": "What are foundation IRB institutions?",
+    "answer": "Institutions that use foundation internal ratings-based approaches for calculating capital requirements."
+  },
+  {
+    "id": 299,
+    "question": "What are market risk calculations?",
+    "answer": "Assessments of potential losses in value of financial instruments due to market fluctuations."
+  },
+  {
+    "id": 300,
+    "question": "What is independent collateral?",
+    "answer": "Assets collected from a counterparty to mitigate credit risk exposure."
+  },
+  {
+    "id": 301,
+    "question": "What is jump-to-default risk?",
+    "answer": "A scenario where the underlying security defaults suddenly, impacting related transactions."
+  },
+  {
+    "id": 302,
+    "question": "What is prepayment in risk management?",
+    "answer": "Paying off a loan or exposure before its due date, which can mitigate counterparty risk."
+  },
+  {
+    "id": 303,
+    "question": "What is a risk weight?",
+    "answer": "A factor used in calculating capital requirements for different types of exposures."
+  },
+  {
+    "id": 304,
+    "question": "What are concentrated risks?",
+    "answer": "Risks from a significant portion of exposure concentrated in a single counterparty or sector."
+  },
+  {
+    "id": 305,
+    "question": "What are scenario analyses?",
+    "answer": "Evaluations of the impact of hypothetical situations on risk exposures."
+  },
+  {
+    "id": 306,
+    "question": "What are senior management reports in risk management?",
+    "answer": "Regular communications to senior management about risk exposures and management strategies."
+  },
+  {
+    "id": 307,
+    "question": "What is risk appetite?",
+    "answer": "The level of risk an institution is willing to accept in pursuit of its objectives."
+  },
+  {
+    "id": 308,
+    "question": "What are severe shocks?",
+    "answer": "Significant and unexpected changes in market conditions that impact risk factors."
+  },
+  {
+    "id": 309,
+    "question": "How should general wrong-way risk be monitored?",
+    "answer": "Through ongoing assessment of exposures affected by wrong-way risk."
+  },
+  {
+    "id": 310,
+    "question": "What is a capital charge?",
+    "answer": "The capital a financial institution must hold to cover potential losses."
+  },
+  {
+    "id": 311,
+    "question": "What are securities financing transactions?",
+    "answer": "Transactions involving the borrowing or lending of securities, often with collateral."
+  },
+  {
+    "id": 312,
+    "question": "What is independent collateral amount?",
+    "answer": "Collateral that reduces EAD if pledged to cover risk solely on a specific trade."
+  },
+  {
+    "id": 313,
+    "question": "What is right-way risk?",
+    "answer": "The risk where exposure to a counterparty is inversely correlated with their probability of default."
+  },
+  {
+    "id": 314,
+    "question": "What is specific right-way risk (SRWR)?",
+    "answer": "A type of right-way risk where exposure is inversely correlated with default probability, e.g., warrants."
+  },
+  {
+    "id": 315,
+    "question": "What is zero EAD?",
+    "answer": "A situation where an institution has no exposure at default if a counterparty defaults."
+  },
+  {
+    "id": 316,
+    "question": "What are permitted trade types for zero EAD?",
+    "answer": "Equity warrants, issuer forward sales, and accelerated share repurchase agreements."
+  },
+  {
+    "id": 317,
+    "question": "What is an equity warrant?",
+    "answer": "An option written by the counterparty on their own stock, often part of a call spread overlay."
+  },
+  {
+    "id": 318,
+    "question": "What is an issuer forward sale?",
+    "answer": "A transaction where a counterparty locks in a stock price without issuing shares until maturity."
+  },
+  {
+    "id": 319,
+    "question": "What is an accelerated share repurchase agreement?",
+    "answer": "An agreement where funds are provided to buy back shares within a defined period, typically under six months."
+  },
+  {
+    "id": 320,
+    "question": "What ensures the integrity of the modelling process?",
+    "answer": "Operational requirements for accurate and reliable inputs, including data and valuation models."
+  },
+  {
+    "id": 321,
+    "question": "What is an internal model in CCR management?",
+    "answer": "A model reflecting transaction terms and specifications in a timely, complete, and conservative way."
+  },
+  {
+    "id": 322,
+    "question": "What are transaction terms in risk models?",
+    "answer": "Specifications like notional amounts, maturity, reference assets, thresholds, and margining."
+  },
+  {
+    "id": 323,
+    "question": "Where must transaction terms and specifications reside?",
+    "answer": "In a secure database subject to periodic audit."
+  },
+  {
+    "id": 324,
+    "question": "What must netting arrangements have for enforceability?",
+    "answer": "Legal signoff verifying enforceability, input by an independent unit."
+  },
+  {
+    "id": 325,
+    "question": "What does internal audit ensure in risk models?",
+    "answer": "That transaction terms are accurately reflected in the internal model."
+  },
+  {
+    "id": 326,
+    "question": "What are formal reconciliation processes for?",
+    "answer": "Verifying ongoing accuracy between the internal model and source data systems."
+  },
+  {
+    "id": 327,
+    "question": "What is the Basel Framework?",
+    "answer": "International banking regulations providing guidelines for risk management and capital requirements."
+  },
+  {
+    "id": 328,
+    "question": "What are haircuts in collateral management?",
+    "answer": "Reductions applied to collateral values to account for risk in EAD calculations."
+  },
+  {
+    "id": 329,
+    "question": "Who is a counterparty in finance?",
+    "answer": "An entity in a financial transaction exposed to risks including default."
+  },
+  {
+    "id": 330,
+    "question": "What is a call spread overlay transaction?",
+    "answer": "A counterparty issuing convertible bonds and synthetically increasing the conversion price."
+  },
+  {
+    "id": 331,
+    "question": "What is due diligence in zero EAD?",
+    "answer": "Investigation of a trade type to ensure it qualifies for zero EAD."
+  },
+  {
+    "id": 332,
+    "question": "What is an effective EPE model?",
+    "answer": "A model using historic market data to compute exposures, requiring at least three years of data."
+  },
+  {
+    "id": 333,
+    "question": "What is market implied data used for?",
+    "answer": "Estimating parameters of the Effective EPE model as an alternative to historic data."
+  },
+  {
+    "id": 334,
+    "question": "How often must Effective EPE data be updated?",
+    "answer": "At least quarterly, or more often if market conditions warrant."
+  },
+  {
+    "id": 335,
+    "question": "What are credit default spreads (CDS)?",
+    "answer": "The yield difference between corporate and risk-free bonds, used to assess default risk."
+  },
+  {
+    "id": 336,
+    "question": "What is counterparty mapping?",
+    "answer": "Associating counterparties with credit spread data based on region, rating, or business type."
+  },
+  {
+    "id": 337,
+    "question": "What must exposure models use in data?",
+    "answer": "Historic or implied data including stressed credit periods for all counterparties."
+  },
+  {
+    "id": 338,
+    "question": "What must EAD calculations consider for OTC derivatives?",
+    "answer": "The effect of collateral when modeling exposures."
+  },
+  {
+    "id": 339,
+    "question": "How must collateral be modeled in EAD?",
+    "answer": "Jointly with exposure for OTC derivatives and securities-financing transactions."
+  },
+  {
+    "id": 340,
+    "question": "What happens when collateral cannot be jointly modeled?",
+    "answer": "Supervisory haircuts or financial collateral standards must be applied."
+  },
+  {
+    "id": 341,
+    "question": "What is the internal model validation process?",
+    "answer": "Policies ensuring model integrity and identifying assumption violations."
+  },
+  {
+    "id": 342,
+    "question": "What is an EPE model review?",
+    "answer": "Assessing comprehensiveness of the EPE model to cover material exposures."
+  },
+  {
+    "id": 343,
+    "question": "What is BCBS guidance?",
+    "answer": "Basel Committee guidance on internal models to estimate risk parameters and charges."
+  },
+  {
+    "id": 344,
+    "question": "What is required for integrity of a risk management system?",
+    "answer": "Robustness in institutions using internal models."
+  },
+  {
+    "id": 345,
+    "question": "What are staff skill requirements for internal models?",
+    "answer": "Institutions must have staff with adequate skills in operations and controls."
+  },
+  {
+    "id": 346,
+    "question": "What is the requirement for model accuracy?",
+    "answer": "Ensuring accuracy of models estimating EPE and related risks."
+  },
+  {
+    "id": 347,
+    "question": "Why is rigour of internal controls important?",
+    "answer": "To maintain strict processes for internal models estimating EPE."
+  },
+  {
+    "id": 348,
+    "question": "What is material contribution in EPE models?",
+    "answer": "Covering products that materially contribute to counterparty risk."
+  },
+  {
+    "id": 349,
+    "question": "What is the Internal Capital Adequacy Assessment Program?",
+    "answer": "Guidance covering CCRs not fully addressed by Pillar 1."
+  },
+  {
+    "id": 350,
+    "question": "What is a cross-product netting arrangement?",
+    "answer": "A bilateral agreement creating a single legal obligation across multiple master agreements."
+  },
+  {
+    "id": 351,
+    "question": "What is a cross-product net amount?",
+    "answer": "The net sum of close-out values and mark-to-market values of included agreements and transactions."
+  },
+  {
+    "id": 352,
+    "question": "What are written and reasoned legal opinions?",
+    "answer": "Legal assessments with high certainty on enforceability of cross-product netting arrangements."
+  },
+  {
+    "id": 353,
+    "question": "What is a bilateral netting agreement?",
+    "answer": "An agreement allowing two parties to offset obligations to simplify settlement."
+  },
+  {
+    "id": 354,
+    "question": "What is a default in financial terms?",
+    "answer": "A failure to fulfill a financial obligation, triggering netting arrangement terms."
+  },
+  {
+    "id": 355,
+    "question": "What is bankruptcy in finance?",
+    "answer": "A legal proceeding involving a person or business that is unable to repay outstanding debts, affecting the Cross-Product Netting Arrangement."
+  },
+  {
+    "id": 356,
+    "question": "What is liquidation in the context of finance?",
+    "answer": "The process of winding up a company's financial affairs, which can impact the obligations under a Cross-Product Netting Arrangement."
+  },
+  {
+    "id": 357,
+    "question": "What is regulatory capital computation?",
+    "answer": "The calculation of the capital that financial institutions must hold to cover their risks, including those assessed under the internal model method."
+  },
+  {
+    "id": 358,
+    "question": "What is the Pillar 1 process in banking regulation?",
+    "answer": "The standard regulatory framework that covers minimum capital requirements for banks, which may not fully address counterparty credit risks."
+  },
+  {
+    "id": 359,
+    "question": "What are applicable requirements in netting contracts?",
+    "answer": "The specific legal and operational standards that must be met for netting contracts and collateral recognition."
+  },
+  {
+    "id": 360,
+    "question": "What does high degree of certainty mean in legal opinions?",
+    "answer": "The level of assurance required from legal opinions regarding the enforceability of the Cross-Product Netting Arrangement."
+  },
+  {
+    "id": 361,
+    "question": "What are material provisions in legal agreements?",
+    "answer": "Key elements of any included bilateral master agreement that must be addressed in legal opinions related to Cross-Product Netting Arrangements."
+  },
+  {
+    "id": 362,
+    "question": "What is a walkaway clause?",
+    "answer": "A provision that allows a non-defaulting counterparty to make limited payments, or no payment at all, to the estate of the defaulter, even if the defaulter is a net creditor."
+  },
+  {
+    "id": 363,
+    "question": "What is a legal opinion in finance?",
+    "answer": "A document that must be generally recognized by the legal community in the firm's home country, addressing all relevant issues in a reasoned manner."
+  },
+  {
+    "id": 364,
+    "question": "What is replacement cost (RC)?",
+    "answer": "The cost calculated according to specific paragraphs that contribute to the EAD calculation."
+  },
+  {
+    "id": 365,
+    "question": "What is potential future exposure (PFE)?",
+    "answer": "The amount calculated according to specific paragraphs that contribute to the EAD calculation."
+  },
+  {
+    "id": 366,
+    "question": "What is a margined netting set?",
+    "answer": "A netting set covered by a margin agreement requiring the bank's counterparty to post variation margin."
+  },
+  {
+    "id": 367,
+    "question": "What is an unmargined netting set?",
+    "answer": "A netting set treated as unmargined for the purposes of the SA-CCR, including those with a one-way margin agreement."
+  },
+  {
+    "id": 368,
+    "question": "What are internal procedures in risk management?",
+    "answer": "Procedures that an institution must have to verify that transactions included in a netting set are covered by appropriate legal opinions."
+  },
+  {
+    "id": 369,
+    "question": "What is documentation maintenance in risk management?",
+    "answer": "The requirement for an institution to maintain all required documentation in its files."
+  },
+  {
+    "id": 370,
+    "question": "What are credit risk mitigation techniques?",
+    "answer": "Techniques recognized for reducing credit risk, which must be satisfied by each included bilateral master agreement and transaction."
+  },
+  {
+    "id": 371,
+    "question": "What is aggregate credit risk exposure?",
+    "answer": "The total credit risk to each counterparty, aggregated to arrive at a single legal exposure across products covered by the Cross-Product Netting Arrangement."
+  },
+  {
+    "id": 372,
+    "question": "What are legal requirements for credit risk mitigation?",
+    "answer": "Applicable laws that must be satisfied for recognition of credit risk mitigation techniques."
+  },
+  {
+    "id": 373,
+    "question": "What is regulatory capital recognition of netting?",
+    "answer": "The acknowledgment of netting within product categories under the Internal Models Method (IMM) or other relevant methodologies."
+  },
+  {
+    "id": 374,
+    "question": "What is jurisdictional law in finance?",
+    "answer": "The law of the jurisdiction in which the counterparty is chartered, the law governing individual transactions, and the law governing any necessary contracts for netting."
+  },
+  {
+    "id": 375,
+    "question": "What is a firm’s measurement in CCR management?",
+    "answer": "The process by which a firm factors the effects of a Cross-Product Netting Arrangement into its measurement of counterparty credit risk."
+  },
+  {
+    "id": 376,
+    "question": "What are economic capital processes?",
+    "answer": "Processes that must factor in the aggregation of credit risk to each counterparty."
+  },
+  {
+    "id": 377,
+    "question": "When were the Settlement and Counterparty Risk guidelines issued?",
+    "answer": "October 2023."
+  },
+  {
+    "id": 378,
+    "question": "What are unmargined transactions?",
+    "answer": "For unmargined transactions, the RC intends to capture the loss that would occur if a counterparty were to default and were closed out of its transactions immediately."
+  },
+  {
+    "id": 379,
+    "question": "What is the PFE add-on?",
+    "answer": "The PFE add-on represents a potential conservative increase in exposure over a one-year time horizon from the present date."
+  },
+  {
+    "id": 380,
+    "question": "What are margined trades?",
+    "answer": "For margined trades, the RC intends to capture the loss that would occur if a counterparty were to default at the present or at a future time."
+  },
+  {
+    "id": 381,
+    "question": "What is a haircut in collateral management?",
+    "answer": "The haircut applicable to noncash collateral in the replacement cost formulation represents the potential change in value of the collateral during the appropriate time period."
+  },
+  {
+    "id": 382,
+    "question": "What is cash variation margin (VM)?",
+    "answer": "Cash variation margin is not subject to any additional haircut provided the variation margin is posted in a currency that is agreed to and listed in the applicable contract."
+  },
+  {
+    "id": 383,
+    "question": "What is cash initial margin (IM)?",
+    "answer": "Cash initial margin that is exchanged in a currency other than the termination currency is subject to the additional haircut for foreign currency risk."
+  },
+  {
+    "id": 384,
+    "question": "At what level is replacement cost calculated?",
+    "answer": "Replacement cost is calculated at the netting set level."
+  },
+  {
+    "id": 385,
+    "question": "How are PFE add-ons calculated?",
+    "answer": "PFE add-ons are calculated for each asset class within a given netting set and then aggregated."
+  },
+  {
+    "id": 386,
+    "question": "What is capital adequacy in relation to netting?",
+    "answer": "For capital adequacy purposes, institutions may net transactions subject to novation under which any obligation between an institution and its counterparty to deliver a given currency on a given value date is automatically amalgamated."
+  },
+  {
+    "id": 387,
+    "question": "What are legal netting sets?",
+    "answer": "Institutions have the option to remove credit derivatives from their legal netting sets and treat them as individual unmargined transactions."
+  },
+  {
+    "id": 388,
+    "question": "What are non-linear products under SACCR?",
+    "answer": "Non-linear products where no specific treatment exists under the SACCR can be decomposed in a manner similar to paragraph 131."
+  },
+  {
+    "id": 389,
+    "question": "What are linear products under SACCR?",
+    "answer": "Linear products may not be decomposed."
+  },
+  {
+    "id": 390,
+    "question": "What is FAQ #1 in Basel Framework?",
+    "answer": "It refers to the first frequently asked question in the Basel Framework documentation regarding EAD for sold options."
+  },
+  {
+    "id": 391,
+    "question": "What is FAQ #2 in Basel Framework?",
+    "answer": "It refers to the second frequently asked question in the Basel Framework documentation regarding credit derivatives and EAD."
+  },
+  {
+    "id": 392,
+    "question": "What is FAQ #3 in Basel Framework?",
+    "answer": "It refers to the third frequently asked question in the Basel Framework documentation regarding non-linear products."
+  },
+  {
+    "id": 393,
+    "question": "What is a netting contract?",
+    "answer": "An agreement that allows an institution to have a claim to receive or obligation to pay only the net sum of the positive and negative mark-to-market values."
+  },
+  {
+    "id": 394,
+    "question": "What are mark-to-market values?",
+    "answer": "The current market value of the derivative contracts that may be positive or negative."
+  },
+  {
+    "id": 395,
+    "question": "What are legal reviews in risk management?",
+    "answer": "Written and reasoned legal reviews that ensure the institution's exposure is recognized as a net amount in legal challenges."
+  },
+  {
+    "id": 396,
+    "question": "What is counterparty default?",
+    "answer": "Circumstances where the counterparty fails to perform due to default, bankruptcy, liquidation, or similar situations."
+  },
+  {
+    "id": 397,
+    "question": "What is jurisdiction law in CCR?",
+    "answer": "The law of the jurisdiction in which the counterparty is chartered and any relevant foreign branches."
+  },
+  {
+    "id": 398,
+    "question": "What is netting enforceability?",
+    "answer": "OSFI must be satisfied that the netting is enforceable under the laws of each relevant jurisdiction."
+  },
+  {
+    "id": 399,
+    "question": "What is a legal characteristics review?",
+    "answer": "Procedures to ensure that the legal characteristics of netting arrangements are kept under review."
+  },
+  {
+    "id": 400,
+    "question": "What is specific wrong-way risk (WWR)?",
+    "answer": "Transactions that are required to be moved to their own standalone netting set."
+  },
+  {
+    "id": 401,
+    "question": "What are bilateral transactions?",
+    "answer": "Transactions that involve two parties, typically in the context of financial agreements."
+  },
+  {
+    "id": 402,
+    "question": "What are central clearing relationships?",
+    "answer": "Arrangements where a central counterparty clears transactions between two parties."
+  },
+  {
+    "id": 403,
+    "question": "What is a legal obligation?",
+    "answer": "A binding requirement under the law that must be fulfilled by the parties involved."
+  },
+  {
+    "id": 404,
+    "question": "Who is a defaulting party?",
+    "answer": "A party that fails to meet its legal obligations in a financial agreement."
+  },
+  {
+    "id": 405,
+    "question": "Who is a non-defaulting counterparty?",
+    "answer": "The party that remains compliant with its obligations when the other party defaults."
+  }
+]
