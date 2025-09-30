@@ -1,0 +1,1217 @@
+[
+  {
+    "id": 1,
+    "question": "What is the focus of Chapter 4 in the CAR documentation?",
+    "answer": "Credit Risk - Standardized Approach."
+  },
+  {
+    "id": 2,
+    "question": "What types of exposures are covered under Section 4.1 of Chapter 4?",
+    "answer": "Individual exposures."
+  },
+  {
+    "id": 3,
+    "question": "What are the eligibility criteria for small and medium-sized deposit-taking institutions (SMSBs) to apply a simplified treatment?",
+    "answer": "Total exposure to the asset class grouping must not exceed $500 million."
+  },
+  {
+    "id": 4,
+    "question": "Which asset class includes exposures to banks and securities firms treated as banks?",
+    "answer": "Section 4.1.4."
+  },
+  {
+    "id": 5,
+    "question": "What does Section 4.1.5 cover in the CAR documentation?",
+    "answer": "Exposures to covered bonds."
+  },
+  {
+    "id": 6,
+    "question": "What is the focus of Section 4.1.7?",
+    "answer": "Exposures to corporates and Small and Medium Size Enterprises (SMEs)."
+  },
+  {
+    "id": 7,
+    "question": "What types of retail exposures are defined in Section 4.1.9?",
+    "answer": "Qualifying revolving retail and other qualifying retail exposures."
+  },
+  {
+    "id": 8,
+    "question": "What does Section 4.1.11 address?",
+    "answer": "Exposures secured by residential real estate."
+  },
+  {
+    "id": 9,
+    "question": "What is covered in Section 4.1.12?",
+    "answer": "Exposures secured by commercial real estate."
+  },
+  {
+    "id": 10,
+    "question": "What is the treatment of purchased receivables discussed in?",
+    "answer": "Appendix II."
+  },
+  {
+    "id": 11,
+    "question": "What does the Basel Committee on Banking Supervision (BCBS) framework provide guidance on?",
+    "answer": "Capital Adequacy Requirements (CAR)."
+  },
+  {
+    "id": 12,
+    "question": "What is the significance of the OSFI's Corporate Governance Guideline?",
+    "answer": "It outlines expectations for institution Boards of Directors regarding capital and liquidity management."
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of the risk weight multiplier mentioned in Section 4.1.16?",
+    "answer": "To address certain exposures with currency mismatch."
+  },
+  {
+    "id": 14,
+    "question": "What is the main focus of Section 4.3?",
+    "answer": "Credit Risk Mitigation - Standardized Approach."
+  },
+  {
+    "id": 15,
+    "question": "What overarching issues are discussed in Section 4.3.1?",
+    "answer": "Overarching issues related to credit risk mitigation."
+  },
+  {
+    "id": 16,
+    "question": "What does Section 4.3.2 provide an overview of?",
+    "answer": "Credit Risk Mitigation Techniques."
+  },
+  {
+    "id": 17,
+    "question": "What is the focus of Section 4.3.3?",
+    "answer": "Collateralized transactions."
+  },
+  {
+    "id": 18,
+    "question": "What does Section 4.3.4 discuss?",
+    "answer": "On-balance sheet netting."
+  },
+  {
+    "id": 19,
+    "question": "What are credit derivatives discussed in Section 4.3.5?",
+    "answer": "Instruments used to manage credit risk."
+  },
+  {
+    "id": 20,
+    "question": "What types of institutions are included in the SMSB or D-SIB categories?",
+    "answer": "Banks, federally regulated trust companies, federally regulated loan companies, and federal credit unions."
+  },
+  {
+    "id": 21,
+    "question": "What does total exposure include?",
+    "answer": "Both on and off balance sheet amounts, net of Stage 3 allowances but before credit risk mitigation."
+  },
+  {
+    "id": 22,
+    "question": "How are risk weights assigned under the standardized approach?",
+    "answer": "Based on eligible credit ratings provided by external credit assessment institutions (ECAIs) recognized by OSFI."
+  },
+  {
+    "id": 23,
+    "question": "What is the purpose of due diligence in credit risk assessment?",
+    "answer": "To ensure an adequate understanding of the risk profile and characteristics of counterparties."
+  },
+  {
+    "id": 24,
+    "question": "What should due diligence analyses include?",
+    "answer": "Historical and projected financial information, industry data, peer comparisons, and qualitative factors."
+  },
+  {
+    "id": 25,
+    "question": "How often should due diligence analyses be completed?",
+    "answer": "At least annually."
+  },
+  {
+    "id": 26,
+    "question": "What is the risk weight for exposures to sovereigns rated AAA?",
+    "answer": "0%."
+  },
+  {
+    "id": 27,
+    "question": "What is the risk weight for exposures to sovereigns rated BB+?",
+    "answer": "100%."
+  },
+  {
+    "id": 28,
+    "question": "What is the risk weight for exposures to the Canadian sovereign and central bank?",
+    "answer": "0%."
+  },
+  {
+    "id": 29,
+    "question": "What are public sector entities (PSEs)?",
+    "answer": "Entities directly and wholly-owned by a government, school boards, hospitals, universities, social service programs receiving government support, and municipalities."
+  },
+  {
+    "id": 30,
+    "question": "What is the risk weight for exposures to multilateral development banks?",
+    "answer": "0%."
+  },
+  {
+    "id": 31,
+    "question": "What must institutions demonstrate to OSFI regarding their due diligence analyses?",
+    "answer": "That the analyses are appropriate and effective."
+  },
+  {
+    "id": 32,
+    "question": "What are the risk weights for ECA risk scores of 0-1?",
+    "answer": "0%."
+  },
+  {
+    "id": 33,
+    "question": "What is the risk weight for ECA risk scores of 4 to 6?",
+    "answer": "100%."
+  },
+  {
+    "id": 34,
+    "question": "What is required for an institution to qualify for a lower risk weight for sovereign exposures?",
+    "answer": "A local presence (subsidiary or branch) in the country of the sovereign exposure."
+  },
+  {
+    "id": 35,
+    "question": "What should institutions consider when evaluating the repayment capacity of a solo entity?",
+    "answer": "The support of the group and potential adverse impacts from group problems."
+  },
+  {
+    "id": 36,
+    "question": "What is the risk weight for exposures to the Bank for International Settlements?",
+    "answer": "0%."
+  },
+  {
+    "id": 37,
+    "question": "What is the significance of the Basel Framework in credit risk assessment?",
+    "answer": "It provides guidelines for assessing credit risk and assigning appropriate risk weights."
+  },
+  {
+    "id": 38,
+    "question": "What does the term 'Stage 1 and Stage 2 allowances' refer to?",
+    "answer": "General allowances for credit risk."
+  },
+  {
+    "id": 39,
+    "question": "What is the risk weight for exposures rated below B-?",
+    "answer": "150%."
+  },
+  {
+    "id": 40,
+    "question": "What is the role of external credit assessment institutions (ECAIs)?",
+    "answer": "To provide credit ratings that help determine risk weights for exposures."
+  },
+  {
+    "id": 41,
+    "question": "What are the implications of using country risk scores assigned by Export Credit Agencies (ECAs)?",
+    "answer": "They can be used for risk weighting exposures to sovereigns."
+  },
+  {
+    "id": 42,
+    "question": "What does OSFI stand for?",
+    "answer": "Office of the Superintendent of Financial Institutions."
+  },
+  {
+    "id": 43,
+    "question": "What should institutions do if they receive a new rating from an ECAI?",
+    "answer": "Use the new rating for capital purposes immediately upon identification."
+  },
+  {
+    "id": 44,
+    "question": "What is the risk weight for exposures to sovereigns rated A-?",
+    "answer": "20%."
+  },
+  {
+    "id": 45,
+    "question": "What is the risk weight for unrated sovereign exposures?",
+    "answer": "100%."
+  },
+  {
+    "id": 46,
+    "question": "What is the risk weight for PSE exposures compared to sovereign risk weight?",
+    "answer": "PSE exposures receive a risk weight that is one category higher than the sovereign risk weight."
+  },
+  {
+    "id": 47,
+    "question": "What are the risk weights for PSE exposures based on sovereign ratings?",
+    "answer": "AAA to A+: 20%, A- to BBB-: 50%, BB+ to B-: 100%, Below B-: 150%, Unrated: 100%."
+  },
+  {
+    "id": 48,
+    "question": "How are exposures to provincial and territorial governments treated?",
+    "answer": "They receive the same risk weight as the Government of Canada."
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of the PSE risk weight?",
+    "answer": "It is meant for financing the PSE's own municipal and public services."
+  },
+  {
+    "id": 50,
+    "question": "How should exposures to PSEs providing guarantees or support arrangements be treated?",
+    "answer": "They must be treated as corporate exposures based on the external risk rating of the PSE."
+  },
+  {
+    "id": 51,
+    "question": "What is a Multilateral Development Bank (MDB)?",
+    "answer": "An institution created by a group of countries that provides financing and professional advice for economic and social development projects."
+  },
+  {
+    "id": 52,
+    "question": "What risk weight is applied to MDBs that meet BCBS eligibility criteria?",
+    "answer": "A 0% risk weight."
+  },
+  {
+    "id": 53,
+    "question": "What are the eligibility criteria for MDBs to qualify for a 0% risk weight?",
+    "answer": "Very high quality long-term issuer ratings, significant sovereign shareholder structure, strong shareholder support, and adequate capital and liquidity."
+  },
+  {
+    "id": 54,
+    "question": "Which MDBs currently qualify for a 0% risk weight?",
+    "answer": "World Bank Group, Asian Development Bank, African Development Bank, European Bank for Reconstruction and Development, among others."
+  },
+  {
+    "id": 55,
+    "question": "What is the risk weight for MDB exposures based on external ratings?",
+    "answer": "AAA to A+: 20%, A- to BBB-: 30%, BB+ to B-: 50%, Below B-: 100%, Unrated: 50%."
+  },
+  {
+    "id": 56,
+    "question": "What defines an exposure to a deposit-taking institution or bank?",
+    "answer": "It includes loans and senior debt instruments to federally and provincially regulated financial institutions licensed to take deposits."
+  },
+  {
+    "id": 57,
+    "question": "What is the definition of a bank according to the document?",
+    "answer": "An institution regarded as a bank in its country of incorporation and supervised by the appropriate authority."
+  },
+  {
+    "id": 58,
+    "question": "What risk weight can Category I and II SMSBs apply to exposures to banks?",
+    "answer": "A base risk weight of 40%, and 20% for short-term exposures with an original maturity of three months or less."
+  },
+  {
+    "id": 59,
+    "question": "How are bank exposures risk-weighted for institutions not qualifying for simplified treatment?",
+    "answer": "Based on the External Credit Risk Assessment Approach (ECRA) or Standardized Credit Risk Assessment Approach (SCRA)."
+  },
+  {
+    "id": 60,
+    "question": "What is the maximum cumulative exposure for banks to apply simplified treatment?",
+    "answer": "$500 million."
+  },
+  {
+    "id": 61,
+    "question": "What is the base risk weight for exposures rated AAA to AA-?",
+    "answer": "0.2"
+  },
+  {
+    "id": 62,
+    "question": "What risk weight is assigned to exposures rated A+ to A-?",
+    "answer": "0.2"
+  },
+  {
+    "id": 63,
+    "question": "What risk weight corresponds to exposures rated BBB+ to BB+?",
+    "answer": "0.3"
+  },
+  {
+    "id": 64,
+    "question": "What is the risk weight for exposures rated B-?",
+    "answer": "1.5"
+  },
+  {
+    "id": 65,
+    "question": "What is the risk weight for short-term exposures to banks with an original maturity of three months or less?",
+    "answer": "0.2"
+  },
+  {
+    "id": 66,
+    "question": "What must institutions do to ensure external ratings reflect creditworthiness?",
+    "answer": "Perform due diligence."
+  },
+  {
+    "id": 67,
+    "question": "What happens if due diligence indicates higher risk than the external rating?",
+    "answer": "Assign a risk weight at least one bucket higher than the base risk weight."
+  },
+  {
+    "id": 68,
+    "question": "What is the risk weight for all unrated bank exposures under the SCRA?",
+    "answer": "100% unless classified into risk-weight buckets."
+  },
+  {
+    "id": 69,
+    "question": "What are the risk weights for Grade A, B, and C exposures?",
+    "answer": "Grade A: 40%, Grade B: 75%, Grade C: 150%."
+  },
+  {
+    "id": 70,
+    "question": "What is the risk weight for unrated bank exposures with a CET1 ratio of 14% or higher?",
+    "answer": "30%."
+  },
+  {
+    "id": 71,
+    "question": "What defines a Grade A counterparty bank?",
+    "answer": "Adequate capacity to meet financial commitments in a timely manner."
+  },
+  {
+    "id": 72,
+    "question": "What must a Grade A counterparty bank exceed?",
+    "answer": "Published minimum regulatory requirements and buffers."
+  },
+  {
+    "id": 73,
+    "question": "What is the consequence if a counterparty bank does not meet Grade A criteria?",
+    "answer": "Classify exposures as Grade B or Grade C."
+  },
+  {
+    "id": 74,
+    "question": "What characterizes a Grade B counterparty bank?",
+    "answer": "Subject to substantial credit risk, dependent on stable economic conditions."
+  },
+  {
+    "id": 75,
+    "question": "What must a Grade B counterparty bank meet?",
+    "answer": "Minimum regulatory requirements established by its national supervisor."
+  },
+  {
+    "id": 76,
+    "question": "What defines a Grade C counterparty bank?",
+    "answer": "Higher credit risk with material default risks and limited margins of safety."
+  },
+  {
+    "id": 77,
+    "question": "What triggers the classification of an exposure into Grade C?",
+    "answer": "Failure to meet Grade B criteria or adverse audit opinions on financial statements."
+  },
+  {
+    "id": 78,
+    "question": "What is the maximum original maturity for exposures to banks that can be assigned a risk weight corresponding to short-term exposures?",
+    "answer": "Three months or less."
+  },
+  {
+    "id": 79,
+    "question": "What is the risk weight floor based on for bank exposures under the SCRA?",
+    "answer": "The risk weight applicable to exposures to the sovereign of the country where the bank is incorporated."
+  },
+  {
+    "id": 80,
+    "question": "When does the sovereign floor not apply to bank exposures?",
+    "answer": "When the exposure is in the local currency of the debtor bank's jurisdiction or for short-term self-liquidating trade-related items."
+  },
+  {
+    "id": 81,
+    "question": "How are exposures to parents of banks that are non-financial institutions treated?",
+    "answer": "As corporate exposures."
+  },
+  {
+    "id": 82,
+    "question": "What are covered bonds?",
+    "answer": "Bonds issued by a bank or mortgage institution that are subject to special public supervision to protect bondholders."
+  },
+  {
+    "id": 83,
+    "question": "What must the proceeds from covered bonds be invested in?",
+    "answer": "Assets capable of covering claims attached to the bonds during their validity."
+  },
+  {
+    "id": 84,
+    "question": "What risk weight can Category I and II SMSBs apply to exposures to covered bonds?",
+    "answer": "20%, provided they meet certain criteria and do not exceed $500 million cumulatively."
+  },
+  {
+    "id": 85,
+    "question": "What types of exposures can be included in the cover pool for covered bonds?",
+    "answer": "Exposures to sovereigns, secured residential and commercial real estate, and exposures to qualifying banks."
+  },
+  {
+    "id": 86,
+    "question": "What is the minimum nominal value requirement for the pool of assets assigned to covered bonds?",
+    "answer": "It must exceed the nominal outstanding value by at least 5%."
+  },
+  {
+    "id": 87,
+    "question": "What must be demonstrated for covered bonds to be eligible for specific risk weights?",
+    "answer": "The institution must provide portfolio information and ensure the issuer makes this information available semi-annually."
+  },
+  {
+    "id": 88,
+    "question": "How are risk weights for covered bonds determined?",
+    "answer": "Based on the issue-specific rating or the issuer's risk weight according to specified rules."
+  },
+  {
+    "id": 89,
+    "question": "What is the base risk weight for covered bonds rated BBB+?",
+    "answer": "20%."
+  },
+  {
+    "id": 90,
+    "question": "What risk weight is assigned to unrated covered bonds?",
+    "answer": "It is inferred from the issuer's ECRA or SCRA risk weight."
+  },
+  {
+    "id": 91,
+    "question": "What must institutions perform due diligence on regarding covered bonds?",
+    "answer": "To ensure that external ratings reflect the creditworthiness of the covered bond and issuing institution."
+  },
+  {
+    "id": 92,
+    "question": "What happens if due diligence indicates higher risk characteristics than the external rating?",
+    "answer": "The institution must assign a risk weight at least one bucket higher than the base risk weight."
+  },
+  {
+    "id": 93,
+    "question": "What is the maximum loan-to-value ratio for residential real estate exposures in the cover pool?",
+    "answer": "80% or lower."
+  },
+  {
+    "id": 94,
+    "question": "What is the maximum loan-to-value ratio for commercial real estate exposures in the cover pool?",
+    "answer": "60% or lower."
+  },
+  {
+    "id": 95,
+    "question": "What is required for covered bonds to maintain their risk-weight treatment throughout their maturity?",
+    "answer": "Conditions set out in the relevant paragraphs must be satisfied at inception and throughout the maturity."
+  },
+  {
+    "id": 96,
+    "question": "What happens if an external rating is not from a recognized ECAI by OSFI?",
+    "answer": "The exposure is considered unrated from the perspective of the institution."
+  },
+  {
+    "id": 97,
+    "question": "How should covered bonds that do not meet specific criteria be risk-weighted?",
+    "answer": "They should be risk-weighted based on the external rating of the issuing institution."
+  },
+  {
+    "id": 98,
+    "question": "How are exposures to securities firms treated under Basel III?",
+    "answer": "They are treated as exposures to banks if subject to equivalent prudential standards and supervision."
+  },
+  {
+    "id": 99,
+    "question": "What types of entities are included in the corporate exposure class?",
+    "answer": "Incorporated entities, associations, partnerships, proprietorships, trusts, funds, and similar entities, excluding individuals."
+  },
+  {
+    "id": 100,
+    "question": "What is the risk weight for exposures to corporates for Category I and II SMSBs?",
+    "answer": "They may apply a risk weight of 100% to certain exposures, provided they do not exceed $500 million."
+  },
+  {
+    "id": 101,
+    "question": "What are the two subcategories for corporate exposures under the corporate exposure class?",
+    "answer": "General corporate exposures and specialized lending exposures."
+  },
+  {
+    "id": 102,
+    "question": "What must institutions do if they choose to apply a 100% risk weight to corporate exposures?",
+    "answer": "They must use the 100% risk weight for all of their corporate exposures."
+  },
+  {
+    "id": 103,
+    "question": "How should rated general corporate exposures be risk-weighted?",
+    "answer": "According to specific paragraphs or based on external ratings outlined in the guidelines."
+  },
+  {
+    "id": 104,
+    "question": "What is the risk weight for unrated general corporate exposures?",
+    "answer": "They can be risk-weighted at 100% or according to specific guidelines."
+  },
+  {
+    "id": 105,
+    "question": "What is the risk weight for unrated corporate exposures identified as 'investment grade'?",
+    "answer": "65% risk weight."
+  },
+  {
+    "id": 106,
+    "question": "What criteria must an unrated corporate meet to be considered 'investment grade'?",
+    "answer": "Adequate capacity to meet financial commitments and robust against adverse economic changes."
+  },
+  {
+    "id": 107,
+    "question": "What is the risk weight for unrated corporate exposures that are not 'investment grade'?",
+    "answer": "150% risk weight."
+  },
+  {
+    "id": 108,
+    "question": "What is the risk weight for unrated exposures to corporate SMEs?",
+    "answer": "85% risk weight."
+  },
+  {
+    "id": 109,
+    "question": "What is the maximum reported annual sales for a corporate to qualify as a SME?",
+    "answer": "Less than or equal to CAD $75 million."
+  },
+  {
+    "id": 110,
+    "question": "What must institutions assess when determining if a corporate entity is 'investment grade'?",
+    "answer": "Performance against industry peers, risks from the operating environment, and access to financial information."
+  },
+  {
+    "id": 111,
+    "question": "What is the treatment for unrated exposures to SMEs that meet specific criteria?",
+    "answer": "They will be treated as regulatory retail SBE exposures and risk-weighted at 75%."
+  },
+  {
+    "id": 112,
+    "question": "What is the risk weight for rated corporate exposures with an external rating of AAA to AA-?",
+    "answer": "20% risk weight."
+  },
+  {
+    "id": 113,
+    "question": "What is the risk weight for rated corporate exposures with an external rating of A+ to A-?",
+    "answer": "50% risk weight."
+  },
+  {
+    "id": 114,
+    "question": "What is the risk weight for rated corporate exposures with an external rating of BBB+ to BBB-?",
+    "answer": "75% risk weight."
+  },
+  {
+    "id": 115,
+    "question": "What is the risk weight for rated corporate exposures with an external rating of BB-?",
+    "answer": "100% risk weight."
+  },
+  {
+    "id": 116,
+    "question": "What is the risk weight for rated corporate exposures below BB-?",
+    "answer": "150% risk weight."
+  },
+  {
+    "id": 117,
+    "question": "What qualifies a corporate exposure as a specialized lending exposure?",
+    "answer": "It must not relate to real estate, be to an entity created for financing physical assets, have few or no other material assets, and give the lender substantial control over the assets."
+  },
+  {
+    "id": 118,
+    "question": "What are the three subcategories of specialized lending?",
+    "answer": "Project finance, object finance, and commodities finance."
+  },
+  {
+    "id": 119,
+    "question": "What is project finance?",
+    "answer": "A funding method where the lender relies primarily on the revenues generated by a single project for repayment and security."
+  },
+  {
+    "id": 120,
+    "question": "What types of projects typically use project finance?",
+    "answer": "Large, complex installations such as power plants, chemical processing plants, and transportation infrastructure."
+  },
+  {
+    "id": 121,
+    "question": "What is object finance?",
+    "answer": "Funding for the acquisition of equipment where loan repayment depends on cash flows generated by the financed assets."
+  },
+  {
+    "id": 122,
+    "question": "What is commodities finance?",
+    "answer": "Short-term lending to finance reserves, inventories, or receivables of exchange-traded commodities, repaid from commodity sales."
+  },
+  {
+    "id": 123,
+    "question": "What risk weights apply to object and commodities finance exposures?",
+    "answer": "Both are risk-weighted at 100%."
+  },
+  {
+    "id": 124,
+    "question": "What are the risk weights for project finance exposures during the pre-operational phase?",
+    "answer": "130%."
+  },
+  {
+    "id": 125,
+    "question": "What risk weight applies to high-quality project finance exposures during the operational phase?",
+    "answer": "80%."
+  },
+  {
+    "id": 126,
+    "question": "What defines a high-quality project finance exposure?",
+    "answer": "It meets financial commitments timely and is robust against adverse economic changes, with creditor protections in place."
+  },
+  {
+    "id": 127,
+    "question": "What conditions must a project finance entity meet to be considered high quality?",
+    "answer": "Restrictions on additional debt, sufficient reserve funds, availability-based revenues, and strong creditor protections."
+  },
+  {
+    "id": 128,
+    "question": "What is required for an instrument to be classified as an equity exposure?",
+    "answer": "It must be irredeemable, not embody an obligation from the issuer, and convey a residual claim on the issuer's assets or income."
+  },
+  {
+    "id": 129,
+    "question": "What types of instruments are categorized as equity exposures?",
+    "answer": "Direct and indirect ownership interests in commercial enterprises or financial institutions that are not consolidated or deducted."
+  },
+  {
+    "id": 130,
+    "question": "What is the significance of irredeemability in equity exposures?",
+    "answer": "It means the return of invested funds can only occur through sale or liquidation, not through repayment obligations."
+  },
+  {
+    "id": 131,
+    "question": "What are the characteristics of subordinated debt and equity instruments under Basel Framework?",
+    "answer": "They are not deducted from regulatory capital or risk-weighted at 250%."
+  },
+  {
+    "id": 132,
+    "question": "What is the role of external ratings in determining risk weights for specialized lending exposures?",
+    "answer": "Risk weights are assigned based on issue-specific external ratings if available; issuer ratings are not applicable."
+  },
+  {
+    "id": 133,
+    "question": "What happens if an issue-specific external rating is not available for specialized lending exposures?",
+    "answer": "Specific risk weights apply: 100% for object and commodities finance, and varying weights for project finance based on the phase."
+  },
+  {
+    "id": 134,
+    "question": "What is the operational phase in project finance?",
+    "answer": "The phase where the financing entity has positive net cash flow sufficient to cover obligations and declining long-term debt."
+  },
+  {
+    "id": 135,
+    "question": "What protections must be in place for creditors in a high-quality project finance exposure?",
+    "answer": "Creditors must have control provisions in case of default and all necessary assets must be pledged to them."
+  },
+  {
+    "id": 136,
+    "question": "What conditions must an instrument meet to embody an obligation on the part of the issuer?",
+    "answer": "The issuer may defer settlement, settle by issuing a fixed or variable number of equity shares, or the holder may require settlement in equity shares."
+  },
+  {
+    "id": 137,
+    "question": "What is the risk weight assigned to speculative unlisted equity exposures?",
+    "answer": "4"
+  },
+  {
+    "id": 138,
+    "question": "What is the risk weight assigned to all other equity holdings, excluding specific exceptions?",
+    "answer": "2.5"
+  },
+  {
+    "id": 139,
+    "question": "Under what conditions can institutions assign a risk weight of 100% to equity holdings?",
+    "answer": "When the equity holdings are made pursuant to national legislated programs that provide significant subsidies and involve government oversight."
+  },
+  {
+    "id": 140,
+    "question": "What is the risk weight for subordinated debt and capital instruments other than equities?",
+    "answer": "1.5"
+  },
+  {
+    "id": 141,
+    "question": "What should institutions do with significant investments in commercial entities exceeding 10% of CET1 capital?",
+    "answer": "They should fully deduct these investments in the calculation of CET1 capital."
+  },
+  {
+    "id": 142,
+    "question": "What types of exposures are included in the retail exposure class?",
+    "answer": "Exposures to individual persons and exposures to small business enterprises (SBEs)."
+  },
+  {
+    "id": 143,
+    "question": "What risk weight can Category I and II SMSBs apply to revolving retail exposures?",
+    "answer": "75%, provided they meet specific criteria and do not exceed $500 million."
+  },
+  {
+    "id": 144,
+    "question": "What are the three sets of exposures within the retail asset class?",
+    "answer": "Regulatory retail exposures to transactors, regulatory retail exposures not arising from transactors, and other retail exposures."
+  },
+  {
+    "id": 145,
+    "question": "What is the definition of speculative unlisted equity exposures?",
+    "answer": "Equity investments in unlisted companies for short-term resale, venture capital, or held with trading intent."
+  },
+  {
+    "id": 146,
+    "question": "What is the significance of the OSFI in the context of debt and equity instruments?",
+    "answer": "OSFI may re-characterize debt holdings as equities for regulatory purposes to ensure proper treatment under supervisory review."
+  },
+  {
+    "id": 147,
+    "question": "What happens to liabilities that are directly hedged by an equity holding?",
+    "answer": "Supervisors may decide not to require those liabilities to be included in the risk assessment."
+  },
+  {
+    "id": 148,
+    "question": "What is the treatment of equity investments made under the Specialized Financing (Banks) Regulations of the Bank Act?",
+    "answer": "They qualify for a risk weight of 100%."
+  },
+  {
+    "id": 149,
+    "question": "What is the definition of significant investment according to the Basel Framework?",
+    "answer": "Refer to section 2.3.1 of Chapter 2 for the specific definition."
+  },
+  {
+    "id": 150,
+    "question": "What is the maximum aggregate limit for equity holdings to be risk weighted at 100%?",
+    "answer": "10% of the institution's Total capital."
+  },
+  {
+    "id": 151,
+    "question": "What must be demonstrated for an obligation that requires or permits settlement by issuing a variable number of equity shares?",
+    "answer": "The change in monetary value must equal the change in fair value of a fixed number of equity shares multiplied by a specified factor."
+  },
+  {
+    "id": 152,
+    "question": "What is the risk weight for equity holdings less than 10% of CET1 capital?",
+    "answer": "250%."
+  },
+  {
+    "id": 153,
+    "question": "What defines regulatory retail exposures?",
+    "answer": "Retail exposures that meet specific criteria including orientation, product type, low value, and granularity."
+  },
+  {
+    "id": 154,
+    "question": "What is the orientation criterion for regulatory retail exposures?",
+    "answer": "The exposure is to an individual person or persons or to a small business."
+  },
+  {
+    "id": 155,
+    "question": "What types of products qualify as regulatory retail exposures?",
+    "answer": "Revolving credits, personal term loans, leases, and small business facilities; mortgage loans and securities are excluded."
+  },
+  {
+    "id": 156,
+    "question": "What is the maximum aggregated retail exposure to one counterparty?",
+    "answer": "CAD $1.50 million."
+  },
+  {
+    "id": 157,
+    "question": "What does the granularity criterion specify for regulatory retail exposures?",
+    "answer": "No aggregated exposure to one counterparty can exceed 0.2% of the overall regulatory retail portfolio."
+  },
+  {
+    "id": 158,
+    "question": "What are transactors in the context of qualifying revolving retail (QRR) exposures?",
+    "answer": "Individuals with revolving, unsecured, and uncommitted exposures, where the maximum exposure cannot exceed $150,000."
+  },
+  {
+    "id": 159,
+    "question": "What defines an obligor as a transactor regarding credit cards?",
+    "answer": "If the total accrued interest over the previous 12 months is less than $50."
+  },
+  {
+    "id": 160,
+    "question": "What must institutions do if they exceed the retail exposure thresholds?",
+    "answer": "Verify and document that breaches are less than 2% of retail exposures and notify OSFI if above this threshold."
+  },
+  {
+    "id": 161,
+    "question": "What are 'other retail' exposures?",
+    "answer": "Exposures to individuals that do not meet all criteria for regulatory retail exposures."
+  },
+  {
+    "id": 162,
+    "question": "What are the risk weights for regulatory retail exposures to transactors?",
+    "answer": "Risk-weighted at 15%."
+  },
+  {
+    "id": 163,
+    "question": "What risk weight applies to regulatory retail exposures not arising from transactors?",
+    "answer": "Risk-weighted at 75%."
+  },
+  {
+    "id": 164,
+    "question": "What risk weight is assigned to 'other retail' exposures?",
+    "answer": "Risk-weighted at 100%."
+  },
+  {
+    "id": 165,
+    "question": "What is the definition of real estate in this context?",
+    "answer": "Immovable property including land and buildings, as opposed to movable/personal property."
+  },
+  {
+    "id": 166,
+    "question": "What are the six requirements for applying risk weights to real estate exposures?",
+    "answer": "1. Finished property; 2. Legal enforceability; 3. Claims over the property; 4. No more than 90 days past due; 5. Loan-to-value ratio not exceeding 80%; 6. Specific conditions for residential properties under construction."
+  },
+  {
+    "id": 167,
+    "question": "What does 'finished property' mean in the context of real estate exposures?",
+    "answer": "The property securing the exposure must be fully completed, except for agricultural land."
+  },
+  {
+    "id": 168,
+    "question": "What is required for legal enforceability of a claim on a property?",
+    "answer": "The collateral agreement must allow the institution to realize the property's value within a reasonable timeframe."
+  },
+  {
+    "id": 169,
+    "question": "What is the significance of holding a senior lien over a property?",
+    "answer": "The lender must hold the primary claim over the property, ensuring their ability to recover the loan."
+  },
+  {
+    "id": 170,
+    "question": "What conditions must be met for junior liens to be recognized in real estate exposures?",
+    "answer": "Junior liens must be legally enforceable and provide effective credit risk mitigation."
+  },
+  {
+    "id": 171,
+    "question": "What is the loan-to-value (LTV) ratio limit for real estate loans?",
+    "answer": "The LTV ratio must not exceed 80%."
+  },
+  {
+    "id": 172,
+    "question": "What happens if a loan is more than 90 days past due?",
+    "answer": "It may affect the eligibility for applying risk weights to the exposure."
+  },
+  {
+    "id": 173,
+    "question": "What is the role of OSFI in relation to retail exposures?",
+    "answer": "OSFI requires documentation and compliance verification for exposures breaching thresholds."
+  },
+  {
+    "id": 174,
+    "question": "What is the purpose of underwriting policies in mortgage loans?",
+    "answer": "To assess the ability of the borrower to repay the loan."
+  },
+  {
+    "id": 175,
+    "question": "What must be documented at loan origination and for monitoring purposes?",
+    "answer": "Information on the ability of the borrower to repay and the valuation of the property."
+  },
+  {
+    "id": 176,
+    "question": "What does the LTV ratio represent?",
+    "answer": "The amount of the loan divided by the value of the property."
+  },
+  {
+    "id": 177,
+    "question": "How is the value of the property maintained for the LTV ratio?",
+    "answer": "It is maintained at the value measured at origination unless adjusted due to extraordinary events."
+  },
+  {
+    "id": 178,
+    "question": "What happens to the LTV ratio as the loan amortizes?",
+    "answer": "The loan amount is reduced, and the LTV ratio should be recalculated."
+  },
+  {
+    "id": 179,
+    "question": "What are the conditions under which a loan may be treated as residential real estate exposures?",
+    "answer": "The borrower must not grant any mortgage lien without consent, and the guarantor must meet specific capital requirements."
+  },
+  {
+    "id": 180,
+    "question": "What is required from the guarantor to mitigate credit risk?",
+    "answer": "Establishment of a fully-funded mutual guarantee fund or equivalent protection for insurance undertakings."
+  },
+  {
+    "id": 181,
+    "question": "What should the valuation of the property exclude when assessing its value?",
+    "answer": "Expectations on price increases and must be conservatively assessed."
+  },
+  {
+    "id": 182,
+    "question": "What is the role of the Basel Framework in mortgage underwriting?",
+    "answer": "It provides guidelines for assessing credit risk and establishing underwriting policies."
+  },
+  {
+    "id": 183,
+    "question": "What is the significance of the debt service coverage ratio in underwriting?",
+    "answer": "It is a metric used to assess the borrower's ability to repay the mortgage loan."
+  },
+  {
+    "id": 184,
+    "question": "What adjustments can be made to the property value for LTV calculations?",
+    "answer": "Adjustments can be made for extraordinary events or modifications that increase property value."
+  },
+  {
+    "id": 185,
+    "question": "What must institutions have in place regarding property valuation?",
+    "answer": "Clear and transparent property valuation policies and procedures."
+  },
+  {
+    "id": 186,
+    "question": "What is the maximum value of the property for LTV ratio purposes when financing a purchase?",
+    "answer": "It will not be higher than the effective purchase price."
+  },
+  {
+    "id": 187,
+    "question": "What is required of the borrower in terms of mortgage liens?",
+    "answer": "The borrower must be contractually committed not to grant any mortgage lien without consent."
+  },
+  {
+    "id": 188,
+    "question": "What should institutions consider when assessing property value?",
+    "answer": "Relevant risk factors that could affect marketability or vulnerability to price corrections."
+  },
+  {
+    "id": 189,
+    "question": "What happens if a loan amount is secured by multiple liens?",
+    "answer": "They should be considered as a single exposure for risk-weighting purposes."
+  },
+  {
+    "id": 190,
+    "question": "What is the purpose of stress testing for the guarantor's mutual guarantee fund?",
+    "answer": "To periodically review its calibration and ensure it can absorb credit risk losses."
+  },
+  {
+    "id": 191,
+    "question": "What is the role of OSFI in mortgage loan underwriting?",
+    "answer": "To set guidelines and requirements for residential mortgage insurance and underwriting practices."
+  },
+  {
+    "id": 192,
+    "question": "What is a residential property in the context of credit risk?",
+    "answer": "An immovable property that serves as a dwelling and meets applicable laws for housing purposes."
+  },
+  {
+    "id": 193,
+    "question": "What constitutes a residential real estate exposure?",
+    "answer": "An exposure secured by a residential property made to or guaranteed by a person, provided the loans are not 90 days or more past due."
+  },
+  {
+    "id": 194,
+    "question": "What is the risk weight for residential real estate exposures with an LTV ratio ≤ 80%?",
+    "answer": "35% for Category I and II SMSBs."
+  },
+  {
+    "id": 195,
+    "question": "What is the risk weight for residential real estate exposures with an LTV ratio > 80%?",
+    "answer": "75% for Category I and II SMSBs."
+  },
+  {
+    "id": 196,
+    "question": "What does Guideline B-20 state regarding regulatory capital levels?",
+    "answer": "OSFI expects FRFIs to maintain adequate regulatory capital levels reflecting the risks in residential mortgages."
+  },
+  {
+    "id": 197,
+    "question": "What happens to residential real estate exposures not meeting OSFI's expectations?",
+    "answer": "They are subject to risk weights outlined in Table 11 or a 0.22 correlation (R) factor."
+  },
+  {
+    "id": 198,
+    "question": "How are residential real estate exposures categorized for institutions not qualifying for simplified treatment?",
+    "answer": "Into general residential real estate and income-producing residential real estate."
+  },
+  {
+    "id": 199,
+    "question": "What defines general residential real estate exposures?",
+    "answer": "Exposures where income-producing real estate and land acquisition, development, and construction criteria do not apply."
+  },
+  {
+    "id": 200,
+    "question": "What defines income-producing residential real estate exposures?",
+    "answer": "Exposures meeting income-producing criteria but not land acquisition, development, and construction criteria."
+  },
+  {
+    "id": 201,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV ≤ 50%?",
+    "answer": "20%."
+  },
+  {
+    "id": 202,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV > 100%?",
+    "answer": "25%."
+  },
+  {
+    "id": 203,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV between 80% and 90%?",
+    "answer": "50%."
+  },
+  {
+    "id": 204,
+    "question": "What is the risk weight applied to exposures to individuals and SBEs when requirements are not met?",
+    "answer": "75%."
+  },
+  {
+    "id": 205,
+    "question": "What is the risk weight applied to exposures to SMEs when requirements are not met?",
+    "answer": "85%."
+  },
+  {
+    "id": 206,
+    "question": "What risk weight is assigned when the requirements for real estate exposures are not met?",
+    "answer": "The risk weight of the counterparty."
+  },
+  {
+    "id": 207,
+    "question": "What is the risk weight for a variable rate fixed-payment residential mortgage with an LTV above 65%?",
+    "answer": "Risk-weighted according to the LTV ratio if requirements for real estate exposures are met; otherwise, 150%."
+  },
+  {
+    "id": 208,
+    "question": "What is the primary source of cash flows for income-producing residential real estate?",
+    "answer": "Lease or rental payments, or the sale of the residential property."
+  },
+  {
+    "id": 209,
+    "question": "What characterizes a loan as materially dependent on cash flows generated by the property?",
+    "answer": "If more than 50% of the borrower's income used in the assessment comes from cash flows generated by the property."
+  },
+  {
+    "id": 210,
+    "question": "What is the risk weight for income-producing residential real estate exposures with an LTV ≤ 50%?",
+    "answer": "30%."
+  },
+  {
+    "id": 211,
+    "question": "What is the risk weight for income-producing residential real estate exposures with an LTV between 80% and 90%?",
+    "answer": "60%."
+  },
+  {
+    "id": 212,
+    "question": "What is the risk weight for income-producing residential real estate exposures with an LTV > 100%?",
+    "answer": "105%."
+  },
+  {
+    "id": 213,
+    "question": "What is the treatment for exposures secured by the same residential real estate collateral that do not meet OSFI's expectations?",
+    "answer": "They are subject to the risk weights outlined in Chapter 4 or a 0.22 correlation factor."
+  },
+  {
+    "id": 214,
+    "question": "What is the credit conversion factor applied to undrawn exposure of HELOC?",
+    "answer": "75%."
+  },
+  {
+    "id": 215,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV between 70% and 80%?",
+    "answer": "40%."
+  },
+  {
+    "id": 216,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV between 60% and 70%?",
+    "answer": "30%."
+  },
+  {
+    "id": 217,
+    "question": "What is the risk weight for general residential real estate exposures with an LTV between 50% and 60%?",
+    "answer": "25%."
+  },
+  {
+    "id": 218,
+    "question": "What types of exposures are excluded from the treatment described in paragraph 100?",
+    "answer": "Exposures secured by a borrower's primary residence, exposures secured by residential real estate to regulated associations, and exposures to public housing companies and not-for-profit associations."
+  },
+  {
+    "id": 219,
+    "question": "What defines a commercial real estate exposure?",
+    "answer": "An exposure secured by any immovable property that is not classified as residential real estate."
+  },
+  {
+    "id": 220,
+    "question": "What risk weight can Category I and II SMSBs apply to all commercial real estate exposures?",
+    "answer": "A risk weight of 100%, provided the exposures meet specific criteria and do not exceed $500 million."
+  },
+  {
+    "id": 221,
+    "question": "What are the two categories of commercial real estate exposures?",
+    "answer": "General commercial real estate and income-producing commercial real estate."
+  },
+  {
+    "id": 222,
+    "question": "What is the risk weight assigned to general commercial real estate exposures?",
+    "answer": "The risk weight is determined based on the exposure's LTV ratio."
+  },
+  {
+    "id": 223,
+    "question": "What is the risk weight for income-producing commercial real estate exposures with LTV ≤ 60%?",
+    "answer": "70%."
+  },
+  {
+    "id": 224,
+    "question": "What is the risk weight for income-producing commercial real estate exposures with LTV > 80%?",
+    "answer": "110%."
+  },
+  {
+    "id": 225,
+    "question": "What is the primary source of cash flows for income-producing commercial real estate?",
+    "answer": "Lease or rental payments, or the sale of the commercial property."
+  },
+  {
+    "id": 226,
+    "question": "What conditions must be met for ADC exposures to be risk-weighted at 100%?",
+    "answer": "Prudential underwriting standards must be met, pre-sale contracts must exceed 50% of total contracts, or LTV must not exceed 60%."
+  },
+  {
+    "id": 227,
+    "question": "What is the risk weight for ADC exposures if the requirements in paragraph 89 are not met?",
+    "answer": "The risk weight will be 150%."
+  },
+  {
+    "id": 228,
+    "question": "What characterizes an ADC exposure?",
+    "answer": "Loans financing land acquisition or development where repayment is uncertain."
+  },
+  {
+    "id": 229,
+    "question": "What happens if the losses from commercial real estate lending exceed specified thresholds?",
+    "answer": "The eligibility for the exemption ceases, and the exposures will be risk-weighted according to paragraph 108."
+  },
+  {
+    "id": 230,
+    "question": "What is the risk weight for a subordinated or mezzanine tranche of an ADC loan structure?",
+    "answer": "300%."
+  },
+  {
+    "id": 231,
+    "question": "What is the treatment for reverse mortgage exposures?",
+    "answer": "The Standardized Approach must be used for reverse mortgage exposures."
+  },
+  {
+    "id": 232,
+    "question": "What is a reverse mortgage?",
+    "answer": "A non-recourse loan secured by property with no defined term and no monthly repayment of principal and interest."
+  },
+  {
+    "id": 233,
+    "question": "How is the amount owing on a reverse mortgage determined?",
+    "answer": "It grows over time as interest is accrued and is repaid from the net proceeds of the sale after the borrower vacates the property."
+  },
+  {
+    "id": 234,
+    "question": "What happens if the sale proceeds from a reverse mortgage are less than the amount owed?",
+    "answer": "Lenders have no recourse to the borrower, assuming no default events occur."
+  },
+  {
+    "id": 235,
+    "question": "What is the risk weight for commercial real estate exposures where repayment is materially dependent on cash flows?",
+    "answer": "If requirements are met, the risk weight is based on the LTV ratio; if not met, it is 150%."
+  },
+  {
+    "id": 236,
+    "question": "What is the risk weight for commercial real estate exposures where repayment is not materially dependent on cash flows?",
+    "answer": "Min (60%, RW of counterparty) for LTV ≤ 60%, and RW of counterparty for LTV > 60%."
+  },
+  {
+    "id": 237,
+    "question": "What must institutions disclose regarding commercial real estate lending conditions?",
+    "answer": "Whether the conditions for applying specific risk weights are met."
+  },
+  {
+    "id": 238,
+    "question": "What is the significance of the 50% pre-sale requirement for high-rise residential construction projects?",
+    "answer": "It is necessary for these projects to qualify for a 100% risk weight."
+  },
+  {
+    "id": 239,
+    "question": "What is the risk weight for ADC exposures to residential real estate projects?",
+    "answer": "100%, if specific criteria are met."
+  },
+  {
+    "id": 240,
+    "question": "What must be true for an ADC loan to be treated as a corporate exposure?",
+    "answer": "The repayment must depend on the credit quality of the corporate rather than future income from the property."
+  },
+  {
+    "id": 241,
+    "question": "What is the risk weight for ADC exposures if the loan is for land acquisition and LTV does not exceed 60%?",
+    "answer": "100%."
+  },
+  {
+    "id": 242,
+    "question": "What is the risk weight for income-producing commercial real estate exposures with LTV > 60% but ≤ 80%?",
+    "answer": "90%."
+  },
+  {
+    "id": 243,
+    "question": "What is the treatment for loans to corporates or SPVs where repayment depends on the credit quality?",
+    "answer": "They should be treated as corporate exposures."
+  }
+]
