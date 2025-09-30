@@ -283,7 +283,7 @@ function calculateDelay(text) {
   // remove spaces, count chars
   const charCount = text.replace(/\s+/g, '').length;
   // minimum 2s so short cards don’t skip instantly
-  return Math.max(2000, charCount * 100) + 2000;  // +2 sec for thinking
+  return Math.max(2000, charCount * 100) + 1500;  // 1.5 sec for thinking
 }
 
 function startAutoPlay(){
@@ -363,8 +363,8 @@ function renderFlashcards(){
   wrapper.appendChild(cardEl);
 
   const nav=document.createElement('div'); nav.classList.add('nav-buttons');
-  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
-  const nextBtn=document.createElement('button'); nextBtn.innerHTML='&#10095;'; nextBtn.disabled=currentIndex===flashcards.length-1; nextBtn.onclick=()=>{ stopAutoOnInteraction(); if(currentIndex<flashcards.length-1){ currentIndex++; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
+  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
+  const nextBtn=document.createElement('button'); nextBtn.innerHTML='&#10095;'; nextBtn.disabled=currentIndex===flashcards.length-1; nextBtn.onclick=()=>{ if(currentIndex<flashcards.length-1){ currentIndex++; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
   nav.appendChild(prevBtn); nav.appendChild(nextBtn); wrapper.appendChild(nav);
 
   container.appendChild(wrapper);
