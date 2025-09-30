@@ -122,8 +122,6 @@
     position: absolute;  /* <-- important, both sides overlap perfectly */
     top: 0;
     left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,6 +157,10 @@
   .favorite-btn:hover {
     transform: scale(1.2);
     transition: transform 0.2s;
+  }
+
+  .card-inner.flipped .favorite-btn {
+    display: none !important;
   }
 
   textarea { margin-top: 10px; height: 100px; resize: none; }
@@ -543,4 +545,5 @@ notesTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='note
 </script>
 </body>
 </html>
+
 
