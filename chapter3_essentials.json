@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What is the definition of operational risk under OSFI CAR guidelines?",
+    "answer": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, systems, or from external events."
+  },
+  {
+    "id": 2,
+    "question": "What are the main categories of operational risk events?",
+    "answer": "Internal fraud, external fraud, employment practices and workplace safety, clients/products/business practices, damage to physical assets, business disruption and system failures, and execution/delivery/process management."
+  },
+  {
+    "id": 3,
+    "question": "Why is operational risk considered distinct from credit and market risk?",
+    "answer": "Because it arises from internal failures or external events rather than financial market movements or counterparty defaults."
+  },
+  {
+    "id": 4,
+    "question": "What are the main methodologies to measure operational risk?",
+    "answer": "Basic Indicator Approach (BIA), Standardized Approach (TSA), Simplified Standardized Approach (SSA), and Advanced Measurement Approach (AMA)."
+  },
+  {
+    "id": 5,
+    "question": "What is the Simplified Standardized Approach (SSA)?",
+    "answer": "A simplified approach where capital requirement is calculated as a fixed percentage of a business indicator, suitable for smaller institutions."
+  },
+  {
+    "id": 6,
+    "question": "How is the SSA capital requirement calculated?",
+    "answer": "It is generally calculated by applying a fixed percentage to the Business Indicator (BI), as prescribed by OSFI."
+  },
+  {
+    "id": 7,
+    "question": "What is the Standardized Approach (TSA) for operational risk?",
+    "answer": "A method that divides an institution’s activities into business lines and applies different beta factors to the corresponding business indicator components."
+  },
+  {
+    "id": 8,
+    "question": "What are the components of the Standardized Approach?",
+    "answer": "The TSA uses components of the Business Indicator including interest, leases, fees, commissions, and other operating income to calculate capital charges."
+  },
+  {
+    "id": 9,
+    "question": "Why does the TSA use different beta factors for different business lines?",
+    "answer": "Because each business line has a different level of inherent operational risk."
+  },
+  {
+    "id": 10,
+    "question": "What is the minimum standard for the use of loss data under the Standardized Approach?",
+    "answer": "Institutions must collect, identify, and record internal operational loss events consistently and maintain a historical loss database for at least five years."
+  },
+  {
+    "id": 11,
+    "question": "What are the general criteria for operational loss data identification and collection?",
+    "answer": "Losses must be identified, measured, and classified consistently, ensuring completeness, accuracy, and relevance."
+  },
+  {
+    "id": 12,
+    "question": "What are the specific criteria for loss data collection under TSA?",
+    "answer": "Loss events must be captured if they exceed a defined threshold, are related to ongoing operations, and include gross and net amounts considering recoveries."
+  },
+  {
+    "id": 13,
+    "question": "Which losses can be excluded from the Loss Component under TSA?",
+    "answer": "Losses resulting from extraordinary events, divested activities, or insured recoveries may be excluded if documented and approved."
+  },
+  {
+    "id": 14,
+    "question": "How are divested activities treated in the Business Indicator?",
+    "answer": "Divested activities are excluded from the Business Indicator calculation from the date of divestiture onward."
+  },
+  {
+    "id": 15,
+    "question": "Are operational losses related to mergers and acquisitions included?",
+    "answer": "Yes, operational losses from merged or acquired activities are included in the Business Indicator and Loss Component, with proper historical adjustments."
+  },
+  {
+    "id": 16,
+    "question": "What is the purpose of operational risk capital requirements?",
+    "answer": "To ensure that institutions hold sufficient capital to absorb losses from operational risk and maintain financial stability."
+  },
+  {
+    "id": 17,
+    "question": "How often must operational risk data be updated?",
+    "answer": "Loss data and BI components should be updated at least annually, with internal reviews and validation to ensure accuracy."
+  },
+  {
+    "id": 18,
+    "question": "What is the role of internal loss data versus external data?",
+    "answer": "Internal loss data reflects the institution’s own experience, while external data can supplement for low-frequency high-severity events."
+  },
+  {
+    "id": 19,
+    "question": "What is the significance of thresholds in loss data collection?",
+    "answer": "Thresholds ensure that minor losses are captured only if relevant while focusing on material operational risk events for capital calculation."
+  },
+  {
+    "id": 20,
+    "question": "What is a Business Indicator (BI)?",
+    "answer": "A financial proxy of the size and complexity of an institution, including income components, used to calculate operational risk capital."
+  },
+  {
+    "id": 21,
+    "question": "How is the Business Indicator divided for the Standardized Approach?",
+    "answer": "Into interest, leases, fees, commissions, and other operating income, with each component mapped to business lines and beta factors."
+  },
+  {
+    "id": 22,
+    "question": "What is the role of beta factors in the TSA?",
+    "answer": "Beta factors scale the business indicator components to reflect the relative operational risk intensity of each business line."
+  },
+  {
+    "id": 23,
+    "question": "What types of events are considered extraordinary and excluded from operational risk calculations?",
+    "answer": "Events that are unusual, non-recurring, or not indicative of the institution’s normal operational risk exposure."
+  },
+  {
+    "id": 24,
+    "question": "How are operational risk losses net of recoveries treated?",
+    "answer": "The net loss amount after recoveries, including insurance, is used in the calculation of the Loss Component under TSA."
+  },
+  {
+    "id": 25,
+    "question": "Why is consistent classification of operational losses important?",
+    "answer": "It ensures comparability over time, accurate capital assessment, and proper regulatory reporting."
+  },
+  {
+    "id": 26,
+    "question": "How does OSFI ensure the reliability of operational risk data?",
+    "answer": "Through minimum standards for data collection, validation, audits, and supervisory reviews."
+  },
+  {
+    "id": 27,
+    "question": "What is the minimum historical period for operational loss data under TSA?",
+    "answer": "At least five years of relevant historical operational loss data is recommended for capital calculations."
+  },
+  {
+    "id": 28,
+    "question": "How are losses from divested entities prior to divestiture treated?",
+    "answer": "They are included in historical loss data for the period the institution owned the entity, then excluded after divestiture."
+  },
+  {
+    "id": 29,
+    "question": "How are mergers and acquisitions adjusted in operational risk calculations?",
+    "answer": "Historical loss data of acquired entities may be included and adjusted for comparability and relevance to current operations."
+  },
+  {
+    "id": 30,
+    "question": "What is the purpose of thresholds for inclusion of loss events in capital calculations?",
+    "answer": "To focus on material events that meaningfully impact operational risk capital while excluding immaterial losses."
+  },
+  {
+    "id": 31,
+    "question": "What is the Simplified Standardized Approach intended for?",
+    "answer": "Smaller or less complex institutions, providing a simpler method to calculate operational risk capital based on BI."
+  },
+  {
+    "id": 32,
+    "question": "Why are operational risk capital requirements important for financial stability?",
+    "answer": "Because they ensure institutions maintain sufficient buffers to absorb losses from operational failures or external shocks."
+  },
+  {
+    "id": 33,
+    "question": "What is the formula for calculating operational risk capital under the Simplified Standardized Approach (SSA)?",
+    "answer": "Capital requirement = Fixed percentage (usually 15%) × total Business Indicator (BI)."
+  },
+  {
+    "id": 34,
+    "question": "What is the formula for calculating operational risk capital under the Standardized Approach (TSA)?",
+    "answer": "Capital requirement = Σ (BI component for each business line × corresponding beta factor)."
+  },
+  {
+    "id": 35,
+    "question": "How is the Loss Component (LC) incorporated into the TSA capital calculation?",
+    "answer": "The LC represents internal historical operational losses, and it is added to the BI components multiplied by beta factors to adjust capital upward for past losses."
+  },
+  {
+    "id": 36,
+    "question": "What are typical beta factors used for major business lines under the TSA?",
+    "answer": "Examples: Corporate Finance = 18%, Trading & Sales = 18%, Retail Banking = 12%, Commercial Banking = 15%, Payment & Settlement = 18%, Asset Management = 12%, Agency Services = 15%."
+  },
+  {
+    "id": 37,
+    "question": "What is the minimum historical period for including loss data in the Loss Component?",
+    "answer": "At least five years of historical loss data must be collected and used in calculations."
+  },
+  {
+    "id": 38,
+    "question": "How are small losses excluded from the Loss Component calculation?",
+    "answer": "Losses below a defined threshold (e.g., $10,000) may be excluded to focus capital on material operational risk events."
+  },
+  {
+    "id": 39,
+    "question": "How are operational losses from divested activities adjusted in capital calculations?",
+    "answer": "Losses are included up to the date of divestiture and excluded thereafter, with historical losses properly scaled to reflect only the period of ownership."
+  },
+  {
+    "id": 40,
+    "question": "How are operational losses from mergers and acquisitions incorporated?",
+    "answer": "Historical loss data from acquired entities can be included and adjusted to align with the acquiring institution’s Business Indicator and business line structure."
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "question": "What are 'individual exposures' under the Standardized Approach?",
+    "answer": "Exposures that are assessed and risk-weighted individually based on their type, credit quality, and collateral."
+  },
+  {
+    "id": 2,
+    "question": "How are exposures to sovereigns and central banks treated under the standardized approach?",
+    "answer": "They are generally assigned risk weights based on external credit ratings or are considered risk-free if unrated but subject to OSFI guidance."
+  },
+  {
+    "id": 3,
+    "question": "What are non-central government public sector entities (PSEs) and how are they risk-weighted?",
+    "answer": "PSEs are entities controlled or sponsored by governments but not central banks; their exposures are risk-weighted based on external ratings or OSFI-approved approaches."
+  },
+  {
+    "id": 4,
+    "question": "Which exposures qualify as multilateral development banks (MDBs)?",
+    "answer": "Banks like the World Bank or regional development banks that meet OSFI’s criteria for low credit risk."
+  },
+  {
+    "id": 5,
+    "question": "How are exposures to banks treated under the Standardized Approach?",
+    "answer": "They are risk-weighted using external credit ratings where available or assigned a supervisory risk weight if unrated."
+  },
+  {
+    "id": 6,
+    "question": "What is the treatment of covered bonds?",
+    "answer": "Covered bonds are generally given preferential risk weights if they meet specific legal and collateral criteria."
+  },
+  {
+    "id": 7,
+    "question": "How are exposures to securities firms and other financial institutions risk-weighted?",
+    "answer": "Using external credit ratings or OSFI-prescribed risk weights for unrated exposures."
+  },
+  {
+    "id": 8,
+    "question": "What risk weights apply to corporate exposures under the standardized approach?",
+    "answer": "Risk weights are based on external ratings or assigned supervisory weights for unrated corporates, typically ranging from 20% to 150%."
+  },
+  {
+    "id": 9,
+    "question": "How are subordinated debt, equity, and other capital instruments treated?",
+    "answer": "These exposures carry higher risk weights, often 100% or higher, reflecting potential loss severity."
+  },
+  {
+    "id": 10,
+    "question": "What are the main categories of retail exposures?",
+    "answer": "Residential mortgages, qualifying revolving exposures, and other retail exposures including small business loans."
+  },
+  {
+    "id": 11,
+    "question": "How are real estate exposures risk-weighted under the Standardized Approach?",
+    "answer": "Based on the type of property (residential vs commercial) and the loan-to-value ratio (LTV) of the exposure."
+  },
+  {
+    "id": 12,
+    "question": "What risk weight is typically assigned to exposures secured by residential real estate?",
+    "answer": "Depending on LTV and OSFI guidelines, typically 35–100%."
+  },
+  {
+    "id": 13,
+    "question": "How are exposures secured by commercial real estate treated?",
+    "answer": "Risk weights are assigned based on LTV ratios and collateral quality; generally higher than residential real estate exposures."
+  },
+  {
+    "id": 14,
+    "question": "What are Land Acquisition, Development, and Construction (ADC) exposures?",
+    "answer": "Loans for acquiring land, developing projects, or constructing buildings; typically attract higher risk weights due to higher default risk."
+  },
+  {
+    "id": 15,
+    "question": "How are reverse mortgages risk-weighted?",
+    "answer": "They are treated as retail residential mortgage exposures with adjustments for LTV and potential credit risk."
+  },
+  {
+    "id": 16,
+    "question": "What is the treatment of mortgage-backed securities (MBS) under the Standardized Approach?",
+    "answer": "MBS exposures are risk-weighted based on underlying collateral, external ratings, and applicable OSFI criteria."
+  },
+  {
+    "id": 17,
+    "question": "How is the risk weight multiplier applied to exposures with currency mismatch?",
+    "answer": "A multiplier is applied to increase risk weights when the exposure currency differs from the institution’s reporting currency."
+  },
+  {
+    "id": 18,
+    "question": "What is a commitment in the context of credit risk?",
+    "answer": "A commitment is a contractual obligation to extend credit in the future, which may attract a credit conversion factor for capital calculations."
+  },
+  {
+    "id": 19,
+    "question": "How are off-balance sheet items treated under the standardized approach?",
+    "answer": "They are converted to credit equivalent amounts using credit conversion factors (CCFs) before applying risk weights."
+  },
+  {
+    "id": 20,
+    "question": "Which exposures give rise to counterparty credit risk?",
+    "answer": "Derivatives, securities financing transactions, and any contracts that expose a bank to the default of a counterparty."
+  },
+  {
+    "id": 21,
+    "question": "What is the treatment of credit derivatives under the standardized approach?",
+    "answer": "They can be used for credit risk mitigation; the protection seller’s credit risk and netting rules must be considered."
+  },
+  {
+    "id": 22,
+    "question": "How are defaulted exposures treated?",
+    "answer": "Defaulted exposures carry higher risk weights to reflect increased credit risk and potential losses."
+  },
+  {
+    "id": 23,
+    "question": "What are equity investments in funds and how are they risk-weighted?",
+    "answer": "Investments in mutual funds or hedge funds; risk weights are based on the type of fund and its underlying assets."
+  },
+  {
+    "id": 24,
+    "question": "How are other assets treated under the Standardized Approach?",
+    "answer": "Other assets are assigned OSFI-prescribed risk weights depending on their risk characteristics."
+  },
+  {
+    "id": 25,
+    "question": "How are purchased receivables treated under the Standardized Approach?",
+    "answer": "They are assigned to the appropriate asset class (corporate or retail) and risk-weighted accordingly."
+  },
+  {
+    "id": 26,
+    "question": "What is the role of external credit assessments in the standardized approach?",
+    "answer": "They provide ratings that determine risk weights for exposures to sovereigns, banks, corporates, and other institutions."
+  },
+  {
+    "id": 27,
+    "question": "What are the eligibility criteria for using external credit assessments?",
+    "answer": "Ratings must come from recognized External Credit Assessment Institutions (ECAIs) and meet OSFI standards for reliability."
+  },
+  {
+    "id": 28,
+    "question": "What are the main implementation considerations when mapping external credit assessments to risk weights?",
+    "answer": "OSFI mapping guidelines, rating scales, and default treatment must be followed to assign appropriate risk weights."
+  },
+  {
+    "id": 29,
+    "question": "What is the purpose of credit risk mitigation (CRM) techniques?",
+    "answer": "To reduce credit risk exposure by incorporating eligible collateral, guarantees, and credit derivatives."
+  },
+  {
+    "id": 30,
+    "question": "What are the main types of credit risk mitigation techniques under the Standardized Approach?",
+    "answer": "Collateralized transactions, on-balance sheet netting, guarantees, and credit derivatives."
+  },
+  {
+    "id": 31,
+    "question": "How are collateralized transactions treated?",
+    "answer": "Collateral reduces the exposure amount or LGD, subject to haircuts and eligibility requirements."
+  },
+  {
+    "id": 32,
+    "question": "What is on-balance sheet netting?",
+    "answer": "Offsetting positive and negative balances with the same counterparty to reduce credit exposure for capital purposes."
+  },
+  {
+    "id": 33,
+    "question": "How are guarantees treated under the standardized approach?",
+    "answer": "Eligible guarantees can substitute for the obligor’s credit risk, applying the guarantor’s risk weight."
+  },
+  {
+    "id": 34,
+    "question": "How are credit derivatives used for credit risk mitigation?",
+    "answer": "Credit derivatives can transfer credit risk from the bank to a protection seller, subject to eligibility rules and documentation."
+  },
+  {
+    "id": 35,
+    "question": "Which exposures require the use of risk-weight multipliers due to currency mismatch?",
+    "answer": "Exposures denominated in a different currency than the bank’s reporting currency may require a higher risk weight."
+  },
+  {
+    "id": 36,
+    "question": "What are the main differences in risk weighting for residential vs commercial real estate?",
+    "answer": "Residential mortgages usually receive lower risk weights; commercial real estate exposures are more sensitive to LTV and loan performance."
+  },
+  {
+    "id": 37,
+    "question": "What is the purpose of credit conversion factors (CCFs)?",
+    "answer": "To convert off-balance sheet exposures, commitments, and guarantees into credit equivalent amounts for risk-weighting."
+  },
+  {
+    "id": 38,
+    "question": "How are multilateral development bank exposures treated if unrated?",
+    "answer": "OSFI may assign low supervisory risk weights reflecting their low default risk."
+  },
+  {
+    "id": 39,
+    "question": "What is the risk treatment for exposures secured by eligible collateral?",
+    "answer": "The collateral reduces the exposure amount or LGD based on haircuts and OSFI eligibility rules."
+  },
+  {
+    "id": 40,
+    "question": "How are commitments and off-balance sheet exposures risk-weighted differently?",
+    "answer": "They are multiplied by a credit conversion factor (CCF) before applying risk weights."
+  },
+  {
+    "id": 41,
+    "question": "What exposures are included under counterparty credit risk?",
+    "answer": "Derivatives, securities financing transactions, and exposures arising from contractual obligations of a counterparty."
+  },
+  {
+    "id": 42,
+    "question": "Why are defaulted exposures assigned higher risk weights?",
+    "answer": "Because the likelihood of loss is higher and to reflect the increased credit risk post-default."
+  },
+  {
+    "id": 43,
+    "question": "How is the OSFI mapping process used for external credit assessments?",
+    "answer": "It translates ECAI ratings into supervisory risk weights for capital calculation."
+  },
+  {
+    "id": 44,
+    "question": "What are the overarching issues addressed in credit risk mitigation under the Standardized Approach?",
+    "answer": "Eligibility, enforceability, valuation, and netting of collateral, guarantees, and credit derivatives."
+  },
+  {
+    "id": 45,
+    "question": "What are the treatment rules for exposures to other financial institutions and securities firms?",
+    "answer": "They are risk-weighted based on external ratings, supervisory guidelines, or OSFI-prescribed default weights if unrated."
+  },
+  {
+    "id": 46,
+    "question": "How are direct equity investments outside funds risk-weighted?",
+    "answer": "Direct equity holdings are assigned risk weights based on supervisory guidance, typically 100% or higher, reflecting high credit risk."
+  },
+  {
+    "id": 47,
+    "question": "What are the specific treatment rules for ADC (land acquisition, development, construction) exposures?",
+    "answer": "They attract higher risk weights than standard commercial real estate due to higher default risk and project uncertainty."
+  },
+  {
+    "id": 48,
+    "question": "How are purchased receivables treated with purchase price discounts or dilution risk?",
+    "answer": "Capital requirements reflect expected loss from discounting and any dilution risk, in addition to standard PD/LGD treatment."
+  },
+  {
+    "id": 49,
+    "question": "How are guarantees combined with collateral in credit risk mitigation?",
+    "answer": "When both are present, OSFI rules allow for combined adjustments to reduce EAD or LGD, subject to regulatory limits."
+  },
+  {
+    "id": 50,
+    "question": "What types of off-balance sheet items are included for risk-weighting?",
+    "answer": "Letters of credit, performance guarantees, undrawn commitments, and similar contingent exposures."
+  },
+  {
+    "id": 51,
+    "question": "How are exposures to subordinated debt differentiated from senior debt under the standardized approach?",
+    "answer": "Subordinated debt carries higher risk weights, reflecting lower recovery in default compared to senior debt."
+  },
+  {
+    "id": 52,
+    "question": "How are unrated exposures treated when no external credit assessment exists?",
+    "answer": "OSFI assigns supervisory risk weights reflecting the expected risk level of the exposure category."
+  },
+  {
+    "id": 53,
+    "question": "What are the regulatory haircuts applied to collateral under the standardized approach?",
+    "answer": "Haircuts are applied to adjust the value of collateral depending on type, market volatility, and currency to ensure conservatism."
+  },
+  {
+    "id": 54,
+    "question": "How are multiple mitigants applied to a single exposure?",
+    "answer": "OSFI rules allow for sequential application of collateral, guarantees, and credit derivatives with combined effect limited to total exposure."
+  },
+  {
+    "id": 55,
+    "question": "How is exposure at default calculated for derivatives under counterparty credit risk?",
+    "answer": "Using replacement cost plus potential future exposure, adjusted for netting and collateral under OSFI rules."
+  },
+  {
+    "id": 56,
+    "question": "How are letters of credit treated under off-balance sheet risk-weighting?",
+    "answer": "They are assigned credit conversion factors (typically 20–100%) before applying the appropriate risk weight."
+  },
+  {
+    "id": 57,
+    "question": "Why are ADC and reverse mortgage exposures considered higher risk?",
+    "answer": "Because they have unique repayment sources, market risk, and potentially higher volatility compared to standard loans."
+  }
+]
