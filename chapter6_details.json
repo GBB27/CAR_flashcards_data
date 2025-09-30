@@ -1,0 +1,1187 @@
+[
+  {
+    "id": 1,
+    "question": "What is the focus of Chapter 6 in the CAR document?",
+    "answer": "Securitization."
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of the securitization framework?",
+    "answer": "To determine the risk-weighted capital treatment applicable to all securitization exposures."
+  },
+  {
+    "id": 3,
+    "question": "What must institutions apply for determining regulatory capital requirements on securitization exposures?",
+    "answer": "The securitization framework."
+  },
+  {
+    "id": 4,
+    "question": "What should be considered when determining the capital treatment of a securitization exposure?",
+    "answer": "The economic substance of the securitization rather than its legal form."
+  },
+  {
+    "id": 5,
+    "question": "What types of securitizations does the framework cover?",
+    "answer": "Traditional and synthetic securitizations or similar structures."
+  },
+  {
+    "id": 6,
+    "question": "What is the treatment for mortgage-backed securities that do not involve tranching?",
+    "answer": "They will not be considered securitization exposures for risk-based capital purposes."
+  },
+  {
+    "id": 7,
+    "question": "What should institutions do if there is uncertainty about a transaction's classification as securitization?",
+    "answer": "Consult with OSFI."
+  },
+  {
+    "id": 8,
+    "question": "What are the operational requirements for traditional securitizations covered in Chapter 6?",
+    "answer": "Operational requirements for recognition of risk transference."
+  },
+  {
+    "id": 9,
+    "question": "What is the significance of 'Simple, transparent, and comparable' (STC) securitizations?",
+    "answer": "They have specific criteria for capital purposes."
+  },
+  {
+    "id": 10,
+    "question": "What is the treatment of non-performing loan (NPL) securitizations in the CAR document?",
+    "answer": "They have specific regulatory capital treatment outlined."
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of the appendices in Chapter 6?",
+    "answer": "To provide additional criteria and illustrative examples for securitization exposures."
+  },
+  {
+    "id": 12,
+    "question": "What does the term 'implicit support' refer to in the context of securitization?",
+    "answer": "Support that is not explicitly stated but may influence the capital treatment of exposures."
+  },
+  {
+    "id": 13,
+    "question": "What is the hierarchy of approaches for calculating capital requirements in securitization?",
+    "answer": "It includes Internal Ratings-Based Approach, External Ratings-Based Approach, Internal Assessment Approach, and Standardized Approach."
+  },
+  {
+    "id": 14,
+    "question": "What is a traditional securitization?",
+    "answer": "A structure where cash flow from an underlying pool of exposures services at least two different risk positions or tranches reflecting different degrees of credit risk."
+  },
+  {
+    "id": 15,
+    "question": "How do payments to investors in a traditional securitization depend on performance?",
+    "answer": "Payments depend on the performance of the specified underlying exposures rather than an obligation of the originating entity."
+  },
+  {
+    "id": 16,
+    "question": "What distinguishes junior securitization tranches from senior tranches?",
+    "answer": "Junior tranches can absorb losses without interrupting payments to senior tranches, unlike senior/subordinated debt structures."
+  },
+  {
+    "id": 17,
+    "question": "What is a synthetic securitization?",
+    "answer": "A structure with stratified risk positions where credit risk is transferred through funded or unfunded credit derivatives or guarantees."
+  },
+  {
+    "id": 18,
+    "question": "What are securitization exposures?",
+    "answer": "Exposures that include asset-backed securities, mortgage-backed securities, credit enhancements, and other related financial instruments."
+  },
+  {
+    "id": 19,
+    "question": "Define resecuritization exposure.",
+    "answer": "A securitization exposure where the risk associated with an underlying pool is tranched and includes at least one securitization exposure."
+  },
+  {
+    "id": 20,
+    "question": "What types of instruments can be included in the underlying pool of a securitization?",
+    "answer": "Loans, commitments, asset-backed securities, corporate bonds, equity securities, and private equity investments."
+  },
+  {
+    "id": 21,
+    "question": "What qualifies an institution as an originator in a securitization?",
+    "answer": "An institution is an originator if it directly or indirectly originates underlying exposures or sponsors an ABCP conduit acquiring exposures."
+  },
+  {
+    "id": 22,
+    "question": "What is an Asset-backed commercial paper (ABCP) programme?",
+    "answer": "A programme that issues commercial paper to third-party investors, backed by assets held in a special purpose entity."
+  },
+  {
+    "id": 23,
+    "question": "What is a clean-up call in securitization?",
+    "answer": "An option allowing securitization exposures to be called before all underlying assets are repaid, typically through repurchase by the originator."
+  },
+  {
+    "id": 24,
+    "question": "What does credit enhancement mean?",
+    "answer": "A contractual arrangement providing added protection to parties in a securitization transaction, typically by retaining or assuming a securitization exposure."
+  },
+  {
+    "id": 25,
+    "question": "What is a credit-enhancing interest-only strip (I/O)?",
+    "answer": "An on-balance sheet asset representing future margin income cash flows that is subordinated."
+  },
+  {
+    "id": 26,
+    "question": "What is early amortization in securitization?",
+    "answer": "A mechanism that accelerates the reduction of an investor's interest in underlying exposures, allowing payouts before maturity."
+  },
+  {
+    "id": 27,
+    "question": "Define excess spread in the context of securitization.",
+    "answer": "Gross finance charge collections and other income received by the trust minus certificate interest, servicing fees, and other expenses."
+  },
+  {
+    "id": 28,
+    "question": "What is implicit support in securitization?",
+    "answer": "Support provided by an institution to a securitization that exceeds its predetermined contractual obligations."
+  },
+  {
+    "id": 29,
+    "question": "What is the role of the Basel Framework in securitization?",
+    "answer": "The Basel Framework provides guidelines and regulations for the risk management and capital requirements associated with securitization."
+  },
+  {
+    "id": 30,
+    "question": "What is an IRB pool?",
+    "answer": "A securitization pool for which an institution can use an IRB approach to calculate capital requirements for all underlying exposures, given OSFI approval."
+  },
+  {
+    "id": 31,
+    "question": "What does OSFI expect from institutions with IRB approval for an underlying pool?",
+    "answer": "They are expected to treat that pool as an IRB pool."
+  },
+  {
+    "id": 32,
+    "question": "What must an institution demonstrate if it cannot treat an underlying pool as an IRB pool?",
+    "answer": "It must demonstrate to OSFI why it cannot calculate capital requirements using an IRB approach."
+  },
+  {
+    "id": 33,
+    "question": "What are the circumstances requiring consultation with OSFI regarding an IRB pool?",
+    "answer": "Transactions with highly complex loss allocations, tranches with credit enhancement risks unrelated to portfolio losses, or high internal correlations in portfolios."
+  },
+  {
+    "id": 34,
+    "question": "What is a mixed pool in securitization?",
+    "answer": "A securitization pool where an institution can calculate IRB parameters for some, but not all, underlying exposures."
+  },
+  {
+    "id": 35,
+    "question": "Define non-performing loan securitization (NPL securitization).",
+    "answer": "A securitization where the underlying pool's variable W is equal to or higher than 90% at the origination cut-off date and subsequent dates."
+  },
+  {
+    "id": 36,
+    "question": "What types of instruments can be included in an NPL securitization?",
+    "answer": "Loans, loan-equivalent financial instruments, or tradable instruments for loan sub-participation."
+  },
+  {
+    "id": 37,
+    "question": "What is an SA pool?",
+    "answer": "A securitization pool for which an institution does not have approval to calculate IRB parameters for any underlying exposures."
+  },
+  {
+    "id": 38,
+    "question": "What characterizes a senior securitization exposure (tranche)?",
+    "answer": "It is backed or secured by a first claim on the entire amount of the assets in the underlying securitized pool."
+  },
+  {
+    "id": 39,
+    "question": "How are different maturities of senior tranches treated?",
+    "answer": "They are treated as senior if they share pro rata loss allocation and benefit from the same level of credit enhancement."
+  },
+  {
+    "id": 40,
+    "question": "What is a liquidity facility in the context of securitization?",
+    "answer": "A facility that may cover losses on underlying receivables and can be treated as a senior exposure if certain conditions are met."
+  },
+  {
+    "id": 41,
+    "question": "What are servicer cash advances?",
+    "answer": "Funds provided by an institution to ensure uninterrupted payments to investors when payments from underlying assets are delayed."
+  },
+  {
+    "id": 42,
+    "question": "What conditions must servicer cash advances meet?",
+    "answer": "Servicers must be entitled to full reimbursement, advances cannot offset shortfalls from defaults, and they must assess repayment likelihood."
+  },
+  {
+    "id": 43,
+    "question": "What is a Special Purpose Entity (SPE)?",
+    "answer": "An entity organized for a specific purpose, isolating it from the credit risk of an originator or seller of assets."
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of an SPE in securitization?",
+    "answer": "To serve as a financing vehicle where assets are sold to the SPE in exchange for cash or other assets funded by debt issued by the SPE."
+  },
+  {
+    "id": 45,
+    "question": "What is tranche maturity?",
+    "answer": "The time until a tranche's principal is due, which can affect its risk weight in capital calculations."
+  },
+  {
+    "id": 46,
+    "question": "What is tranche maturity (MT) in risk-based capital?",
+    "answer": "Tranche maturity (MT) is the tranche's remaining effective maturity in years, measured as the dollar weighted-average maturity of the tranche's contractual cash flows."
+  },
+  {
+    "id": 47,
+    "question": "How is tranche maturity calculated using cash flows?",
+    "answer": "MT = Σ (t * CFt) / Σ CFt, where CFt denotes the cash flows contractually payable to the tranche in period t."
+  },
+  {
+    "id": 48,
+    "question": "When can contractual payments to a tranche be used without regard to underlying asset performance?",
+    "answer": "When the payments are unconditional and not dependent on the actual performance of the securitized assets."
+  },
+  {
+    "id": 49,
+    "question": "What should be assumed if at least five years of prepayment data is available?",
+    "answer": "Prepayments should be assumed to be the lowest of the prepayment rate in the transaction pricing, the lowest historically observed prepayment rate, or the average observed prepayment rate through the life of the transaction."
+  },
+  {
+    "id": 50,
+    "question": "What is the cap on the resulting annual prepayment rate?",
+    "answer": "The resulting annual prepayment rate is subject to a cap of 20%."
+  },
+  {
+    "id": 51,
+    "question": "What should be assumed if less than five years of prepayment data is available?",
+    "answer": "Zero prepayments should be assumed."
+  },
+  {
+    "id": 52,
+    "question": "How should the weighted-average cash flow methodology be applied in revolving securitization transactions?",
+    "answer": "By adjusting the scheduled maturity of each exposure that matures before the end of the revolving period to include the longest permitted maturity of an exposure eligible to be added."
+  },
+  {
+    "id": 53,
+    "question": "What is the formula for calculating tranche maturity based on final legal maturity?",
+    "answer": "MT = 1 + (ML - 1) × 80%, where ML is the final legal maturity of the tranche."
+  },
+  {
+    "id": 54,
+    "question": "What is the minimum and maximum cap for tranche maturity?",
+    "answer": "Tranche maturity has a floor of one year and a cap of five years."
+  },
+  {
+    "id": 55,
+    "question": "How should institutions calculate the maturity of a securitization exposure from a commitment?",
+    "answer": "By applying the approach outlined for tranche maturity or as the sum of the contractual maturity of the commitment and the longest maturity of the assets after a draw."
+  },
+  {
+    "id": 56,
+    "question": "What is the treatment for credit protection instruments exposed to losses only up to their maturity?",
+    "answer": "The contractual maturity of the instrument can be applied without looking through to the protected portion."
+  },
+  {
+    "id": 57,
+    "question": "What conditions must be met for an originating institution to exclude securitized exposures from risk-weighted assets?",
+    "answer": "Significant credit risk must be transferred to third parties, and the institution must establish policies to assess this risk transfer."
+  },
+  {
+    "id": 58,
+    "question": "What is the quantitative test for determining significant credit risk transfer?",
+    "answer": "The capital required for retained exposures must be no more than 40% of the capital required for the pool of assets, indicating at least a 60% reduction in risk-weighted assets."
+  },
+  {
+    "id": 59,
+    "question": "What must the policies of an originating institution include regarding risk transfer?",
+    "answer": "Policies must include how the risk transfer will be assessed on an ongoing basis and be available for review by regulatory authorities."
+  },
+  {
+    "id": 60,
+    "question": "What should be excluded when calculating risk-weighted assets for retained exposures?",
+    "answer": "Any risk weight floors."
+  },
+  {
+    "id": 61,
+    "question": "How is the pool of assets supporting tranches defined?",
+    "answer": "It includes assets associated with one or more series of notes issued by the SPE, excluding retained interests or seller's interests."
+  },
+  {
+    "id": 62,
+    "question": "What must be consistent when calculating risk-weighted asset amounts for retained positions?",
+    "answer": "The risk-based approaches used for the pool of assets."
+  },
+  {
+    "id": 63,
+    "question": "What happens if the quantitative test for risk transfer is not met?",
+    "answer": "It does not need to be met if all positions retained are risk-weighted at 1250%."
+  },
+  {
+    "id": 64,
+    "question": "What is required for the originating institution to not maintain effective control over transferred exposures?",
+    "answer": "The exposures must be legally isolated from the institution, confirmed by a legal opinion."
+  },
+  {
+    "id": 65,
+    "question": "What constitutes effective control over transferred credit risk exposures?",
+    "answer": "If the institution can repurchase the exposures or is obligated to retain the risk."
+  },
+  {
+    "id": 66,
+    "question": "What must be true about the securities issued in a securitization?",
+    "answer": "They are not obligations of the originating institution."
+  },
+  {
+    "id": 67,
+    "question": "What rights do holders of beneficial interests in an SPE have?",
+    "answer": "They have the right to pledge or exchange them without restriction."
+  },
+  {
+    "id": 68,
+    "question": "What conditions must clean-up calls satisfy?",
+    "answer": "Conditions set out in section 6.3.4."
+  },
+  {
+    "id": 69,
+    "question": "What clauses are prohibited in a securitization?",
+    "answer": "Clauses that require altering underlying exposures to improve credit quality or increase retained positions after inception."
+  },
+  {
+    "id": 70,
+    "question": "What must the originating institution not own in relation to an SPE?",
+    "answer": "Any share capital in a company or trust used as an SPE."
+  },
+  {
+    "id": 71,
+    "question": "What is the requirement regarding the name of the SPE?",
+    "answer": "The originating institution's name must not be included or implied in the name of the SPE."
+  },
+  {
+    "id": 72,
+    "question": "What is the restriction on the board of directors of an SPE?",
+    "answer": "The originating institution cannot have its directors or employees on the board unless it has at least three members."
+  },
+  {
+    "id": 73,
+    "question": "What is the exception for subordinated loans to an SPE?",
+    "answer": "They may be provided to cover initial transaction costs and risk-weighted at 1250% under specific conditions."
+  },
+  {
+    "id": 74,
+    "question": "What must the institution not do regarding losses suffered by the SPE?",
+    "answer": "It must not support any losses or bear recurring expenses of the SPE."
+  },
+  {
+    "id": 75,
+    "question": "What are the requirements for credit risk mitigation techniques in synthetic securitizations?",
+    "answer": "They must comply with the requirements set out in section 4.3 of the guidelines."
+  },
+  {
+    "id": 76,
+    "question": "What is the limitation on eligible collateral in synthetic securitizations?",
+    "answer": "It is limited to that specified in section 4.3.3."
+  },
+  {
+    "id": 77,
+    "question": "Can SPEs be recognized as eligible guarantors in the securitization framework?",
+    "answer": "No, institutions cannot recognize SPEs as eligible guarantors."
+  },
+  {
+    "id": 78,
+    "question": "What must institutions do with significant credit risk associated with underlying exposures?",
+    "answer": "They must transfer it to third parties, consistent with specified paragraphs."
+  },
+  {
+    "id": 79,
+    "question": "What types of clauses limit credit risk transfer in securitization?",
+    "answer": "Clauses that materially limit credit protection, require alterations to underlying exposures, increase costs due to credit quality deterioration, increase yields to other parties, or increase retained loss positions."
+  },
+  {
+    "id": 80,
+    "question": "What must an institution obtain to confirm the enforceability of a securitization contract?",
+    "answer": "A legal opinion."
+  },
+  {
+    "id": 81,
+    "question": "What conditions must be met for a securitization to fail operational requirements?",
+    "answer": "If it includes revolving credit facilities and incorporates an early amortization provision that subordinates the institution's interest or increases exposure to losses."
+  },
+  {
+    "id": 82,
+    "question": "What types of early amortization provisions allow exclusion from risk-weighted asset calculations?",
+    "answer": "Replenishment structures, transactions mimicking term structures, structures where investors remain exposed to drawdowns, or provisions triggered by non-performance related events."
+  },
+  {
+    "id": 83,
+    "question": "What are the conditions for a clean-up call to not require capital?",
+    "answer": "It must be discretionary, not structured to avoid losses for investors, and only exercisable when 10% or less of the original portfolio remains."
+  },
+  {
+    "id": 84,
+    "question": "What happens if a clean-up call does not meet specified criteria?",
+    "answer": "Capital requirements apply as if the exposures were not securitized, and no gain-on-sale can be recognized."
+  },
+  {
+    "id": 85,
+    "question": "How must a clean-up call that serves as credit enhancement be treated?",
+    "answer": "As implicit support provided by the institution, following supervisory guidance."
+  },
+  {
+    "id": 86,
+    "question": "What due diligence is required for risk weight approaches in securitization?",
+    "answer": "A comprehensive understanding of risk characteristics of securitization exposures and the underlying pools."
+  },
+  {
+    "id": 87,
+    "question": "What performance information must institutions access for underlying pools?",
+    "answer": "Information on exposure type, delinquency rates, default rates, prepayment rates, foreclosure rates, credit worthiness, loan-to-value ratios, and diversification."
+  },
+  {
+    "id": 88,
+    "question": "What structural features must institutions understand in securitization transactions?",
+    "answer": "Contractual waterfall, triggers, credit enhancements, liquidity enhancements, market value triggers, and definitions of default."
+  },
+  {
+    "id": 89,
+    "question": "What is the risk weight assigned to a securitization if due diligence cannot be performed?",
+    "answer": "A 1250% risk weight."
+  },
+  {
+    "id": 90,
+    "question": "What is the significance of an early amortization provision in a securitization?",
+    "answer": "It can subordinate the institution's interest and increase exposure to losses if triggered."
+  },
+  {
+    "id": 91,
+    "question": "What is a replenishment structure in securitization?",
+    "answer": "A structure where underlying exposures do not revolve and early amortization ends the ability to add new exposures."
+  },
+  {
+    "id": 92,
+    "question": "What is a key requirement for an institution regarding the performance of securitization exposures?",
+    "answer": "To have ongoing access to timely performance information."
+  },
+  {
+    "id": 93,
+    "question": "What is the treatment of securitization exposures if a clean-up call is exercised?",
+    "answer": "If it serves as credit enhancement, it is treated as implicit support."
+  },
+  {
+    "id": 94,
+    "question": "What is the role of legal opinions in securitization transactions?",
+    "answer": "To confirm the enforceability of the securitization contract."
+  },
+  {
+    "id": 95,
+    "question": "What must institutions do to ensure compliance with operational requirements for securitization?",
+    "answer": "Ensure that no clauses in the securitization limit credit risk transfer."
+  },
+  {
+    "id": 96,
+    "question": "What happens if a securitization transaction includes clauses that increase costs in response to credit quality deterioration?",
+    "answer": "It may limit the amount of credit risk transferred."
+  },
+  {
+    "id": 97,
+    "question": "What is the consequence of a securitization transaction failing operational requirements?",
+    "answer": "The institution may face increased capital requirements."
+  },
+  {
+    "id": 98,
+    "question": "What is the significance of understanding the contractual waterfall in securitization?",
+    "answer": "It impacts the performance of the institution's exposures to the transaction."
+  },
+  {
+    "id": 99,
+    "question": "What types of credit enhancements can affect the treatment of securitization exposures?",
+    "answer": "Credit enhancements that are structured to provide support or avoid losses."
+  },
+  {
+    "id": 100,
+    "question": "What is the implication of having a thorough understanding of structural features in securitization?",
+    "answer": "It allows institutions to assess risks and manage exposures effectively."
+  },
+  {
+    "id": 101,
+    "question": "What is the purpose of due diligence in securitization?",
+    "answer": "To ensure that institutions can accurately assess and manage the risks associated with securitized exposures."
+  },
+  {
+    "id": 102,
+    "question": "What is required for institutions' securitization exposures?",
+    "answer": "Regulatory capital is required for securitization exposures, including credit risk mitigants, investments in asset-backed securities, retention of a subordinated tranche, and extension of a liquidity facility."
+  },
+  {
+    "id": 103,
+    "question": "How should repurchased securitization exposures be treated?",
+    "answer": "Repurchased securitization exposures must be treated as retained securitization exposures."
+  },
+  {
+    "id": 104,
+    "question": "When are institutions not required to hold capital for securitization transactions?",
+    "answer": "Institutions whose only involvement is collecting interest and principal without obligation to remit funds are not required to hold capital."
+  },
+  {
+    "id": 105,
+    "question": "What must institutions deduct from Common Equity Tier 1 capital?",
+    "answer": "Institutions must deduct any increase in equity capital from securitization transactions, such as receivables associated with expected future margin income resulting in a gain-on-sale."
+  },
+  {
+    "id": 106,
+    "question": "What is the risk weight for credit-enhancing interest-only strips?",
+    "answer": "Credit-enhancing interest-only strips will be risk-weighted at 1250%."
+  },
+  {
+    "id": 107,
+    "question": "What is the risk weight for unrated interest-only strips subject to prepayment risk?",
+    "answer": "They will be risk-weighted at 250%."
+  },
+  {
+    "id": 108,
+    "question": "What is the risk weight for unrated interest-only strips not subject to prepayment risk?",
+    "answer": "They will be risk-weighted at 100%."
+  },
+  {
+    "id": 109,
+    "question": "How do originating institutions handle specific allowances on securitization exposures?",
+    "answer": "Specific allowances on securitization exposures will be considered in calculating the exposure amount."
+  },
+  {
+    "id": 110,
+    "question": "What is the exposure amount of a securitization exposure?",
+    "answer": "It is the sum of the on-balance sheet amount and the off-balance sheet exposure amount."
+  },
+  {
+    "id": 111,
+    "question": "What are securitization commitments?",
+    "answer": "Securitization commitments are arrangements obligating an institution to purchase or fund securitization exposures at a client's request."
+  },
+  {
+    "id": 112,
+    "question": "What conditions exempt certain securitization facilities from being defined as commitments?",
+    "answer": "No fees or commissions, client applies for drawdowns, institution has full authority over drawdowns, and creditworthiness assessment prior to drawdown."
+  },
+  {
+    "id": 113,
+    "question": "How should off-balance sheet securitization exposures be measured?",
+    "answer": "By using specific treatment for credit risk mitigants, derivative contracts, and undrawn portions of securitization commitments."
+  },
+  {
+    "id": 114,
+    "question": "What is the credit conversion factor (CCF) for the undrawn portion of securitization commitments?",
+    "answer": "The CCF is 40% for the undrawn portion of securitization commitments extended to fund client vehicle acquisitions."
+  },
+  {
+    "id": 115,
+    "question": "What is the CCF for servicer cash advances that are unconditionally cancellable?",
+    "answer": "The CCF is 10% for servicer cash advances that are unconditionally cancellable without prior notice."
+  },
+  {
+    "id": 116,
+    "question": "What is the CCF for other securitization commitments that are not credit risk mitigants?",
+    "answer": "The CCF is 100% for other securitization commitments."
+  },
+  {
+    "id": 117,
+    "question": "What defines overlapping exposures in capital requirement calculations?",
+    "answer": "An exposure A overlaps another exposure B if fulfilling obligations on A precludes any loss on B."
+  },
+  {
+    "id": 118,
+    "question": "How can institutions calculate capital requirements for overlapping exposures?",
+    "answer": "Institutions may split or expand exposures to calculate capital requirements."
+  },
+  {
+    "id": 119,
+    "question": "What is the risk-weighted amount of a securitization exposure?",
+    "answer": "It is computed by multiplying the exposure amount by the appropriate risk weight."
+  },
+  {
+    "id": 120,
+    "question": "What are the risk weight caps for senior exposures?",
+    "answer": "Risk weight caps for senior exposures may apply as defined in specific paragraphs of the Basel Framework."
+  },
+  {
+    "id": 121,
+    "question": "What should not be included in the expected loss (EL) provision calculation?",
+    "answer": "Securitization exposures do not contribute to the EL amount."
+  },
+  {
+    "id": 122,
+    "question": "What happens to general allowances against securitization exposures?",
+    "answer": "General allowances against securitization exposures are not included in the measurement of eligible allowances."
+  },
+  {
+    "id": 123,
+    "question": "What is the treatment for unrated interest-only strips under SEC-ERBA?",
+    "answer": "Rated interest-only strips may be treated under SEC-ERBA as described in the Basel Framework."
+  },
+  {
+    "id": 124,
+    "question": "What is the significance of specific provisions on securitization exposures?",
+    "answer": "Specific provisions taken by the institution on securitization exposures affect the carrying value."
+  },
+  {
+    "id": 125,
+    "question": "What is the treatment for derivative contracts in off-balance sheet exposures?",
+    "answer": "The measurement approach used is that outlined in the counterparty credit risk framework."
+  },
+  {
+    "id": 126,
+    "question": "What is the purpose of splitting exposures in securitization?",
+    "answer": "To manage overlapping exposures held by the institution and expand exposures for capital purposes."
+  },
+  {
+    "id": 127,
+    "question": "How does an institution calculate risk-weighted assets for a liquidity facility?",
+    "answer": "As if the facility were expanded to cover defaulted assets or trigger events, thus precluding all losses on the notes."
+  },
+  {
+    "id": 128,
+    "question": "What is the risk weight assigned to securitization exposures that cannot use any specified approaches?",
+    "answer": "1250% risk weight."
+  },
+  {
+    "id": 129,
+    "question": "What approach must be used for securitization exposures of IRB pools?",
+    "answer": "The Securitization Internal Ratings-Based Approach (SEC-IRBA)."
+  },
+  {
+    "id": 130,
+    "question": "Under what conditions can institutions treat IRB pool exposures as SA pools?",
+    "answer": "If they materially benefit from excess spread and the exposure is externally rated or to an ABCP conduit issuing externally rated paper."
+  },
+  {
+    "id": 131,
+    "question": "What approach must be used for securitization exposures of SA pools?",
+    "answer": "The Securitization External Ratings-Based Approach (SEC-ERBA), provided there is an external credit assessment that meets operational requirements."
+  },
+  {
+    "id": 132,
+    "question": "What is the Internal Assessment Approach (SEC-IAA) used for?",
+    "answer": "For unrated securitization exposures to an SA pool within an ABCP program, requiring OSFI approval."
+  },
+  {
+    "id": 133,
+    "question": "What should an institution do if it cannot use SEC-ERBA or SEC-IAA?",
+    "answer": "Use the Standardized Approach (SEC-SA)."
+  },
+  {
+    "id": 134,
+    "question": "What is the calculation method for capital charge when KIRB can be calculated on at least 95% of underlying exposures?",
+    "answer": "Apply SEC-IRBA using the formula: d × KIRB + (1- d) × KSA."
+  },
+  {
+    "id": 135,
+    "question": "What must be calculated according to minimum IRB standards for securitization exposures?",
+    "answer": "The IRB capital requirement for the underlying exposures in the pool."
+  },
+  {
+    "id": 136,
+    "question": "What does KIRB represent in the context of securitization?",
+    "answer": "The ratio of the IRB capital requirement for the underlying exposures to the exposure amount of the pool."
+  },
+  {
+    "id": 137,
+    "question": "How should the numerator of KIRB be calculated for structures involving an SPE?",
+    "answer": "Include the positive current market value of swaps multiplied by the risk weight of the swap provider multiplied by 8%."
+  },
+  {
+    "id": 138,
+    "question": "What can institutions do if they can demonstrate that the risk of an SPE's exposures is immaterial?",
+    "answer": "Exclude the SPE's exposures from the pool for capital calculation purposes."
+  },
+  {
+    "id": 139,
+    "question": "What is the significance of the Basel Framework in securitization?",
+    "answer": "It provides guidelines for calculating capital requirements for various securitization exposures."
+  },
+  {
+    "id": 140,
+    "question": "What is the role of OSFI in the application of SEC-IAA?",
+    "answer": "OSFI must approve the use of the IRB approach and agree on when SEC-IAA can be applied."
+  },
+  {
+    "id": 141,
+    "question": "What are the implications of overlapping exposures for capital calculations?",
+    "answer": "They may lead to adjustments in capital requirements to ensure adequate coverage of risks."
+  },
+  {
+    "id": 142,
+    "question": "What is the purpose of capital requirements in securitization?",
+    "answer": "To ensure that institutions maintain sufficient capital to cover potential losses from securitized exposures."
+  },
+  {
+    "id": 143,
+    "question": "What is the relationship between trading book and banking book capital charges?",
+    "answer": "Overlap can be recognized if the institution can calculate and compare capital charges for relevant exposures."
+  },
+  {
+    "id": 144,
+    "question": "What is the significance of the tranche attachment and detachment points in SEC-IRBA?",
+    "answer": "They define the risk levels for different tranches of securitized exposures."
+  },
+  {
+    "id": 145,
+    "question": "What does the term 'exposure amount' refer to in the context of KIRB?",
+    "answer": "The sum of drawn amounts related to securitized exposures plus the EAD associated with undrawn commitments."
+  },
+  {
+    "id": 146,
+    "question": "What is the expected loss portion in the context of KIRB?",
+    "answer": "The anticipated losses that may occur from defaulted exposures in the underlying pool."
+  },
+  {
+    "id": 147,
+    "question": "What is the purpose of calculating capital requirements for securitization exposures?",
+    "answer": "To ensure financial stability and risk management within institutions engaged in securitization."
+  },
+  {
+    "id": 148,
+    "question": "What is cash collateralization in the context of swaps?",
+    "answer": "It involves securing the market value with collateral and agreeing to additional payments if the market value increases."
+  },
+  {
+    "id": 149,
+    "question": "What is the minimum credit quality requirement for a swap provider?",
+    "answer": "The swap provider must post collateral or present an alternative provider at no cost to the SPE if their credit deteriorates."
+  },
+  {
+    "id": 150,
+    "question": "What does OSFI stand for?",
+    "answer": "Office of the Superintendent of Financial Institutions."
+  },
+  {
+    "id": 151,
+    "question": "What is the KIRB calculation?",
+    "answer": "KIRB stands for Key Risk Indicator Buffer, which assesses the risk of securitization exposures."
+  },
+  {
+    "id": 152,
+    "question": "What must be included in the KIRB calculation for funded synthetic securitizations?",
+    "answer": "Proceeds from credit-linked notes or funded obligations that serve as collateral must be included if they are not immaterial."
+  },
+  {
+    "id": 153,
+    "question": "What is the treatment for specific provisions in the KIRB calculation?",
+    "answer": "Both the IRB capital requirement and exposure amount must be calculated using the gross amount without specific provisions."
+  },
+  {
+    "id": 154,
+    "question": "What is the top-down approach in calculating KIRB for purchased receivables?",
+    "answer": "It can be used if assessing individual obligors is an undue burden and if other IRB minimum requirements are met."
+  },
+  {
+    "id": 155,
+    "question": "What are the eligibility criteria for the top-down approach for purchased receivables?",
+    "answer": "The assets must be purchased from unrelated sellers and generated on an arm's-length basis."
+  },
+  {
+    "id": 156,
+    "question": "What happens if a single asset represents more than 4% of a pool of assets?",
+    "answer": "Capital charges must be calculated using the minimum requirements for the bottom-up approach."
+  },
+  {
+    "id": 157,
+    "question": "What is required for purchased retail receivables to be eligible for the top-down approach?",
+    "answer": "The purchasing institution must comply with IRB rules for retail exposures and apply minimum operational requirements."
+  },
+  {
+    "id": 158,
+    "question": "What is the general expectation for assessing default risk for purchased corporate receivables?",
+    "answer": "Institutions are expected to assess the default risk of individual obligors as specified in the guidelines."
+  },
+  {
+    "id": 159,
+    "question": "What conditions must be met for non-retail exposures to use the top-down approach?",
+    "answer": "Assets must be purchased from unrelated sellers, generated on an arm's-length basis, and the institution must have a claim on proceeds."
+  },
+  {
+    "id": 160,
+    "question": "What is the IRB risk weight for default risk based on?",
+    "answer": "It is based on the risk-weight function applicable to the specific exposure type."
+  },
+  {
+    "id": 161,
+    "question": "What must an institution do if it cannot comply with the standards for qualifying revolving retail exposures?",
+    "answer": "It should use the risk-weight function for other retail exposures."
+  },
+  {
+    "id": 162,
+    "question": "What is expected for estimating PD and LGD for purchased retail receivables?",
+    "answer": "Estimates must be calculated on a stand-alone basis without considering recourse or guarantees."
+  },
+  {
+    "id": 163,
+    "question": "What is the expected treatment for purchased corporate receivables under the IRB approach?",
+    "answer": "The purchasing institution must apply existing IRB risk quantification standards for the bottom-up approach."
+  },
+  {
+    "id": 164,
+    "question": "What does the term 'contra-accounts' refer to?",
+    "answer": "It involves a customer buying from and selling to the same firm, which can complicate cash settlements."
+  },
+  {
+    "id": 165,
+    "question": "What is the risk of settling debts through payments in kind?",
+    "answer": "It may defeat a security interest when challenged in court."
+  },
+  {
+    "id": 166,
+    "question": "What is the first step for calculating IRB risk weights for default risk?",
+    "answer": "The purchasing institution estimates the pool's one-year expected loss (EL) for default risk."
+  },
+  {
+    "id": 167,
+    "question": "How is the estimated EL calculated for receivables?",
+    "answer": "It must be calculated on a stand-alone basis, without considering recourse or guarantees."
+  },
+  {
+    "id": 168,
+    "question": "What determines the risk weight for default risk?",
+    "answer": "It is determined by the risk-weight function for corporate exposures."
+  },
+  {
+    "id": 169,
+    "question": "What must institutions use to estimate probability of default (PD) and loss given default (LGD)?",
+    "answer": "They can utilize external and internal data."
+  },
+  {
+    "id": 170,
+    "question": "What happens if an institution cannot decompose EL into PD and LGD?",
+    "answer": "The risk weight is determined from the corporate risk-weight function using specific specifications."
+  },
+  {
+    "id": 171,
+    "question": "What LGD can be used if exposures are exclusively senior claims to corporate borrowers?",
+    "answer": "An LGD of 40% can be used."
+  },
+  {
+    "id": 172,
+    "question": "How is PD calculated if the institution can demonstrate senior claims?",
+    "answer": "PD is calculated by dividing the EL using the LGD."
+  },
+  {
+    "id": 173,
+    "question": "What is the EAD calculation for a revolving purchase facility?",
+    "answer": "It is the sum of current receivables purchased plus 40% of undrawn commitments minus the capital charge for dilution."
+  },
+  {
+    "id": 174,
+    "question": "What is the risk weight treatment if the institution cannot demonstrate senior claims?",
+    "answer": "PD is the institution's estimate of EL, and LGD will be 100%."
+  },
+  {
+    "id": 175,
+    "question": "What is the EAD calculation for drawn amounts?",
+    "answer": "M equals the pool's exposure-weighted average effective maturity."
+  },
+  {
+    "id": 176,
+    "question": "What is the treatment for guarantees under the foundation approach?",
+    "answer": "Guarantees are treated using existing IRB rules for guarantees."
+  },
+  {
+    "id": 177,
+    "question": "How should a guarantee covering both default and dilution risk be treated?",
+    "answer": "The risk weight for an exposure to the guarantor replaces the pool's total risk weight for both risks."
+  },
+  {
+    "id": 178,
+    "question": "What must an institution have regarding allocation of exposures to pools?",
+    "answer": "Clearly specified criteria reflecting the impact of guarantees for regulatory capital purposes."
+  },
+  {
+    "id": 179,
+    "question": "What must institutions consider when allocating exposures to pools?",
+    "answer": "They must take all relevant available information into account."
+  },
+  {
+    "id": 180,
+    "question": "What is the minimum requirement for assigning borrower or facility ratings?",
+    "answer": "It must follow all minimum requirements set out in the guideline."
+  },
+  {
+    "id": 181,
+    "question": "What is the purpose of the Basel Framework mentioned in the document?",
+    "answer": "To provide guidelines for calculating risk weights and managing credit risk in securitization."
+  },
+  {
+    "id": 182,
+    "question": "What is the purpose of grouping securitized assets into homogeneous pools?",
+    "answer": "To determine accurate and consistent estimates of Probability of Default (PD) and Loss Given Default (LGD) for default losses and Expected Loss (EL) estimates for dilution losses."
+  },
+  {
+    "id": 183,
+    "question": "What must the risk bucketing process reflect?",
+    "answer": "The seller's underwriting practices and the heterogeneity of its customers."
+  },
+  {
+    "id": 184,
+    "question": "What information must be considered for estimating PD, LGD, and EL?",
+    "answer": "All available information regarding the quality of the underlying receivables, including data from the seller, the institution, or external sources."
+  },
+  {
+    "id": 185,
+    "question": "What is required for an institution to justify confidence in repayment from receivables?",
+    "answer": "The institution must closely monitor and control the receivable pool and overall lending relationship."
+  },
+  {
+    "id": 186,
+    "question": "What are the minimum operational requirements for the top-down approach?",
+    "answer": "Legal certainty, effectiveness of monitoring systems, effectiveness of work-out systems, effectiveness of systems for controlling collateral, credit availability, and cash, and compliance with internal policies."
+  },
+  {
+    "id": 187,
+    "question": "What does legal certainty ensure in the context of securitization?",
+    "answer": "It ensures effective ownership and control of cash remittances from receivables under all foreseeable circumstances."
+  },
+  {
+    "id": 188,
+    "question": "What must an institution regularly verify regarding payments made by obligors?",
+    "answer": "That payments are forwarded completely and within the contractually agreed terms."
+  },
+  {
+    "id": 189,
+    "question": "What should the monitoring systems assess regarding the seller and servicer?",
+    "answer": "The correlation between the quality of the receivables and the financial condition of both the seller and servicer."
+  },
+  {
+    "id": 190,
+    "question": "What must the institution have in place to protect against contingencies?",
+    "answer": "Internal policies and procedures that provide adequate safeguards, including assigning an internal risk rating for each seller and servicer."
+  },
+  {
+    "id": 191,
+    "question": "What characteristics of the receivables pool must be assessed?",
+    "answer": "Over-advances, history of seller's arrears, bad debts, payment terms, and potential contra accounts."
+  },
+  {
+    "id": 192,
+    "question": "What is the importance of timely reports of receivables ageings and dilutions?",
+    "answer": "To ensure compliance with eligibility criteria and to monitor the seller's terms of sale."
+  },
+  {
+    "id": 193,
+    "question": "What is required for an effective work-out system?",
+    "answer": "Systems and procedures for detecting deterioration in the seller's financial condition and the quality of receivables at an early stage."
+  },
+  {
+    "id": 194,
+    "question": "What should the securitization structure include to monitor compliance?",
+    "answer": "Clear policies, procedures, and information systems to track covenant violations and waivers."
+  },
+  {
+    "id": 195,
+    "question": "What must internal policies specify regarding the receivables purchase program?",
+    "answer": "Material elements including advancing rates, eligible collateral, necessary documentation, and concentration limits."
+  },
+  {
+    "id": 196,
+    "question": "What is the role of internal systems in advancing funds?",
+    "answer": "To ensure funds are advanced only against specified supporting collateral and documentation."
+  },
+  {
+    "id": 197,
+    "question": "What internal processes should be in place to assess compliance with policies?",
+    "answer": "Regular internal and/or external audits of all critical phases of the receivables purchase program."
+  },
+  {
+    "id": 198,
+    "question": "What verification is necessary regarding the separation of duties?",
+    "answer": "Verification between the assessment of the seller/servicer and the obligor, and between the assessment of the seller/servicer and the field audit."
+  },
+  {
+    "id": 199,
+    "question": "What factors should be considered when assessing a seller's financial condition in securitization?",
+    "answer": "The seller's financial condition, risk concentrations, trends in the quality of receivables, and the seller's customer base."
+  },
+  {
+    "id": 200,
+    "question": "What must internal systems ensure regarding fund advancement?",
+    "answer": "Funds are advanced only against specified supporting collateral and documentation."
+  },
+  {
+    "id": 201,
+    "question": "What is required for effective internal processes in compliance assessment?",
+    "answer": "Regular internal and/or external audits of all critical phases of the institution's receivables purchase program."
+  },
+  {
+    "id": 202,
+    "question": "What should be verified to ensure compliance in the assessment process?",
+    "answer": "The separation of duties between the assessment of the seller/servicer and the obligor."
+  },
+  {
+    "id": 203,
+    "question": "What additional evaluations should be included in compliance assessments?",
+    "answer": "Evaluations of back-office operations, focusing on qualifications, experience, staffing levels, and supporting systems."
+  },
+  {
+    "id": 204,
+    "question": "What must an institution do if it cannot meet compliance requirements?",
+    "answer": "Ensure compliance through a party acting for and in the interest of the investors in the securitization."
+  },
+  {
+    "id": 205,
+    "question": "What is dilution risk in the context of securitization?",
+    "answer": "Dilution risk must be recognized if it is material and is assessed according to specific provisions."
+  },
+  {
+    "id": 206,
+    "question": "How should an institution calculate capital requirements for dilution and default risk?",
+    "answer": "Determine KIRB for both risks and combine them into a single KIRB prior to applying the SEC-IRBA."
+  },
+  {
+    "id": 207,
+    "question": "What are the attachment point (A) and detachment point (D) in securitization?",
+    "answer": "A is the threshold for initial loss allocation, while D is the threshold for total loss of principal for a tranche."
+  },
+  {
+    "id": 208,
+    "question": "What is the formula for calculating the supervisory parameter (p) in SEC-IRBA?",
+    "answer": "p = max(0.3, A + B), where A and B are determined from specific parameters."
+  },
+  {
+    "id": 209,
+    "question": "What is the effective number of exposures (N) in a securitization pool?",
+    "answer": "N is calculated using the formula N = (ΣEADi)² / ΣEADi², where EADi is the exposure at default."
+  },
+  {
+    "id": 210,
+    "question": "What must be done with multiple exposures to the same obligor?",
+    "answer": "They must be consolidated and treated as a single instrument."
+  },
+  {
+    "id": 211,
+    "question": "What is the significance of overcollateralization in calculating A and D?",
+    "answer": "Overcollateralization must be recognized as tranches and underlying assets for these calculations."
+  },
+  {
+    "id": 212,
+    "question": "What types of accounts should not be included in the calculation of A and D?",
+    "answer": "Unfunded reserve accounts and assets that do not provide credit enhancement should not be included."
+  },
+  {
+    "id": 213,
+    "question": "What is the role of the supervisory parameter p in risk assessment?",
+    "answer": "It serves as a floor for capital requirements based on the characteristics of the underlying assets."
+  },
+  {
+    "id": 214,
+    "question": "What is the importance of evaluating qualifications and experience in back-office operations?",
+    "answer": "It ensures that the institution's internal processes are effective and compliant with policies."
+  },
+  {
+    "id": 215,
+    "question": "What must be demonstrated to recognize dilution risk as material?",
+    "answer": "The institution must provide evidence to OSFI as outlined in the relevant Basel Framework sections."
+  },
+  {
+    "id": 216,
+    "question": "What does the term 'KIRB' refer to in securitization?",
+    "answer": "KIRB refers to the capital charge of the underlying pool."
+  },
+  {
+    "id": 217,
+    "question": "What is the significance of the p-parameter floor of 0.3?",
+    "answer": "It establishes a minimum threshold for the supervisory parameter in risk calculations."
+  },
+  {
+    "id": 218,
+    "question": "How should an institution handle mixed pools of retail and wholesale exposures?",
+    "answer": "Divide the pool into separate retail and wholesale subpools and calculate a weighted average p-parameter."
+  },
+  {
+    "id": 219,
+    "question": "What is the purpose of the Basel Framework in relation to securitization?",
+    "answer": "It provides guidelines for compliance, risk assessment, and capital requirements in securitization transactions."
+  },
+  {
+    "id": 220,
+    "question": "How is the exposure-weighted average LGD calculated?",
+    "answer": "It is calculated as the sum of LGDi multiplied by the exposure Ei divided by the sum of Ei."
+  },
+  {
+    "id": 221,
+    "question": "What does LGDi represent in the context of exposure-weighted average LGD?",
+    "answer": "LGDi represents the average Loss Given Default associated with all exposures to the ith obligor."
+  },
+  {
+    "id": 222,
+    "question": "What is the treatment of default and dilution risks in securitization?",
+    "answer": "They are treated in an aggregate manner, using a weighted average of LGD for default risk and 100% LGD for dilution risk."
+  },
+  {
+    "id": 223,
+    "question": "What is the simplified method for calculating N and LGD under certain conditions?",
+    "answer": "If the share of the largest exposure C1 is no more than 3%, LGD can be set to 0.50, and N can be calculated using a specific formula."
+  },
+  {
+    "id": 224,
+    "question": "What is the formula for calculating N when C1 is no more than 3%?",
+    "answer": "N = (C1 × Cm + (Cm - C1) × max(1 - m × C1, 0)) / (m - 1)."
+  },
+  {
+    "id": 225,
+    "question": "What is the capital requirement per unit of securitization exposure under the SEC-IRBA?",
+    "answer": "It is a function of three variables: a, u, and l, with a defined as -1(p × KIRB)."
+  },
+  {
+    "id": 226,
+    "question": "What happens to the risk weight assigned to a securitization exposure when D is less than or equal to KIRB?",
+    "answer": "The exposure must be assigned a risk weight of 1,250%."
+  },
+  {
+    "id": 227,
+    "question": "How is the risk weight calculated when A is greater than or equal to KIRB?",
+    "answer": "The risk weight equals KSEC-IRBA multiplied by 12.5."
+  },
+  {
+    "id": 228,
+    "question": "What is the formula for calculating risk weight when A is less than KIRB and D is greater than KIRB?",
+    "answer": "RW = 12.5 × ((KIRB - A) / (D - A)) + ((D - KIRB) × 12.5 × KSSS-III) / (D - A)."
+  },
+  {
+    "id": 229,
+    "question": "What is the floor risk weight for securitization exposures?",
+    "answer": "The resulting risk weight is subject to a floor risk weight of 15%."
+  },
+  {
+    "id": 230,
+    "question": "How are risk-weighted assets determined under the SEC-ERBA?",
+    "answer": "They are determined by multiplying securitization exposure amounts by the appropriate risk weights based on external ratings."
+  },
+  {
+    "id": 231,
+    "question": "What risk weights apply to short-term ratings under SEC-ERBA?",
+    "answer": "A-1/P-1: 15%, A-2/P-2: 50%, A-3/P-3: 100%, All other ratings: 1250%."
+  },
+  {
+    "id": 232,
+    "question": "What is the significance of the variable 'e' in the SEC-IRBA formula?",
+    "answer": "e' is the base of the natural logarithms, approximately equal to 2.71828."
+  },
+  {
+    "id": 233,
+    "question": "What does the variable 'u' represent in the SEC-IRBA risk weight formula?",
+    "answer": "u is defined as D - KIRB."
+  },
+  {
+    "id": 234,
+    "question": "What does the variable 'l' represent in the SEC-IRBA risk weight formula?",
+    "answer": "l is defined as max(A - KIRB, 0)."
+  },
+  {
+    "id": 235,
+    "question": "What is the risk weight for exposures with a long-term rating based on external ratings?",
+    "answer": "It depends on the external rating grade or an available inferred rating."
+  },
+  {
+    "id": 236,
+    "question": "What is the purpose of the SEC-ERBA?",
+    "answer": "To determine risk-weighted assets for securitization exposures that are externally rated."
+  },
+  {
+    "id": 237,
+    "question": "What happens to the risk weight when A is less than KIRB and D is less than or equal to KIRB?",
+    "answer": "The risk weight is assigned based on the weighted average of 1,250% and the calculated risk weight."
+  }
+]
