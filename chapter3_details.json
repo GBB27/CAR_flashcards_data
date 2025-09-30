@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What is the definition of operational risk?",
+    "answer": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, systems, or from external events, including legal risk."
+  },
+  {
+    "id": 2,
+    "question": "What are the two methodologies for calculating operational risk capital?",
+    "answer": "The Standardized Approach (SA) and the Simplified Standardized Approach (SSA)."
+  },
+  {
+    "id": 3,
+    "question": "Which banks must use the Standardized Approach?",
+    "answer": "Domestic Systemically Important Banks (D-SIBs) and Category I Small and Medium Sized Deposit-Taking Institutions (SMSBs) with annual Adjusted Gross Income greater than $1.5 billion."
+  },
+  {
+    "id": 4,
+    "question": "What must Category I SMSBs do if their Adjusted Gross Income exceeds $1.5 billion?",
+    "answer": "They must notify OSFI within 60 days and use the Standardized Approach for operational risk in the following fiscal year."
+  },
+  {
+    "id": 5,
+    "question": "How long must a Category I institution use the Standardized Approach after exceeding the $1.5 billion threshold?",
+    "answer": "For a minimum of two years."
+  },
+  {
+    "id": 6,
+    "question": "What can Category I SMSBs with less than $1.5 billion in Adjusted Gross Income do?",
+    "answer": "They may apply to OSFI to use the Standardized Approach if they have a minimum of five years of high-quality loss data."
+  },
+  {
+    "id": 7,
+    "question": "What is the capital requirement for institutions using the Simplified Standardized Approach?",
+    "answer": "They must hold capital for operational risk equal to 15% of average annual Adjusted Gross Income over the previous 12 fiscal quarters."
+  },
+  {
+    "id": 8,
+    "question": "How is the operational risk capital charge calculated under the Simplified Standardized Approach?",
+    "answer": "ORCSSA = (AGI previous 12 fiscal quarters / 3) × 15%."
+  },
+  {
+    "id": 9,
+    "question": "What does Adjusted Gross Income include?",
+    "answer": "It includes net interest income, dividend income, fee and commission income, other income, and net profit/loss from trading and banking books."
+  },
+  {
+    "id": 10,
+    "question": "What exclusions apply to Adjusted Gross Income?",
+    "answer": "It should be gross of provisions and operating expenses, and exclude extraordinary items and income from insurance."
+  },
+  {
+    "id": 11,
+    "question": "What should newly incorporated institutions do if they have fewer than 12 quarters of financial information?",
+    "answer": "They should calculate the operational risk capital charge using available Adjusted Gross Income data to develop proxies for the missing data."
+  },
+  {
+    "id": 12,
+    "question": "What does the term 'loss data' refer to in the context of the Standardized Approach?",
+    "answer": "Loss data refers to the historical data on operational losses that institutions must collect and analyze to meet minimum standards."
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of the Capital Adequacy Requirements (CAR) document?",
+    "answer": "To set out the capital adequacy requirements for banks and related institutions to ensure they can absorb losses and continue operations."
+  },
+  {
+    "id": 14,
+    "question": "What is the Basel Framework?",
+    "answer": "A set of international banking regulations developed by the Basel Committee on Banking Supervision to enhance financial stability."
+  },
+  {
+    "id": 15,
+    "question": "What does the term 'Business Indicator' refer to in the CAR context?",
+    "answer": "It refers to a measure used to assess the operational risk capital requirement under the Standardized Approach."
+  },
+  {
+    "id": 16,
+    "question": "What is the significance of the $1.5 billion threshold for SMSBs?",
+    "answer": "It determines whether SMSBs must use the Standardized Approach or may apply for the Simplified Standardized Approach."
+  },
+  {
+    "id": 17,
+    "question": "What is the role of OSFI in the context of CAR?",
+    "answer": "The Office of the Superintendent of Financial Institutions (OSFI) oversees the implementation of the CAR and ensures compliance among financial institutions."
+  },
+  {
+    "id": 18,
+    "question": "What is the relationship between risk-weighted assets (RWA) and operational risk capital?",
+    "answer": "Risk-weighted assets for operational risk are equal to 12.5 times the operational risk capital charge."
+  },
+  {
+    "id": 19,
+    "question": "What is excluded from the definition of operational risk?",
+    "answer": "Strategic and reputational risk are excluded from the definition of operational risk."
+  },
+  {
+    "id": 20,
+    "question": "What are the components of the Standardized Approach?",
+    "answer": "The components include minimum standards for loss data, general and specific criteria for loss data identification, collection, and treatment."
+  },
+  {
+    "id": 21,
+    "question": "What is the minimum standard for loss data collection?",
+    "answer": "Institutions must meet the minimum standard for loss data collection as outlined in section 3.4.2 of the CAR."
+  },
+  {
+    "id": 22,
+    "question": "What is the significance of the Basel paragraph numbers in the CAR document?",
+    "answer": "They provide references to the corresponding sections of the Basel Framework that support the text in the CAR."
+  },
+  {
+    "id": 23,
+    "question": "What should Adjusted Gross Income reflect when acquired businesses or merged entities are involved?",
+    "answer": "It should be adjusted to reflect the actual Adjusted Gross Income amounts reported by the acquired business or merged entity."
+  },
+  {
+    "id": 24,
+    "question": "What is the proxy for Adjusted Gross Income if three years of historical financial data is unavailable?",
+    "answer": "The Adjusted Gross Income for the previous year may be used as a proxy for each of the other two years."
+  },
+  {
+    "id": 25,
+    "question": "What is required for adjusting Adjusted Gross Income during a divestiture?",
+    "answer": "OSFI approval is required to adjust Adjusted Gross Income when an institution using the SSA makes a divestiture."
+  },
+  {
+    "id": 26,
+    "question": "What are the main components of the Standardized Approach methodology?",
+    "answer": "The components are the Business Indicator (BI), Business Indicator Component (BIC), and Internal Loss Multiplier (ILM)."
+  },
+  {
+    "id": 27,
+    "question": "How is the Business Indicator Component (BIC) calculated?",
+    "answer": "BIC is calculated by multiplying the Business Indicator (BI) by a set of regulatory determined marginal coefficients."
+  },
+  {
+    "id": 28,
+    "question": "What does the Internal Loss Multiplier (ILM) represent?",
+    "answer": "ILM is a scaling factor based on an institution's average historical losses and the Business Indicator Component (BIC)."
+  },
+  {
+    "id": 29,
+    "question": "How are operational risk capital requirements calculated under the Standardized Approach?",
+    "answer": "Operational risk capital requirements (ORCSA) are calculated by multiplying the BIC and the ILM."
+  },
+  {
+    "id": 30,
+    "question": "What is the formula for calculating Risk-weighted assets (RWA) for operational risk?",
+    "answer": "RWA for operational risk is equal to 12.5 times ORC."
+  },
+  {
+    "id": 31,
+    "question": "What three components make up the Business Indicator (BI)?",
+    "answer": "The BI comprises the interest, leases and dividend component (ILDC), the services component (SC), and the financial component (FC)."
+  },
+  {
+    "id": 32,
+    "question": "How is the Business Indicator (BI) defined mathematically?",
+    "answer": "BI = ILDC + SC + FC."
+  },
+  {
+    "id": 33,
+    "question": "What is the calculation for the Business Indicator Component (BIC)?",
+    "answer": "BIC = 12% of BI + 3% of BI above $1.5 billion + 3% of BI above $45 billion."
+  },
+  {
+    "id": 34,
+    "question": "What does the Loss Component (LC) represent in the ILM calculation?",
+    "answer": "The LC is equal to 15 times average annual operational risk losses, net of recoveries, incurred over the previous 10 years."
+  },
+  {
+    "id": 35,
+    "question": "What happens if an institution does not have ten years of high-quality loss data?",
+    "answer": "They must calculate the capital requirement using an ILM greater than or equal to one."
+  },
+  {
+    "id": 36,
+    "question": "How often should Operational Risk Capital (ORC) be calculated and reported?",
+    "answer": "ORC should be calculated and reported quarterly."
+  },
+  {
+    "id": 37,
+    "question": "What is required for reconciliation between the Business Indicator and Net Interest Income?",
+    "answer": "Institutions should perform a reconciliation for the previous three years, available to OSFI upon request."
+  },
+  {
+    "id": 38,
+    "question": "What must a subsidiary institution using the Standardized Approach do regarding its income and loss experience?",
+    "answer": "It should use its own consolidated income and loss experience in the calculation of BI and LC."
+  },
+  {
+    "id": 39,
+    "question": "What is the significance of data quality in operational risk capital calculations?",
+    "answer": "The soundness of data collection and the quality and integrity of the data are crucial for generating capital outcomes aligned with operational loss exposure."
+  },
+  {
+    "id": 40,
+    "question": "What is the minimum capital requirement for institutions that do not meet loss data standards?",
+    "answer": "They are required to hold capital that is at least equal to 100% of the Business Indicator Component (BIC)."
+  },
+  {
+    "id": 41,
+    "question": "What must be publicly disclosed if an institution excludes internal loss data due to non-compliance?",
+    "answer": "The exclusion of internal loss data and any resulting adjustment to the ILM must be publicly disclosed."
+  },
+  {
+    "id": 42,
+    "question": "What must be publicly disclosed regarding internal loss data?",
+    "answer": "The exclusion of internal loss data due to non-compliance with the loss data standards and any resulting adjustment to the ILM."
+  },
+  {
+    "id": 43,
+    "question": "What is the minimum observation period for internally generated loss data calculations?",
+    "answer": "A 10-year observation period."
+  },
+  {
+    "id": 44,
+    "question": "What is required for institutions using the Standardized Approach for Operational Risk Capital Data?",
+    "answer": "They must meet OSFI's Data Maintenance Expectations."
+  },
+  {
+    "id": 45,
+    "question": "What is the minimum threshold for including a loss event in the operational risk capital calculation?",
+    "answer": "$30,000 net of recoveries."
+  },
+  {
+    "id": 46,
+    "question": "What should institutions document regarding internal loss data?",
+    "answer": "Criteria for allocating losses to specified event types and robust procedures for identification, collection, and treatment."
+  },
+  {
+    "id": 47,
+    "question": "What types of operational loss events should not be included in the loss data set?",
+    "answer": "Operational loss events related to credit risk that are accounted for in credit risk RWAs."
+  },
+  {
+    "id": 48,
+    "question": "What is the definition of gross loss?",
+    "answer": "A loss before recoveries of any type."
+  },
+  {
+    "id": 49,
+    "question": "What is the definition of net loss?",
+    "answer": "The loss after taking into account the impact of recoveries."
+  },
+  {
+    "id": 50,
+    "question": "What information must institutions collect about operational risk events?",
+    "answer": "Reference dates including date of occurrence, date of discovery, and date of accounting."
+  },
+  {
+    "id": 51,
+    "question": "What is required for the validation of internal loss data procedures?",
+    "answer": "Procedures must be subject to validation before use and regular independent reviews."
+  },
+  {
+    "id": 52,
+    "question": "What should institutions do with historical internal loss data?",
+    "answer": "Map it into relevant Level 1 supervisory categories and provide it to OSFI upon request."
+  },
+  {
+    "id": 53,
+    "question": "What is the role of the second and third lines of defense in loss data review?",
+    "answer": "They must provide effective independent challenge and periodic independent review of loss data."
+  },
+  {
+    "id": 54,
+    "question": "What is the treatment of operational risk losses related to market risk?",
+    "answer": "They are treated as operational risk for calculating minimum regulatory capital under the framework."
+  },
+  {
+    "id": 55,
+    "question": "What must institutions ensure about their internal loss data?",
+    "answer": "It must be comprehensive and capture all material activities and exposures from all appropriate subsystems and geographic locations."
+  },
+  {
+    "id": 56,
+    "question": "What should institutions do if they estimate more than 10% of total loss data?",
+    "answer": "They must inform OSFI and come below the 10% threshold in a timely manner."
+  },
+  {
+    "id": 57,
+    "question": "How should loss impacts denominated in a foreign currency be treated?",
+    "answer": "They should be converted using the same exchange rate used for the institution's financial statements for the period the losses were accounted for."
+  },
+  {
+    "id": 58,
+    "question": "What is the definition of a recovery in the context of operational losses?",
+    "answer": "An independent occurrence related to the original loss event, separate in time, where funds or inflows of economic benefits are received from a third party."
+  },
+  {
+    "id": 59,
+    "question": "What is the significance of the date of occurrence in loss data collection?",
+    "answer": "It indicates when the operational risk event happened or first began."
+  },
+  {
+    "id": 60,
+    "question": "What is the importance of having documented procedures for loss data?",
+    "answer": "They ensure robust identification, collection, and treatment of internal loss data for regulatory compliance."
+  },
+  {
+    "id": 61,
+    "question": "What is the purpose of the operational risk capital calculation?",
+    "answer": "To determine the minimum regulatory capital required for operational risks."
+  },
+  {
+    "id": 62,
+    "question": "What type of loss events must be included in the loss data set?",
+    "answer": "Operational loss events that relate to credit risk but are not accounted for in credit risk RWAs."
+  },
+  {
+    "id": 63,
+    "question": "What must be provided to OSFI upon request regarding recovery payments?",
+    "answer": "Verification of recovery payments received to net losses."
+  },
+  {
+    "id": 64,
+    "question": "What items must be included in the gross loss computation of the loss data set?",
+    "answer": "Direct charges, costs incurred due to the event, provisions for potential losses, pending losses, and negative economic impacts."
+  },
+  {
+    "id": 65,
+    "question": "What are direct charges in the context of operational risk losses?",
+    "answer": "Impairments and settlements to the institution's P&L accounts and write-downs due to the operational risk event."
+  },
+  {
+    "id": 66,
+    "question": "What types of costs are included in the gross loss computation?",
+    "answer": "External expenses, costs of repair or replacement, and uncollected revenue due to an operational risk event."
+  },
+  {
+    "id": 67,
+    "question": "What are pending losses?",
+    "answer": "Losses stemming from operational risk events that are temporarily booked in transitory accounts and not yet reflected in the P&L."
+  },
+  {
+    "id": 68,
+    "question": "What should be excluded from the gross loss computation?",
+    "answer": "Costs of general maintenance contracts, expenditures to enhance the business, and insurance premiums."
+  },
+  {
+    "id": 69,
+    "question": "What is the date of accounting used for in building the loss data set?",
+    "answer": "It is used to include losses related to legal events in the loss dataset."
+  },
+  {
+    "id": 70,
+    "question": "How should losses caused by a common operational risk event be allocated?",
+    "answer": "They should be allocated to the corresponding years of the loss database in line with their accounting treatment."
+  },
+  {
+    "id": 71,
+    "question": "What is a timing loss?",
+    "answer": "Losses that result from operational risk events causing temporary distortions in financial accounts across multiple periods."
+  },
+  {
+    "id": 72,
+    "question": "What must institutions disclose regarding operational loss exclusions?",
+    "answer": "The total loss amount and number of exclusions in accordance with Pillar 3 requirements."
+  },
+  {
+    "id": 73,
+    "question": "What is required for an institution to exclude certain operational loss events?",
+    "answer": "OSFI approval, with strong justification demonstrating the loss event's irrelevance to the institution's risk profile."
+  },
+  {
+    "id": 74,
+    "question": "What is the minimum threshold for including timing losses in the loss dataset?",
+    "answer": "Timing losses must exceed $30,000 to be included."
+  },
+  {
+    "id": 75,
+    "question": "What should be considered when evaluating the relevance of operational loss events?",
+    "answer": "Whether the cause of the loss event could occur in other areas of the institution's operations."
+  },
+  {
+    "id": 76,
+    "question": "What happens if an institution takes a provision for a legal event?",
+    "answer": "The provision must be considered an operational loss immediately for the calculation of the Loss Component."
+  },
+  {
+    "id": 77,
+    "question": "How should the date of accounting be determined for uncollected revenue?",
+    "answer": "It can be either the date the revenue should have been collected or the date the decision was made not to collect it."
+  },
+  {
+    "id": 78,
+    "question": "What are examples of recoveries that do not count as operational losses?",
+    "answer": "Payments received from insurers, repayments from fraud perpetrators, and recoveries of misdirected transfers."
+  },
+  {
+    "id": 79,
+    "question": "What is the significance of the date of discovery in establishing reserves?",
+    "answer": "It can vary across institutions or countries and affects when losses are recognized."
+  },
+  {
+    "id": 80,
+    "question": "What should not be double counted in the operational loss calculation?",
+    "answer": "The same financial impacts, such as provisions and subsequent charge-offs."
+  },
+  {
+    "id": 81,
+    "question": "What is the role of OSFI in evaluating operational loss events?",
+    "answer": "OSFI assesses whether the excluded loss experience has relevance to other continuing activities or products."
+  },
+  {
+    "id": 82,
+    "question": "What are the implications of timing losses on financial statements?",
+    "answer": "They may represent a material misrepresentation of the institution's financial statements if they distort accounts across periods."
+  },
+  {
+    "id": 83,
+    "question": "What is the materiality threshold for loss exclusions?",
+    "answer": "The excluded loss event must be greater than 5% of the institution's average annual losses over the past 10 years."
+  },
+  {
+    "id": 84,
+    "question": "How long must losses be included in the operational risk loss database before they can be excluded?",
+    "answer": "Losses must be included for a minimum of three years."
+  },
+  {
+    "id": 85,
+    "question": "Are losses related to divested activities subject to a minimum retention period in the operational risk loss database?",
+    "answer": "No, losses related to divested activities will not be subject to a minimum retention period."
+  },
+  {
+    "id": 86,
+    "question": "What must institutions disclose when requesting OSFI approval to exclude divested activities from the Business Indicator (BI) calculation?",
+    "answer": "Institutions must disclose such exclusions in accordance with the Pillar 3 requirements."
+  },
+  {
+    "id": 87,
+    "question": "What must the measurement of the Business Indicator include?",
+    "answer": "It must include BI items that result from acquired businesses and merged entities."
+  },
+  {
+    "id": 88,
+    "question": "What can institutions use if three years of historical financial data is not available for an acquired business?",
+    "answer": "They may use actual BI items for at least the previous year as a proxy."
+  },
+  {
+    "id": 89,
+    "question": "What is an alternative method for calculating BI for an acquired business or merged entity?",
+    "answer": "Institutions may use 125% of Adjusted Gross Income for the year prior to the merger or acquisition."
+  },
+  {
+    "id": 90,
+    "question": "What is required if an acquired business does not have historical loss data for the previous 10 years?",
+    "answer": "The institution must estimate historical loss data for each missing year."
+  },
+  {
+    "id": 91,
+    "question": "How should operational losses be estimated if the institution's ILM is less than or equal to one?",
+    "answer": "Operational losses should be estimated as 1% of the BI of the acquired business at the time of acquisition."
+  },
+  {
+    "id": 92,
+    "question": "What should be done if the institution's ILM is greater than one?",
+    "answer": "Estimated operational losses should be calculated as x% of the BI of the acquired business at the time of acquisition."
+  },
+  {
+    "id": 93,
+    "question": "What is the implied level of annual losses for an institution with an ILM of 1?",
+    "answer": "1% of BI."
+  },
+  {
+    "id": 94,
+    "question": "What can institutions temporarily estimate if actual loss data collection for an acquired business is not feasible?",
+    "answer": "They may temporarily estimate operational risk loss amounts using the previously detailed methodology."
+  },
+  {
+    "id": 95,
+    "question": "What are the components of the Business Indicator (BI)?",
+    "answer": "BI includes income statement or balance sheet items such as interest, lease, and dividend income."
+  },
+  {
+    "id": 96,
+    "question": "What types of income are included under interest income in the BI?",
+    "answer": "Interest income from loans, advances, assets available for sale, and profits from leased assets."
+  },
+  {
+    "id": 97,
+    "question": "What expenses are included under interest expenses in the BI?",
+    "answer": "Interest expenses from deposits, debt securities issued, and losses from leased assets."
+  },
+  {
+    "id": 98,
+    "question": "What does fee and commission income in the BI refer to?",
+    "answer": "Income received from providing advice and services, including outsourcing of financial services."
+  },
+  {
+    "id": 99,
+    "question": "What types of expenses are included under fee and commission expenses?",
+    "answer": "Expenses paid for receiving advice and services, including outsourcing fees for financial services."
+  },
+  {
+    "id": 100,
+    "question": "What should be included in interest-earning assets on the balance sheet?",
+    "answer": "Total gross outstanding loans, advances, interest-bearing securities, and lease assets."
+  },
+  {
+    "id": 101,
+    "question": "What is the definition of the Business Indicator (BI)?",
+    "answer": "A measure that includes various income and expense components relevant to operational risk."
+  },
+  {
+    "id": 102,
+    "question": "What are non-financial services in banking?",
+    "answer": "Services such as logistical, IT, and human resources that are not directly related to financial transactions."
+  },
+  {
+    "id": 103,
+    "question": "What constitutes other operating income for banks?",
+    "answer": "Income from ordinary banking operations not included in other BI items, excluding income from operating leases."
+  },
+  {
+    "id": 104,
+    "question": "What are examples of other operating income?",
+    "answer": "Rental income from investment properties and gains from non-current assets classified as held for sale."
+  },
+  {
+    "id": 105,
+    "question": "What are other operating expenses in banking?",
+    "answer": "Expenses and losses from ordinary banking operations not included in other BI items, excluding expenses from operating leases."
+  },
+  {
+    "id": 106,
+    "question": "What types of losses are included in other operating expenses?",
+    "answer": "Losses from non-current assets classified as held for sale and losses from operational loss events, such as fines and penalties."
+  },
+  {
+    "id": 107,
+    "question": "What does net profit (loss) on the trading book include?",
+    "answer": "Net profit/loss on trading assets and liabilities, hedge accounting, and exchange differences."
+  },
+  {
+    "id": 108,
+    "question": "What is included in net profit (loss) on the banking book?",
+    "answer": "Net profit/loss on financial assets measured at fair value and realized gains/losses on financial assets not measured at fair value."
+  },
+  {
+    "id": 109,
+    "question": "Which items do not contribute to the BI in banking?",
+    "answer": "Income and expenses from insurance businesses, administrative expenses, and impairment/reversal of impairment."
+  },
+  {
+    "id": 110,
+    "question": "What are the main categories of operational loss events?",
+    "answer": "Internal fraud, external fraud, employment practices and workplace safety, clients/products and business practices, damage to physical assets, and transaction capture/execution."
+  },
+  {
+    "id": 111,
+    "question": "What is classified under internal fraud?",
+    "answer": "Losses due to acts intended to defraud or misappropriate property by an internal party."
+  },
+  {
+    "id": 112,
+    "question": "What are examples of external fraud?",
+    "answer": "Theft, robbery, forgery, and hacking damage caused by a third party."
+  },
+  {
+    "id": 113,
+    "question": "What does employment practices and workplace safety cover?",
+    "answer": "Losses arising from violations of employment, health, or safety laws, including personal injury claims."
+  },
+  {
+    "id": 114,
+    "question": "What constitutes clients, products, and business practices losses?",
+    "answer": "Losses from negligent failure to meet professional obligations to clients or product design issues."
+  },
+  {
+    "id": 115,
+    "question": "What types of losses are associated with damage to physical assets?",
+    "answer": "Losses from natural disasters, human external sources, and business disruptions."
+  },
+  {
+    "id": 116,
+    "question": "What does transaction capture, execution, and maintenance refer to?",
+    "answer": "Losses from failed transaction processing or management issues with trade counterparties and vendors."
+  },
+  {
+    "id": 117,
+    "question": "What are common examples of miscommunication in transaction management?",
+    "answer": "Data entry errors, missed deadlines, and accounting errors."
+  },
+  {
+    "id": 118,
+    "question": "What is the significance of monitoring and reporting in operational risk?",
+    "answer": "It involves ensuring accurate external reports and compliance with mandatory reporting obligations."
+  },
+  {
+    "id": 119,
+    "question": "What are the consequences of inadequate client account management?",
+    "answer": "Negligent loss or damage of client assets and incorrect client records leading to financial loss."
+  },
+  {
+    "id": 120,
+    "question": "What is the role of vendors and suppliers in operational risk?",
+    "answer": "Operational risks can arise from disputes with vendors and issues related to outsourcing."
+  }
+]
