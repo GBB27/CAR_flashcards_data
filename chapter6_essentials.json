@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What types of transactions are covered under the OSFI securitization framework?",
+    "answer": "Traditional and synthetic securitizations, including asset-backed securities, mortgage-backed securities, and other structured finance transactions."
+  },
+  {
+    "id": 2,
+    "question": "Define traditional securitization under the CAR framework.",
+    "answer": "A transaction in which the credit risk of assets is transferred to investors through the issuance of tranches backed by those assets."
+  },
+  {
+    "id": 3,
+    "question": "Define synthetic securitization.",
+    "answer": "A transaction where credit risk of an asset is transferred via credit derivatives or guarantees without transferring the underlying asset."
+  },
+  {
+    "id": 4,
+    "question": "What are the key operational requirements for recognizing risk transfer in securitization?",
+    "answer": "The transfer must be legally enforceable, the seller must have no significant continuing involvement, and credit risk must be measurably transferred to third parties."
+  },
+  {
+    "id": 5,
+    "question": "What additional operational requirements apply to traditional securitizations?",
+    "answer": "Proper structuring of tranches, legal documentation, cash flow allocation, and risk retention rules."
+  },
+  {
+    "id": 6,
+    "question": "What additional operational requirements apply to synthetic securitizations?",
+    "answer": "Effective use of credit derivatives, verification of underlying exposures, and monitoring of counterparty risk."
+  },
+  {
+    "id": 7,
+    "question": "What are early amortization provisions and how are they treated?",
+    "answer": "Clauses that accelerate principal repayment to investors; institutions must assess impact on risk transfer and capital treatment."
+  },
+  {
+    "id": 8,
+    "question": "What is a clean-up call in securitization?",
+    "answer": "A mechanism allowing the originator to repurchase remaining exposures when a small portion remains outstanding, typically under 10% of the original pool."
+  },
+  {
+    "id": 9,
+    "question": "What are the due diligence requirements for securitization exposures?",
+    "answer": "Institutions must review underlying assets, legal documentation, structure, credit quality, and performance history before recognizing capital relief."
+  },
+  {
+    "id": 10,
+    "question": "How are capital requirements calculated for securitization exposures?",
+    "answer": "Using the applicable approach (IRBA, ERBA, IAA, or SA) with RWA determined by tranche risk, credit enhancement, and underlying exposure characteristics."
+  },
+  {
+    "id": 11,
+    "question": "What is the hierarchy of approaches for securitization capital treatment?",
+    "answer": "1) Internal Ratings-Based Approach (IRBA), 2) External Ratings-Based Approach (ERBA), 3) Internal Assessment Approach (IAA), 4) Standardized Approach (SA)."
+  },
+  {
+    "id": 12,
+    "question": "What is the Internal Ratings-Based Approach for securitization (SEC-IRBA)?",
+    "answer": "An approach where banks use internal ratings and models to estimate PD, LGD, and tranche-specific capital requirements."
+  },
+  {
+    "id": 13,
+    "question": "What is the External Ratings-Based Approach (SEC-ERBA)?",
+    "answer": "An approach that assigns risk weights based on credit ratings provided by recognized external credit assessment institutions."
+  },
+  {
+    "id": 14,
+    "question": "What is the Internal Assessment Approach (SEC-IAA)?",
+    "answer": "An approach for banks without external ratings, using internal assessment of credit risk for tranches while complying with OSFI minimum standards."
+  },
+  {
+    "id": 15,
+    "question": "What is the Standardized Approach (SEC-SA) for securitization?",
+    "answer": "A conservative method assigning fixed risk weights based on tranche seniority and underlying exposure type."
+  },
+  {
+    "id": 16,
+    "question": "What are caps for securitization exposures?",
+    "answer": "Regulatory limits on capital relief that prevent excessive reduction of RWA for highly rated or STC-compliant securitizations."
+  },
+  {
+    "id": 17,
+    "question": "How are resecuritization exposures treated?",
+    "answer": "With more conservative capital treatment due to increased complexity and risk layering, often using higher risk weights or floor requirements."
+  },
+  {
+    "id": 18,
+    "question": "What is implicit support in securitizations?",
+    "answer": "When the originator provides hidden support to a securitization (e.g., liquidity or credit enhancements) without formal documentation, which may disqualify capital relief."
+  },
+  {
+    "id": 19,
+    "question": "How is credit risk mitigation applied to securitization exposures?",
+    "answer": "Eligible collateral, guarantees, or credit derivatives can reduce capital requirements for protection buyers under OSFI rules."
+  },
+  {
+    "id": 20,
+    "question": "What are eligible credit risk mitigation techniques for protection buyers?",
+    "answer": "Standard collateral, guarantees, credit derivatives, and eligible third-party credit protection instruments recognized by OSFI."
+  },
+  {
+    "id": 21,
+    "question": "How are maturity mismatches treated in securitization exposures?",
+    "answer": "Differences between underlying asset maturity and credit protection maturity are adjusted using supervisory formulas to avoid underestimation of risk."
+  },
+  {
+    "id": 22,
+    "question": "What defines a Simple, Transparent, and Comparable (STC) securitization?",
+    "answer": "A securitization that meets criteria for simplicity of structure, transparency of underlying assets, and comparability across institutions."
+  },
+  {
+    "id": 23,
+    "question": "How are STC securitizations identified for regulatory purposes?",
+    "answer": "Through compliance with OSFI-defined criteria, including documentation, asset quality, tranche structure, and disclosure requirements."
+  },
+  {
+    "id": 24,
+    "question": "What alternative capital treatment is available for STC-compliant securitizations?",
+    "answer": "They may receive lower risk weights or capital relief compared to non-STC securitizations if all criteria are met."
+  },
+  {
+    "id": 25,
+    "question": "How are securitization exposures treated under the capital floor?",
+    "answer": "RWA for securitizations must not fall below the capital floor, ensuring a minimum level of regulatory capital is maintained."
+  },
+  {
+    "id": 26,
+    "question": "How are non-performing loan (NPL) securitizations treated?",
+    "answer": "With higher capital charges and risk weights to reflect increased credit risk and lower recoveries."
+  },
+  {
+    "id": 27,
+    "question": "What operational requirements apply to early amortization provisions in securitizations?",
+    "answer": "Institutions must assess triggers, calculate pro-rata capital adjustments, and monitor impact on tranche risk and investor payments."
+  },
+  {
+    "id": 28,
+    "question": "What operational requirements exist for clean-up calls?",
+    "answer": "Institutions must ensure proper documentation, evaluate timing and impact, and adjust risk transfer assessment accordingly."
+  },
+  {
+    "id": 29,
+    "question": "What due diligence is required before purchasing securitization exposures?",
+    "answer": "Review of underlying asset quality, structure, legal enforceability, credit enhancements, historical performance, and originator practices."
+  },
+  {
+    "id": 30,
+    "question": "How are capital requirements calculated for securitization tranches under IRBA?",
+    "answer": "Using internal ratings to determine tranche-specific PD, LGD, and EAD, then applying the IRB risk-weight function to calculate RWA."
+  },
+  {
+    "id": 31,
+    "question": "How does ERBA assign risk weights to securitization tranches?",
+    "answer": "By mapping external credit ratings to predefined risk weight tables, adjusted for tranche seniority and underlying asset type."
+  },
+  {
+    "id": 32,
+    "question": "What is the treatment of credit enhancements in securitizations?",
+    "answer": "Credit enhancements reduce RWA by absorbing first losses, subject to OSFI recognition and supervisory limits."
+  },
+  {
+    "id": 33,
+    "question": "How are synthetic securitizations different from traditional securitizations in capital treatment?",
+    "answer": "Synthetic securitizations rely on derivatives for credit risk transfer, and capital treatment depends on counterparty risk and not physical asset transfer."
+  },
+  {
+    "id": 34,
+    "question": "What is the importance of regulatory recognition of risk transfer in securitizations?",
+    "answer": "It ensures that capital relief is only granted if the institution has genuinely transferred credit risk to third parties in a verifiable manner."
+  },
+  {
+    "id": 35,
+    "question": "What is the formula for calculating RWA for securitization tranches under the IRBA?",
+    "answer": "RWA = 12.5 × K × EAD, where K is the capital requirement derived from tranche-specific PD, LGD, and maturity."
+  },
+  {
+    "id": 36,
+    "question": "How does the ERBA assign risk weights to tranches quantitatively?",
+    "answer": "Risk weights are mapped from external credit ratings using OSFI tables, adjusted for seniority (senior, mezzanine, junior) and underlying asset type."
+  },
+  {
+    "id": 37,
+    "question": "How is the Internal Assessment Approach (IAA) capital requirement calculated?",
+    "answer": "Institutions internally assess tranche risk, determine expected loss and unexpected loss, and apply OSFI supervisory formulas to calculate RWA."
+  },
+  {
+    "id": 38,
+    "question": "What are the typical risk weights for senior, mezzanine, and junior tranches under the Standardized Approach (SA)?",
+    "answer": "Example: senior = 20–50%, mezzanine = 100–350%, junior = 1250% or 100% of underlying exposure depending on treatment."
+  },
+  {
+    "id": 39,
+    "question": "What is the minimum risk retention requirement for originators under OSFI?",
+    "answer": "Typically 5–10% of the securitized exposure must be retained by the originator to align incentives and qualify for capital relief."
+  },
+  {
+    "id": 40,
+    "question": "How are early amortization provisions quantitatively treated in RWA calculations?",
+    "answer": "RWA may increase proportionally to the reduction in risk transfer if amortization triggers are expected to shift losses back to the originator."
+  },
+  {
+    "id": 41,
+    "question": "How are clean-up calls reflected in capital treatment?",
+    "answer": "When the remaining pool falls below a threshold (e.g., 10%), risk transfer may be considered incomplete, and RWA is adjusted upward to maintain sufficient capital."
+  },
+  {
+    "id": 42,
+    "question": "What are the caps on capital relief for securitization exposures?",
+    "answer": "Capital relief cannot exceed predefined limits, ensuring RWA does not fall below a minimum supervisory level, particularly for STC-compliant or highly rated tranches."
+  },
+  {
+    "id": 43,
+    "question": "How are non-performing loan (NPL) securitizations treated quantitatively?",
+    "answer": "Higher RWA and capital charges are applied to reflect increased default risk and lower recoveries, often with explicit supervisory multipliers."
+  },
+  {
+    "id": 44,
+    "question": "How are resecuritization exposures treated differently in terms of RWA?",
+    "answer": "RWA is calculated using higher risk weights or floors due to increased complexity and layering of credit risk compared to original securitizations."
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What is counterparty credit risk (CCR)?",
+    "answer": "The risk that a counterparty to a financial contract will default before the final settlement of cash flows."
+  },
+  {
+    "id": 2,
+    "question": "Define cross-product netting.",
+    "answer": "A legally enforceable agreement that allows offsetting exposures across multiple derivatives or products to reduce overall credit exposure."
+  },
+  {
+    "id": 3,
+    "question": "What are netting sets and hedging sets?",
+    "answer": "Netting sets are groups of transactions subject to legal netting agreements; hedging sets are subsets within netting sets used to calculate exposures for similar risks."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between EAD and exposure amount in CCR?",
+    "answer": "EAD is the estimated exposure at default used for capital calculations, while the exposure amount may include current MTM plus potential future exposure."
+  },
+  {
+    "id": 5,
+    "question": "What are the key transaction types relevant for CCR?",
+    "answer": "Derivatives (interest rate, FX, credit, equity, commodity), repo-style transactions, and long settlement trades."
+  },
+  {
+    "id": 6,
+    "question": "What adjustments are applied to exposure measures in CCR?",
+    "answer": "Adjustments include collateral, netting, margin agreements, and add-ons for potential future exposure."
+  },
+  {
+    "id": 7,
+    "question": "What risks are associated with CCR?",
+    "answer": "Risks include mark-to-market volatility, replacement cost, wrong-way risk, and potential future exposure."
+  },
+  {
+    "id": 8,
+    "question": "Which institutions must apply CCR capital requirements?",
+    "answer": "All banks, bank holding companies, trust and loan companies subject to OSFI’s CAR framework."
+  },
+  {
+    "id": 9,
+    "question": "What methods can be used to compute CCR exposure?",
+    "answer": "Standardized Approach (SA-CCR), Current Exposure Method (CEM), and Internal Model Method (IMM)."
+  },
+  {
+    "id": 10,
+    "question": "What approvals are required to use the Internal Model Method (IMM) for CCR?",
+    "answer": "OSFI supervisory approval is required, including validation of EPE models, risk management practices, and operational controls."
+  },
+  {
+    "id": 11,
+    "question": "How is Expected Positive Exposure (EPE) measured under IMM?",
+    "answer": "EPE is the time-weighted average of expected exposures over the life of the derivative portfolio, including collateral and netting adjustments."
+  },
+  {
+    "id": 12,
+    "question": "What is the purpose of alpha in IMM?",
+    "answer": "Alpha scales the EPE to ensure sufficient capital against unexpected exposures; institutions may use OSFI prescribed alpha or internal estimates if approved."
+  },
+  {
+    "id": 13,
+    "question": "How is maturity factored into CCR exposure under IMM?",
+    "answer": "Longer maturities increase potential future exposure, which is incorporated into EAD calculations."
+  },
+  {
+    "id": 14,
+    "question": "What are margin agreements and how do they affect CCR?",
+    "answer": "Collateral agreements that reduce exposure by requiring margin posting, lowering EAD and RWA."
+  },
+  {
+    "id": 15,
+    "question": "What are operational requirements for EPE models under IMM?",
+    "answer": "Models must be validated, documented, use high-quality data, and include stress testing, scenario analysis, and governance oversight."
+  },
+  {
+    "id": 16,
+    "question": "What legal criteria must be met for cross-product netting?",
+    "answer": "Netting agreements must be legally enforceable in all relevant jurisdictions under default conditions."
+  },
+  {
+    "id": 17,
+    "question": "What operational criteria must be met for cross-product netting?",
+    "answer": "Netting agreements must be applied consistently, documented, and reflected accurately in risk measurement and capital calculations."
+  },
+  {
+    "id": 18,
+    "question": "What is the Standardized Approach for CCR (SA-CCR)?",
+    "answer": "A supervisory method for calculating exposure at default using add-ons for potential future exposure and adjusted notional amounts per asset class."
+  },
+  {
+    "id": 19,
+    "question": "What is Replacement Cost (RC) in SA-CCR?",
+    "answer": "The current mark-to-market value of a derivative, after netting and collateral adjustments."
+  },
+  {
+    "id": 20,
+    "question": "What is the Notional Amount of Interest Rate Derivatives in SA-CCR?",
+    "answer": "The adjusted notional amount used with supervisory factors and maturity factors to calculate potential future exposure (PFE)."
+  },
+  {
+    "id": 21,
+    "question": "How is potential future exposure (PFE) calculated in SA-CCR?",
+    "answer": "PFE = adjusted notional × supervisory factor × maturity factor × hedging set adjustment."
+  },
+  {
+    "id": 22,
+    "question": "What is the purpose of supervisory delta adjustments (δi)?",
+    "answer": "To capture directional risk of derivatives with linear or non-linear payoffs in the SA-CCR calculation."
+  },
+  {
+    "id": 23,
+    "question": "What are supervisory factors (SFi) in SA-CCR?",
+    "answer": "Predefined percentages per asset class applied to adjusted notional amounts to calculate potential future exposure."
+  },
+  {
+    "id": 24,
+    "question": "How are multiple netting and margin agreements treated?",
+    "answer": "They are separately recognized, and exposures are aggregated across agreements per regulatory rules."
+  },
+  {
+    "id": 25,
+    "question": "What is wrong-way risk and right-way risk in CCR?",
+    "answer": "Wrong-way risk occurs when exposure increases as counterparty credit quality deteriorates; right-way risk is the opposite."
+  },
+  {
+    "id": 26,
+    "question": "How are exposures to central counterparties (CCPs) treated?",
+    "answer": "Qualifying CCP exposures receive lower risk weights due to reduced counterparty risk; non-qualifying CCPs are treated more conservatively."
+  },
+  {
+    "id": 27,
+    "question": "What capital treatment applies to failed trades and non-DvP transactions?",
+    "answer": "Full capital charges are applied to reflect settlement risk until transactions are completed or replaced."
+  },
+  {
+    "id": 28,
+    "question": "How are exposures aggregated across asset classes in SA-CCR?",
+    "answer": "Using supervisory correlations and add-on formulas to capture diversification and netting effects."
+  },
+  {
+    "id": 29,
+    "question": "What are trade-level adjusted notionals?",
+    "answer": "The notional amounts of trades after applying supervisory factors, netting, and hedging adjustments for PFE calculation."
+  },
+  {
+    "id": 30,
+    "question": "How are interest rate derivatives treated under SA-CCR?",
+    "answer": "They use specific supervisory factors and maturity factors applied to adjusted notionals to calculate potential future exposure."
+  },
+  {
+    "id": 31,
+    "question": "How are foreign exchange derivatives treated under SA-CCR?",
+    "answer": "They use specific supervisory factors per currency pair applied to adjusted notionals."
+  },
+  {
+    "id": 32,
+    "question": "How are credit derivatives treated under SA-CCR?",
+    "answer": "PFE is calculated using notional amounts, supervisory factors, and hedging adjustments specific to the credit derivative type."
+  },
+  {
+    "id": 33,
+    "question": "How are equity derivatives treated under SA-CCR?",
+    "answer": "Supervisory factors and maturity adjustments are applied to notional amounts to determine potential future exposure."
+  },
+  {
+    "id": 34,
+    "question": "How are commodity derivatives treated under SA-CCR?",
+    "answer": "Adjusted notionals are multiplied by supervisory factors and maturity factors to calculate potential future exposure."
+  },
+  {
+    "id": 35,
+    "question": "What are maturity factors (Mi, Ei, Si, Ti) in SA-CCR?",
+    "answer": "Time-dependent factors applied to trades to adjust for remaining maturity in PFE calculation."
+  },
+  {
+    "id": 36,
+    "question": "What are supervisory correlation parameters (ρd(a))?",
+    "answer": "Predefined correlation coefficients used to aggregate exposures across hedging sets and asset classes in SA-CCR."
+  },
+  {
+    "id": 37,
+    "question": "How is negative mark-to-market and excess collateral recognized?",
+    "answer": "Negative MTM reduces replacement cost; excess collateral is subtracted from exposure to reduce RWA."
+  },
+  {
+    "id": 38,
+    "question": "What is the approval process for using internal models to estimate EAD?",
+    "answer": "Banks must submit model documentation, validation reports, governance evidence, and receive OSFI approval."
+  },
+  {
+    "id": 39,
+    "question": "What operational requirements apply to EPE models?",
+    "answer": "Models must have robust data, validation, governance, scenario analysis, and stress testing processes."
+  },
+  {
+    "id": 40,
+    "question": "How are subordinated exposures or guarantees treated in CCR?",
+    "answer": "They are recognized with appropriate adjustments to exposure and potential future exposure, reflecting recovery assumptions."
+  },
+  {
+    "id": 41,
+    "question": "What steps are taken when calculating the SA-CCR add-on?",
+    "answer": "Determine adjusted notionals, apply supervisory factors, allocate trades to hedging sets, apply maturity factors, and aggregate exposures."
+  },
+  {
+    "id": 42,
+    "question": "How is right-way and wrong-way risk incorporated in SA-CCR?",
+    "answer": "Supervisory multipliers or adjustments are applied for specific exposure-counterparty correlations that increase or decrease capital requirements."
+  },
+  {
+    "id": 43,
+    "question": "What documentation is required for CCR models?",
+    "answer": "Detailed records on model design, data sources, validation, governance, calibration, and internal approvals must be maintained."
+  },
+  {
+    "id": 44,
+    "question": "How is the SA-CCR add-on for potential future exposure calculated?",
+    "answer": "PFE add-on = adjusted notional × supervisory factor × maturity factor, aggregated across hedging sets and asset classes using supervisory correlations."
+  },
+  {
+    "id": 45,
+    "question": "What is the formula for adjusted notional in SA-CCR?",
+    "answer": "Adjusted notional = trade notional × delta × supervisory factor, including offsets for netting and hedging sets."
+  },
+  {
+    "id": 46,
+    "question": "How do maturity factors (Mi, Ei, Si, Ti) affect SA-CCR exposure?",
+    "answer": "They scale potential future exposure based on trade and hedging set maturities, increasing RWA for longer-dated exposures."
+  },
+  {
+    "id": 47,
+    "question": "What are supervisory delta adjustments (δi) and how are they applied?",
+    "answer": "Delta adjustments reflect the directional risk of derivatives; they are multiplied with notional amounts in the SA-CCR add-on calculation."
+  },
+  {
+    "id": 48,
+    "question": "How are specific wrong-way risk (SWWR) exposures treated?",
+    "answer": "Exposures that increase when counterparty credit quality deteriorates receive higher add-ons or adjusted RWA to capture the additional risk."
+  },
+  {
+    "id": 49,
+    "question": "How are exposures to qualifying vs non-qualifying CCPs treated?",
+    "answer": "Qualifying CCP exposures have reduced risk weights and may use netting benefits; non-qualifying CCPs are treated more conservatively with higher capital charges."
+  },
+  {
+    "id": 50,
+    "question": "How is capital calculated for failed trades and non-DvP transactions?",
+    "answer": "Full replacement cost is used for these unsettled trades, and additional capital is held until settlement or replacement, reflecting settlement risk."
+  }
+]

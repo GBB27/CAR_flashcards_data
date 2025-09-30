@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What is the scope of market risk in the OSFI CAR framework?",
+    "answer": "Market risk covers potential losses arising from changes in market prices, including interest rates, foreign exchange, equity prices, and commodity prices within the trading book."
+  },
+  {
+    "id": 2,
+    "question": "Define the trading book and its importance for market risk capital.",
+    "answer": "The trading book consists of positions held with the intent of short-term resale, benefiting from actual or implied price movements, or for hedging other positions, and is subject to market risk capital requirements."
+  },
+  {
+    "id": 3,
+    "question": "What is the boundary between the banking book and the trading book?",
+    "answer": "The boundary is defined by the intent of the institution for holding instruments, regulatory classification standards, and OSFI’s supervisory guidance on book assignment."
+  },
+  {
+    "id": 4,
+    "question": "What documentation is required when assigning instruments to the trading or banking book?",
+    "answer": "Institutions must maintain records demonstrating rationale, risk management practices, internal approvals, and compliance with OSFI requirements."
+  },
+  {
+    "id": 5,
+    "question": "What are risk factors in market risk and why are they important?",
+    "answer": "Risk factors are underlying variables, such as interest rates, FX rates, or equity prices, that drive changes in market values, and they determine the calculation of market risk capital."
+  },
+  {
+    "id": 6,
+    "question": "What is the Sensitivities-Based Method (SBM) in the Standardized Approach?",
+    "answer": "SBM calculates capital by measuring the sensitivity of positions to risk factors (delta, vega, curvature) and applying risk weights and correlations."
+  },
+  {
+    "id": 7,
+    "question": "Define delta risk and its role in the Sensitivities-Based Method.",
+    "answer": "Delta risk measures sensitivity to small changes in the price of the underlying asset and determines capital required for linear price changes."
+  },
+  {
+    "id": 8,
+    "question": "Define vega risk and its role in market risk calculations.",
+    "answer": "Vega risk captures sensitivity to changes in volatility of underlying assets and affects options and derivatives capital requirements."
+  },
+  {
+    "id": 9,
+    "question": "Define curvature risk in the Sensitivities-Based Method.",
+    "answer": "Curvature risk captures the impact of non-linear price changes beyond delta approximations, typically for options or structured products."
+  },
+  {
+    "id": 10,
+    "question": "What is the Default Risk Capital (DRC) requirement in the market risk framework?",
+    "answer": "DRC captures potential losses from defaults or credit events in the trading book, including exposures to corporates, securitizations, and other instruments."
+  },
+  {
+    "id": 11,
+    "question": "What is the Residual Risk Add-On (RRAO)?",
+    "answer": "RRAO addresses risks not captured by delta, vega, or curvature measures, including jump-to-default and other residual exposures."
+  },
+  {
+    "id": 12,
+    "question": "How are correlation trading portfolios defined?",
+    "answer": "Portfolios with positions whose risks are correlated, such as credit derivatives or structured products, and treated with specific capital calculation methods."
+  },
+  {
+    "id": 13,
+    "question": "What operational requirements exist for prudent valuation?",
+    "answer": "Banks must have systems and controls, valuation methodologies, and adjustments for less liquid positions to ensure reliable regulatory capital."
+  },
+  {
+    "id": 14,
+    "question": "What is the Internal Models Approach (IMA) for market risk?",
+    "answer": "IMA allows banks to use approved internal models to estimate market risk capital, subject to strict validation, modellability, backtesting, and regulatory oversight."
+  },
+  {
+    "id": 15,
+    "question": "What are modellable and non-modellable risk factors?",
+    "answer": "Modellable risk factors have sufficient historical data for reliable statistical modeling; non-modellable risk factors require additional capital charges due to limited data."
+  },
+  {
+    "id": 16,
+    "question": "What is Expected Shortfall (ES) in the Internal Models Approach?",
+    "answer": "ES measures the average loss in the tail of the profit-and-loss distribution beyond a defined confidence level, and is the basis for IMA market risk capital."
+  },
+  {
+    "id": 17,
+    "question": "How is capital for non-modellable risk factors calculated?",
+    "answer": "Using standardized supervisory risk weights applied to positions associated with non-modellable risk factors."
+  },
+  {
+    "id": 18,
+    "question": "What is the purpose of backtesting in IMA?",
+    "answer": "To ensure internal models accurately predict daily P&L outcomes and to assess model reliability and regulatory compliance."
+  },
+  {
+    "id": 19,
+    "question": "What is P&L attribution testing?",
+    "answer": "It compares predicted risk factor-driven changes with actual P&L to validate that models capture material sources of risk."
+  },
+  {
+    "id": 20,
+    "question": "How are trading desks treated under the Internal Models Approach?",
+    "answer": "Capital requirements are calculated at the desk level using modellable risk factors, ES, DRC, and adjustments, then aggregated for the institution."
+  },
+  {
+    "id": 21,
+    "question": "What is the treatment of model-ineligible trading desks?",
+    "answer": "Standardized capital requirements apply for desks not approved to use IMA due to insufficient data or validation issues."
+  },
+  {
+    "id": 22,
+    "question": "How are hedging and diversification considered in the Standardized Approach?",
+    "answer": "Positions that offset risk can reduce capital via defined correlations and aggregation formulas."
+  },
+  {
+    "id": 23,
+    "question": "What is the supervisory treatment of risk factor eligibility?",
+    "answer": "OSFI evaluates whether a risk factor has sufficient data and can be used in internal models; ineligible factors are subject to additional capital charges."
+  },
+  {
+    "id": 24,
+    "question": "How are interest rate, FX, equity, commodity, and credit risk factors bucketed?",
+    "answer": "They are grouped into predefined buckets with assigned risk weights and supervisory correlations to calculate capital under the Standardized Approach."
+  },
+  {
+    "id": 25,
+    "question": "What is the role of stress testing under IMA?",
+    "answer": "To assess the impact of extreme but plausible market events on trading portfolios and ensure adequate capital coverage."
+  },
+  {
+    "id": 26,
+    "question": "What are the general criteria for model validation in market risk?",
+    "answer": "Models must be conceptually sound, empirically validated, documented, independently reviewed, and compliant with regulatory standards."
+  },
+  {
+    "id": 27,
+    "question": "What is the treatment of counterparty credit risk in the trading book?",
+    "answer": "CCR is measured and capitalized using exposure at default, risk weights, and add-ons, integrated into market risk calculations for derivatives."
+  },
+  {
+    "id": 28,
+    "question": "How are less liquid positions treated for regulatory capital?",
+    "answer": "Valuation adjustments are applied to reflect higher uncertainty and ensure conservative capital requirements."
+  },
+  {
+    "id": 29,
+    "question": "What is the process to calculate capital under the Sensitivities-Based Method?",
+    "answer": "Calculate sensitivities (delta, vega, curvature) per instrument, apply risk weights and correlations, aggregate across buckets, and include default/residual add-ons."
+  },
+  {
+    "id": 30,
+    "question": "What are the main components of the Standardized Approach for market risk?",
+    "answer": "Sensitivities-Based Method, Default Risk Capital requirement, and Residual Risk Add-On."
+  },
+  {
+    "id": 31,
+    "question": "What is the correlation trading portfolio and its impact on capital?",
+    "answer": "A portfolio with correlated positions, treated with special correlation-based aggregation to calculate capital more accurately."
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of external validation for internal models?",
+    "answer": "Independent review of model assumptions, methodology, and outputs to ensure reliability and regulatory compliance."
+  },
+  {
+    "id": 33,
+    "question": "How are non-modellable risk factors aggregated with modellable factors?",
+    "answer": "Additional capital charges are calculated for non-modellable factors and added to the ES of modellable risk factors for total capital."
+  },
+  {
+    "id": 34,
+    "question": "What is the role of trading desk-level backtesting?",
+    "answer": "To verify that each desk's internal model accurately predicts P&L outcomes and that capital is appropriately allocated."
+  },
+  {
+    "id": 35,
+    "question": "What is the role of institution-wide backtesting?",
+    "answer": "To ensure aggregated risk across all trading desks is correctly captured and that total internal model capital is reliable."
+  },
+  {
+    "id": 36,
+    "question": "How are exceptional situations treated in backtesting?",
+    "answer": "Significant deviations or outliers may be excluded or adjusted using OSFI-approved methodologies to avoid distorting model validation."
+  },
+  {
+    "id": 37,
+    "question": "How is Expected Shortfall calculated for modellable risk factors?",
+    "answer": "By simulating portfolio losses using historical data of modellable factors over a one-year horizon at a 97.5% confidence level."
+  },
+  {
+    "id": 38,
+    "question": "How are capital requirements aggregated across desks and components under IMA?",
+    "answer": "Aggregate ES, DRC, and RRAO at the institution level using prescribed correlation matrices and add-on adjustments."
+  },
+  {
+    "id": 39,
+    "question": "What is the treatment of risk factor modellability for new instruments?",
+    "answer": "Banks must assess whether sufficient historical data exists; non-modellable factors are subject to higher capital charges until modellability is established."
+  },
+  {
+    "id": 40,
+    "question": "Why is model eligibility important in the Internal Models Approach?",
+    "answer": "Only eligible risk factors with sufficient data and validation can be used to calculate capital; ineligible factors require additional capital to maintain prudence."
+  },
+  {
+    "id": 41,
+    "question": "How are financial instruments assigned to delta, vega, and curvature risk buckets under the sensitivities-based method?",
+    "answer": "Instruments are mapped based on their risk characteristics: delta risk for linear exposures, vega risk for volatility-sensitive exposures, and curvature risk for nonlinear exposures such as options."
+  },
+  {
+    "id": 42,
+    "question": "How are exotic or structured derivatives treated for market risk capital purposes?",
+    "answer": "They are assigned to appropriate risk buckets based on their sensitivities and may require conservative assumptions if modellability is uncertain."
+  },
+  {
+    "id": 43,
+    "question": "What is the treatment for risk factors that are non-modellable due to insufficient data?",
+    "answer": "Non-modellable risk factors are subject to capital add-ons, supervisory floors, or standardized approach calculations to ensure sufficient capital coverage."
+  },
+  {
+    "id": 44,
+    "question": "How are less liquid positions adjusted in the calculation of Expected Shortfall?",
+    "answer": "Valuations are adjusted using liquidity horizons and additional risk multipliers to account for potential market impact and difficulty in unwinding positions."
+  },
+  {
+    "id": 45,
+    "question": "What types of residual risks are captured under the residual risk add-on (RRAO)?",
+    "answer": "Residual risks include jump-to-default, basis risk, model risk, and other risks not captured by delta, vega, or curvature exposures."
+  },
+  {
+    "id": 46,
+    "question": "How is the residual risk add-on calculated for different instrument types?",
+    "answer": "RRAO is calculated by applying supervisory prescribed add-on factors to each instrument or risk factor not fully captured by the standard sensitivities-based approach."
+  },
+  {
+    "id": 47,
+    "question": "How are capital requirements aggregated across trading desks, risk buckets, and components?",
+    "answer": "Capital is aggregated using prescribed correlation assumptions between risk factors and between components, often through a square-root-of-sum-of-squares formula."
+  },
+  {
+    "id": 48,
+    "question": "What are the reporting and documentation requirements for internal models under the Internal Models Approach?",
+    "answer": "Institutions must maintain detailed documentation of model design, assumptions, risk factor eligibility, modellability, backtesting results, and internal validation processes for supervisory review."
+  },
+  {
+    "id": 49,
+    "question": "How are correlation trading portfolios treated differently under the standardized approach?",
+    "answer": "Correlation trading portfolios are subject to specialized standardized calculations that account for correlations among underlying instruments, differentiating them from single-asset risk buckets."
+  },
+  {
+    "id": 50,
+    "question": "What is the supervisory treatment when backtesting reveals model exceptions or failures?",
+    "answer": "Supervisors may require model recalibration, additional capital add-ons, temporary use of standardized approaches, or other corrective actions to ensure capital adequacy."
+  }
+]

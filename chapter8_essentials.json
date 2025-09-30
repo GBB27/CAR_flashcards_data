@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "What is Credit Valuation Adjustment (CVA) risk?",
+    "answer": "The risk of mark-to-market loss on the expected counterparty credit risk in derivative portfolios due to changes in the credit spread of counterparties."
+  },
+  {
+    "id": 2,
+    "question": "Which transactions are subject to CVA capital requirements?",
+    "answer": "Derivative transactions that have counterparty credit risk, including interest rate, FX, credit, equity, and commodity derivatives."
+  },
+  {
+    "id": 3,
+    "question": "What is the Basic Approach (BA-CVA) for CVA risk?",
+    "answer": "A simplified method to calculate CVA capital charges, where either hedges are recognized (full version) or not recognized (reduced version)."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between the reduced and full versions of BA-CVA?",
+    "answer": "Reduced BA-CVA ignores hedges when calculating capital, while full BA-CVA recognizes eligible hedges to offset CVA risk."
+  },
+  {
+    "id": 5,
+    "question": "What is the Standardized Approach (SA-CVA) for CVA risk?",
+    "answer": "A supervisory approach that calculates CVA capital using predefined risk factors, buckets, correlations, and sensitivities across asset classes."
+  },
+  {
+    "id": 6,
+    "question": "Which hedges are eligible under the SA-CVA?",
+    "answer": "Hedges must be recognized and directly reduce CVA risk, including credit derivatives that mitigate counterparty credit spread risk."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the CVA multiplier in SA-CVA?",
+    "answer": "To scale the calculated CVA capital requirement to ensure conservatism and reflect supervisory risk parameters."
+  },
+  {
+    "id": 8,
+    "question": "How are interest rate sensitivities handled in SA-CVA?",
+    "answer": "They are calculated per interest rate bucket, multiplied by risk weights, and aggregated using prescribed correlations to determine CVA capital."
+  },
+  {
+    "id": 9,
+    "question": "How are foreign exchange sensitivities treated in SA-CVA?",
+    "answer": "Each currency bucket’s sensitivity is multiplied by its supervisory risk weight and aggregated using prescribed FX correlations."
+  },
+  {
+    "id": 10,
+    "question": "What are counterparty credit spread buckets?",
+    "answer": "Predefined ranges of credit spread changes used to calculate CVA risk for counterparties in SA-CVA."
+  },
+  {
+    "id": 11,
+    "question": "How are sensitivities to counterparty credit spreads calculated?",
+    "answer": "By measuring the change in CVA due to a one basis point change in the credit spread of each counterparty."
+  },
+  {
+    "id": 12,
+    "question": "What are reference credit spread buckets?",
+    "answer": "Buckets representing credit spread sensitivities of referenced entities in credit derivatives used for CVA calculations."
+  },
+  {
+    "id": 13,
+    "question": "How are equity sensitivities treated in SA-CVA?",
+    "answer": "Equity derivative exposures are assigned to equity buckets with prescribed risk weights and correlations for CVA capital calculations."
+  },
+  {
+    "id": 14,
+    "question": "How are commodity sensitivities treated in SA-CVA?",
+    "answer": "Commodity derivative exposures are assigned to commodity buckets with risk weights and correlations to calculate CVA capital."
+  },
+  {
+    "id": 15,
+    "question": "What are the main differences between BA-CVA and SA-CVA?",
+    "answer": "BA-CVA is simpler, may ignore hedges (reduced), while SA-CVA is more granular, uses buckets, correlations, and risk weights for all sensitivities."
+  },
+  {
+    "id": 16,
+    "question": "Which risk factors are used in SA-CVA?",
+    "answer": "Interest rate, foreign exchange, counterparty credit spread, reference credit spread, equity, and commodity factors."
+  },
+  {
+    "id": 17,
+    "question": "How are risk weights applied in SA-CVA?",
+    "answer": "Supervisory risk weights are multiplied by the sensitivity of each exposure in a bucket to determine capital."
+  },
+  {
+    "id": 18,
+    "question": "How are correlations applied in SA-CVA?",
+    "answer": "Correlations are used to aggregate exposures across buckets and risk factors to account for diversification and concentration."
+  },
+  {
+    "id": 19,
+    "question": "How are eligible hedges recognized under the full BA-CVA?",
+    "answer": "By subtracting the exposure reduction from derivatives or credit instruments that hedge CVA risk, lowering the capital requirement."
+  },
+  {
+    "id": 20,
+    "question": "What operational requirements exist for CVA calculations?",
+    "answer": "Institutions must maintain accurate sensitivity measures, document methodologies, apply eligible hedges, and validate calculations."
+  },
+  {
+    "id": 21,
+    "question": "What is the regulatory purpose of CVA capital?",
+    "answer": "To ensure banks hold sufficient capital against mark-to-market losses from counterparty credit spread changes in derivatives."
+  },
+  {
+    "id": 22,
+    "question": "What is the role of interest rate buckets in SA-CVA?",
+    "answer": "They segment derivative exposures by maturity and currency to apply risk weights and correlations for capital calculation."
+  },
+  {
+    "id": 23,
+    "question": "What is the role of FX buckets in SA-CVA?",
+    "answer": "They group FX exposures by currency to apply risk weights and correlations consistently across the portfolio."
+  },
+  {
+    "id": 24,
+    "question": "What is the role of counterparty credit spread buckets in SA-CVA?",
+    "answer": "To capture the sensitivity of CVA to changes in the credit quality of counterparties."
+  },
+  {
+    "id": 25,
+    "question": "What is the role of reference credit spread buckets in SA-CVA?",
+    "answer": "To capture the CVA sensitivity for referenced entities in credit derivative contracts."
+  },
+  {
+    "id": 26,
+    "question": "How does CVA capital treatment differ for hedged vs unhedged exposures?",
+    "answer": "Hedged exposures reduce capital charges by recognizing the effect of eligible hedges, whereas unhedged exposures are fully capitalized."
+  },
+  {
+    "id": 27,
+    "question": "What is the multiplier applied in CVA standardized calculations?",
+    "answer": "A regulatory factor applied to scale the total CVA capital requirement to ensure adequate coverage of risk."
+  },
+  {
+    "id": 28,
+    "question": "Why is it important to classify derivatives into buckets for CVA?",
+    "answer": "Bucketing ensures consistent application of risk weights, correlations, and sensitivity calculations across similar exposures."
+  },
+  {
+    "id": 29,
+    "question": "How is CVA capital calculated under the reduced BA-CVA?",
+    "answer": "CVA capital = sum of positive sensitivities to counterparty credit spreads, without recognizing eligible hedges."
+  },
+  {
+    "id": 30,
+    "question": "How is CVA capital calculated under the full BA-CVA?",
+    "answer": "CVA capital = sum of positive sensitivities to counterparty credit spreads minus eligible hedges, reflecting net exposure."
+  },
+  {
+    "id": 31,
+    "question": "How does the CVA multiplier affect the standardized approach capital?",
+    "answer": "The multiplier scales the aggregated CVA exposures across buckets to ensure conservatism in the total capital requirement."
+  },
+  {
+    "id": 32,
+    "question": "What makes a hedge eligible under BA-CVA and SA-CVA?",
+    "answer": "Hedges must directly offset CVA risk, be properly documented, legally enforceable, and reflect the same underlying risk as the exposure."
+  },
+  {
+    "id": 33,
+    "question": "How are supervisory correlation matrices used in SA-CVA?",
+    "answer": "They are applied to aggregate exposures across buckets and asset classes, accounting for diversification and concentration effects."
+  },
+  {
+    "id": 34,
+    "question": "How are new trades or portfolio changes handled in CVA calculations?",
+    "answer": "Institutions must update sensitivities, recalculate CVA exposures, and validate models to reflect any changes in the derivative portfolio."
+  },
+  {
+    "id": 35,
+    "question": "What operational requirements exist for CVA capital calculation?",
+    "answer": "Banks must maintain validated models, proper documentation, governance oversight, and ensure data accuracy for exposures, hedges, and risk factors."
+  }
+]
