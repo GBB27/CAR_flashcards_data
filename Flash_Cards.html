@@ -283,7 +283,7 @@ function calculateDelay(text) {
   // remove spaces, count chars
   const charCount = text.replace(/\s+/g, '').length;
   // minimum 2s so short cards don’t skip instantly
-  return Math.max(2000, charCount * 100) + 1.5;  // 1.5 sec for thinking
+  return Math.max(2000, charCount * 100) + 2;  // 2 sec for thinking
 }
 
 function startAutoPlay(){
