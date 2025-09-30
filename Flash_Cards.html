@@ -101,9 +101,30 @@
   /* Flashcards */
   .container { display: flex; justify-content: center; align-items: center; min-height: 300px; width: 100%; flex-direction: column; }
   .card { width: 90vw; max-width: 500px; aspect-ratio: 4/3; perspective: 1000px; margin: 10px auto; }
-  .card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.45s; transform-style: preserve-3d; border-radius: 10px; cursor: pointer; }
+  .card-inner { 
+    position: relative; /* important for absolute positioning of button */
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.45s; 
+    transform-style: preserve-3d; 
+    border-radius: 10px; 
+    cursor: pointer; 
+  }
   .card-inner.flipped { transform: rotateY(180deg); }
-  .card-front, .card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; display: flex; justify-content: center; align-items: center; padding: 15px; box-sizing: border-box; font-size: clamp(18px, 2vw, 24px); text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+  .card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;  /* <-- important, both sides overlap perfectly */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .card-front { background-color: #47549cd2; color: white; flex-direction: column; }
   .card-back { background-color: #47549cd2; color: white; transform: rotateY(180deg); flex-direction: column; }
   .textarea-container { display: flex; flex-direction: column; align-items: center; width: 100%; }
@@ -118,6 +139,24 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+
+  .favorite-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 38px;
+    background: transparent;
+    color: #6474cc;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .favorite-btn:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+  }
+
   textarea { margin-top: 10px; height: 100px; resize: none; }
 
   /* Navigation buttons */
@@ -339,36 +378,146 @@ function loadChapter(chapterKey){
 }
 
 // Render flashcards
-function renderFlashcards(){
-  container.innerHTML='';
-  if(flashcards.length===0){ progressBar.style.width='0%'; progressText.textContent='0/0'; return; }
-  const progressPercent=((currentIndex + 1)/totalFlashcards)*100; progressBar.style.width=progressPercent+'%';
-  progressText.textContent=`${currentIndex+1}/${totalFlashcards}`;
-  const card=flashcards[currentIndex]; flippedCards[card.id]=false;
-  const wrapper=document.createElement('div'); wrapper.style.display='flex'; wrapper.style.flexDirection='column'; wrapper.style.alignItems='center';
-  const cardEl=document.createElement('div'); cardEl.classList.add('card');
-  if(activeTab==='questions'){
-    const inner=document.createElement('div'); inner.classList.add('card-inner');
-    const front=document.createElement('div'); front.classList.add('card-front'); front.innerHTML=`<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
-    const back=document.createElement('div'); back.classList.add('card-back'); back.innerHTML=`<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
-    inner.appendChild(front); inner.appendChild(back); cardEl.appendChild(inner);
-    cardEl.addEventListener('click',()=>{ stopAutoOnInteraction(); flippedCards[card.id]=!flippedCards[card.id]; inner.classList.toggle('flipped'); });
-  } else {
-    const textareaContainer=document.createElement('div'); textareaContainer.classList.add('textarea-container');
-    const qDiv=document.createElement('div'); qDiv.innerHTML=`<strong>QUESTION:</strong> ${card.question}`; qDiv.classList.add('note-question');
-    const textarea=document.createElement('textarea'); textarea.value=card.answer || ""; textarea.classList.add('note-textarea');
-    textarea.addEventListener('input', e=>{ card.answer=e.target.value; if(flippedCards[card.id]) renderFlashcards(); });
-    textareaContainer.appendChild(qDiv); textareaContainer.appendChild(textarea); cardEl.appendChild(textareaContainer);
+function renderFlashcards() {
+  container.innerHTML = '';
+  if (flashcards.length === 0) {
+    progressBar.style.width = '0%';
+    progressText.textContent = '0/0';
+    return;
   }
+
+  const progressPercent = ((currentIndex + 1) / totalFlashcards) * 100;
+  progressBar.style.width = progressPercent + '%';
+  progressText.textContent = `${currentIndex + 1}/${totalFlashcards}`;
+
+  const card = flashcards[currentIndex];
+  flippedCards[card.id] = false;
+
+  const wrapper = document.createElement('div');
+  wrapper.style.display = 'flex';
+  wrapper.style.flexDirection = 'column';
+  wrapper.style.alignItems = 'center';
+
+  const cardEl = document.createElement('div');
+  cardEl.classList.add('card');
+  cardEl.style.position = 'relative'; // required for absolute positioning of nav if needed
+
+  if (activeTab === 'questions') {
+    const inner = document.createElement('div');
+    inner.classList.add('card-inner');
+
+    // Front (question) side
+    const front = document.createElement('div');
+    front.classList.add('card-front');
+
+    // Instead of padding on the card-front affecting layout, wrap content in a container
+    const frontContent = document.createElement('div');
+    frontContent.style.flex = '1';              // fills full height
+    frontContent.style.display = 'flex';
+    frontContent.style.flexDirection = 'column';
+    frontContent.style.justifyContent = 'center';
+    frontContent.style.alignItems = 'center';
+    frontContent.innerHTML = `<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
+
+    front.appendChild(frontContent);
+
+    // Favorite button (absolute)
+    const favBtn = document.createElement('button');
+    favBtn.classList.add('favorite-btn');
+    favBtn.style.position = 'absolute';
+    favBtn.style.bottom = '10px';
+    favBtn.style.right = '10px';
+    favBtn.textContent = '☆'; // initially empty star
+
+    // Click handler for favorite
+    favBtn.addEventListener('click', (e) => {
+      e.stopPropagation(); // <-- prevents the card flip
+      let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      if (favorites.includes(card.id)) {
+        favorites = favorites.filter(id => id !== card.id);
+        favBtn.textContent = '☆';
+      } else {
+        favorites.push(card.id);
+        favBtn.textContent = '★';
+      }
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+    });
+
+    front.appendChild(favBtn);
+
+    // Back (answer) side
+    const back = document.createElement('div');
+    back.classList.add('card-back');
+    back.innerHTML = `<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
+
+    inner.appendChild(front);
+    inner.appendChild(back);
+    cardEl.appendChild(inner);
+
+    // Flip card on click
+    cardEl.addEventListener('click', () => {
+      stopAutoOnInteraction();
+      flippedCards[card.id] = !flippedCards[card.id];
+      inner.classList.toggle('flipped');
+    });
+
+  } else { // Notes tab
+    const textareaContainer = document.createElement('div');
+    textareaContainer.classList.add('textarea-container');
+
+    const qDiv = document.createElement('div');
+    qDiv.innerHTML = `<strong>QUESTION:</strong> ${card.question}`;
+    qDiv.classList.add('note-question');
+
+    const textarea = document.createElement('textarea');
+    textarea.value = card.answer || "";
+    textarea.classList.add('note-textarea');
+
+    textarea.addEventListener('input', e => {
+      card.answer = e.target.value;
+      if (flippedCards[card.id]) renderFlashcards();
+    });
+
+    textareaContainer.appendChild(qDiv);
+    textareaContainer.appendChild(textarea);
+    cardEl.appendChild(textareaContainer);
+  }
+
   wrapper.appendChild(cardEl);
 
-  const nav=document.createElement('div'); nav.classList.add('nav-buttons');
-  const prevBtn=document.createElement('button'); prevBtn.innerHTML='&#10094;'; prevBtn.disabled=currentIndex===0; prevBtn.onclick=()=>{ if(currentIndex>0){ currentIndex--; renderFlashcards(); } };
-  const nextBtn=document.createElement('button'); nextBtn.innerHTML='&#10095;'; nextBtn.disabled=currentIndex===flashcards.length-1; nextBtn.onclick=()=>{ if(currentIndex<flashcards.length-1){ currentIndex++; renderFlashcards(); seenCount=Math.max(seenCount,currentIndex); } };
-  nav.appendChild(prevBtn); nav.appendChild(nextBtn); wrapper.appendChild(nav);
+  // Navigation buttons
+  const nav = document.createElement('div');
+  nav.classList.add('nav-buttons');
+
+  const prevBtn = document.createElement('button');
+  prevBtn.innerHTML = '&#10094;';
+  prevBtn.disabled = currentIndex === 0;
+  prevBtn.onclick = () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      renderFlashcards();
+      seenCount = Math.max(seenCount, currentIndex);
+    }
+  };
+
+  const nextBtn = document.createElement('button');
+  nextBtn.innerHTML = '&#10095;';
+  nextBtn.disabled = currentIndex === flashcards.length - 1;
+  nextBtn.onclick = () => {
+    if (currentIndex < flashcards.length - 1) {
+      currentIndex++;
+      renderFlashcards();
+      seenCount = Math.max(seenCount, currentIndex);
+    }
+  };
+
+  nav.appendChild(prevBtn);
+  nav.appendChild(nextBtn);
+  wrapper.appendChild(nav);
 
   container.appendChild(wrapper);
 }
+
 
 // Tabs
 questionsTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='questions'; questionsTab.classList.add('active'); notesTab.classList.remove('active'); renderFlashcards(); });
@@ -376,5 +525,4 @@ notesTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='note
 </script>
 </body>
 </html>
-
 
