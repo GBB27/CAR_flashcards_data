@@ -343,36 +343,42 @@ function calculateDelay(text) {
 }
 
 function startAutoPlay() {
-  if (activeTab !== 'questions') return; // prevent auto play in notes mode
+  if (activeTab !== 'questions') return; // only in questions mode
 
-  autoIndex = currentIndex;
-  showingAnswer = false;
+  showingAnswer = false; // always start on the question side
   renderFlashcards();
 
-  const card = flashcards[autoIndex];
+  const card = flashcards[currentIndex];
   const delay = calculateDelay(card.question);
   playInterval = setTimeout(autoPlayStep, delay);
 }
 
-function autoPlayStep(){
+function autoPlayStep() {
   const cardInner = document.querySelector('.card-inner');
-  if(!cardInner) return;
+  if (!cardInner) return;
 
   cardInner.classList.toggle('flipped');
   showingAnswer = !showingAnswer;
 
-  const card = flashcards[autoIndex];
+  const card = flashcards[currentIndex];
   let delay;
 
-  if(showingAnswer){
-    delay = calculateDelay(card.answer); // show answer
+  if (showingAnswer) {
+    // Showing answer side
+    delay = calculateDelay(card.answer);
+
+    // Stop if it's the last card and we’re on the answer
+    if (currentIndex === flashcards.length - 1) {
+      stopAutoOnInteraction();
+      return;
+    }
   } else {
-    if(autoIndex < flashcards.length - 1){
-      autoIndex++;
-      currentIndex = autoIndex;
+    // Move to next question
+    if (currentIndex < flashcards.length - 1) {
+      currentIndex++;
       seenCount = Math.max(seenCount, currentIndex);
       renderFlashcards();
-      delay = calculateDelay(flashcards[autoIndex].question); // next question
+      delay = calculateDelay(flashcards[currentIndex].question);
     } else {
       stopAutoOnInteraction();
       return;
@@ -447,11 +453,14 @@ function renderFlashcards() {
     favBtn.style.position = 'absolute';
     favBtn.style.bottom = '10px';
     favBtn.style.right = '10px';
-    favBtn.textContent = '☆'; // initially empty star
+
+    // Always re-read from localStorage when rendering
+    let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    favBtn.textContent = favorites.includes(card.id) ? '★' : '☆';
 
     // Click handler for favorite
     favBtn.addEventListener('click', (e) => {
-      e.stopPropagation(); // <-- prevents the card flip
+      e.stopPropagation(); // <-- prevents card flip
       let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
       if (favorites.includes(card.id)) {
         favorites = favorites.filter(id => id !== card.id);
