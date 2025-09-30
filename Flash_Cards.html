@@ -129,6 +129,11 @@
   }
   .card-front { background-color: #47549cd2; color: white; flex-direction: column; }
   .card-back { background-color: #47549cd2; color: white; transform: rotateY(180deg); flex-direction: column; }
+  .card-text {
+    margin: 0 20px;   /* 20px left and right */
+    text-align: center;
+  }
+  
   .textarea-container { display: flex; flex-direction: column; align-items: center; width: 100%; }
   .note-textarea {
     width: 100%;
@@ -443,7 +448,7 @@ function renderFlashcards() {
     frontContent.style.flexDirection = 'column';
     frontContent.style.justifyContent = 'center';
     frontContent.style.alignItems = 'center';
-    frontContent.innerHTML = `<div><strong>QUESTION</strong></div><div>${card.question}</div>`;
+    frontContent.innerHTML = `<div><strong>QUESTION</strong></div><div class="card-text">${card.question}</div>`;
 
     front.appendChild(frontContent);
 
@@ -477,7 +482,7 @@ function renderFlashcards() {
     // Back (answer) side
     const back = document.createElement('div');
     back.classList.add('card-back');
-    back.innerHTML = `<div><strong>ANSWER</strong></div><div>${card.answer}</div>`;
+    back.innerHTML = `<div><strong>ANSWER</strong></div><div class="card-text">${card.answer}</div>`;
 
     inner.appendChild(front);
     inner.appendChild(back);
@@ -554,5 +559,6 @@ notesTab.addEventListener('click',()=>{ stopAutoOnInteraction(); activeTab='note
 </script>
 </body>
 </html>
+
 
 
